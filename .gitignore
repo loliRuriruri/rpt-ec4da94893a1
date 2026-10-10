@@ -3,3 +3,4 @@ body.html
 build.py
 make_daily.py
 README.md
+publish.sh
