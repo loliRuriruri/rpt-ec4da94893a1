@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>장초·미국장·거시·텔레그램 브리핑 | 2026-10-07</title>
+<style>
+:root{
+  --ink:#0f172a; --ink2:#334155; --mute:#64748b; --line:#e2e8f0; --bg:#f4f6fb; --card:#fff;
+  --navy:#0b1f44; --accent:#0f766e; --accent2:#14b8a6; --up:#dc2626; --down:#2563eb; --warn:#b45309;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:15.5px;line-height:1.72;word-break:keep-all;overflow-wrap:anywhere}
+a{color:#0f62c9;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+b,strong{font-weight:700}
+/* header */
+.hero{background:linear-gradient(135deg,#0b1f44 0%,#12366b 60%,#0f766e 140%);color:#fff;padding:38px 0 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12.5px;letter-spacing:.04em;color:#a5f3fc;font-weight:700}
+.hero .kicker span{border:1px solid rgba(165,243,252,.45);padding:2px 10px;border-radius:999px}
+.hero h1{font-size:34px;line-height:1.3;margin:12px 0 6px;font-weight:900;letter-spacing:-.02em}
+.hero .date{font-size:20px;font-weight:700;color:#e2e8f0}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+.meta div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:10px 14px}
+.meta dt{font-size:11.5px;color:#93c5fd;font-weight:700;letter-spacing:.03em}
+.meta dd{margin:2px 0 0;font-size:14.5px;font-weight:700;color:#fff}
+.chans{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chan{display:inline-flex;align-items:center;gap:7px;background:#fff;color:var(--ink);border-radius:8px;padding:5px 11px;font-size:13px;font-weight:700}
+.chan i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chan small{color:var(--mute);font-weight:500}
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:-18px auto 0;position:relative;z-index:2}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;box-shadow:0 4px 14px rgba(15,23,42,.06)}
+.kpi .l{font-size:11.5px;color:var(--mute);font-weight:700}
+.kpi .v{font-size:21px;font-weight:900;letter-spacing:-.02em;line-height:1.3}
+.kpi .s{font-size:11.5px;color:var(--mute)}
+.up{color:var(--up)} .dn{color:var(--down)}
+/* sections */
+section.sec{padding:34px 0 8px}
+.sh{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:18px}
+.sh .no{font-size:13px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 9px}
+.sh h2{margin:0;font-size:23px;font-weight:900;letter-spacing:-.02em}
+.sh .sub{margin-left:auto;font-size:12.5px;color:var(--mute)}
+h3{font-size:18px;margin:22px 0 10px;font-weight:800}
+h4{font-size:14px;margin:0 0 6px;font-weight:800;color:var(--accent);letter-spacing:.01em}
+p{margin:0 0 10px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.note{font-size:13px;color:var(--mute)}
+.fine{font-size:12px;color:var(--mute)}
+/* takeaways */
+.verdict{background:linear-gradient(135deg,#ecfeff,#f0fdf4);border:1px solid #a7f3d0;border-left:6px solid var(--accent);border-radius:14px;padding:18px 22px;margin-bottom:16px}
+.verdict .lab{font-size:12px;font-weight:900;color:var(--accent);letter-spacing:.05em}
+.verdict q{display:block;font-size:19px;font-weight:800;line-height:1.55;margin-top:4px;quotes:"“" "”"}
+.tk{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tk ol{margin:0;padding-left:20px}
+.tk li{margin-bottom:7px}
+.fix{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px}
+.fix b.t{color:var(--warn)}
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.tier{border-radius:12px;padding:12px 14px;border:1px solid var(--line);background:#fff}
+.tier .tl{font-size:12px;font-weight:900;letter-spacing:.03em}
+.tier .td{font-size:12.5px;color:var(--mute);margin-bottom:6px}
+.tier .tn{font-size:15.5px;font-weight:800;line-height:1.5}
+.tier.t1{border-top:5px solid #0f766e} .tier.t1 .tl{color:#0f766e}
+.tier.t2{border-top:5px solid #0891b2} .tier.t2 .tl{color:#0891b2}
+.tier.t3{border-top:5px solid #94a3b8} .tier.t3 .tl{color:#64748b}
+.tier.tu{border-top:5px solid #2563eb} .tier.tu .tl{color:#2563eb}
+/* charts */
+.chart{width:100%;height:auto;display:block;font-family:inherit}
+.chart.narrow{display:none}
+.chart text{font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1',sans-serif}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.lg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-size:12px;color:var(--mute);font-weight:800}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+/* stock cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:0 0 20px;overflow:hidden;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:16px 22px;background:linear-gradient(90deg,#f8fafc,#fff);border-bottom:1px solid var(--line)}
+.rank{font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:2px 9px}
+.rank.alt{background:#0891b2}
+.ch h3{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.ch .tag{font-size:12.5px;color:var(--mute);font-weight:600}
+.mcount{margin-left:auto;text-align:right}
+.mcount b{font-size:24px;font-weight:900;color:var(--accent)}
+.mcount small{display:block;font-size:11.5px;color:var(--mute);line-height:1.3}
+.cb{padding:18px 22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.vchip{border-radius:10px;padding:7px 12px;font-size:13.5px;background:#f1f5f9;border:1px solid var(--line)}
+.vchip span{display:block;font-size:11px;font-weight:800;color:var(--mute);letter-spacing:.03em}
+.vchip b{font-weight:800}
+.vchip.main{background:#ecfdf5;border-color:#a7f3d0} .vchip.main b{color:#047857}
+.vchip.caut{background:#fff7ed;border-color:#fed7aa} .vchip.caut b{color:#c2410c}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.blk{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff}
+.blk.thesis{border-left:4px solid #0f766e}
+.blk.cat{border-left:4px solid #2563eb} .blk.cat h4{color:#2563eb}
+.blk.risk{border-left:4px solid #dc2626} .blk.risk h4{color:#dc2626}
+.blk.gpt{border-left:4px solid #7c3aed;background:#faf5ff} .blk.gpt h4{color:#7c3aed}
+.blk.full{grid-column:1/-1}
+.blk ul{margin:0;padding-left:18px}
+.blk li{margin-bottom:5px;font-size:14.5px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px}
+.flow span{background:#0b1f44;color:#fff;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
+.flow em{font-style:normal;color:#0f766e;font-weight:900}
+.flow.alt span{background:#e0f2fe;color:#075985}
+.levels{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:8px 0}
+.levels div{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;text-align:center}
+.levels span{display:block;font-size:11px;color:var(--mute);font-weight:700}
+.levels b{font-size:16px;font-weight:900}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.srclab{font-size:12px;font-weight:800;color:var(--mute);margin-right:2px}
+.schip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink2);background:#fff}
+.schip i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.srcmore{font-size:11.5px;font-weight:700;margin-left:auto}
+.pill{display:inline-block;font-size:11.5px;font-weight:800;border-radius:6px;padding:1px 8px;margin-right:4px;vertical-align:1px}
+.pill.ok{background:#dcfce7;color:#166534} .pill.pend{background:#f1f5f9;color:#475569} .pill.gpt{background:#ede9fe;color:#6d28d9} .pill.tg{background:#e0f2fe;color:#075985}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#f8fafc}
+.mini h5{margin:0 0 4px;font-size:15px;font-weight:900}
+.qs{counter-reset:q;list-style:none;padding:0;margin:6px 0}
+.qs li{counter-increment:q;padding-left:30px;position:relative;margin-bottom:6px}
+.qs li:before{content:counter(q);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:#7c3aed;color:#fff;font-size:12px;font-weight:800;text-align:center;line-height:21px}
+/* themes */
+.theme{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
+.theme .th{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.theme .th .ic{font-size:22px}
+.theme .th h3{margin:0;font-size:20px;font-weight:900}
+.facts{margin:10px 0 0;padding:0;list-style:none}
+.facts li{padding:8px 0;border-top:1px solid #f1f5f9;font-size:14px}
+.facts li b.k{display:inline-block;min-width:0;margin-right:6px;color:var(--navy)}
+/* warnings & playbook */
+.warns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.warn{background:#fff;border:1px solid var(--line);border-top:4px solid #f59e0b;border-radius:12px;padding:14px 16px}
+.warn .wn{font-size:12px;font-weight:900;color:#b45309}
+.warn .wt{font-size:16px;font-weight:800;margin:2px 0 6px}
+.play{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pl .pt{font-size:13px;font-weight:900;color:#fff;display:inline-block;border-radius:6px;padding:1px 9px;margin-bottom:8px}
+.checks{counter-reset:c;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.checks li{counter-increment:c;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 46px;position:relative;font-weight:700;font-size:14.5px}
+.checks li:before{content:counter(c);position:absolute;left:12px;top:9px;width:24px;height:24px;border-radius:7px;background:var(--navy);color:#fff;text-align:center;line-height:24px;font-size:13px}
+.concl{background:var(--navy);color:#fff;border-radius:16px;padding:22px 24px;margin-top:16px}
+.concl .lab{font-size:12px;font-weight:900;color:#5eead4;letter-spacing:.05em}
+.concl p{font-size:17.5px;font-weight:700;line-height:1.65;margin:6px 0 0}
+.concl .hl{color:#5eead4}
+/* appendix */
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}
+.ci{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;font-size:12.5px;position:relative}
+.ci i{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:10px 0 0 10px;background:var(--c)}
+.ci b{display:block;font-size:13px} .ci span{color:var(--mute);font-size:11.5px} .ci em{font-style:normal;float:right;font-weight:900;color:var(--ink)}
+.apsec{font-size:16px;margin:22px 0 10px;padding-left:10px;border-left:4px solid var(--navy)}
+.apgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;align-items:start}
+.apcat{grid-column:1/-1;break-after:avoid;font-size:12.5px;font-weight:900;color:var(--accent);margin:6px 0 -4px;letter-spacing:.03em}
+.apg{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:0}
+.apgh{display:flex;justify-content:space-between;font-size:13.5px;border-bottom:1px solid #f1f5f9;padding-bottom:4px;margin-bottom:4px}
+.apgh span{color:var(--mute);font-size:12px}
+.apg ul{list-style:none;margin:0;padding:0}
+.apg li{font-size:12px;line-height:1.55;padding:2px 0;display:flex;flex-wrap:wrap;gap:0 6px;align-items:baseline}
+.apg li small{color:var(--mute);width:100%;padding-left:13px}
+.cdot{width:7px;height:7px;border-radius:50%;background:var(--c);display:inline-block;flex:none;transform:translateY(-1px)}
+.cn{font-weight:700;color:var(--ink2)} .tm{color:var(--mute);font-variant-numeric:tabular-nums}
+.apg a{word-break:break-all}
+footer{margin-top:36px;background:#0b1f44;color:#cbd5e1;padding:26px 0 30px;font-size:13px}
+footer b{color:#fff}
+footer p{margin:0 0 6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.toc a{color:#e2e8f0;font-size:12.5px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 11px}
+/* responsive */
+@media screen and (max-width:760px){
+  .chart.wide{display:none} .chart.narrow{display:block}
+  .hm{display:none}
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .hero{padding:26px 0 30px}
+  .hero h1{font-size:25px}
+  .hero .date{font-size:16px}
+  .meta{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .tk,.two,.grid4,.duo,.warns,.play,.checks{grid-template-columns:1fr}
+  .tiers{grid-template-columns:1fr 1fr}
+  .levels{grid-template-columns:1fr 1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+  .apgrid{grid-template-columns:1fr}
+  .sh{flex-wrap:wrap} .sh .sub{margin-left:0;width:100%}
+  .verdict q{font-size:16.5px}
+  .ch{padding:14px 16px} .cb{padding:14px 16px}
+  .mcount{margin-left:0;text-align:left}
+}
+/* print */
+@page{size:A4;margin:13mm 12mm 14mm}
+@media print{
+  html,body{background:#fff}
+  body{zoom:0.72;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .hero{padding:22px 18px 30px;border-radius:12px}
+  .kpis{margin-top:-16px;padding:0 10px}
+  .toc{display:none}
+  section.sec{padding-top:6px}
+  .pb{break-before:page;page-break-before:always}
+  .card,.theme{box-shadow:none}
+  .vchip,.tier,.warn,.pl,.checks li,.mini,.kpi,.levels,.verdict,.fix,.concl,svg,tr,.facts li,.blk li,.apg,.chips,.flow,.qs{break-inside:avoid;page-break-inside:avoid}
+  .blkhead{break-after:avoid}
+  .ch{break-after:avoid}
+  h2,h3,h4,.sh{break-after:avoid;page-break-after:avoid}
+  a{color:#0f4fa8}
+  .schip{color:#334155}
+  #s2 table{font-size:12.5px} #s2 th,#s2 td{padding:5px 7px}
+  footer{background:#fff;color:#334155;border-top:2px solid #0b1f44;margin-top:20px;padding:14px 0 0}
+  footer b{color:#0b1f44}
+}
+.fs{font-size:11px;font-weight:700;border:1px solid #bfdbfe;background:#eff6ff;border-radius:5px;padding:0 6px;margin-left:4px;white-space:nowrap}
+.blkhead{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.blkhead h4{margin:0}
+.howto{font-size:13.5px;color:var(--ink2);background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:12px 16px;margin-top:14px}
+.common{background:#faf5ff;border:1px solid #e9d5ff;border-radius:16px;padding:18px 22px;margin-bottom:18px}
+.common h3{margin:0 0 8px;font-size:19px}
+
+.nw{white-space:nowrap}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.list{margin:0;padding-left:20px}
+.list li{margin-bottom:7px}
+.caution{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px;margin-top:12px}
+.caution b.t{color:var(--warn)}
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0 18px}
+.ci{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;border-top:4px solid var(--c)}
+.ci i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
+.ci b{display:block;font-size:13.5px;margin-top:4px}
+.ci span{font-size:11.5px;color:var(--mute)}
+.ci em{display:block;font-style:normal;font-size:20px;font-weight:900;margin-top:4px;color:var(--ink)}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+.srclab{font-size:11.5px;font-weight:800;color:var(--mute);margin-right:4px}
+.schip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none}
+.schip i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.rank.alt{background:#0891b2}
+@media screen and (max-width:760px){
+  .grid2,.grid3{grid-template-columns:1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+}
+
+</style>
+</head>
+<body>
+
+<header class="hero">
+ <div class="wrap">
+  <div class="kicker"><span>MORNING BRIEFING</span><span>2026-10-07 (수)</span><span>~09:50 KST 스냅샷</span></div>
+  <h1>장초 · 미국장 · 거시 · 텔레그램 브리핑</h1>
+  <div class="date">국내 장초(~09:50) + 미국 10/6 종가 + 거시 캘린더 + 텔레그램 5채널 동향</div>
+  <dl class="meta">
+   <div><dt>국내 스냅샷</dt><dd>2026-10-07 약 09:50 KST</dd></div>
+   <div><dt>텔레그램 수집</dt><dd>10/6 13:00 ~ 10/7 ~09:50 KST</dd></div>
+   <div><dt>게시물</dt><dd>5개 채널 · 221건</dd></div>
+  </dl>
+  <div class="chans">
+   <span class="chan" style="--c:#2563eb"><i></i>미국 주식 인사이더 <small>@insidertracking · 81건</small></span>
+   <span class="chan" style="--c:#d97706"><i></i>AWAKE 공시정리 <small>@darthacking · 73건</small></span>
+   <span class="chan" style="--c:#7c3aed"><i></i>여의도스토리 Ver2.0 <small>@YeouidoStory2 · 40건</small></span>
+   <span class="chan" style="--c:#db2777"><i></i>선진짱 주식공부방 <small>@sunstudy1111 · 16건</small></span>
+   <span class="chan" style="--c:#059669"><i></i>가치투자클럽 <small>@corevalue · 11건</small></span>
+  </div>
+  <nav class="toc">
+   <a href="#s1">01 국내 장초</a>
+   <a href="#s2">02 어제 미국장</a>
+   <a href="#s3">03 거시·캘린더</a>
+   <a href="#s4">04 텔레그램 동향</a>
+  </nav>
+ </div>
+</header>
+
+<div class="wrap">
+ <div class="kpis">
+  <div class="kpi"><div class="l">코스피</div><div class="v up">6,959.82</div><div class="s">+18.43 · +0.27%</div></div>
+  <div class="kpi"><div class="l">코스닥</div><div class="v dn">907.86</div><div class="s">-12.06 · -1.31%</div></div>
+  <div class="kpi"><div class="l">원/달러</div><div class="v">1,339.50</div><div class="s">-0.50 · -0.04%</div></div>
+  <div class="kpi"><div class="l">S&amp;P 500</div><div class="v up">7,818.95</div><div class="s">+0.58% · 사상 최고</div></div>
+  <div class="kpi"><div class="l">나스닥</div><div class="v up">27,599.79</div><div class="s">+0.45% · 사상 최고</div></div>
+  <div class="kpi"><div class="l">미 10년물</div><div class="v">5.27~5.28%</div><div class="s">고점 후 소폭 진정</div></div>
+ </div>
+
+ <section class="sec" id="s1">
+  <div class="sh"><span class="no">01</span><h2>국내 장초</h2><span class="sub">10/7 09:00~약 09:50 KST · market.md 수치 그대로</span></div>
+
+  <div class="verdict">
+   <div class="lab">장초 한줄</div>
+   <q>하락 출발(외인·기관 매도) 뒤 삼성전자 중심 코스피 반등(+0.2%대), 코스닥은 -1%대 약세. 잠정실적·한글날(10/9) 휴장 경계.</q>
+  </div>
+
+  <h3>지수 (실시간 ~09:50)</h3>
+  <div class="box" style="padding:0;overflow:auto">
+  <table>
+   <thead><tr><th>지수</th><th class="n">현재가</th><th class="n">전일비</th><th class="n">등락률</th><th class="n">시가</th><th class="n">고가</th><th class="n">저가</th></tr></thead>
+   <tbody>
+    <tr><td>코스피</td><td class="n"><b>6,959.82</b></td><td class="n up">+18.43</td><td class="n up"><b>+0.27%</b></td><td class="n">6,864.25</td><td class="n">6,977.77</td><td class="n">6,861.56</td></tr>
+    <tr><td>코스닥</td><td class="n"><b>907.86</b></td><td class="n dn">-12.06</td><td class="n dn"><b>-1.31%</b></td><td class="n">917.45</td><td class="n">921.73</td><td class="n">905.29</td></tr>
+   </tbody>
+  </table>
+  </div>
+  <p class="note">개장(09:00대): 코스피 6,864.25(-77.14, <b class="dn">-1.11%</b>), 코스닥 917.45(-2.47, <b class="dn">-0.27%</b>) 하락 출발 후 코스피 반등·코스닥 약세. 전일(10/6) 종가: 코스피 6,941.39(-0.89%), 코스닥 919.92(+2.98%).</p>
+
+  <h3>수급 (장중, 시점별)</h3>
+  <div class="box" style="padding:0;overflow:auto">
+  <table>
+   <thead><tr><th>시점</th><th>시장</th><th class="n">개인</th><th class="n">외국인</th><th class="n">기관</th></tr></thead>
+   <tbody>
+    <tr><td>09:05</td><td>코스피</td><td class="n up">+2,907억</td><td class="n dn">-2,760억</td><td class="n dn">-237억</td></tr>
+    <tr><td>09:05</td><td>코스닥</td><td class="n up">+252억</td><td class="n dn">-177억</td><td class="n dn">-53억</td></tr>
+    <tr><td>09:11</td><td>코스피</td><td class="n up">+4,086억</td><td class="n dn">-3,786억</td><td class="n dn">-534억</td></tr>
+    <tr><td>09:11</td><td>코스닥</td><td class="n up">+289억</td><td class="n dn">-223억</td><td class="n dn">-31억</td></tr>
+    <tr><td><b>09:30</b></td><td><b>코스피</b></td><td class="n up"><b>+5,137억</b></td><td class="n dn"><b>-4,427억</b></td><td class="n dn"><b>-1,051억</b></td></tr>
+    <tr><td>09:30</td><td>코스닥</td><td class="n up">+684억(개인)·+11억(기관)</td><td class="n dn">-587억</td><td class="n">-</td></tr>
+   </tbody>
+  </table>
+  </div>
+  <p class="note">공통 구도: <b>외국인·기관 순매도, 개인 순매수</b>. 09:50 이후 최신 누적 수급은 작성 시점 미확인.</p>
+
+  <div class="grid2" style="margin-top:16px">
+   <div class="box">
+    <h4>원/달러 · 업종</h4>
+    <p><b>1,339.50원</b> (-0.50, -0.04%), 하나은행 고시 09:47:53 KST.</p>
+    <ul class="list">
+     <li>09:05: 철강금속 -1.56%, 전기전자 -1.50% / 의료정밀 +1.01%</li>
+     <li>09:11: 금속 -2.04% / 의료정밀기기 +2.25%, 오락문화 +2.13%</li>
+     <li>09:30: 화장품 <b class="up">+2.39%</b>, 반도체 +0.49% / 화학 <b class="dn">-2.66%</b>, 철강 -2.24%</li>
+    </ul>
+   </div>
+   <div class="box">
+    <h4>대형주 (~09:50)</h4>
+    <table>
+     <thead><tr><th>종목</th><th class="n">현재가</th><th class="n">등락률</th></tr></thead>
+     <tbody>
+      <tr><td>삼성전자</td><td class="n">277,500</td><td class="n up"><b>+2.02%</b></td></tr>
+      <tr><td>SK하이닉스</td><td class="n">1,768,000</td><td class="n dn">-0.28%</td></tr>
+      <tr><td>삼성전기</td><td class="n">1,662,000</td><td class="n dn">-0.78%</td></tr>
+      <tr><td>LG전자</td><td class="n">225,250</td><td class="n dn"><b>-3.12%</b></td></tr>
+      <tr><td>현대차</td><td class="n">342,000</td><td class="n dn">-1.72%</td></tr>
+      <tr><td>NAVER</td><td class="n">190,800</td><td class="n dn">-0.16%</td></tr>
+     </tbody>
+    </table>
+    <p class="fine" style="margin-top:8px">삼성전자 3Q 잠정 10/8(목) 오전 대기. 컨센서스 영업이익 약 106.9조원대(하향 조정 보도). SK하이닉스 ADR 전일 -6.39%.</p>
+   </div>
+  </div>
+
+  <h3>특징주</h3>
+  <div class="card">
+   <div class="ch"><span class="rank">상한가</span><h3>국제약품 (002720)</h3><span class="tag">장중 4,430원 · +29.91%</span></div>
+   <div class="cb">
+    <p>남영우 명예회장이 보유 181만5237주 전량을 남태훈 부회장에게 증여 → 남 부회장 지분 2.12%→10.70%, 최대주주 변경·경영권 승계 기대.</p>
+    <p class="note">신풍제약 등 의약품 일부 동반 강세(장중 +7%대, 09:50 기준 10,410원 +7.65%). 개별 호재는 미확인.</p>
+    <p class="note">전일(10/6) 잔상: 금융권 AI 해킹 이슈로 보안주(샌즈랩·라온시큐어 등 상한가), HLB그룹(리보세라닙 FDA 실사 VAI) 강세. 오늘은 차익/순환 가능성.</p>
+   </div>
+  </div>
+ </section>
+
+ <section class="sec pb" id="s2">
+  <div class="sh"><span class="no">02</span><h2>어제 미국장</h2><span class="sub">10/6 US 세션 · 마감 ~05:00 KST 10/7</span></div>
+
+  <div class="verdict">
+   <div class="lab">미국장 한줄</div>
+   <q>S&amp;P·나스닥 사상 최고 종가. 10년물 고점 후퇴·유가 진정·AI 인프라(마벨·AMD·원전 전력)가 지지. 러셀2000만 -0.59%.</q>
+  </div>
+
+  <h3>주요 지수 종가</h3>
+  <div class="box" style="padding:0;overflow:auto">
+  <table>
+   <thead><tr><th>지수</th><th class="n">종가</th><th class="n">등락</th><th class="n">등락률</th><th>비고</th></tr></thead>
+   <tbody>
+    <tr><td>다우</td><td class="n"><b>51,521.04</b></td><td class="n up">+253.14</td><td class="n up"><b>+0.49%</b></td><td>Reuters/뉴데일리; 네이버 51,521.28</td></tr>
+    <tr><td>S&amp;P 500</td><td class="n"><b>7,818.95</b></td><td class="n up">+45.00</td><td class="n up"><b>+0.58%</b></td><td><b>사상 최고 종가</b> (7,800 첫 종가)</td></tr>
+    <tr><td>나스닥</td><td class="n"><b>27,599.79</b></td><td class="n up">+122.48</td><td class="n up"><b>+0.45%</b></td><td><b>사상 최고 종가</b></td></tr>
+    <tr><td>러셀2000</td><td class="n"><b>2,830.30</b></td><td class="n dn">약 -16.8</td><td class="n dn"><b>-0.59%</b></td><td>소형주만 하락</td></tr>
+    <tr><td>SOX</td><td class="n"><b>13,217.82</b></td><td class="n up">+45.09</td><td class="n up"><b>+0.34%</b></td><td>필라델피아 반도체</td></tr>
+   </tbody>
+  </table>
+  </div>
+
+  <div class="grid2" style="margin-top:16px">
+   <div class="box">
+    <h4>금리·달러·원자재·크립토</h4>
+    <table>
+     <tbody>
+      <tr><td>미 10년물</td><td class="n"><b>약 5.27~5.28%</b></td></tr>
+      <tr><td>DXY</td><td class="n"><b>101.83</b></td></tr>
+      <tr><td>WTI</td><td class="n"><b>$89.44</b></td></tr>
+      <tr><td>브렌트</td><td class="n"><b>약 $100.58~100.6</b></td></tr>
+      <tr><td>금</td><td class="n">약 $4,170~$4,192</td></tr>
+      <tr><td>비트코인</td><td class="n">약 $85,635 (ET 16:00)</td></tr>
+     </tbody>
+    </table>
+    <p class="fine">10Y는 전일(10/5) 24년 만 고점(~5.31~5.35%)에서 약 3~4bp 하락. 금은 매체별 편차.</p>
+   </div>
+   <div class="box">
+    <h4>키 무버 (10/6 종가)</h4>
+    <table>
+     <thead><tr><th>종목</th><th class="n">종가</th><th class="n">등락률</th></tr></thead>
+     <tbody>
+      <tr><td>NVDA</td><td class="n">$239.24</td><td class="n up">+0.14%</td></tr>
+      <tr><td>MU</td><td class="n">$1,045.56</td><td class="n dn">-1.73%</td></tr>
+      <tr><td>TSLA</td><td class="n">$380.68</td><td class="n up">+0.51%</td></tr>
+      <tr><td>AMD</td><td class="n">$649.42</td><td class="n up"><b>+2.80%</b></td></tr>
+      <tr><td>AAPL</td><td class="n">$333.63</td><td class="n up">+0.22%</td></tr>
+      <tr><td>MSFT</td><td class="n">$529.30</td><td class="n up">+0.78%</td></tr>
+      <tr><td>META</td><td class="n">$738.88</td><td class="n dn">-0.41%</td></tr>
+      <tr><td>GOOGL</td><td class="n">$347.68</td><td class="n up">+0.35%</td></tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+
+  <h3>기타 보도 · 상승 이유</h3>
+  <div class="grid2">
+   <div class="blk">
+    <h4>테마 보도</h4>
+    <ul>
+     <li><b>마벨(MRVL) +5.8%대</b>, 브로드컴 +3.7%대: 투자자의 날·장기 AI 성장</li>
+     <li><b>Constellation Energy(CEG) +12%대</b>: Alphabet과 약 3,590MW 원전 전력 장기 계약. 유틸리티 +3%대</li>
+     <li>PTC(~+33%, <b>10/5</b>): Schneider Electric이 주당 $205 현금, 약 <b>$226억</b> 규모 인수 (10/6 아닌 10/5 이벤트)</li>
+     <li>S&amp;P 11개 섹터 중 헬스케어만 약세, 유틸리티 최강세</li>
+    </ul>
+   </div>
+   <div class="blk">
+    <h4>상승 이유 (요약)</h4>
+    <ol class="list">
+     <li><b>국채금리 숨고르기:</b> 10Y 24년 고점에서 후퇴</li>
+     <li><b>유가 진정:</b> G7 비축유 방출 기대, 장중 낙폭 후 $89대. 호르무즈 유조선 공격으로 하방 제한</li>
+     <li><b>Q3 실적 시즌:</b> LSEG 기준 S&amp;P EPS YoY +30.6% 전망 등</li>
+     <li><b>AI 인프라:</b> 마벨·AMD·원전(전력) 테마</li>
+     <li>유럽 국채 불안 일부 완화 → 미 금리 동반 안정</li>
+    </ol>
+   </div>
+  </div>
+ </section>
+
+ <section class="sec" id="s3">
+  <div class="sh"><span class="no">03</span><h2>거시 · 캘린더</h2><span class="sub">공개 지표·연준·주간 일정 (KST)</span></div>
+
+  <div class="grid2">
+   <div class="box">
+    <h4>최근 발표·이슈</h4>
+    <ul class="list">
+     <li><b>ISM 서비스업(9월, 10/5):</b> <b>54.9</b> (8월 55.4, -0.5%p). 27개월 연속 확장. 고용지수 50.1로 3개월 만 확장 전환</li>
+     <li><b>미 10년물 ~5.3%:</b> 10/5 장중·종가 부근 24년(2002년 4월 이후) 최고. 10/6은 5.27~5.28%로 소폭 진정</li>
+     <li><b>유가·중동:</b> 호르무즈 유조선 공격 vs G7 비축유. WTI $89대, 브렌트 $100대</li>
+     <li><b>중국:</b> 국경절 연휴 후 <b>10/8(목) 본토 재개장</b>. PSL 1.75%→1.50% 등</li>
+     <li><b>한국:</b> 10/5 개천절 대체공휴일 휴장. <b>10/9 한글날 휴장</b>(이번주 거래일 10/6~8 사흘). 삼성전자 잠정 10/8. 8월 경상수지 10/8 08:00</li>
+     <li><b>BOK:</b> 다음 금통위 공개 캘린더상 <b>10/22</b> 전후</li>
+    </ul>
+   </div>
+   <div class="box">
+    <h4>FOMC · 연준</h4>
+    <ul class="list">
+     <li><b>9월 FOMC 의사록:</b> 미국 시간 10/7(수) 14:00 ET = <b>한국 10/8(목) 03:00 KST</b> 공개</li>
+     <li>Fed 연설(주간): Williams·Bowman·Logan(10/6), Waller·Musalem(10/8), Collins(10/9) 등</li>
+     <li>다음 FOMC 정례: <b>10/27~28</b></li>
+     <li>국채: 10/7 10년물 재개 입찰, 10/8 30년물. 수요(응찰률·간접낙찰·테일)가 5.3%대 안착 변수</li>
+    </ul>
+   </div>
+  </div>
+
+  <h3>이번 주 캘린더 (KST)</h3>
+  <div class="box" style="padding:0;overflow:auto">
+  <table>
+   <thead><tr><th>일시(KST)</th><th>내용</th></tr></thead>
+   <tbody>
+    <tr><td>10/5(월) 23:00</td><td>ISM 서비스업 9월 <b>54.9</b> (발표 완료)</td></tr>
+    <tr><td>10/6(화)</td><td>한국 증시 재개 / 미 3년물 입찰·마벨 투자자의 날</td></tr>
+    <tr><td><b>10/7(수)</b></td><td>국내 장중 / 미 10년물 입찰(결과 ~10/8 02:00)</td></tr>
+    <tr><td><b>10/8(목) 03:00</b></td><td><b>FOMC 의사록</b></td></tr>
+    <tr><td>10/8(목) 오전</td><td><b>삼성전자 3Q 잠정실적</b></td></tr>
+    <tr><td>10/8(목) 08:00</td><td>한국 8월 경상수지</td></tr>
+    <tr><td>10/8(목)</td><td>중국 본토 재개장 / 미 신규실업수당(21:30)</td></tr>
+    <tr><td><b>10/9(금)</b></td><td><b>한국 한글날 휴장</b> / 미시간 소비심리·기대인플레(23:00)</td></tr>
+    <tr><td>다음주~</td><td>미 Q3 어닝(금융주), 10/14 CPI, 10/22 한은 금통위, 10/27~28 FOMC</td></tr>
+   </tbody>
+  </table>
+  </div>
+ </section>
+
+ <section class="sec pb" id="s4">
+  <div class="sh"><span class="no">04</span><h2>텔레그램 채널 동향</h2><span class="sub">221건 · 10/6 13:00 ~ 10/7 ~09:50 KST · posts_all.txt</span></div>
+
+  <div class="chanidx">
+   <div class="ci" style="--c:#2563eb"><i></i><b>미국 주식 인사이더</b><span>@insidertracking</span><em>81</em></div>
+   <div class="ci" style="--c:#d97706"><i></i><b>AWAKE 공시정리</b><span>@darthacking</span><em>73</em></div>
+   <div class="ci" style="--c:#7c3aed"><i></i><b>여의도스토리 Ver2.0</b><span>@YeouidoStory2</span><em>40</em></div>
+   <div class="ci" style="--c:#db2777"><i></i><b>선진짱 주식공부방</b><span>@sunstudy1111</span><em>16</em></div>
+   <div class="ci" style="--c:#059669"><i></i><b>가치투자클럽</b><span>@corevalue</span><em>11</em></div>
+  </div>
+
+  <div class="verdict">
+   <div class="lab">채널 테마 요약</div>
+   <q>국내 리서치·공시 축: 삼성전기 MLCC 누적, 삼성전자 메리츠 106.1조, 엠케이전자·리노공업·전력기기·스피어·코스맥스. 미국 축: 마벨 투자자의 날, AMD 수요, 애플·LG 스마트홈. 전일 테마 잔상은 보안·HLB·LG전자.</q>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">1</span><h3>삼성전기 MLCC 누적 공시</h3><span class="tag">가치투자클럽 · 한투 황준태 요약</span></div>
+   <div class="cb">
+    <div class="chips">
+     <div class="vchip main"><span>누적 공시</span><b>5건 · 약 2조 3,919억원</b></div>
+     <div class="vchip"><span>MLCC 단독</span><b>4건 · 약 2조 1,069억원</b></div>
+     <div class="vchip"><span>공급기간</span><b>2027.1.1~12.31 (5건 공통)</b></div>
+    </div>
+    <p>6/30 4,540억 · 7/23 2,951억 · 9/1 1조 722억 · 9/29 2,850억 · <b>10/6 2,856억</b>. MLCC·인덕터 1건(2,850억) 포함.</p>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#059669" href="https://t.me/corevalue/47271" target="_blank" rel="noopener"><i></i>가치투자클럽 · 10/6 13:06</a></div>
+   </div>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">2</span><h3>삼성전자 · 메리츠 3Q26E 106.1조</h3><span class="tag">선진짱 · 메리츠 김선우</span></div>
+   <div class="cb">
+    <div class="chips">
+     <div class="vchip main"><span>3Q26 영업이익</span><b>106.1조원 (컨센 104조)</b></div>
+     <div class="vchip"><span>메모리</span><b>109조 (DRAM 80 · NAND 29)</b></div>
+     <div class="vchip"><span>판가 QoQ</span><b>DRAM +20.1% / NAND +19.0%</b></div>
+    </div>
+    <p>2027년 메모리 판가·실적 상향 조정. LSI/파운드리 -1.5조 적자, SDC 1.1조, MX -1.9조, DA/VD -7,400억원.</p>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#db2777" href="https://t.me/sunstudy1111/137295" target="_blank" rel="noopener"><i></i>선진짱 주식공부방 · 10/7 08:28</a></div>
+   </div>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">3</span><h3>엠케이전자 · TP 29,500원</h3><span class="tag">여의도·선진짱 · 현대차증권 김종배</span></div>
+   <div class="cb">
+    <div class="chips">
+     <div class="vchip main"><span>투자의견</span><b>BUY / TP 29,500원 (+28.3%)</b></div>
+     <div class="vchip"><span>3Q 별도</span><b>매출 3,126억 · OP 60억</b></div>
+     <div class="vchip"><span>소재 합산</span><b>매출 4,327억 · OP 155억</b></div>
+    </div>
+    <p>비메모리의 P, 메모리의 Q로 Re-Rating. Wire Bonding·SOCAMM2/LPDDR5, 합금 와이어·Solder Ball·Pd Alloy. 단기 환율 급락은 당분기에 일부 영향.</p>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118175" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/7 08:14</a><a class="schip" style="--c:#db2777" href="https://t.me/sunstudy1111/137293" target="_blank" rel="noopener"><i></i>선진짱 주식공부방 · 10/7 08:18</a></div>
+   </div>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">4</span><h3>리노공업 · TP 11.5만원 유지</h3><span class="tag">여의도·선진짱 · SK증권 이동주</span></div>
+   <div class="cb">
+    <div class="chips">
+     <div class="vchip main"><span>투자의견</span><b>매수 유지 · TP 11.5만원</b></div>
+     <div class="vchip caut"><span>3Q26 추정</span><b>매출 855억 · OP 385억 (컨센 하회)</b></div>
+     <div class="vchip"><span>포인트</span><b>4Q 생산 극대화 · WMCM·CPO</b></div>
+    </div>
+    <p>노조 파업·환율로 3Q 컨센 하회 추정. 9월말 복귀로 가동률 정상화, 4Q 생산 극대화. A사 WMCM 양산, CPO 포고핀 우위, CPU/GPU/ASIC 확장. 12M FWD P/E 밴드 중단.</p>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118171" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/7 08:11</a><a class="schip" style="--c:#db2777" href="https://t.me/sunstudy1111/137294" target="_blank" rel="noopener"><i></i>선진짱 주식공부방 · 10/7 08:18</a></div>
+   </div>
+  </div>
+
+  <div class="grid2">
+   <div class="card" style="margin:0">
+    <div class="ch"><span class="rank alt">전력</span><h3>일진전기</h3><span class="tag">미래에셋 김태형</span></div>
+    <div class="cb">
+     <p>매수 · TP <b>114,000원</b> 유지. 국내 전력망 투자·초고압 수주잔고(2029 납기). 3Q26 매출 6,129억(+36.1% YoY)·OP 629억(+78.1% YoY) 전망.</p>
+     <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118172" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/7 08:12</a></div>
+    </div>
+   </div>
+   <div class="card" style="margin:0">
+    <div class="ch"><span class="rank alt">전력</span><h3>LS ELECTRIC</h3><span class="tag">하나증권 유재선</span></div>
+    <div class="cb">
+     <p>매수 · TP <b>270,000원</b> 유지. 3Q26 OP <b>1,945억</b>(YoY +93.0%) 컨센 부합 전망. 매출 1.7조(+37.6%). 북미 데이터센터·국내 배전.</p>
+     <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#059669" href="https://t.me/corevalue/47281" target="_blank" rel="noopener"><i></i>가치투자클럽 · 10/7 08:03</a></div>
+    </div>
+   </div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+   <div class="ch"><span class="rank">5</span><h3>스피어 공시 · 우주 특수합금</h3><span class="tag">AWAKE 공시 · 여의도 교보 Top-Pick</span></div>
+   <div class="cb">
+    <div class="chips">
+     <div class="vchip main"><span>계약 1</span><b>188억 · 매출대비 19.70%</b></div>
+     <div class="vchip main"><span>계약 2</span><b>177억 · 매출대비 18.54%</b></div>
+     <div class="vchip"><span>상대</span><b>미국 글로벌 우주항공 발사업체</b></div>
+    </div>
+    <p>단일판매·공급계약 2건(특수합금 / 특수합금 원소재). 여의도: 교보 우주 리포트 Top-Pick, SpaceX 10년 장기공급·Starship 양산, 연내 Class 1 니켈 offtake 판매 개시 예정.</p>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154238" target="_blank" rel="noopener"><i></i>AWAKE 공시정리 · 10/6 14:48</a><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154239" target="_blank" rel="noopener"><i></i>AWAKE 공시정리 · 10/6 14:50</a><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118157" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/6 15:58</a></div>
+   </div>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">6</span><h3>코스맥스 · 눈높이 상향</h3><span class="tag">여의도 메리츠·신한 · 선진짱 PDF</span></div>
+   <div class="cb">
+    <div class="chips">
+     <div class="vchip main"><span>메리츠 3Q Preview</span><b>매출 8,155억 · OP 768억</b></div>
+     <div class="vchip"><span>메리츠 TP</span><b>360,000원 (+9%)</b></div>
+     <div class="vchip"><span>신한 Preview</span><b>매출 8,345억 · OP 735억</b></div>
+    </div>
+    <p>국내·미국 호조로 컨센 상회 전망(메리츠). 신한은 목표주가 28만→35만원(+25%). K-뷰티 수출·해외법인 이익 기여.</p>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118173" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/7 08:13</a><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118176" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/7 08:15</a><a class="schip" style="--c:#db2777" href="https://t.me/sunstudy1111/137297" target="_blank" rel="noopener"><i></i>선진짱 주식공부방 · 10/7 08:46</a></div>
+   </div>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">7</span><h3>마벨 · AMD · 애플 스마트홈</h3><span class="tag">미국 주식 인사이더</span></div>
+   <div class="cb">
+    <div class="grid2">
+     <div class="blk">
+      <h4>마벨 투자자의 날</h4>
+      <p>새벽 Investor Day 1분 정리 공유. 시장 브리핑에서도 FY28 매출 목표 약 200억달러 상향, FY31 700억~900억달러, 2030년 TAM 약 4,000억달러 제시로 급등(+5.8%대) 보도.</p>
+     </div>
+     <div class="blk">
+      <h4>AMD · Lisa Su</h4>
+      <p>수요가 공급을 계속 웃돎. 2027년 공급 대폭 확대. 메모리 공급 제약 지속, TSMC 추가 CAPA에 감사. 종가 +2.80%($649.42).</p>
+     </div>
+    </div>
+    <div class="blk" style="margin-top:12px">
+     <h4>애플 스마트홈 · LG전자 공동개발</h4>
+     <p>도어벨·스마트 도어락·온도조절기 등 LG전자와 공동 개발. 10/13 전후 스마트홈 허브·신형 홈팟 미니·애플 TV 공개 전망(거먼). 홈 제어·보안·자동화 생태계.</p>
+    </div>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#2563eb" href="https://t.me/insidertracking/65580" target="_blank" rel="noopener"><i></i>미국 주식 인사이더 · 10/7 07:10</a><a class="schip" style="--c:#2563eb" href="https://t.me/insidertracking/65518" target="_blank" rel="noopener"><i></i>미국 주식 인사이더 · 10/6 18:32</a><a class="schip" style="--c:#2563eb" href="https://t.me/insidertracking/65583" target="_blank" rel="noopener"><i></i>미국 주식 인사이더 · 10/7 08:14</a><a class="schip" style="--c:#2563eb" href="https://t.me/insidertracking/65533" target="_blank" rel="noopener"><i></i>미국 주식 인사이더 · 10/6 20:38</a><a class="schip" style="--c:#2563eb" href="https://t.me/insidertracking/65552" target="_blank" rel="noopener"><i></i>미국 주식 인사이더 · 10/7 05:34</a></div>
+   </div>
+  </div>
+
+  <div class="card">
+   <div class="ch"><span class="rank">8</span><h3>전일 잔상 · 보안 · HLB · LG전자</h3><span class="tag">여의도 장마감 · AWAKE 공시</span></div>
+   <div class="cb">
+    <ul class="list">
+     <li><b>보안주:</b> 금융권 AI 해킹 사태에 강세·상한가(장마감 브리핑). 샌즈랩 투자경고 지정예고(AWAKE).</li>
+     <li><b>HLB:</b> 간암 신약 美 FDA 재신청 소식에 그룹주 동반 강세. HLB생명과학 단기과열(3거래일 단일가) 지정.</li>
+     <li><b>LG전자:</b> 북미향 AI 데이터센터 냉각솔루션 계약에 7%대 급등(장마감). 베어로보틱스 나스닥 상장 보도에 대한 해명 공시(미확정, 결정된 바 없음).</li>
+    </ul>
+    <div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118164" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 10/6 19:43</a><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154290" target="_blank" rel="noopener"><i></i>AWAKE 공시정리 · 10/6 20:04</a><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154286" target="_blank" rel="noopener"><i></i>AWAKE 공시정리 · 10/6 20:04</a><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154231" target="_blank" rel="noopener"><i></i>AWAKE 공시정리 · 10/6 13:52</a></div>
+   </div>
+  </div>
+
+  <div class="caution">
+   <b class="t">주의</b> · 채널 원문의 목표가·실적 전망·공시 금액은 각 증권사·작성자·공시 기준이며, 본 페이지는 수집 구간 게시물을 주제별로 정리한 것입니다. 장중·종가 수치는 시점 의존.
+  </div>
+ </section>
+</div>
+
+<footer>
+ <div class="wrap">
+  <p><b>장초 · 미국장 · 거시 · 텔레그램 브리핑 · 2026-10-07</b></p>
+  <p>국내·미국·거시 수치는 market.md(~09:50 KST 스냅샷)에서, 텔레그램 테마·링크는 posts_all.txt(221건, 10/6 13:00~10/7 ~09:50 KST, 5개 채널)에서만 인용했습니다. 수치는 출처에서 확인된 것만 기재했습니다.</p>
+  <p><b>투자 권유가 아닙니다.</b> 모든 내용은 정보 제공 목적이며, 투자 판단과 그 결과에 대한 책임은 투자자 본인에게 있습니다.</p>
+  <p class="fine" style="color:#94a3b8;margin-top:10px"><a href="index.html" style="color:#93c5fd">← 리포트 목록</a></p>
+ </div>
+</footer>
+</body>
+</html>
