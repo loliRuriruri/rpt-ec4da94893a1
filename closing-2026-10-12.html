@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>장마감 · 일본 · 미국장 프리뷰 · 거시 · 텔레그램 브리핑 | 2026-10-12</title>
+<style>
+:root{
+  --ink:#0f172a; --ink2:#334155; --mute:#64748b; --line:#e2e8f0; --bg:#f4f6fb; --card:#fff;
+  --navy:#0b1f44; --accent:#0f766e; --accent2:#14b8a6; --up:#dc2626; --down:#2563eb; --warn:#b45309;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:15.5px;line-height:1.72;word-break:keep-all;overflow-wrap:anywhere}
+a{color:#0f62c9;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+b,strong{font-weight:700}
+/* header */
+.hero{background:linear-gradient(135deg,#0b1f44 0%,#12366b 60%,#0f766e 140%);color:#fff;padding:38px 0 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12.5px;letter-spacing:.04em;color:#a5f3fc;font-weight:700}
+.hero .kicker span{border:1px solid rgba(165,243,252,.45);padding:2px 10px;border-radius:999px}
+.hero h1{font-size:34px;line-height:1.3;margin:12px 0 6px;font-weight:900;letter-spacing:-.02em}
+.hero .date{font-size:20px;font-weight:700;color:#e2e8f0}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+.meta div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:10px 14px}
+.meta dt{font-size:11.5px;color:#93c5fd;font-weight:700;letter-spacing:.03em}
+.meta dd{margin:2px 0 0;font-size:14.5px;font-weight:700;color:#fff}
+.chans{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chan{display:inline-flex;align-items:center;gap:7px;background:#fff;color:var(--ink);border-radius:8px;padding:5px 11px;font-size:13px;font-weight:700}
+.chan i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chan small{color:var(--mute);font-weight:500}
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:-18px auto 0;position:relative;z-index:2}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;box-shadow:0 4px 14px rgba(15,23,42,.06)}
+.kpi .l{font-size:11.5px;color:var(--mute);font-weight:700}
+.kpi .v{font-size:21px;font-weight:900;letter-spacing:-.02em;line-height:1.3}
+.kpi .s{font-size:11.5px;color:var(--mute)}
+.up{color:var(--up)} .dn{color:var(--down)}
+/* sections */
+section.sec{padding:34px 0 8px}
+.sh{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:18px}
+.sh .no{font-size:13px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 9px}
+.sh h2{margin:0;font-size:23px;font-weight:900;letter-spacing:-.02em}
+.sh .sub{margin-left:auto;font-size:12.5px;color:var(--mute)}
+h3{font-size:18px;margin:22px 0 10px;font-weight:800}
+h4{font-size:14px;margin:0 0 6px;font-weight:800;color:var(--accent);letter-spacing:.01em}
+p{margin:0 0 10px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.note{font-size:13px;color:var(--mute)}
+.fine{font-size:12px;color:var(--mute)}
+/* takeaways */
+.verdict{background:linear-gradient(135deg,#ecfeff,#f0fdf4);border:1px solid #a7f3d0;border-left:6px solid var(--accent);border-radius:14px;padding:18px 22px;margin-bottom:16px}
+.verdict .lab{font-size:12px;font-weight:900;color:var(--accent);letter-spacing:.05em}
+.verdict q{display:block;font-size:19px;font-weight:800;line-height:1.55;margin-top:4px;quotes:"“" "”"}
+.tk{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tk ol{margin:0;padding-left:20px}
+.tk li{margin-bottom:7px}
+.fix{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px}
+.fix b.t{color:var(--warn)}
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.tier{border-radius:12px;padding:12px 14px;border:1px solid var(--line);background:#fff}
+.tier .tl{font-size:12px;font-weight:900;letter-spacing:.03em}
+.tier .td{font-size:12.5px;color:var(--mute);margin-bottom:6px}
+.tier .tn{font-size:15.5px;font-weight:800;line-height:1.5}
+.tier.t1{border-top:5px solid #0f766e} .tier.t1 .tl{color:#0f766e}
+.tier.t2{border-top:5px solid #0891b2} .tier.t2 .tl{color:#0891b2}
+.tier.t3{border-top:5px solid #94a3b8} .tier.t3 .tl{color:#64748b}
+.tier.tu{border-top:5px solid #2563eb} .tier.tu .tl{color:#2563eb}
+/* charts */
+.chart{width:100%;height:auto;display:block;font-family:inherit}
+.chart.narrow{display:none}
+.chart text{font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1',sans-serif}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.lg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-size:12px;color:var(--mute);font-weight:800}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+/* stock cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:0 0 20px;overflow:hidden;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:16px 22px;background:linear-gradient(90deg,#f8fafc,#fff);border-bottom:1px solid var(--line)}
+.rank{font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:2px 9px}
+.rank.alt{background:#0891b2}
+.ch h3{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.ch .tag{font-size:12.5px;color:var(--mute);font-weight:600}
+.mcount{margin-left:auto;text-align:right}
+.mcount b{font-size:24px;font-weight:900;color:var(--accent)}
+.mcount small{display:block;font-size:11.5px;color:var(--mute);line-height:1.3}
+.cb{padding:18px 22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.vchip{border-radius:10px;padding:7px 12px;font-size:13.5px;background:#f1f5f9;border:1px solid var(--line)}
+.vchip span{display:block;font-size:11px;font-weight:800;color:var(--mute);letter-spacing:.03em}
+.vchip b{font-weight:800}
+.vchip.main{background:#ecfdf5;border-color:#a7f3d0} .vchip.main b{color:#047857}
+.vchip.caut{background:#fff7ed;border-color:#fed7aa} .vchip.caut b{color:#c2410c}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.blk{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff}
+.blk.thesis{border-left:4px solid #0f766e}
+.blk.cat{border-left:4px solid #2563eb} .blk.cat h4{color:#2563eb}
+.blk.risk{border-left:4px solid #dc2626} .blk.risk h4{color:#dc2626}
+.blk.gpt{border-left:4px solid #7c3aed;background:#faf5ff} .blk.gpt h4{color:#7c3aed}
+.blk.full{grid-column:1/-1}
+.blk ul{margin:0;padding-left:18px}
+.blk li{margin-bottom:5px;font-size:14.5px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px}
+.flow span{background:#0b1f44;color:#fff;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
+.flow em{font-style:normal;color:#0f766e;font-weight:900}
+.flow.alt span{background:#e0f2fe;color:#075985}
+.levels{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:8px 0}
+.levels div{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;text-align:center}
+.levels span{display:block;font-size:11px;color:var(--mute);font-weight:700}
+.levels b{font-size:16px;font-weight:900}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.srclab{font-size:12px;font-weight:800;color:var(--mute);margin-right:2px}
+.schip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink2);background:#fff}
+.schip i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.srcmore{font-size:11.5px;font-weight:700;margin-left:auto}
+.pill{display:inline-block;font-size:11.5px;font-weight:800;border-radius:6px;padding:1px 8px;margin-right:4px;vertical-align:1px}
+.pill.ok{background:#dcfce7;color:#166534} .pill.pend{background:#f1f5f9;color:#475569} .pill.gpt{background:#ede9fe;color:#6d28d9} .pill.tg{background:#e0f2fe;color:#075985}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#f8fafc}
+.mini h5{margin:0 0 4px;font-size:15px;font-weight:900}
+.qs{counter-reset:q;list-style:none;padding:0;margin:6px 0}
+.qs li{counter-increment:q;padding-left:30px;position:relative;margin-bottom:6px}
+.qs li:before{content:counter(q);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:#7c3aed;color:#fff;font-size:12px;font-weight:800;text-align:center;line-height:21px}
+/* themes */
+.theme{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
+.theme .th{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.theme .th .ic{font-size:22px}
+.theme .th h3{margin:0;font-size:20px;font-weight:900}
+.facts{margin:10px 0 0;padding:0;list-style:none}
+.facts li{padding:8px 0;border-top:1px solid #f1f5f9;font-size:14px}
+.facts li b.k{display:inline-block;min-width:0;margin-right:6px;color:var(--navy)}
+/* warnings & playbook */
+.warns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.warn{background:#fff;border:1px solid var(--line);border-top:4px solid #f59e0b;border-radius:12px;padding:14px 16px}
+.warn .wn{font-size:12px;font-weight:900;color:#b45309}
+.warn .wt{font-size:16px;font-weight:800;margin:2px 0 6px}
+.play{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pl .pt{font-size:13px;font-weight:900;color:#fff;display:inline-block;border-radius:6px;padding:1px 9px;margin-bottom:8px}
+.checks{counter-reset:c;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.checks li{counter-increment:c;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 46px;position:relative;font-weight:700;font-size:14.5px}
+.checks li:before{content:counter(c);position:absolute;left:12px;top:9px;width:24px;height:24px;border-radius:7px;background:var(--navy);color:#fff;text-align:center;line-height:24px;font-size:13px}
+.concl{background:var(--navy);color:#fff;border-radius:16px;padding:22px 24px;margin-top:16px}
+.concl .lab{font-size:12px;font-weight:900;color:#5eead4;letter-spacing:.05em}
+.concl p{font-size:17.5px;font-weight:700;line-height:1.65;margin:6px 0 0}
+.concl .hl{color:#5eead4}
+/* appendix */
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}
+.ci{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;font-size:12.5px;position:relative}
+.ci i{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:10px 0 0 10px;background:var(--c)}
+.ci b{display:block;font-size:13px} .ci span{color:var(--mute);font-size:11.5px} .ci em{font-style:normal;float:right;font-weight:900;color:var(--ink)}
+.apsec{font-size:16px;margin:22px 0 10px;padding-left:10px;border-left:4px solid var(--navy)}
+.apgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;align-items:start}
+.apcat{grid-column:1/-1;break-after:avoid;font-size:12.5px;font-weight:900;color:var(--accent);margin:6px 0 -4px;letter-spacing:.03em}
+.apg{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:0}
+.apgh{display:flex;justify-content:space-between;font-size:13.5px;border-bottom:1px solid #f1f5f9;padding-bottom:4px;margin-bottom:4px}
+.apgh span{color:var(--mute);font-size:12px}
+.apg ul{list-style:none;margin:0;padding:0}
+.apg li{font-size:12px;line-height:1.55;padding:2px 0;display:flex;flex-wrap:wrap;gap:0 6px;align-items:baseline}
+.apg li small{color:var(--mute);width:100%;padding-left:13px}
+.cdot{width:7px;height:7px;border-radius:50%;background:var(--c);display:inline-block;flex:none;transform:translateY(-1px)}
+.cn{font-weight:700;color:var(--ink2)} .tm{color:var(--mute);font-variant-numeric:tabular-nums}
+.apg a{word-break:break-all}
+footer{margin-top:36px;background:#0b1f44;color:#cbd5e1;padding:26px 0 30px;font-size:13px}
+footer b{color:#fff}
+footer p{margin:0 0 6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.toc a{color:#e2e8f0;font-size:12.5px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 11px}
+/* responsive */
+@media screen and (max-width:760px){
+  .chart.wide{display:none} .chart.narrow{display:block}
+  .hm{display:none}
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .hero{padding:26px 0 30px}
+  .hero h1{font-size:25px}
+  .hero .date{font-size:16px}
+  .meta{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .tk,.two,.grid4,.duo,.warns,.play,.checks{grid-template-columns:1fr}
+  .tiers{grid-template-columns:1fr 1fr}
+  .levels{grid-template-columns:1fr 1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+  .apgrid{grid-template-columns:1fr}
+  .sh{flex-wrap:wrap} .sh .sub{margin-left:0;width:100%}
+  .verdict q{font-size:16.5px}
+  .ch{padding:14px 16px} .cb{padding:14px 16px}
+  .mcount{margin-left:0;text-align:left}
+}
+/* print */
+@page{size:A4;margin:13mm 12mm 14mm}
+@media print{
+  html,body{background:#fff}
+  body{zoom:0.72;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .hero{padding:22px 18px 30px;border-radius:12px}
+  .kpis{margin-top:-16px;padding:0 10px}
+  .toc{display:none}
+  section.sec{padding-top:6px}
+  .pb{break-before:page;page-break-before:always}
+  .card,.theme{box-shadow:none}
+  .vchip,.tier,.warn,.pl,.checks li,.mini,.kpi,.levels,.verdict,.fix,.concl,svg,tr,.facts li,.blk li,.apg,.chips,.flow,.qs{break-inside:avoid;page-break-inside:avoid}
+  .blkhead{break-after:avoid}
+  .ch{break-after:avoid}
+  h2,h3,h4,.sh{break-after:avoid;page-break-after:avoid}
+  a{color:#0f4fa8}
+  .schip{color:#334155}
+  footer{background:#fff;color:#334155;border-top:2px solid #0b1f44;margin-top:20px;padding:14px 0 0}
+  footer b{color:#0b1f44}
+}
+.fs{font-size:11px;font-weight:700;border:1px solid #bfdbfe;background:#eff6ff;border-radius:5px;padding:0 6px;margin-left:4px;white-space:nowrap}
+.blkhead{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.blkhead h4{margin:0}
+.howto{font-size:13.5px;color:var(--ink2);background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:12px 16px;margin-top:14px}
+.common{background:#faf5ff;border:1px solid #e9d5ff;border-radius:16px;padding:18px 22px;margin-bottom:18px}
+.common h3{margin:0 0 8px;font-size:19px}
+
+.nw{white-space:nowrap}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.list{margin:0;padding-left:20px}
+.list li{margin-bottom:7px}
+.caution{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px;margin-top:12px}
+.caution b.t{color:var(--warn)}
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0 18px}
+.ci{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;border-top:4px solid var(--c)}
+.ci i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
+.ci b{display:block;font-size:13.5px;margin-top:4px}
+.ci span{font-size:11.5px;color:var(--mute)}
+.ci em{display:block;font-style:normal;font-size:20px;font-weight:900;margin-top:4px;color:var(--ink)}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+.srclab{font-size:11.5px;font-weight:800;color:var(--mute);margin-right:4px}
+.schip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none}
+.schip i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.rank.alt{background:#0891b2}
+@media screen and (max-width:760px){
+  .grid2,.grid3{grid-template-columns:1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+}
+
+/* ===== closing-briefing additions (keep in sync with build_closing.py block types) ===== */
+.kpis{grid-template-columns:repeat(var(--kn,6),1fr)}
+.pill.part{background:#fef3c7;color:#92400e} .pill.unv{background:#fee2e2;color:#991b1b} .pill.ei{background:#ede9fe;color:#6d28d9} .pill.wn{background:#ffedd5;color:#9a3412} .pill.navy{background:#0b1f44;color:#fff}
+.rank.limit{background:#dc2626} .rank.after{background:#7c3aed} .rank.drop{background:#2563eb} .rank.ok{background:#0f766e} .rank.part{background:#d97706} .rank.ei{background:#6d28d9}
+.statusbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:#faf5ff;border:1px solid #e9d5ff;border-left:6px solid #7c3aed;border-radius:14px;padding:14px 18px;margin-bottom:16px}
+.statusbar .st{display:flex;flex-direction:column;background:#fff;border:1px solid #e9d5ff;border-radius:10px;padding:6px 12px}
+.statusbar .st span{font-size:11px;font-weight:800;color:#7c3aed;letter-spacing:.03em}
+.statusbar .st b{font-size:15px;font-weight:900}
+.statusbar p{flex:1 1 260px;margin:0;font-size:13.5px;color:var(--ink2)}
+.bars{display:flex;flex-direction:column;gap:7px}
+.bar{display:grid;grid-template-columns:120px 1fr 300px;gap:10px;align-items:center;font-size:13.5px}
+.bar .bl{font-weight:800;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .bt{background:#f1f5f9;border-radius:6px;height:22px;position:relative;overflow:hidden}
+.bar .bt i{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--c,#0f766e)}
+.bar .bt em{position:absolute;left:8px;top:0;line-height:22px;font-style:normal;font-weight:900;font-size:12px;color:#fff}
+.bar .bs{font-size:12px;color:var(--mute);line-height:1.35}
+.dbars{display:flex;flex-direction:column;gap:6px}
+.dbar{display:grid;grid-template-columns:120px 1fr 1fr 70px;align-items:center;gap:0;font-size:13.5px}
+.dbar .dl{font-weight:800;text-align:right;padding-right:10px;white-space:nowrap}
+.dbar .dn-side,.dbar .up-side{height:20px;position:relative}
+.dbar .dn-side{border-right:2px solid #94a3b8}
+.dbar .dn-side i{position:absolute;right:0;top:0;bottom:0;background:var(--down);border-radius:4px 0 0 4px}
+.dbar .up-side i{position:absolute;left:0;top:0;bottom:0;background:var(--up);border-radius:0 4px 4px 0}
+.dbar .dv{font-weight:900;padding-left:10px;font-variant-numeric:tabular-nums}
+details.fold{background:#fff;border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden}
+details.fold>summary{cursor:pointer;list-style:none;padding:14px 18px;font-weight:900;font-size:15px;background:linear-gradient(90deg,#f8fafc,#fff);display:flex;align-items:center;gap:8px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary:before{content:"+";display:inline-block;width:22px;height:22px;border-radius:6px;background:var(--navy);color:#fff;text-align:center;line-height:22px;font-size:15px}
+details.fold[open]>summary:before{content:"-"}
+details.fold>summary small{font-weight:600;color:var(--mute);font-size:12px;margin-left:auto}
+details.fold .fb{padding:6px 20px 18px;border-top:1px solid var(--line)}
+.cb .box{margin-top:14px}
+.md{font-size:14.5px}
+.md h1{font-size:20px;margin:16px 0 8px} .md h2{font-size:18px;margin:18px 0 8px;padding-left:10px;border-left:4px solid #7c3aed} .md h3{font-size:16px;margin:14px 0 6px} .md h4{font-size:14.5px;color:var(--ink);margin:12px 0 6px}
+.md ul,.md ol{padding-left:20px;margin:0 0 10px} .md li{margin-bottom:4px}
+.md blockquote{margin:8px 0;padding:8px 14px;border-left:4px solid #a78bfa;background:#faf5ff;border-radius:0 10px 10px 0}
+.md hr{border:0;border-top:1px dashed var(--line);margin:16px 0}
+.md table{font-size:12.5px;margin:8px 0 12px} .md .tw{overflow:auto}
+pre.raw{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.6;background:#0b1f44;color:#e2e8f0;border-radius:10px;padding:14px 16px;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Noto Sans CJK KR',monospace}
+pre.tgmsg{white-space:pre-wrap;word-break:break-word;font-size:13px;line-height:1.65;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0;font-family:inherit}
+.srcgroups{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.srcg{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.srcg h4{margin:0 0 6px}
+.srcg ul{list-style:none;margin:0;padding:0}
+.srcg li{font-size:12.5px;line-height:1.5;padding:4px 0;border-top:1px solid #f1f5f9}
+.srcg li:first-child{border-top:0}
+.srcg li small{color:var(--mute)}
+.srcg a{word-break:break-all}
+.tgp{list-style:none;margin:0;padding:0}
+.tgp li{font-size:12.5px;line-height:1.55;padding:6px 0;border-top:1px solid #f1f5f9}
+.tgp li:first-child{border-top:0}
+.tgp .tm{margin-right:6px}
+.limits{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.limits li{background:#fff;border:1px solid var(--line);border-left:4px solid #f59e0b;border-radius:10px;padding:9px 12px;font-size:13.5px}
+.prov{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+.prov span{border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:2px 10px;font-size:12px;color:#e2e8f0}
+.prov span b{color:#5eead4;font-weight:800;margin-right:4px}
+.disc{background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;padding:14px 18px;font-size:13.5px;color:#7c2d12;margin-top:26px}
+.disc b{color:#9a3412}
+@media screen and (max-width:760px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .bar{grid-template-columns:92px 1fr} .bar .bs{grid-column:2}
+  .dbar{grid-template-columns:86px 1fr 1fr 58px}
+  .srcgroups,.limits{grid-template-columns:1fr}
+  .statusbar{padding:12px 14px}
+  table.wide{min-width:620px}
+  table.wide td:first-child{white-space:nowrap}
+  .tiers{grid-template-columns:1fr !important}
+}
+@media print{
+  details.fold>summary:before{display:none}
+  .statusbar,.bar,.dbar,.srcg li,.tgp li,.limits li,.disc,pre.tgmsg{break-inside:avoid;page-break-inside:avoid}
+  pre.raw{background:#f8fafc;color:#0f172a;border:1px solid var(--line)}
+  .prov span{color:#334155;border-color:#cbd5e1}
+}
+/* ===== collapsed meta sections / blocks (coverage limits, unresolved, sources) : build_closing.py fold_* ===== */
+section.sec.sfold{padding:22px 0 0}
+details.cfold{background:#fff;border:1px solid var(--line);border-left:5px solid var(--navy);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+details.cfold.bf{margin:14px 0}
+details.cfold.k-coverage,details.cfold.k-unresolved{border-left-color:#f59e0b}
+details.cfold.k-sources{border-left-color:#0b1f44}
+details.cfold>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;padding:10px 16px;background:linear-gradient(90deg,#f8fafc,#fff);line-height:1.45}
+details.cfold>summary::-webkit-details-marker{display:none}
+details.cfold>summary:hover{background:#f1f5f9}
+details.cfold>summary .no{flex:none;font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 8px}
+details.cfold>summary .ft{flex:none;font-size:16.5px;font-weight:900;letter-spacing:-.02em;color:var(--ink)}
+details.cfold.bf>summary .ft{font-size:14.5px;font-weight:800}
+details.cfold>summary .fsub{flex:1 1 auto;min-width:0;font-size:12px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+details.cfold>summary .fcnt{flex:none;margin-left:auto;font-size:12px;font-weight:800;color:var(--navy);background:#eef2ff;border:1px solid #c7d2fe;border-radius:999px;padding:2px 12px;white-space:nowrap}
+details.cfold>summary .fcnt:after{content:"";display:inline-block;width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 1px 0 8px;vertical-align:3px}
+details.cfold[open]>summary .fcnt:after{transform:rotate(-135deg);vertical-align:-1px}
+details.cfold>summary .fx i{font-style:normal}
+details.cfold>summary .fx .c,details.cfold[open]>summary .fx .o{display:none}
+details.cfold[open]>summary .fx .c{display:inline}
+details.cfold[open]>summary{border-bottom:1px solid var(--line)}
+details.cfold>.cfb{padding:16px 18px 18px}
+details.cfold>.cfb>h3:first-child{margin-top:4px}
+@media screen and (max-width:760px){
+  details.cfold>summary{flex-wrap:wrap;padding:10px 12px;gap:6px 8px}
+  details.cfold>summary .fsub{display:none}
+  details.cfold>.cfb{padding:12px 12px 14px}
+}
+@media print{
+  details.cfold{box-shadow:none}
+  details.cfold>summary .fx,details.cfold>summary .fcnt:after{display:none}
+  details.cfold>summary{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <div class="kicker"><span>CLOSING BRIEFING</span><span>2026-10-12 (월)</span><span>19:05 KST 검증 기준</span><span>RUN TR-20261012-1900-daily-close</span></div>
+  <h1>장마감 · 일본 · 미국장 프리뷰 · 거시 · 텔레그램 브리핑</h1>
+  <div class="date">한글날 후 첫 거래일 급락 · 일본 스포츠의 날 휴장 · 미 Columbus(주식○·채권×) · TR 3.7.4 · EI 3.7.3.1 PARTIAL/NEEDS_REVIEW</div>
+  <dl class="meta"><div><dt>국내 마감</dt><dd>2026-10-12 15:30 KST 종가</dd></div><div><dt>텔레그램 수집</dt><dd>10/12 공개 894건 · 41채널 (비공개 0)</dd></div><div><dt>시장 데이터</dt><dd>웹·Yahoo ≈19:05 KST · 선물 ≈18:53</dd></div></dl>
+  <div class="chans"><span class="chan" style="--c:#ea580c"><i></i>서화백의 AI놀이 <small>@easobi_ai · 160건</small></span><span class="chan" style="--c:#d97706"><i></i>AWAKE 실시간 공시 <small>@darthacking · 67건</small></span><span class="chan" style="--c:#e11d48"><i></i>타점 읽어주는 여자 <small>@tazastock · 60건</small></span><span class="chan" style="--c:#84cc16"><i></i>묻따방 <small>@mootda · 59건</small></span><span class="chan" style="--c:#0369a1"><i></i>미국 주식 인사이더 <small>@insidertracking · 59건</small></span><span class="chan" style="--c:#0891b2"><i></i>주식 급등일보 <small>@FastStockNews · 53건</small></span><span class="chan" style="--c:#0f766e"><i></i>W리서치 <small>@Wave_Research · 49건</small></span><span class="chan" style="--c:#7c3aed"><i></i>여의도스토리 Ver2.0 <small>@YeouidoStory2 · 48건</small></span><span class="chan" style="--c:#475569"><i></i>실버만삭스 <small>@silver_mansachs · 42건</small></span><span class="chan" style="--c:#0d9488"><i></i>그로쓰리서치 <small>@growthresearch · 28건</small></span></div>
+  <nav class="toc"><a href="#s1">01 국내 마감</a><a href="#s2">02 일본·아시아</a><a href="#s3">03 미국장 프리뷰</a><a href="#s4">04 매크로·캘린더</a><a href="#s5">05 텔레그램 특징주</a><a href="#s6">06 리포트·공시</a><a href="#s7">07 EI 딥리서치</a><a href="#s8">08 10/13 체크</a><a href="#s9">09 커버리지 한계</a><a href="#s10">10 출처</a></nav>
+ </div>
+</header>
+<div class="wrap">
+<div class="kpis" style="--kn:4"><div class="kpi"><div class="l">코스피</div><div class="v dn">6,384.24</div><div class="s">-241.69 · -3.65%</div></div><div class="kpi"><div class="l">코스닥</div><div class="v dn">849.19</div><div class="s">-43.08 · -4.83%</div></div><div class="kpi"><div class="l">외국인 (코스피)</div><div class="v dn">-2.02조</div><div class="s">KRX 15:35 잠정 −20,250억</div></div><div class="kpi"><div class="l">원/달러</div><div class="v ">1,335</div><div class="s">−7원 · 서울 외환 마감</div></div><div class="kpi"><div class="l">닛케이225</div><div class="v ">휴장</div><div class="s">스포츠의 날 · 직전 10/9 69,030.92</div></div><div class="kpi"><div class="l">S&P 선물</div><div class="v up">7,867.25</div><div class="s">+0.10% · ≈18:53 KST</div></div><div class="kpi"><div class="l">나스닥100 선물</div><div class="v dn">31,082</div><div class="s">−0.09% · ≈18:53 KST</div></div><div class="kpi"><div class="l">미 10년물</div><div class="v ">5.24%</div><div class="s">Treasury 10/9 · 오늘 채권 휴장</div></div></div>
+<section class="sec" id="s1">
+  <div class="sh"><span class="no">01</span><h2>국내 마감</h2><span class="sub">10/12 15:30 종가 · 한글날 후 첫 거래일 · 뉴스핌·한경TV·매경·Yahoo</span></div>
+<div class="verdict"><div class="lab">마감 한줄</div><q>한글날(10/9) 휴장 후 재개일에 코스피 <b class="dn">-3.65%</b>(6,384.24), 코스닥 <b class="dn">-4.83%</b>(849.19). 삼성전자·SK하이닉스 중심 대형 반도체 매도에 외국인 코스피 약 <b class="dn">-2.02조</b> 순매도. AI 성장성 논쟁·고금리·유가 경계가 겹쳤으나 단일 원인으로 단정하지 않음 (TR).</q></div><h3>지수 (10/12 종가)</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">지수</th><th class="n">종가</th><th class="n">전일비</th><th class="n">등락률</th><th class="">직전 현금</th><th class="">비고</th></tr></thead><tbody><tr><td class=""><b>코스피</b></td><td class="n"><b><b>6,384.24</b></b></td><td class="n dn"><b>-241.69</b></td><td class="n dn"><b><b>-3.65%</b></b></td><td class=""><b>10/8 6,625.93</b></td><td class=""><b>약 두 달 만 6,400선 하회 (뉴스핌)</b></td></tr><tr><td class=""><b>코스닥</b></td><td class="n"><b><b>849.19</b></b></td><td class="n dn"><b>-43.08</b></td><td class="n dn"><b><b>-4.83%</b></b></td><td class=""><b>10/8 892.27</b></td><td class=""><b>Yahoo ^KQ11 = 뉴스핌 일치</b></td></tr></tbody></table></div><p class="note">Yahoo ^KS11/^KQ11과 뉴스핌(https://www.newspim.com/news/view/20261012001236) 교차확인. 직전 현금 거래일 목 10/8.</p><h3>투자자별 순매수 (억원, KRX 15:35 잠정)</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">구분</th><th class="">시장</th><th class="n">개인</th><th class="n">외국인</th><th class="n">기관</th><th class="">비고</th></tr></thead><tbody><tr><td class=""><b>KRX 정규장</b></td><td class=""><b>코스피</b></td><td class="n up"><b>+14,674.3</b></td><td class="n dn"><b>-20,250.0</b></td><td class="n dn"><b>-1,106.5</b></td><td class=""><b>기타법인 +6,618.2</b></td></tr><tr><td class="">KRX 정규장</td><td class="">코스닥</td><td class="n up">+2,487.6</td><td class="n dn">-283.2</td><td class="n dn">-2,227.8</td><td class="">기타법인 +10.4</td></tr></tbody></table></div><p class="note">출처: 한국경제TV/연합인포맥스 표 (https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20261012128600008). 뉴스핌 서술 코스피는 표와 근접(외인 −2조186). 코스닥 서술(개인+270·기관+2,228·외인−2,488)은 KRX 표와 충돌 → <b>표 우선</b>, 서술치는 사용하지 않음.</p><div class="grid2" style="margin-top:14px"><div class="box"><h4>등락 종목 · 시총 상위</h4><table class=""><thead><tr><th class="">항목</th><th class="">값</th></tr></thead><tbody><tr><td class="">코스피 상승/하락</td><td class="">717 / 1,610</td></tr><tr><td class="">삼성전자</td><td class="">255,000원 (−4.39%)</td></tr><tr><td class="">SK하이닉스</td><td class="">1,605,000원 (−4.52%)</td></tr><tr><td class="">SK스퀘어</td><td class="">−6.29%</td></tr><tr><td class="">삼성전기</td><td class="">−3.82%</td></tr></tbody></table><p class="fine" style="margin-top:8px">뉴스핌·매경. 거래대금 전체 수치는 이번 스냅에 미수록 <span class="pill unv">미확인</span>.</p></div><div class="box"><h4>원/달러</h4><p><b>서울 외환 마감 1,335.0원</b> (−7원, 뉴스핌).</p><ul class="list"><li>Yahoo KRW=X 스냅 ≈1,332.1 (픽스 상이, 둘 다 기록)</li><li>서울 종가와 역외 호가를 혼용하지 말 것</li></ul></div></div><h3>업종 등락 (코스피, 상위·하위 3)</h3><div class="box"><div class="dbars"><div class="dbar"><div class="dl">운송·창고</div><div class="dn-side"></div><div class="up-side"><i style="width:34.1%"></i></div><div class="dv up">+2.29%</div></div><div class="dbar"><div class="dl">음식료·담배</div><div class="dn-side"></div><div class="up-side"><i style="width:16.1%"></i></div><div class="dv up">+1.08%</div></div><div class="dbar"><div class="dl">보험</div><div class="dn-side"></div><div class="up-side"><i style="width:6.2%"></i></div><div class="dv up">+0.42%</div></div><div class="dbar"><div class="dl">전기·전자</div><div class="dn-side"><i style="width:67.1%"></i></div><div class="up-side"></div><div class="dv dn">-4.51%</div></div><div class="dbar"><div class="dl">건설</div><div class="dn-side"><i style="width:67.6%"></i></div><div class="up-side"></div><div class="dv dn">-4.54%</div></div><div class="dbar"><div class="dl">기계·장비</div><div class="dn-side"><i style="width:100.0%"></i></div><div class="up-side"></div><div class="dv dn">-6.72%</div></div></div><p class="fine" style="margin:10px 0 0">매일경제 마감 (https://www.mk.co.kr/news/stock/12173651). 상승 빨강 / 하락 파랑.</p></div><div class="grid2" style="margin-top:14px"><div class="blk risk"><h4>하락 배경 (매체·TR)</h4><ul class="list"><li>삼성전자 3Q 잠정 호실적·반도체 수출 호조에도 <b>AI 성장성 우려·외국인 매도</b>로 대형 반도체 급락 (뉴스핌)</li><li>해외 X: 삼성·하이닉스 <b>신용매수 제한/한도 축소</b> 헤드라인 확산 (community_x)</li><li>고금리(미 10년 5.24%·10/9) · WTI ≈$92.94 · DXY ≈102.37 경계</li><li>TR: 외국인 매도와 금리·AI 수익성 논쟁이 맞물렸으나 <b>단일 원인 단정 금지</b></li></ul></div><div class="blk cat"><h4>상대 강세 · 급등</h4><ul class="list"><li>금호전기 <b>상한가 +29.93%</b></li><li>한화머시너리앤서비스홀딩스 +24.01% (공개매수 재료)</li><li>금호건설 +20.29%, 진도 +16.13%, 아센디오 +15.67%</li><li>호남 반도체 클러스터·건설/시멘트 테마 관찰 (TR: 개별 수주 자동 연결 금지)</li></ul></div></div><h3>급락 · 코스닥 특이</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">구분</th><th class="">종목</th><th class="n">등락률</th></tr></thead><tbody><tr><td class="">급락</td><td class="">한창</td><td class="n dn">-30.77%</td></tr><tr><td class="">급락</td><td class="">에이엔피</td><td class="n dn">-20.88%</td></tr><tr><td class="">급락</td><td class="">HLB글로벌</td><td class="n dn">-20.68%</td></tr><tr><td class="">급락</td><td class="">유니온머티리얼</td><td class="n dn">-20.45%</td></tr><tr><td class="">급락</td><td class="">DN오토모티브</td><td class="n dn">-20.43%</td></tr><tr><td class="">코스닥</td><td class="">리노공업</td><td class="n dn">-11.15%</td></tr><tr><td class="">코스닥</td><td class="">심텍</td><td class="n dn">-10.36%</td></tr><tr><td class="">코스닥</td><td class="">에코프로비엠</td><td class="n dn">-10.25%</td></tr></tbody></table></div><p class="note">매경·뉴스핌. DN오토모티브는 고용부 납 노출 설명자료·감독 보도와 연관 (섹션 05·07).</p>
+</section>
+<section class="sec" id="s2">
+  <div class="sh"><span class="no">02</span><h2>일본 · 아시아</h2><span class="sub">10/12 스포츠의 날 · TSE 현금 휴장 · 직전 현금 10/9</span></div>
+<div class="verdict"><div class="lab">일본 한줄</div><q>오늘(10/12) <b>스포츠의 날</b>로 TSE 현금주식 휴장. OSE/TOCOM 파생은 휴일거래 개장. 직전 현금(금 10/9) 닛케이225 69,030.92(−0.02%). 오늘 새 종가는 없음.</q></div><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">항목</th><th class="">값</th><th class="">비고</th></tr></thead><tbody><tr><td class=""><b>TSE 현금</b></td><td class=""><b><b>휴장</b></b></td><td class=""><b>Sports Day / スポーツの日</b></td></tr><tr><td class="">OSE/TOCOM 파생</td><td class="">휴일거래 개장</td><td class="">JPX 공지 2026-10-09</td></tr><tr><td class="">닛케이225 (10/9)</td><td class="">69,030.92</td><td class="">-11.19 · -0.02%</td></tr><tr><td class="">TOPIX</td><td class=""><span class="pill unv">당일 미확보</span></td><td class="">Yahoo ^TPX/^TOPX 실패. 직전 런 참고 4,104.81(10/9)만 유지 → null 취급</td></tr><tr><td class="">USD/JPY</td><td class="">158.59</td><td class="">Yahoo JPY=X · 10/12</td></tr></tbody></table></div><p class="note">JPX: https://www.jpx.co.jp/english/news/2040/20261009-01.html · 캘린더 https://www.jpx.co.jp/english/corporate/about-jpx/calendar/</p><div class="box"><h4>기타 아시아</h4><ul class="list"><li>중화·대만 당일 마감 수치는 이번 스냅에 미수록 <span class="pill unv">미확인</span></li><li>한국 재개·일본 휴장·미 채권 휴장이 겹쳐 아시아 현물 신호가 얇은 날</li></ul></div>
+</section>
+<section class="sec" id="s3">
+  <div class="sh"><span class="no">03</span><h2>오늘밤 미국장 프리뷰</h2><span class="sub">금 10/9 종가 · 선물 ≈18:53 KST · Columbus Day(주식○·채권×)</span></div>
+<div class="verdict"><div class="lab">미국장 한줄</div><q>콜럼버스데이: <b>NYSE·Nasdaq 주식 정규장 개장</b>(≈22:30 KST), <b>미 현금채권 SIFMA 휴장</b>. 금 종가는 S&P·나스닥 상승. 장전 선물(≈18:53 KST)은 혼조(ES +0.10% / NQ −0.09%). 화 은행 실적·수 CPI가 주간 촉매.</q></div><h3>금 10/9(금) 뉴욕 마감</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">지수</th><th class="n">종가</th><th class="n">등락률</th><th class="">비고</th></tr></thead><tbody><tr><td class="">다우</td><td class="n">51,654.95</td><td class="n up">+0.83%</td><td class=""></td></tr><tr><td class=""><b>S&P500</b></td><td class="n"><b>7,811.54</b></td><td class="n up"><b>+0.59%</b></td><td class=""><b></b></td></tr><tr><td class=""><b>나스닥종합</b></td><td class="n"><b>27,366.17</b></td><td class="n up"><b>+0.64%</b></td><td class=""><b></b></td></tr><tr><td class="">NDX</td><td class="n">30,883.15</td><td class="n up">+0.51%</td><td class=""></td></tr><tr><td class="">러셀2000</td><td class="n">2,806.98</td><td class="n up">+0.46%</td><td class=""></td></tr><tr><td class="">VIX (금 종가)</td><td class="n">14.84</td><td class="n"></td><td class="">월 스냅 ≈15.49 (+4.4% vs 금)</td></tr></tbody></table></div><p class="note">Yahoo ^GSPC ^IXIC ^NDX ^DJI ^RUT ^VIX. 10/12 미 종가는 장 미개장으로 없음.</p><h3>미 지수선물 (≈18:53 KST)</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">선물</th><th class="n">현재</th><th class="n">금 결제/전일</th><th class="n">변동</th></tr></thead><tbody><tr><td class="">S&P500 (ES=F)</td><td class="n">7,867.25</td><td class="n">7,859.75</td><td class="n up">+0.10%</td></tr><tr><td class="">나스닥100 (NQ=F)</td><td class="n">31,082.00</td><td class="n">31,108.75</td><td class="n dn">-0.09%</td></tr><tr><td class="">다우 (YM=F)</td><td class="n">51,938</td><td class="n">51,926</td><td class="n up">+0.02%</td></tr><tr><td class="">러셀 (RTY=F)</td><td class="n">2,823.6</td><td class="n">2,822.1</td><td class="n up">+0.05%</td></tr></tbody></table></div><p class="note">Yahoo 1h 차트. 게시 시점과 달라질 수 있음. 현금장 미개장.</p><h3>오늘밤~주간 일정 (KST)</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">시각 (KST)</th><th class="">일정</th><th class="">메모</th></tr></thead><tbody><tr><td class=""><b>오늘 ≈22:30</b></td><td class=""><b>미 주식 정규장 개장</b></td><td class=""><b>콜럼버스데이 · 채권 휴장</b></td></tr><tr><td class=""><b>화 10/13 오후</b></td><td class=""><b>JPM · Wells Fargo · Goldman Sachs 3Q</b></td><td class=""><b>각사 IR (시각 개별 확인)</b></td></tr><tr><td class="">수 10/14 21:30</td><td class="">미 9월 CPI + Real Earnings</td><td class="">BLS</td></tr><tr><td class="">목 10/15 21:30</td><td class="">미 9월 PPI</td><td class="">BLS</td></tr><tr><td class="">금 10/16 21:30</td><td class="">Import/Export Price Indexes</td><td class="">BLS</td></tr></tbody></table></div><p class="note">SIFMA Columbus Day 채권 휴장 권고 · BLS 10월 스케줄.</p>
+</section>
+<section class="sec pb" id="s4">
+  <div class="sh"><span class="no">04</span><h2>매크로 · 캘린더</h2><span class="sub">Treasury 10/9 · Yahoo 매크로 10/12 스냅 · 주간 촉매</span></div>
+<h3>매크로 스냅샷</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">지표</th><th class="n">현재</th><th class="">기준</th><th class="">비교</th></tr></thead><tbody><tr><td class=""><b>미 10년물</b></td><td class="n"><b>5.24%</b></td><td class=""><b>Treasury 10/9</b></td><td class=""><b>채권 휴장으로 10/12 daily 행 없음 · Yahoo ^TNX ≈5.244</b></td></tr><tr><td class="">미 2년물</td><td class="n">4.8%</td><td class="">Treasury 10/9</td><td class=""></td></tr><tr><td class="">미 5년물</td><td class="n">5.02%</td><td class="">Treasury 10/9</td><td class=""></td></tr><tr><td class="">달러인덱스(DXY)</td><td class="n">102.372</td><td class="">10/12 Yahoo</td><td class="">+0.16%</td></tr><tr><td class=""><b>WTI</b></td><td class="n"><b>$92.94</b></td><td class=""><b>10/12 CL=F</b></td><td class=""><b>+1.19%</b></td></tr><tr><td class="">브렌트</td><td class="n">$105.94</td><td class="">10/12 BZ=F</td><td class="">+1.17%</td></tr><tr><td class="">금 (선물)</td><td class="n">$4,195.4</td><td class="">10/12 GC=F</td><td class="">-0.50%</td></tr><tr><td class="">비트코인</td><td class="n">$83,446</td><td class="">10/12 BTC-USD</td><td class="">-0.28%</td></tr></tbody></table></div><p class="note">Treasury CSV 최신 행 2026-10-09. 유가·DXY·금·BTC는 Yahoo 스냅(게시 시점 변동 가능).</p><div class="grid2" style="margin-top:14px"><div class="blk risk"><h4>X·커뮤니티가 짚은 주간 리스크</h4><ul class="list"><li>수 10/14 <b>9월 CPI</b> (헤드라인 ~3.6% / 코어 ~2.5% 컨센서스 서사, X)</li><li>화·수 <b>은행 실적</b> (JPM/WFC/GS)</li><li>FOMC 10/28 동결 ~85% vs 12월 인상 여지 (prediction markets, X)</li><li>HF Mag7 익스포저 22% 기록 · 좁은 랠리 경계</li></ul></div><div class="blk cat"><h4>유가 서사 (양분)</h4><ul class="list"><li>RU–UA 에너지 휴전 헤드라인 → 단기 완화 시도</li><li>Brent $100대·호르무즈 공급 리스크로 재상승 서사도 공존</li><li>장전 미 선물은 유가 완화에 소폭 상승 언급 (community_x)</li></ul></div></div><h3>캘린더 (KST)</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">일자</th><th class="">내용</th></tr></thead><tbody><tr><td class=""><b>10/12(월)</b></td><td class=""><b>JP 스포츠의 날 휴장 · US Columbus(주식○·채권×) · KR 재개장 · 밤 미 주식 개장</b></td></tr><tr><td class=""><b>10/13(화)</b></td><td class=""><b>미 대형은행 3Q (JPM·WFC·GS)</b></td></tr><tr><td class="">10/14(수) 21:30</td><td class="">미 9월 CPI + Real Earnings</td></tr><tr><td class="">10/15(목) 21:30</td><td class="">미 9월 PPI · HLB 계열사 IR 예정(TR)</td></tr><tr><td class="">10/16(금) 21:30</td><td class="">Import/Export Price Indexes</td></tr></tbody></table></div>
+</section>
+<section class="sec pb" id="s5">
+  <div class="sh"><span class="no">05</span><h2>텔레그램 특징주 · 테마</h2><span class="sub">공개 894건 · 41채널 · 10/12 00:26~19:01 KST · TR 3.7.4</span></div>
+<div class="chanidx"><div class="ci" style="--c:#ea580c"><i></i><b>서화백의 AI놀이</b><span>@easobi_ai</span><em>160</em></div><div class="ci" style="--c:#d97706"><i></i><b>AWAKE 실시간 공시</b><span>@darthacking</span><em>67</em></div><div class="ci" style="--c:#e11d48"><i></i><b>타점 읽어주는 여자</b><span>@tazastock</span><em>60</em></div><div class="ci" style="--c:#84cc16"><i></i><b>묻따방</b><span>@mootda</span><em>59</em></div><div class="ci" style="--c:#0369a1"><i></i><b>미국 주식 인사이더</b><span>@insidertracking</span><em>59</em></div><div class="ci" style="--c:#0891b2"><i></i><b>주식 급등일보</b><span>@FastStockNews</span><em>53</em></div><div class="ci" style="--c:#0f766e"><i></i><b>W리서치</b><span>@Wave_Research</span><em>49</em></div><div class="ci" style="--c:#7c3aed"><i></i><b>여의도스토리 Ver2.0</b><span>@YeouidoStory2</span><em>48</em></div><div class="ci" style="--c:#475569"><i></i><b>실버만삭스</b><span>@silver_mansachs</span><em>42</em></div><div class="ci" style="--c:#0d9488"><i></i><b>그로쓰리서치</b><span>@growthresearch</span><em>28</em></div><div class="ci" style="--c:#db2777"><i></i><b>더파마</b><span>@BBAinsights</span><em>24</em></div><div class="ci" style="--c:#b45309"><i></i><b>메리츠 Tech</b><span>@merITz_tech</span><em>21</em></div><div class="ci" style="--c:#2563eb"><i></i><b>한투 정정영</b><span>@G2strategy</span><em>19</em></div><div class="ci" style="--c:#16a34a"><i></i><b>선수촌</b><span>@athletes_village</span><em>16</em></div></div><div class="statusbar"><div class="st"><span>Telegram Research</span><b>3.7.4 · PARTIAL</b></div><div class="st"><span>발행 판정</span><b>READY_TO_PUBLISH</b></div><div class="st"><span>패킷 원문</span><b>200건</b></div><div class="st"><span>공개 수집</span><b>894건</b></div><div class="st"><span>독립 출처</span><b>5</b></div><div class="st"><span>주장 클러스터</span><b>149</b></div><div class="st"><span>Stage 2</span><b>23</b></div><div class="st"><span>Handoff</span><b>True · P1</b></div><p>Research Priority(P0~P3)는 매수/매도 등급이 아닙니다. 언급수≠독립 증거. 비공개 채널(캬오/선진짱/재간둥이/텐렙/제이슨/AWAKE-52주 등) Web 수집 실패 → 커버리지 한계.</p></div><div class="verdict"><div class="lab">채널 테마 요약</div><q>반도체·HBM(156)·AI·빅테크(130)·금리·매크로(122)·바이오(85)가 상위. 장중·장후 대화는 HLB FDA 재신청, 올릭스 NZ IND 반려, 셀트리온 3Q 잠정, 한화머시너리 공개매수, 인텍플러스 수주, TXR CB, DN오토모티브 고용부 설명에 집중 (TR P1).</q></div><h3>최다 언급 (mention_summary)</h3><div class="box"><div class="bars"><div class="bar"><div class="bl">SK하이닉스</div><div class="bt"><i style="width:100.0%;--c:#0f766e"></i><em>63회</em></div><div class="bs">23채널</div></div><div class="bar"><div class="bl">삼성전자</div><div class="bt"><i style="width:90.5%;--c:#0f766e"></i><em>57회</em></div><div class="bs">20채널</div></div><div class="bar"><div class="bl">연준/금리</div><div class="bt"><i style="width:90.5%;--c:#0f766e"></i><em>57회</em></div><div class="bs">23채널</div></div><div class="bar"><div class="bl">원유/이란</div><div class="bt"><i style="width:81.0%;--c:#0f766e"></i><em>51회</em></div><div class="bs">22채널</div></div><div class="bar"><div class="bl">현대차</div><div class="bt"><i style="width:44.4%;--c:#0f766e"></i><em>28회</em></div><div class="bs">7채널</div></div><div class="bar"><div class="bl">NVDA</div><div class="bt"><i style="width:42.9%;--c:#0f766e"></i><em>27회</em></div><div class="bs">14채널</div></div><div class="bar"><div class="bl">OpenAI</div><div class="bt"><i style="width:41.3%;--c:#0f766e"></i><em>26회</em></div><div class="bs">13채널</div></div><div class="bar"><div class="bl">해운</div><div class="bt"><i style="width:36.5%;--c:#0f766e"></i><em>23회</em></div><div class="bs">9채널</div></div><div class="bar"><div class="bl">MU</div><div class="bt"><i style="width:34.9%;--c:#0f766e"></i><em>22회</em></div><div class="bs">13채널</div></div><div class="bar"><div class="bl">호남반도체클러스터</div><div class="bt"><i style="width:33.3%;--c:#0f766e"></i><em>21회</em></div><div class="bs">9채널</div></div><div class="bar"><div class="bl">TSMC</div><div class="bt"><i style="width:31.7%;--c:#0f766e"></i><em>20회</em></div><div class="bs">10채널</div></div><div class="bar"><div class="bl">HLB</div><div class="bt"><i style="width:30.2%;--c:#0f766e"></i><em>19회</em></div><div class="bs">7채널</div></div></div><p class="fine" style="margin:10px 0 0">청록 = 2채널 이상. collector mention_summary.top_tickers_raw 기준. 동일 원문 재전달·테마 중복 포함.</p></div><h3>테마 언급</h3><div class="box"><div class="bars"><div class="bar"><div class="bl">반도체·HBM</div><div class="bt"><i style="width:100.0%;--c:#0369a1"></i><em>156건</em></div><div class="bs">12채널</div></div><div class="bar"><div class="bl">AI·빅테크</div><div class="bt"><i style="width:83.3%;--c:#0369a1"></i><em>130건</em></div><div class="bs">12채널</div></div><div class="bar"><div class="bl">금리·매크로</div><div class="bt"><i style="width:78.2%;--c:#0369a1"></i><em>122건</em></div><div class="bs">12채널</div></div><div class="bar"><div class="bl">바이오</div><div class="bt"><i style="width:54.5%;--c:#0369a1"></i><em>85건</em></div><div class="bs">12채널</div></div><div class="bar"><div class="bl">에너지·중동</div><div class="bt"><i style="width:33.3%;--c:#0369a1"></i><em>52건</em></div><div class="bs">12채널</div></div><div class="bar"><div class="bl">2차전지</div><div class="bt"><i style="width:17.9%;--c:#0369a1"></i><em>28건</em></div><div class="bs">12채널</div></div><div class="bar"><div class="bl">건설·시멘트·호남</div><div class="bt"><i style="width:17.3%;--c:#0369a1"></i><em>27건</em></div><div class="bs">7채널</div></div><div class="bar"><div class="bl">후공정·OSAT</div><div class="bt"><i style="width:13.5%;--c:#0369a1"></i><em>21건</em></div><div class="bs">12채널</div></div></div><p class="fine" style="margin:10px 0 0">themes 필드. 언급량≠수급 규모.</p></div><h3>P1 핵심 재료 (TR → Equity Intelligence handoff)</h3><div class="card"><div class="ch"><span class="rank part">P1</span><h3>HLB (028300) · Elevar FDA 재신청</h3><span class="pill part">PARTIALLY_VERIFIED</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>사건</span><b>10/9 간암 병용요법 FDA 재신청 서류 제출</b></div><div class="vchip caut"><span>배경</span><b>7/9 CRL(보완요구) 이후 단계</b></div><div class="vchip "><span>의미</span><b>제출 ≠ 승인 · Class 1/2 미확정</b></div></div><ul class="list"><li>공시·의약매체 재현으로 <b>서류 제출 사건은 부분확인</b> (TR)</li><li>FDA 접수 분류·최종 승인·상업화 시점은 <span class="pill unv">미확인</span></li><li>심층 판정은 07 Equity Intelligence 섹션</li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154504" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 07:45</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/78926" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 08:30</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900006" target="_blank" rel="noopener"><i></i>DART/1차</a></div></div></div><div class="card"><div class="ch"><span class="rank part">P1</span><h3>올릭스 (226950) · NZ 2a IND 반려</h3><span class="pill part">PARTIALLY_VERIFIED</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>후보</span><b>OLX301A / OLX10212 (황반변성)</b></div><div class="vchip caut"><span>결정</span><b>Northern B HDEC 반려</b></div><div class="vchip "><span>사유 요약</span><b>윤리·관련 법규 요건 미충족</b></div></div><ul class="list"><li>약효 실패 발표가 아님 (TR COUNTER)</li><li>세부 지적·재제출일·호주 신청 상태 <span class="pill unv">미확인</span></li><li>공시 재현: https://www.bosoop.com/disclosures/20261012900388/</li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154544" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 15:43</a><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118311" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 16:06</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900388" target="_blank" rel="noopener"><i></i>DART/1차</a></div></div></div><div class="card"><div class="ch"><span class="rank part">P1</span><h3>인텍플러스 (064290) · 기판 검사장비 수주</h3><span class="pill part">PARTIALLY_VERIFIED</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>계약</span><b>약 309.02억원</b></div><div class="vchip caut"><span>비중</span><b>전년 매출 대비 ≈34.43%</b></div><div class="vchip "><span>종료 보고</span><b>2028-01-10</b></div></div><ul class="list"><li>금액·비중·종료일은 공시 요약·보도 일치 <span class="pill part">부분확인</span></li><li>고객사·인도 검수·마진·변경조건 <span class="pill unv">미확인</span></li><li>총계약액 ≠ 즉시 매출/영업이익</li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154511" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 10:07</a></div></div></div><div class="card"><div class="ch"><span class="rank part">P1</span><h3>티엑스알로보틱스 (484810) · 사모 CB 300억</h3><span class="pill part">PARTIALLY_VERIFIED</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>발행</span><b>사모 전환사채 300억원</b></div><div class="vchip caut"><span>전환가</span><b>15,633원</b></div><div class="vchip "><span>의미</span><b>잠재 희석 · 전량 전환 확정 아님</b></div></div><ul class="list"><li>발행액·전환가 공시 요약과 증권데이터 일치 <span class="pill part">부분확인</span></li><li>납입·투자자·조기상환·실제 전환 <span class="pill unv">미확인</span></li><li>발행 결정 ≠ 완료·즉시 주식 발행</li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154550" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 16:13</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/78962" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 16:18</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000285" target="_blank" rel="noopener"><i></i>DART/1차</a></div></div></div><div class="card"><div class="ch"><span class="rank part">P1</span><h3>한화머시너리앤서비스홀딩스 (0220W0) · 공개매수</h3><span class="pill part">PARTIALLY_VERIFIED</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>공개매수</span><b>김동선 · 1,606만주×8,000원</b></div><div class="vchip "><span>규모</span><b>약 1,284.8억원</b></div><div class="vchip caut"><span>기간</span><b>10/12~11/2</b></div></div><ul class="list"><li>수량·가격·기간 공시·보도 일치 <span class="pill part">부분확인</span></li><li>응모·배정·결제 완료는 <span class="pill unv">미확인</span></li><li>당일 +24.01% (매경) · 신고≠전량 취득 확정</li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154503" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 07:40</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/78930" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 09:09</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000001" target="_blank" rel="noopener"><i></i>DART/1차</a></div></div></div><div class="card"><div class="ch"><span class="rank part">P1</span><h3>셀트리온 (068270) · 3Q 잠정</h3><span class="pill part">PARTIALLY_VERIFIED</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>매출</span><b>1조5,000억원</b></div><div class="vchip "><span>영업이익</span><b>5,100억원</b></div><div class="vchip caut"><span>컨센서스 비교</span><b>시장 추정치(비교용) · 확정 실적 아님</b></div></div><ul class="list"><li>잠정 수치는 공시 채널·주요 매체 재현 <span class="pill part">부분확인</span></li><li>최종 확정 재무·구성·어느 컨센서스 시리즈인지 <span class="pill unv">미확인</span></li><li>비교에 쓴 예상치(≈1조4,636억·5,141억)는 회사 공시가 아님 (TR)</li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/154505" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 07:46</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/78927" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 08:30</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004" target="_blank" rel="noopener"><i></i>DART/1차</a></div></div></div><div class="card"><div class="ch"><span class="rank part">P1</span><h3>DN오토모티브</h3><span class="pill ok">일부확인</span><span class="pill part">부분확인</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>정부</span><b>10/12 고용부 공식 설명자료</b></div><div class="vchip caut"><span>주가</span><b>−20.43% (매경)</b></div><div class="vchip "><span>구분</span><b>의혹≠감독결과≠유죄 확정</b></div></div><ul class="list"><li><span class="pill ok">확인</span> 고용부 설명 공개 (https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064)</li><li>연합: 산업안전 위반 68건·과태료 4,620만원·수사의뢰 보도 <span class="pill part">부분확인</span></li><li>회사별 충당·최종 형사·생산 영향 <span class="pill unv">미확인</span></li></ul><p class="fine" style="margin-top:8px">TR handoff · Research Priority=P1 · 매수 추천 아님. 심층은 07.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener"><i></i>DART/1차</a></div></div></div><div class="grid2" style="margin-top:14px"><div class="blk cat"><h4>해외 커뮤니티 · X</h4><ul class="list"><li>기술주 집중·고금리·CPI·에너지 공급 충격 경계 게시 관찰</li><li>AI 메모리 공급부족 낙관 주장도 공존</li><li>KOSPI −3.65%·삼성/하이닉스 신용규제 헤드라인 확산</li><li>주간 촉매: 은행 실적 + 9월 CPI</li></ul><p class="fine" style="margin-top:8px">community_x.md · 정량 지표 아님.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://x.com/i/trending/2109546607494488177" target="_blank" rel="noopener"><i></i>X KOSPI 트렌드</a></div></div><div class="blk risk"><h4>해외 커뮤니티 · Reddit</h4><ul class="list"><li>hot/new API <b>403 차단</b> → 실시간 순위 아님</li><li>WSB: 고유가·10Y 5%대 → CPI 주간 변동성 테마 (2차 요약)</li><li>r/stocks: 삼성/하이닉스 HBM·AI 메모리 장기 강세 서사 유지</li><li>국내 급락과 해외 펀더멘털 서사 <b>괴리 가능</b></li></ul><p class="fine" style="margin-top:8px">community_reddit.md · 전체 여론 일반화 금지.</p></div></div><div class="caution"><b class="t">주의</b> · 가격·수급은 매체 표·Yahoo·텔레그램 기반. KOSDAQ 수급 서술 충돌은 표만 사용. 테마성 급등(호남·건설)은 개별 수주 확인 전 추격 해석 주의. 비공개 텔레그램 미수집.</div>
+</section>
+<section class="sec" id="s6">
+  <div class="sh"><span class="no">06</span><h2>리포트 · 제도 · 공시</h2><span class="sub">TR 교차검증 · 주요 공시 요약</span></div>
+<p class="note">아래는 Telegram Research 3.7.4가 공시 요약·매체로 교차한 항목입니다. DART 원문 미열람분은 <span class="pill part">부분확인</span>/<span class="pill unv">미확인</span>을 유지합니다.</p><h3>수집·교차 공시 (요약)</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">종목</th><th class="">내용</th><th class="">판정</th></tr></thead><tbody><tr><td class="">HLB</td><td class="">Elevar 간암 병용 FDA 재신청 서류 제출 (10/9)</td><td class=""><span class="pill part">부분확인</span> · 승인 아님</td></tr><tr><td class="">올릭스</td><td class="">NZ OLX301A 2a IND HDEC 반려</td><td class=""><span class="pill part">부분확인</span> · 약효 실패 아님</td></tr><tr><td class="">셀트리온</td><td class="">3Q 잠정 매출 1.5조 · OP 5,100억</td><td class=""><span class="pill part">부분확인</span></td></tr><tr><td class="">한화머시너리…</td><td class="">김동선 공개매수 1,606만주×8,000원</td><td class=""><span class="pill part">부분확인</span></td></tr><tr><td class="">인텍플러스</td><td class="">기판 검사장비 ≈309억 공급계약</td><td class=""><span class="pill part">부분확인</span> · 고객 비공개</td></tr><tr><td class="">TXR로보틱스</td><td class="">사모 CB 300억 · 전환가 15,633원</td><td class=""><span class="pill part">부분확인</span></td></tr><tr><td class="">DN오토모티브</td><td class="">고용부 납 노출 설명 · 감독/수사 보도</td><td class="">설명 <span class="pill ok">확인</span> · 유죄 <span class="pill unv">미확인</span></td></tr></tbody></table></div><p class="note">서진시스템(블룸에너지 1,064억)·KCC건설(아성다이소 2,149억)·뱅크웨어글로벌(OK저축은행 161억) 등 추가 계약 수치는 공시 요약 기준, 원문 재점검 대상 (TR).</p><div class="caution"><b class="t">미확정·주의 표현</b> · 엑시콘 대형 삼성 공급계약설, 호남 연계주 직접 수주, 일부 CB·공개매수 최종 조건은 <b>원공시 추가 확인</b> 필요. OpenAI 9월 ARR ≈$500억 vs 연말 $700억 전망은 기준시점·집계범위가 달라 “200억 증발”로 쓰면 부정확 (TR).</div>
+</section>
+<section class="sec pb" id="s7">
+  <div class="sh"><span class="no">07</span><h2>Equity Intelligence 3.7.3.1 딥리서치</h2><span class="sub">PARTIAL / NEEDS_REVIEW · 조건부 · 원문 하단</span></div>
+<div class="statusbar"><div class="st"><span>엔진</span><b>Equity Intelligence 3.7.3.1</b></div><div class="st"><span>상태</span><b><span class="pill part">PARTIAL</span></b></div><div class="st"><span>발행</span><b><span class="pill unv">NEEDS_REVIEW</span></b></div><div class="st"><span>RUN_ID</span><b>TR-20261012-1900-daily-close</b></div><div class="st"><span>프로토콜</span><b>deep-research-return/3.7.4</b></div><p>P1 7건 심층 · <b>확정 매수·매도·목표가 없음</b> (NO_FIRM_BUY_SELL_RECOMMENDATION). 사건 존재와 미래 수익 확실성을 분리. 텔레그램 요약과 원문 전문은 하단 접힌 영역에 따로 둠. · <a href="https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6accb678-7550-83ec-a79a-6563cf2d78b8" target="_blank" rel="noopener">EI chat</a></p></div><div class="flow"><span>수집 <span class="pill ok">완료</span></span><em>→</em><span>TR 3.7.4 <span class="pill ok">PARTIAL</span></span><em>→</em><span>handoff P1 <span class="pill ok">true</span></span><em>→</em><span>Equity Intelligence 3.7.3.1 <span class="pill part">PARTIAL</span></span><em>→</em><span>발행 <span class="pill unv">NEEDS_REVIEW</span></span></div><h3>클레임 등급 집계 (TR evidence_state → EI 유지)</h3><div class="tiers" style="grid-template-columns:repeat(3,1fr)"><div class="tier t1"><div class="tl">VERIFIED</div><div class="td">공식 원문·공시로 확인된 사실</div><div class="tn">1건</div></div><div class="tier t2"><div class="tl">PARTIALLY VERIFIED</div><div class="td">공시 재게시·보도 재현 · 핵심 한도 미확정</div><div class="tn">7건</div></div><div class="tier t3"><div class="tl">UNVERIFIED</div><div class="td">미확인 · 투자 확정 금지</div><div class="tn">7건</div></div></div><div class="caution"><b class="t">의사결정</b> · NO_FIRM_BUY_SELL_RECOMMENDATION. PARTIAL / NEEDS_REVIEW. 시세 공급자 충돌(올릭스·TXR)과 DART 일부 미열람을 해소하기 전 READY_TO_PUBLISH로 승격하지 않음. 가격·목표가·손절·비중 지시 없음.</div><div class="concl"><div class="lab">45초 총평 (EI)</div><p>7건 모두 테마 전달만으로 치부할 수 없는 공시·규제·영업 사건이다. 다만 <span class="hl">서류 제출≠FDA 허가</span>, <span class="hl">수주≠영업이익</span>, <span class="hl">CB 결정≠납입·전환</span>, <span class="hl">공개매수 가격≠보장 시장가</span>, <span class="hl">잠정 OP≠CFO/FCF</span>, <span class="hl">감독조치≠확정 형사·비용</span>을 구분한다. 시장 전체 외인 순매도(코스피≈1.99조)는 개별 종목 수급이 아니다.</p></div><h3>P1 7건 종목 카드 (조건·리스크 유지 · 매수/매도 없음)</h3><div class="card"><div class="ch"><span class="rank ei">1</span><h3>HLB (028300) · FDA 재신청</h3><span class="tag">KOSDAQ · KRW · Elevar · 10/9 제출 · 10/12 공시</span><span class="pill part">부분확인</span><span class="pill unv">접수·허가 미확인</span></div><div class="cb"><div class="chips"><div class="vchip "><span>공급자 표시가</span><b>44,400원 · −2.74% (한경 표시, 인과 단정 금지)</b></div><div class="vchip caut"><span>2025 연결 매출 / CFO</span><b>약 842억 / 약 −926억</b></div><div class="vchip main"><span>핵심 구분</span><b>제출 ≠ FDA 접수 ≠ 최종 허가</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>Elevar가 현지시간 10/9 리보세라닙·캄렐리주맙 간암 1차 병용 FDA 재승인 신청 서류 제출 <span class="pill part">부분확인</span> (공시 재게시)</li><li>회사 확인 10/10 · 국내 공시 10/12 · 직전 7/9 CRL 후속</li><li>Class 1(2개월)/Class 2(6개월)은 접수·분류 전제 제도기간이지 10/9부터 확정 일정이 아님</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>신약 허가 시 귀속가치 = 미국 판매액 전체가 아니라 권리·판권·원가·공동개발 몫·마일스톤·추가 조달 차감 현금흐름</li><li>약세: 추가 보완·승인 지연 + 현금 소진 / 중립: 접수돼도 매출까지 시간 / 강세: 보완 해소·허가·상업화 경제성 순차 입증</li><li>임의 승인확률·목표가 부여 없음</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>FDA 접수 통지 · Class 결정 · CRL 지적 해결 근거</li><li>제조·품질 실사 · 판매권리/로열티 구조 · 최신 자금잔액</li><li>10/15 HLB Group IR Day의 <b>검증 가능한 신규</b> 정보 (IR≠접수·승인)</li></ul></div><p class="fine" style="margin-top:8px">EI · Research Priority=P1 · 매수·매도 권고 아님. 승인 전 신약 매출을 확정 실적으로 반영하지 않음.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.bosoop.com/disclosures/20261012900006/" target="_blank" rel="noopener"><i></i>보숲 공시 재게시</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900006" target="_blank" rel="noopener"><i></i>DART rcpNo</a></div></div></div><div class="card"><div class="ch"><span class="rank ei">2</span><h3>올릭스 (226950) · NZ 2a IND 반려</h3><span class="tag">KOSDAQ · KRW · OLX301A/OLX10212 · GA</span><span class="pill part">부분확인</span><span class="pill unv">세부사유·호주 미확인</span></div><div class="cb"><div class="chips"><div class="vchip caut"><span>공급자 표시가</span><b>106,000~106,200원* · −9%대</b></div><div class="vchip "><span>2025 연결</span><b>매출 약 147억 · 영업손실 약 300억</b></div><div class="vchip main"><span>의미</span><b>심의 반려 ≠ 약효/독성 실패 확정</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>Northern B HDEC가 윤리·관련 법규 미충족으로 임상 2a상 신청 반려 <span class="pill part">부분확인</span> (공시 재게시)</li><li>회사는 재심의·재제출 준비 중</li><li>*종가 공급자 충돌(106,000 vs 106,200) → 정밀 수익률·밸류 계산 보류</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>현 공개내용만으로 효능 부재·약물 독성 발견으로 해석할 근거 없음 (EI COUNTER)</li><li>2025 영업손실 공급자 수치(≈266억 vs 300억) 회계범위 차이 재확인 전 혼용 금지</li><li>약세: 재제출 지연·프로토콜 재설계 / 중립: 행정·윤리 보완 후 재심의 / 강세: 신속 재제출+타 임상경로(효능은 별도)</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>HDEC 지적사항 세부 · 보완서 제출일 · 재심의 결과</li><li>호주 규제 실제 결정</li><li>현금 및 12~24개월 R&D 런웨이</li></ul></div><p class="fine" style="margin-top:8px">EI · P1 · 매매 권고 아님. 공시 속 일반 임상 성공확률을 OLX301A 개별 승인확률로 쓰지 않음.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.bosoop.com/disclosures/20261012900388/" target="_blank" rel="noopener"><i></i>보숲 공시 재게시</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900388" target="_blank" rel="noopener"><i></i>DART rcpNo</a></div></div></div><div class="card"><div class="ch"><span class="rank ei">3</span><h3>인텍플러스 (064290) · 기판 검사장비 수주</h3><span class="tag">KOSDAQ · KRW · 계약 10/8 · 공시 10/12</span><span class="pill part">부분확인</span><span class="pill unv">고객·수익성 미확인</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>계약금액</span><b>309.02억원 (VAT 제외)</b></div><div class="vchip "><span>2025 매출 대비</span><b>34.43%</b></div><div class="vchip "><span>종료 예정</span><b>2028-01-10</b></div><div class="vchip caut"><span>대금 약정</span><b>선급 20% · 중도 60% · 잔금 20%</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>반도체 Substrate 검사장비 확정계약 공시 재게시로 금액·비중·종료일·지급비율 <span class="pill part">부분확인</span></li><li>고객명·공급지역 비공개 · 특정 반도체 기업/NVIDIA 등과 임의 연결 금지</li><li>지급비율 해당액(≈61.8/185.4/61.8억)은 약정 분할이지 실제 입금 증거가 아님</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>2025 연결 영업손실 ≈37억, 2026H1 영업손실 ≈70억 → 수주≠피크 마진 자동회복</li><li>증분 OP = 실제 인식매출 × 실현 GPM − 추가 판관·보증</li><li>약세: 원가↑·납기지연·고객투자 변경 / 중립: 기간 분산 인식 / 강세: 일정·마진·대금회수 정상</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>납품·검수 · 실제 대금회수 · 계약 정정 여부</li><li>매출채권·재고 · 분기 영업현금흐름</li><li>2027~2028 실제 인식 배분</li></ul></div><p class="fine" style="margin-top:8px">EI · P1 · 매매 권고 아님. 계약 규모를 이익 증가액으로 환산하지 않음.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.bosoop.com/disclosures/20261012900145/" target="_blank" rel="noopener"><i></i>보숲 공시 재게시</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900145" target="_blank" rel="noopener"><i></i>DART rcpNo</a></div></div></div><div class="card"><div class="ch"><span class="rank ei">4</span><h3>티엑스알로보틱스 (484810) · 사모 CB 300억</h3><span class="tag">KOSDAQ · KRW · 결정 10/12 · 납입 예정 10/20</span><span class="pill part">부분확인</span><span class="pill unv">납입·완료 미확인</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>발행 예정</span><b>300억원 · 시설 200 / 운영·R&D 100</b></div><div class="vchip "><span>전환가 / 잠재신주</span><b>15,633원 / 1,919,017주</b></div><div class="vchip caut"><span>희석 표기</span><b>기존대비 12.42% · 전환후 11.05% (분모 다름)</b></div><div class="vchip caut"><span>시세</span><b>공급자 충돌* · 정밀 종가 보류</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>사모 CB 발행 결정 조건(금액·전환가·신주·이율 0%·Put/Call) 공시 재게시 <span class="pill part">부분확인</span></li><li>표면/만기 이율 0% ≠ 무비용 자금 (Put 2029.04부터 원금 100%, Call 최대 40%)</li><li>공시 재게시 ≈16:22 → 당일 15:30 KRX 종가를 CB 반응으로 단정 불가</li><li>*한경 표시 10,660 vs 타 공급자 11,730 충돌 · 공식 종가 임의 채택 안 함</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>발행 결정 ≠ 납입 완료 ≠ 전환</li><li>2025 별도 매출 566억·영업손실 8억·순손실 153억, 2026H1 영업손실 28억 (보조집계)</li><li>약세: 미납입·자금소진·Put 부담 / 중립: 확보 후 수익화 지연 / 강세: 고객·해외·GPM 개선 확인</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>10/20 실제 납입 · 발행조건 정정</li><li>인수자·전환 여부 · 순희석</li><li>2029 현금상환 능력 · 세션별 시세 충돌 해소</li></ul></div><p class="fine" style="margin-top:8px">EI · P1 · 매매 권고 아님. 희석·Put·Call을 무시한 "성장자금" 해석 금지.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285" target="_blank" rel="noopener"><i></i>economyreports 재게시</a><a class="schip" style="--c:#64748b" href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000285" target="_blank" rel="noopener"><i></i>DART rcpNo</a></div></div></div><div class="card"><div class="ch"><span class="rank ei">5</span><h3>한화머시너리앤서비스홀딩스 (0220W0) · 공개매수</h3><span class="tag">KOSPI · 단축코드 0220W0 · 김동선</span><span class="pill part">부분확인</span><span class="pill unv">최종 이행 미확인</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>공개매수가</span><b>8,000원 / 주</b></div><div class="vchip "><span>목표수량 · 대금</span><b>최대 1,606만주 · 최대 1,284.8억원</b></div><div class="vchip "><span>기간 · 결제</span><b>10/12~11/2 · 결제 예정 11/4</b></div><div class="vchip "><span>공급자 표시가</span><b>7,540원 · +24.01% (인과=공개매수 단정 주의)</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>현금 공개매수 조건(수량·가격·기간·안분) 공시·설명서 재게시 <span class="pill part">부분확인</span></li><li>전량 시 특수관계인 합산 지분 ≈60.32%→79.32%는 <b>기재 시나리오</b>이지 최종 결과 아님</li><li>8,000원 ≠ 전 주식 보장 시장가 (안분·잔여·비용·일정 위험)</li><li>10/8 공정위 지주회사 요건 충족 통지 공시와 별개로 SOTP·지배구조 분석에 중요</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>가치 경로는 영업이익이 아니라 지배구조·자본배분·소수주주 권리</li><li>분할 신설 지주사에 옛 사업부 매출 소급·상장자회사 가치 중복합산 금지</li><li>약세: 낮은 응모·권리 약화·불리한 관계사 거래 / 중립: 지분만 변동 / 강세: 공정 자본배분이 주당가치 반영</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>최종 응모·안분·결제 · 실제 지분율</li><li>분할 후 SOTP · 지배구조 개편</li><li>상장폐지 미추진 기재 ≠ 장래 개편 배제</li></ul></div><p class="fine" style="margin-top:8px">EI · P1 · 매매 권고 아님. 공개매수-시장가 스프레드를 무위험 차익으로 보지 않음.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002" target="_blank" rel="noopener"><i></i>economyreports 설명서</a><a class="schip" style="--c:#64748b" href="https://kind.krx.co.kr/external/2026/08/21/000488/20260821001579/68156.htm" target="_blank" rel="noopener"><i></i>KIND 재상장</a></div></div></div><div class="card"><div class="ch"><span class="rank ei">6</span><h3>셀트리온 (068270) · 2026Q3 잠정</h3><span class="tag">KOSPI · KRW · K-IFRS 연결</span><span class="pill ok">잠정 교차확인</span><span class="pill part">부분확인</span><span class="pill unv">CFO·FCF 미공시</span></div><div class="cb"><div class="chips"><div class="vchip main"><span>잠정 매출 / OP</span><b>1조5,000억 / 5,100억</b></div><div class="vchip "><span>OPM</span><b>34.0%</b></div><div class="vchip "><span>YoY / QoQ OP</span><b>+69.21% / +12.88%</b></div><div class="vchip "><span>공급자 표시가</span><b>180,400원 · +0.45%</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>회사 IR 보도자료와 잠정공시 재게시 수치 일치 <span class="pill ok">확인</span> (매출·OP·OPM·YoY/QoQ)</li><li>고수익 후속 바이오시밀러 믹스·원가개선은 <b>회사 설명</b> → 제품별 원가·ASP·현금회수로 재검증 필요</li><li>잠정에 순이익·희석 EPS·CFO·Capex·FCF 없음 → OP만으로 PER/FCF 리비전 계산 보류</li><li>사전 컨센서스 기준시점·표본 미확정 → 정식 어닝 서프라이즈율 보류</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>TTM(25Q4~26Q3 결합) 매출≈5.37조 · OP≈1.76조 · OPM≈32.8%는 분석용이지 감사 연간이 아님</li><li>약세: 가격경쟁·재고↑·원가개선 약화 / 중립: 성장과 ASP하락 공존 / 강세: 고마진 믹스+현금전환 유지</li><li>9/29 자사주 취득 결의(≈1,000억 · 560,853주, ~12/29) ≠ 매수·소각 완료</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>확정 실적 · 제품별 판매·마진</li><li>재고·채권 · CFO·FCF</li><li>자사주 실제 취득·소각</li></ul></div><p class="fine" style="margin-top:8px">EI · P1 · 매매 권고 아님. 34% OPM을 곧바로 정상 마진으로 확정하지 않음.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://celltrion.com/ko-kr/company/media-center/press-release" target="_blank" rel="noopener"><i></i>셀트리온 IR</a><a class="schip" style="--c:#64748b" href="https://www.bosoop.com/disclosures/20261012800004/" target="_blank" rel="noopener"><i></i>보숲 잠정</a></div></div></div><div class="card"><div class="ch"><span class="rank ei">7</span><h3>DN오토모티브 (007340) · 산업안전</h3><span class="tag">KOSPI · KRW · 고용부 10/12 설명</span><span class="pill ok">정부 발표 확인</span><span class="pill part">부분확인</span><span class="pill unv">형사·비용 미확정</span></div><div class="cb"><div class="chips"><div class="vchip caut"><span>공급자 표시가</span><b>39,150원 · −20.43%</b></div><div class="vchip "><span>2025 연결 OP</span><b>약 5,279억원</b></div><div class="vchip main"><span>보도 수치</span><b>산안법 위반 68건 · 과태료 4,620만원</b></div></div><div class="blk thesis"><h4>확인·구분 (EI)</h4><ul class="list"><li>고용부 10/12 공식 설명자료 공개 <span class="pill ok">확인</span></li><li>연합: 입건·송치 68건, 과태료 4,620만원, 업무방해 수사의뢰, 4/21~5/7 사용중지 보도 <span class="pill part">부분확인</span></li><li>행정·감독 결과 ≠ 최종 형사책임 ≠ 연결 손익 확정 금액</li></ul></div><div class="blk risk"><h4>조건 · 리스크 (원문 유지)</h4><ul class="list"><li>미확정 벌금·합의·정화·산재를 충당부채로 임의 기입 금지 / 반대로 모든 비용을 일회성 제거도 부적절</li><li>2025 OP가 이번 위험을 "제거"해 주지 않음</li><li>약세: 추가 중단·소송·고객 인증 악화 / 중립: 시정비용 부담+생산 유지 / 강세: 독립조사·환경개선으로 불확실성 축소</li></ul></div><div class="blk cat"><h4>후속 확인</h4><ul class="list"><li>정부 첨부 상세 대조 · 형사 처리 단계</li><li>추가 사용중지 · 안전 Capex</li><li>충당·우발채무 주석 · 고객 납품 영향</li></ul></div><p class="fine" style="margin-top:8px">EI · P1 · 매매 권고 아님. 주가 급락≠벌금·유죄 확률의 정량 근거.</p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener"><i></i>고용부 설명</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/amp/view/AKR20261012089900530" target="_blank" rel="noopener"><i></i>연합 보도</a></div></div></div><h3>Evidence Ledger 요약 (EI 원문 §9)</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">사건</th><th class="">근거 수준</th><th class="">사용한 수치</th><th class="">미해결</th></tr></thead><tbody><tr><td class="">HLB FDA 재신청</td><td class="">DART 재게시 <span class="pill part">부분확인</span></td><td class="">제출 사실</td><td class="">접수·Class·허가</td></tr><tr><td class="">올릭스 NZ IND 반려</td><td class="">DART 재게시 <span class="pill part">부분확인</span></td><td class="">윤리·법규 미충족</td><td class="">세부사유·호주</td></tr><tr><td class="">인텍플러스 수주</td><td class="">DART 재게시 <span class="pill part">부분확인</span></td><td class="">309.02억 / 34.43%</td><td class="">고객·검수·마진</td></tr><tr><td class="">TXR CB</td><td class="">DART 재게시 <span class="pill part">부분확인</span></td><td class="">12.42% / 11.05%</td><td class="">납입·전환·종가충돌</td></tr><tr><td class="">한화M&S 공개매수</td><td class="">KIND+설명서 <span class="pill part">부분확인</span></td><td class="">1,606만×8,000=1,284.8억</td><td class="">안분·결제·지분</td></tr><tr><td class="">셀트리온 26Q3 잠정</td><td class="">IR+공시 교차 <span class="pill ok">확인</span></td><td class="">OPM 34.0%</td><td class="">순익·CFO·FCF</td></tr><tr><td class="">DN 산업안전</td><td class="">고용부 <span class="pill ok">확인</span> + 연합 <span class="pill part">부분확인</span></td><td class="">68건·4,620만원(보도)</td><td class="">형사·비용·가동</td></tr></tbody></table></div><p class="note">재게시 공시를 여러 매체가 인용한 것은 독립 원천이 아님. DART 뷰어 일부 직접 열람 실패 → 재게시를 1차 원문 직접 확인으로 승격하지 않음.</p><div class="blk risk"><h4>공통 한계 (EI)</h4><ul class="list"><li>7사 모두 동일 거래장소·수정주가 정의의 충분 OHLCV·종목별 수급 미확보 → 이동평균·RSI·MACD·ATR·기술적 손절가 미설정 (데이터 미확보≠약세 신호)</li><li>정밀 목표가·요구수익률 역산·Fundamental R/R 미산출 (희석주식수·배당권리·일관 V_T 부족)</li><li>한국 시장 동반 하락을 모든 종목의 동일한 기업가치 악화로 해석하지 않음</li></ul></div><details class="cfold bf k-unresolved"><summary><b class="ft">미해결 항목 (unresolved_items)</b><span class="fcnt">미해결 12개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb"><ul class="limits"><li>MATERIAL: DART의 10월 12일 관련 원문 중 일부는 직접 열람에 실패했다. 공시 재게시와 언론의 동일 원천 인용을 1차 원문 직접 확인으로 간주하지 않았다.</li><li>MATERIAL: 티엑스알로보틱스의 2026-10-12 주가 공급자별 값과 세션 표기가 충돌한다. KRX 정규장 및 대체거래소 가격의 직접 대조가 필요하다.</li><li>MATERIAL: 올릭스의 2026-10-12 정규장 종가에 공급자별 106000원과 106200원 차이가 있다. 거래장소 및 관측시점 확인이 필요하다.</li><li>HLB: FDA 신청서 공식 접수, Class 1/2 분류, CRL 보완사항의 충족 여부 및 확정 허가 일정 미확인.</li><li>올릭스: HDEC의 구체적인 윤리·법규상 반려 사유, 재제출 시점, 호주 임상 신청 상태 미확인. 2025년 영업손실 공급자 수치의 회계범위 차이 확인 필요.</li><li>인텍플러스: 계약 상대방, 납품·검수 일정, 실제 입금, 제품별 증분마진 및 2027~2028년 매출인식 배분 미확인.</li><li>티엑스알로보틱스: CB 실제 납입, 인수자와 최종 조건, 전환 여부, 미래 Put 상환 재원 및 순희석 확정 전.</li><li>한화머시너리앤서비스홀딩스: 공개매수 최종 응모·안분·결제·취득 지분율 미확정. 신설 지주사 독립 재무이력과 SOTP의 추가 확인 필요.</li><li>셀트리온: 2026Q3 잠정 순이익, 희석 EPS, CFO, Capex, FCF 및 정식 검토 후 재무 미공시. 사전 컨센서스 기준시점과 사후 리비전 미확정.</li><li>DN오토모티브: 고용노동부 첨부 상세자료의 직접 대조가 완료되지 않았으며 형사책임, 충당부채, 보상금액, 후속 생산영향이 확정되지 않았다.</li><li>CROSS_CASE: 7개 기업의 완전한 최대 8개 독립 분기 P/L·BS·CF·희석·ROIC 및 일관된 거래장소 기준 OHLCV·종목별 수급이 모두 확보된 것은 아니다. 정밀 밸류에이션·기술지표·목표가·매매조건은 미산출.</li><li>PUBLICATION: 현재 결과는 검토용 초안이다. 중요 시세 충돌과 미확인 공시 세부사항을 해결하거나 공개문에서 제외하고 근거 수준을 다시 대조하기 전 READY_TO_PUBLISH로 승격하지 않는다.</li></ul></div></details><details class="fold"><summary>EI Telegram 게시용 요약 (8개) · 원문과 별도<small>검토용 초안 · 외부 미게시</small></summary><div class="fb"><pre class="tgmsg">(1/8) 📊 2026.10.12 한국 증시 마감 | 검토용
+RUN_ID: TR-20261012-1900-daily-close
+
+KOSPI 6,384.24(-3.65%), KOSDAQ 849.19(-4.83%). KOSPI 외국인 순매도 약 1조9,938억원, KOSDAQ 약 235억원으로 합계 약 2조173억원. 시장 전체 수급이며 개별 종목 순매수가 아닙니다.
+
+일본 도쿄증권거래소 현물은 스포츠의 날로 휴장. 미국 주식시장은 콜럼버스 데이에도 정상 개장 예정이며 채권시장은 휴일입니다.
+
+이번 P1 검토 대상은 HLB, 올릭스, 인텍플러스, 티엑스알로보틱스, 한화머시너리앤서비스홀딩스, 셀트리온, DN오토모티브입니다. 텔레그램 주장을 별도로 검증한 결과 사건별 근거를 확보했지만, 일부 원문·시세·재무자료 충돌이 남아 있습니다.
+
+상태: PARTIAL / NEEDS_REVIEW. 외부 게시 전 원문 검토 필요. 매수·매도 권고가 아닙니다.</pre><pre class="tgmsg">(2/8) 🧬 HLB(028300·KOSDAQ) | FDA 재신청 검토
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+Elevar Therapeutics의 리보세라닙·캄렐리주맙 간암 1차 치료제 관련 FDA 재승인 신청 서류는 미국 현지시간 10월 9일 제출됐습니다. 회사 확인일은 10월 10일이며 국내 공시는 10월 12일입니다. 7월 9일 CRL에 대한 후속 조치입니다.
+
+중요한 구분: 서류 제출 ≠ FDA 접수 확인 ≠ 최종 허가. Class 1의 2개월 또는 Class 2의 6개월 심사기간은 아직 이 사건에 확정 적용된 일정이 아닙니다.
+
+재무 측면에서 2025년 연결 매출은 약 842억원, 영업현금흐름은 약 -926억원입니다. 기존 소재사업 실적과 항암 신약의 상업화 권리·조달 부담을 따로 평가해야 합니다.
+
+후속 확인: FDA 접수, Class 결정, CRL 보완사항, 자금잔액, 10월 15일 예정 IR의 실질적 신규 정보.
+
+근거: <a href="https://www.bosoop.com/disclosures/20261012900006/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900006/</a>
+상태: 재게시 공시 확인, FDA 접수·허가 미확인. 검토용이며 매매 권고가 아닙니다.</pre><pre class="tgmsg">(3/8) 🧪 올릭스(226950·KOSDAQ) | 뉴질랜드 임상 2a상 신청 반려
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+OLX301A·OLX10212 프로그램의 뉴질랜드 지도모양위축 대상 임상 2a상 신청에 대해 Northern B HDEC가 윤리 기준 및 관련 법규 미충족을 이유로 반려한 내용이 공시 재게시 원문에서 확인됩니다. 회사는 재심의와 재제출을 준비 중입니다.
+
+이것은 실제 규제절차상의 지연 위험이지만, 현 단계 공개 내용만으로 약물 효능이나 안전성 실패를 확정할 수 없습니다. 반려 사유의 구체적인 항목과 호주 신청 상태도 별도 검증이 필요합니다.
+
+2025년 연결 집계 매출 약 147억원, 영업손실 약 300억원이며 2026년 2분기 영업손실은 약 140억원입니다. 개발비 지속과 현금 소진, 기술이전 계약의 실제 수익화 조건이 중요합니다.
+
+후속 확인: HDEC 지적사항, 보완서 재제출, 재심의 결과, 호주 규제상태, 현금 런웨이.
+
+근거: <a href="https://www.bosoop.com/disclosures/20261012900388/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900388/</a>
+상태: 반려 공시 재게시 확인, 세부 규제판단 미확인. 매매 권고가 아닙니다.</pre><pre class="tgmsg">(4/8) 🏭 인텍플러스(064290·KOSDAQ) | 반도체 검사장비 수주
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+2026년 10월 8일 체결된 반도체 Substrate 검사장비 공급계약이 10월 12일 공시됐습니다. 계약금액은 VAT 제외 309.02억원으로 2025년 연결 매출의 34.43%입니다. 계약 종료 예정일은 2028년 1월 10일입니다.
+
+대금 조건은 선급금 20%, 중도금 60%, 잔금 20%. 이는 지급 약정이지 실제 입금 증거가 아닙니다. 고객명과 공급지역은 비공개입니다. 특정 반도체 기업의 투자와 임의로 연결하지 않습니다.
+
+2025년 연결 영업손실 약 37억원, 2026년 상반기 영업손실 약 70억원으로, 신규 수주의 매출총이익·검수·운전자본 효과가 핵심입니다. 계약 규모를 이익 증가액으로 바꿀 수 없습니다.
+
+후속 확인: 납품 및 검수, 실제 대금회수, 계약 정정, 매출채권·재고, 분기 영업현금흐름.
+
+근거: <a href="https://www.bosoop.com/disclosures/20261012900145/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900145/</a>
+상태: 계약 조건 재게시 확인, 고객·수익성 미확인. 매매 권고가 아닙니다.</pre><pre class="tgmsg">(5/8) 🤖 티엑스알로보틱스(484810·KOSDAQ) | 전환사채 발행 결정
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+사모 CB 300억원 발행 결정. 시설투자 200억원, 운영·R&amp;D 100억원. 최초 전환가액 15,633원, 전환 가능 신주 1,919,017주입니다. 최초 조건상 기존 발행주식 대비 12.42%, 전환 후 전체 주식 대비 11.05%로 분모가 다른 수치입니다.
+
+표면 및 만기 이율은 각각 0%지만 2029년 4월부터 원금 100% 조기상환 Put이 가능합니다. 별도의 Call 조건도 있습니다. 납입 예정일은 10월 20일이며 실제 납입은 아직 확인되지 않았습니다.
+
+이번 공시 재게시 시점은 10월 12일 오후 16시경으로 KRX 정규장 마감 이후입니다. 10월 12일 정규장 종가를 CB 발표의 직접 반응으로 단정할 수 없습니다. 당일 가격 공급자 간 충돌도 있어 정밀 종가 판단을 보류합니다.
+
+후속 확인: 납입, 발행조건 정정, 2029년 현금상환 능력, 자금 투자성과, 실제 전환·희석.
+
+근거: <a href="https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285" target="_blank" rel="noopener">https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285</a>
+상태: 발행 결정 확인, 완료 미확인. 매매 권고가 아닙니다.</pre><pre class="tgmsg">(6/8) 🏢 한화머시너리앤서비스홀딩스(0220W0·KOSPI) | 공개매수
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+김동선의 현금 공개매수 조건은 보통주 최대 16,060,000주, 주당 8,000원입니다. 기간은 10월 12일부터 11월 2일까지, 결제 예정일은 11월 4일입니다. 최대 공개매수대금은 1,284억8,000만원입니다.
+
+목표수량을 초과하는 응모에는 안분비례가 적용됩니다. 전량 완료 시 공개매수자 및 특수관계인 합산 보통주 지분율은 약 60.32%에서 79.32%로 높아질 것으로 기재됐지만 최종 결과는 아닙니다.
+
+8,000원은 모든 투자자의 주식에 보장되는 시장가격이 아닙니다. 안분, 잔여주식, 비용, 일정 위험이 있습니다. 지주회사인 만큼 공개매수 자체보다 향후 자본배분·소수주주 권리·자회사 가치의 귀속을 봐야 합니다.
+
+후속 확인: 최종 응모·안분·결제, 실제 지분율, 분할 후 SOTP와 지배구조 개편.
+
+근거: <a href="https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002" target="_blank" rel="noopener">https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002</a>
+상태: 공개매수 공시 확인, 최종 이행 미확인. 매매 권고가 아닙니다.</pre><pre class="tgmsg">(7/8) 💊 셀트리온(068270·KOSPI) | 2026년 3분기 잠정실적
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+회사의 공식 발표와 공시 재게시를 대조했습니다. 2026년 3분기 K-IFRS 연결 잠정 매출은 1조5,000억원, 영업이익은 5,100억원, 영업이익률은 34.0%입니다. 전년 동기 대비 매출 +45.77%, 영업이익 +69.21%, 직전 분기 대비 매출 +7.63%, 영업이익 +12.88%입니다.
+
+회사는 고수익 후속 바이오시밀러 매출 믹스와 원가구조 개선을 설명합니다. 다만 이는 회사 설명이며 제품별 원가·판매단가와 현금회수 데이터로 지속성을 다시 검증해야 합니다.
+
+2026년 3분기 잠정 공시에는 순이익·희석 EPS·CFO·FCF가 없습니다. 공시 이전 시점으로 고정된 컨센서스 자료도 부족하므로 정확한 어닝 서프라이즈율과 정상 EPS 리비전은 보류합니다.
+
+후속 확인: 확정 실적, 제품별 판매·마진, 재고·채권, CFO·FCF, 실제 자사주 취득·소각.
+
+근거: <a href="https://celltrion.com/ko-kr/company/media-center/press-release" target="_blank" rel="noopener">https://celltrion.com/ko-kr/company/media-center/press-release</a>
+공시: <a href="https://www.bosoop.com/disclosures/20261012800004/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012800004/</a>
+상태: 잠정 실적 직접 교차확인, 현금흐름 미공시. 매매 권고가 아닙니다.</pre><pre class="tgmsg">(8/8) ⚖️ DN오토모티브(007340·KOSPI) | 산업안전 사건
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+고용노동부는 10월 12일 DN오토모티브의 납 노출·주사 관련 의혹에 대한 공식 설명자료를 발표했습니다. 연합뉴스는 산업안전보건법 위반 68건 입건·송치, 과태료 4,620만원, 업무방해 혐의 경찰 수사 의뢰를 보도했습니다. 앞서 4월 21일부터 5월 7일까지 관련 납 노출 공정에 대한 사용중지 조치가 있었다고 보도됐습니다.
+
+확인된 행정조치와 최종 형사책임은 구별해야 합니다. 회사에 얼마의 보상·소송·안전시설 비용이 실제 발생할지 아직 정량 확인되지 않았습니다. 동시에 2025년 연결 영업이익 약 5,279억원이 이번 위험을 제거해 주는 것도 아닙니다.
+
+후속 확인: 정부·경찰의 최종 판단, 작업환경 개선, 추가 생산 차질, 충당부채·우발채무, 고객사 납품 영향.
+
+정부: <a href="https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener">https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064</a>
+보도: <a href="https://www.yna.co.kr/amp/view/AKR20261012089900530" target="_blank" rel="noopener">https://www.yna.co.kr/amp/view/AKR20261012089900530</a>
+상태: 정부 발표 확인, 개별 책임과 비용은 미확정. 매매 권고가 아닙니다.</pre></div></details><details class="fold"><summary>원본 심층분석 전문 (Equity Intelligence 3.7.3.1)<small>verbatim · 링크 정리만</small></summary><div class="fb"><div class="md"><p>Equity Intelligence 3.7.3.1<br>TELEGRAM RESEARCH 3.7.4 · DAILY CLOSE · P1 DEEP RESEARCH<br>RUN_ID: TR-20261012-1900-daily-close<br>분석 기준: 2026년 10월 12일 월요일, 한국 정규장 마감 이후<br>분석 대상: HLB · 올릭스 · 인텍플러스 · 티엑스알로보틱스 · 한화머시너리앤서비스홀딩스 · 셀트리온 · DN오토모티브<br>투자자 기준통화: KRW</p>
+<ol><li>시장 마감 및 45초 총평</li></ol>
+<p>KOSPI · 10/12 종가<br>6,384.24<br>−3.65% · −241.69p</p>
+<p>KOSDAQ · 10/12 종가<br>849.19<br>−4.83% · −43.08p</p>
+<p>한국경제 시장종합 및 한국거래소 인용 마감 보도 교차확인.</p>
+<p>한국경제<br>+1</p>
+<p>오늘의 특징은 시장 전체의 위험회피와 개별기업의 중요한 공시가 같은 거래일에 집중됐다는 점입니다.<br>한국경제 장마감 집계 기준 KOSPI 외국인 순매도는 1조 9,938억 원, KOSDAQ은 235억 원으로, 두 시장 합산 약 2조 173억 원입니다. 이는 개별 P1 종목의 외국인 순매도를 뜻하지 않습니다.</p>
+<p>한국경제</p>
+<p>해외시장 일정도 구분해야 합니다. 일본 도쿄증권거래소 현물은 스포츠의 날로 휴장했지만, JPX의 일부 파생상품은 공휴일 거래 대상입니다. 미국 NYSE·Nasdaq은 10월 12일 정상 개장하며 미국 채권시장은 휴일 일정이 적용됩니다. 따라서 이날 한국 종가와 이후 미국시장 반응을 같은 시점의 정보로 취급해서는 안 됩니다.</p>
+<p>日本取引所グループ<br>+2</p>
+<p>이번 보고서는 사건의 존재, 공시가 실제로 의미하는 것, 기업의 이익·현금흐름에 도달하는 경로를 구분합니다. FDA 서류 제출은 승인과 다르고, 수주금액은 영업이익과 다르며, 잠정실적은 확정 현금흐름과 다릅니다. 매수·매도 추천 없이 후속 검증 조건을 제시합니다.</p>
+<ol><li>P1 사건 독립 검증 결과</li></ol>
+<p>10월 12일 종목별 가격과 핵심 사건<br>가격: KRW/주, 2026-10-12 공급자 표시값 · 수익률: 전 거래일 대비 · 공시 사건과 가격의 인과관계는 별도 검증<br>종목	확인된 공급자 가격	당일 등락	핵심 사건<br>HLB 028300	44,400원	−2.74%	FDA 재신청 서류 제출<br>올릭스 226950	106,000~106,200원*	−9%대	뉴질랜드 임상계획 반려<br>인텍플러스 064290	57,200원	−5.61%	약 309억원 공급계약<br>티엑스알로보틱스 484810	공급자 불일치*	미확정	300억원 CB 결정<br>한화M&amp;S 0220W0	7,540원	&#x27;+24.01%	김동선 공개매수<br>셀트리온 068270	180,400원	&#x27;+0.45%	3분기 잠정실적<br>DN오토모티브 007340	39,150원	−20.43%	납 노출·안전보건 조사<br>한국경제 7개 종목의 마감 표시값 및 올릭스 정규장 종가 보도.</p>
+<p>한국경제<br>+7</p>
+<ul><li>가격 데이터 주의: 올릭스는 한국경제 종목 화면 106,200원과 정규장 마감 보도 106,000원이 일치하지 않습니다. 티엑스알로보틱스는 한국경제 마감 표시 10,660원과 다른 공급자의 11,730원 표시가 충돌하며 후자의 세션 표기도 재확인이 필요합니다. 어느 값을 공식 확정 KRX 종가로 임의 채택하지 않고, 해당 가격을 활용한 정밀 수익률·밸류에이션 계산을 제한합니다. </li></ul>
+<p>한국경제<br>+2</p>
+<p>사건 자체에 대해서는 7건 모두 텔레그램 이외의 자료가 확보됐습니다. 다만 직접 확인한 1차 원문, 공시 원문을 재게시한 자료, 기사 보도를 구분해야 합니다. 특히 DART 뷰어의 해당 접수번호 직접 열람은 접근 오류가 있어, 재게시 공시의 내용 전체를 원문 직접 검증으로 승격하지 않았습니다.</p>
+<ol><li>핵심 기업별 심층 분석</li></ol>
+<p>① HLB · FDA 재신청은 확인, 접수·허가는 아직<br>KOSDAQ 028300 · KRW · 2026-10-12 사건 · K-IFRS 연결재무<br>검증된 사건: 미국 자회사 Elevar Therapeutics는 현지시간 10월 9일 리보세라닙·캄렐리주맙 간암 1차 치료 병용요법의 FDA 재승인 신청 서류를 제출했습니다. 회사의 확인일은 10월 10일, 국내 공시 접수일은 10월 12일입니다. 직전 2026년 7월 9일 CRL에 대한 후속 조치입니다.</p>
+<p>보숲</p>
+<p>핵심 구분: FDA가 서류를 받아 심사하기로 결정한 것과 회사가 서류를 제출한 것은 다릅니다. Class 1의 2개월, Class 2의 6개월은 접수·심사 분류를 전제로 하는 제도적 기간이지 10월 9일로부터 확정된 허가일이 아닙니다.<br>실적과 사업가치의 연결<br>최근 확인 가능한 연결 실적 요약: 2025년 매출 842억원. 2025년 3분기~2026년 2분기 합계 매출 약 975억원, 영업손실 약 981억원입니다. 마지막 4분기 합계는 보조 재무서비스가 DART를 재구성한 수치이며, 확정 법정보고서 원문과의 대조가 남아 있습니다.</p>
+<p>사업보고서·분기·반기보고서 확정 + 잠정 실적 대조</p>
+<p>신약이 허가되더라도 HLB에 귀속되는 가치는 미국 판매액 전체가 아니라 계약상 권리, 판권, 제조·유통원가, 공동개발사 몫, 마일스톤 및 추가 자본조달을 차감한 현금흐름입니다.</p>
+<p>Stage A · 정상화: 현재 연구개발비를 임의로 일회성 비용으로 제거하지 않습니다. 2026년 2분기 연결 매출 280억원, 영업손실 225억원, 순손실 804억원으로 집계된 보조자료가 있어 영업손익과 순손익의 괴리가 큽니다. 금융손익·평가손익·관계회사 귀속과 세금 항목을 확인해야만 정상화 EPS를 계산할 수 있습니다.</p>
+<p>사업보고서·분기·반기보고서 확정 + 잠정 실적 대조</p>
+<p>Stage B / Bear·Base·Bull: 약세는 FDA 추가 보완 또는 승인 지연과 현금 소진 지속, 중립은 신청이 접수되더라도 매출 발생까지 시간이 필요한 경우, 강세는 보완사항 해소·허가·상업화 계약의 경제성이 차례로 입증되는 경우입니다. 임의 승인확률은 부여하지 않습니다.<br>과거 유사사례: 2024년 5월, 2025년 3월 CRL 관련 공시, 2026년 1월 재신청, 7월 CRL 등 동일 개발 프로그램의 반복적 규제 사건이 확인됩니다. 사건의 종류는 유사하지만 각 CRL의 원인과 해결 정도는 다르며, 당시 주가 수익률과 2026년 결과를 단순 연결할 수 없습니다.</p>
+<p>보숲</p>
+<p>변경 조건: FDA 접수 통지, Class 결정, CRL 지적사항 해결 근거, 제조·품질 실사 결과, 판매 권리와 로열티 구조, 최신 자금잔액. 승인 전 신약 매출을 확정 실적으로 반영하지 않습니다.</p>
+<p>② 올릭스 · 임상 효능 실패가 아니라 현지 심의 단계 반려<br>KOSDAQ 226950 · KRW · 2026-10-12 사건 · 2026H1 최근 제출 재무<br>검증된 사건: 뉴질랜드 Northern B HDEC가 OLX10212(프로그램명 OLX301A)의 지도모양위축(GA) 대상 임상 2a상 신청을 반려했습니다. 재게시된 공시에는 윤리 기준과 관련 법규 미충족이라고 기재되어 있으며, 올릭스는 재심의·재제출을 준비한다고 밝혔습니다.</p>
+<p>보숲</p>
+<p>이것은 승인 절차상의 실질적인 악재이지만, 현재 공개된 설명만으로 후보물질의 효능 부재나 약물 독성 발견이라고 해석할 근거는 없습니다. 반려의 세부 사유와 호주 임상 신청 상태도 독립 확인이 필요합니다.<br>재무 부담도 함께 보아야 합니다. 2025년 연결 기준 보조 집계는 매출 147억원, 영업손실 300억원이며, 2026년 2분기는 매출 26억원, 영업손실 140억원입니다. 2025년 3분기~2026년 2분기 합계 매출 136억원, 영업손실 416억원으로 비용 부담이 지속됐습니다.</p>
+<p>주가맵</p>
+<p>회계 범위 경고: 일부 기업정보 서비스의 2025년 영업손실 약 266억원은 위 연결 집계의 300억원과 차이가 있습니다. 연결/별도 또는 조정 여부를 직접 재확인하기 전 두 숫자를 섞지 않습니다.<br>Stage A: 기술이전 계약금·마일스톤이 일시적으로 매출을 키울 수 있으므로 반복 매출과 구분해야 합니다. 반복되는 임상 연구비를 비경상비용으로 삭제한 흑자 추정은 적절하지 않습니다.<br>Stage B: 반려가 지연시키는 현금흐름은 임상 재제출 → 승인 → 환자 등록 → 결과 확보 → 기술이전·후속 계약 가능성의 순서로 연결됩니다. 직접적인 매출 손실액을 산출할 계약·마일스톤 일정은 확보되지 않았습니다.<br>세 가지 경로: 약세는 재제출 지연 또는 프로토콜 재설계 확대, 중립은 행정·윤리 보완 후 재심의, 강세는 신속한 재제출 승인과 호주 등 다른 임상 경로의 독립 진행입니다. 후자의 경우에도 임상 효능은 추후 별도 입증되어야 합니다.<br>반증 KPI: HDEC 지적사항의 세부 내용, 보완서 제출일, 최종 심의 결과, 호주 관련 규제기관의 실제 결정, 현금 및 향후 12~24개월 연구개발비. 공시 속 일반적인 임상 성공확률 안내를 OLX301A의 개별 승인확률로 사용하지 않습니다.</p>
+<p>③ 인텍플러스 · 수주의 질은 매출인식과 대금회수로 검증<br>KOSDAQ 064290 · KRW · 계약 2026-10-08 · 공시 2026-10-12<br>계약총액<br>309.02억<br>VAT 제외 · KRW</p>
+<p>2025 매출 대비<br>34.43%<br>연결 기준</p>
+<p>계약 종료<br>2028.01.10<br>예정일</p>
+<p>공시 재게시 원문에는 반도체 Substrate 검사장비의 확정 계약금액 30,902,000,000원, 선급금 20%·중도금 60%·잔금 20% 조건이 확인됩니다. 고객명과 공급지역은 비공개이며, 과거 3년간 같은 상대방과 동종 계약을 이행했다는 설명이 있습니다.</p>
+<p>보숲<br>+1</p>
+<p>현금흐름 전달경로: 지급 비율에 해당하는 계약금액은 각각 약 61.8억원, 185.4억원, 61.8억원입니다. 그러나 이는 약정상 분할금액일 뿐 실제 수령한 현금이 아닙니다. 장비 출하·고객 검수·매출인식·매출채권 회수와 각각 대조해야 합니다.<br>2025년 연결 매출 898억원에 영업손실 37억원, 2026년 상반기 매출 218억원에 영업손실 70억원입니다. 2026년 상반기 말 현금및현금성자산 약 116억원, 부채총계 782억원, 자본총계 426억원으로 재구성된 자료가 있습니다. 여기서 부채총계는 순차입금이 아닙니다.</p>
+<p>BoxFin 진단</p>
+<p>2022년 매출 1,188억원·영업이익 194억원에 비해 최근 수익성이 약화된 점을 보면, 신규 수주가 과거 피크 마진을 자동 회복시킨다고 볼 수 없습니다. 반도체 고객의 투자 사이클, 생산원가, 제품 믹스, 장비 검수 지연이 중요합니다.<br>Stage B 산식: 증분 영업이익 = 실제 인식매출 × 실현 매출총이익률 − 추가 판관비·보증비. 강세는 일정 준수·충분한 마진·정상적인 대금회수, 중립은 기간에 걸친 점진적 매출인식, 약세는 원가 상승·납기 지연·고객 투자 변경으로 구분합니다. 고객을 특정 NVIDIA 관련 기업이나 특정 반도체 제조사로 연결하지 않습니다.<br>동일 종목 유사사례: 2026년 8월 24일과 9월 9일 신규 수주 공시, 9월 22일 계약 정정 공시가 존재합니다. 반복 수주 능력을 보여주는 관찰 대상이지만 계약 수정 가능성도 함께 보여줍니다. 당시 D+5·D+20 수익률은 일관된 완료봉을 확보하지 못해 승률로 환산하지 않습니다.</p>
+<p>economyreports.com</p>
+<p>후속 KPI: 분기 수주잔고 증가, 2027~2028년 실제 인식금액, 계약자산·매출채권·재고, 검수 진행률, 영업현금흐름과 순차입 변화입니다.</p>
+<p>④ 티엑스알로보틱스 · 조달 300억원과 잠재 희석을 함께 평가<br>KOSDAQ 484810 · KRW · 2026-10-12 CB 발행 결정 · 2026H1 별도 재무 기준<br>10월 12일 공시 재게시 자료와 금융보도에서 다음 조건을 확인했습니다.</p>
+<p>economyreports.com<br>+2</p>
+<p>항목	확인된 발행 조건<br>발행 예정금액	300억원<br>자금 사용	시설투자 200억원, 운영·R&amp;D 100억원<br>최초 전환가액	15,633원<br>최초 조건의 잠재 신주	1,919,017주<br>표면/만기 이율	각각 0%<br>납입 예정일	2026년 10월 20일<br>전환청구기간	2027.10.20~2031.09.20<br>만기	2031년 10월 20일<br>투자자 Put	2029.04.20부터 3개월마다, 원금 100%<br>회사·지정 제3자 Call	최초 인수금액의 최대 40%, 별도 매수대금 조건<br>11.05%와 12.42%는 모순이 아닙니다. 공시상 기존 발행주식수 15,450,915주에 대한 잠재 신주 비율은 약 12.42%이고, 전환 후 총주식수에 대한 비중은 약 11.05%입니다. 투자자의 기존 지분율 희석은 후자의 분모로 판단해야 합니다. 실제 전환 또는 발행 완료를 뜻하지는 않습니다.</p>
+<p>economyreports.com</p>
+<p>재무적으로는 2025년 별도 매출 566억원, 영업손실 8억원, 순손실 153억원이었고, 2026년 상반기 별도 매출 211억원과 영업손실 28억원이 집계됐습니다. 상반기 말 별도 현금은 약 102억원, 자본총계 약 526억원입니다. 2025년 CFO −24억원과 투자현금흐름 −227억원으로 집계된 자료도 있어, 0% 이율만으로 조달을 무비용 자금으로 해석할 수 없습니다.</p>
+<p>BoxFin 진단<br>+1</p>
+<p>Stage A: 2025년 순손실이 영업손실보다 훨씬 큰 원인은 반드시 영업외손익·상장 관련 비용·평가손익 등 실제 주석으로 분해해야 합니다. 차이 전액을 일회성으로 제거하지 않습니다.<br>Stage B: 로봇 R&amp;D와 시설투자가 납기·수주·설치·검수·유지보수 수익으로 전환되어야 합니다. 약세는 발행 미완료·자금소진·향후 Put 부담, 중립은 자금 확보 후 수익화 지연, 강세는 신규 고객·해외 프로젝트와 매출총이익 개선이 확인되는 경로입니다.<br>핵심 위험: 2029년 조기상환 시점의 현금 유동성, 전환가액의 기업행사 관련 조정, 40% Call 권리의 귀속주체, 잠재 신주 발행과 자본효율입니다. 특히 CB 의사결정과 실제 납입, 납입과 전환은 각각 별도 사건입니다. 당일 정확한 거래소 종가도 공급자 충돌 해소 전까지 보류합니다.<br>⑤ 한화머시너리앤서비스홀딩스 · 공개매수는 지배구조 사건<br>KOSPI 0220W0 · 보통주 · KRW · 2026-08-25 재상장 확인<br>KRX 재상장 공시와 공개매수설명서 재게시 자료를 대조했습니다. 법적 상장증권의 단축코드는 숫자 네 자리 코드가 아닌 <b>0220W0</b>이며, 공개매수신고서 20261012000001과 설명서 20261012000002는 서로 관련된 별개의 서류입니다.</p>
+<p>kind.krx.co.kr<br>+1</p>
+<p>공개매수 가격<br>8,000원</p>
+<p>목표수량<br>1,606만 주</p>
+<p>기간: 2026.10.12~11.02 · 대금 결제 예정: 11.04 · 최대 지급액: 1,284억8,000만원. 예정 수량 초과 응모 시 안분비례 취득합니다.</p>
+<p>공개매수가 전량 이행되면 공개매수자·특수관계인 합산 지분율은 약 60.32%에서 79.32%로 상승한다는 설명입니다. 공개매수자 측은 자기자금 1,400억원을 마련했다고 기재했습니다. 다만 전량 인수나 최종 지분율을 현재의 확정 결과로 쓰면 안 됩니다.</p>
+<p>economyreports.com</p>
+<p>가치 전달경로는 영업이익이 아니라 지배구조입니다. 집중 지분율 상승이 자회사 경영권·자본배분·내부거래·소수주주 권리에 어떤 결과를 주는지 보아야 합니다. 분할 신설 지주사에 옛 사업부의 과거 매출을 그대로 소급하거나, 상장 자회사 지분가치와 연결 영업가치를 중복 합산하면 잘못된 SOTP가 됩니다.<br>약세 조건은 낮은 최종 응모 비율, 소수주주 권리 약화, 불리한 관계사 거래입니다. 중립은 지분구조만 달라지고 주당 현금흐름은 그대로인 경우, 강세는 공정한 자본배분과 지배구조 개선이 실제 주당가치에 반영되는 경우입니다.<br>공개매수 가격과 시장가격의 차이는 무위험 차익이 아닙니다. 응모 안분, 기간, 거래비용, 미응모 주식의 시장위험, 조건 변경 여부를 확인해야 합니다. 공시에는 현시점 상장폐지를 추진하지 않는다는 설명이 있지만, 장래 지배구조 개편 가능성을 검토 대상에서 제외할 이유는 없습니다.</p>
+<p>economyreports.com</p>
+<p>⑥ 셀트리온 · 이번 사건 중 실적에 직접 반영된 변화<br>KOSPI 068270 · KRW · K-IFRS 연결 · 2026Q3 잠정 영업실적<br>회사 공식 보도자료와 잠정실적 공시 재게시 내용이 일치합니다. 2026년 3분기 연결 매출액은 1조 5,000억원, 영업이익은 5,100억원, 영업이익률은 <b>34.0%</b>입니다. 전년동기 대비 매출 +45.77%, 영업이익 +69.21%, 직전 분기 대비 각각 +7.63%, +12.88%입니다.</p>
+<p>최신 뉴스 및 언론 소식<br>+1</p>
+<p>최근 8개 독립 분기 실적<br>단위: 억원 · 연결 매출액/영업이익 · 2026Q3 잠정, 이전 분기 공시 및 보조 집계 교차 활용<br>기간	매출	영업이익	OPM<br>2024 Q4	10,600	1,964	18.5%<br>2025 Q1	8,419	1,494	17.7%<br>2025 Q2	9,615	2,425	25.2%<br>2025 Q3	10,290	3,014	29.3%<br>2025 Q4	13,302	4,752	35.7%<br>2026 Q1	11,450	3,219	28.1%<br>2026 Q2	13,937	4,518	32.4%<br>2026 Q3*	15,000	5,100	34.0%</p>
+<ul><li>2026Q3 잠정. 2026Q1과 Q2는 10월 12일 잠정 공시의 비교·누적 수치를 우선 적용한 것으로, 초기 발표 숫자와 차이가 있을 수 있습니다. 2024Q4·2025년 자료는 보조 재구성 자료와의 대조에 의존하며 정정 원문 최종 대조는 미완료입니다. </li></ul>
+<p>보숲<br>+1</p>
+<p>최근 네 분기인 2025Q4~2026Q3을 합하면 매출 약 5조 3,689억원, 영업이익 약 1조 7,589억원, 영업이익률 약 32.8%입니다. 이는 잠정·기존 분기를 결합한 분석용 TTM이지 감사받은 별도 연간 실적은 아닙니다.<br>Stage A: 34%의 영업이익률을 곧바로 정상 마진으로 확정하지 않습니다. 회사는 고수익 후속 바이오시밀러 비중 확대와 원가구조 개선을 원인으로 설명합니다. 사업부 제품별 매출, 재고평가, 비용 타이밍, 판매가격과 유통망 비용이 실제로 얼마나 영향을 줬는지는 다음 정기보고서에서 대조해야 합니다.</p>
+<p>최신 뉴스 및 언론 소식</p>
+<p>Stage B: 제품별 판매량 × 순판매단가 × 제품 믹스 → 매출총이익 → 판관비·R&amp;D → 영업이익 → 세금·금융손익 → 지배순이익 → CFO·FCF로 연결합니다. 강세는 높은 마진의 후속 제품 비중 확대와 현금전환 유지, 중립은 매출 성장과 경쟁에 따른 ASP 하락이 공존하는 경우, 약세는 바이오시밀러 가격경쟁 심화·재고 증가·원가 개선 효과 약화입니다.<br>유사사례: 2025년 1분기와 2분기의 실적 증가 공시, 2025년 4분기 이익 급증 공시를 비교 대상으로 확보했습니다. 다만 당시와 지금은 제품 출시 단계와 글로벌 시장 경쟁상황이 다르며, 당일 수익률을 미래 성공확률로 일반화하지 않습니다.</p>
+<p>ETF쇼핑</p>
+<p>2026Q3 잠정 발표에는 순이익, 희석 EPS, CFO, Capex, FCF가 기재되어 있지 않습니다. 따라서 잠정 OP 증가만으로 주당 FCF 증가율이나 확정 PER 리비전을 계산하지 않습니다. 사건 이전 컨센서스의 정확한 시각과 표본이 확인되지 않아 정식 어닝 서프라이즈율도 보류합니다.<br>⑦ DN오토모티브 · 공식 감독조치와 형사책임을 구분<br>KOSPI 007340 · KRW · 고용노동부 2026-10-12 발표 · 공장 관련 사건<br>고용노동부는 10월 12일 해당 사안에 대한 공식 설명자료를 공개했습니다. 연합뉴스는 울산공장의 납 노출·킬레이션 주사 의혹과 관련해 산업안전보건법 위반 68건의 입건·송치, 4,620만원의 과태료, 그리고 업무방해 혐의에 대한 별도 경찰 수사 의뢰를 보도했습니다. 4월 21일~5월 7일 납 노출 공정의 사용중지 조치도 보도됐습니다.</p>
+<p>moel.go.kr<br>+1</p>
+<p>이 사건에서 세 가지를 분리해야 합니다. 행정·감독 결과는 단순한 온라인 루머가 아닙니다. 그러나 주사 투여를 둘러싼 형사적 사실관계와 최종 책임은 아직 수사·판단 대상입니다. 그리고 법적 책임이 확정되더라도 회사 연결 손익에 미치는 금액은 별도 산출이 필요합니다.<br>영업실적 맥락: 2025년 연결 매출 3조 6,757억원, 영업이익 5,279억원, 순이익 3,250억원으로 집계됐습니다. 2026년 2분기 매출 1조 2,493억원, 영업이익 2,054억원, 영업이익률 약 16.4%입니다. 이는 과거 기간의 사업 수익성이지 향후 안전보건 비용을 반영한 조정 전망은 아닙니다.</p>
+<p>주가맵</p>
+<p>Stage A: 현재 확인되지 않은 벌금·합의금·환경정화·산재보상 예상액을 회계상 충당부채로 임의 기입하지 않습니다. 반대로 실제 복구·의료·안전시설 투자와 생산 차질 비용을 모두 일회성으로 제거하는 것도 부적절합니다.<br>Stage B: 안전보건 개선 조치가 직접 비용 증가 → 공정 운영 변경·가동률 → 납품량·원가율 → 고객 신뢰·계약 유지 → OP와 CFO로 전파되는지 관찰합니다. 회사는 자동차부품·배터리·기계 사업을 포함하므로 영향을 받은 공장 매출을 연결 전체 매출과 동일시하지 않습니다.<br>약세는 추가 공정 중단, 보상·소송 확대, 고객 인증·발주에 대한 악영향입니다. 중립은 시정비용을 부담하되 생산·수주가 정상 유지되는 경로입니다. 강세는 독립 조사·작업환경 개선이 검증되고 법률·생산상 불확실성이 축소되는 경우입니다.<br>가장 중요한 다음 증거: 작업환경·역학조사 결과, 위반 사항별 행정·형사 처리 단계, 공정 사용중지 추가 여부, 안전시설 Capex, 충당부채·우발채무 주석, 고객사 납품 영향입니다. 주가 급락은 위험이 재평가됐음을 나타내지만 향후 벌금 규모나 유죄 가능성을 계산하는 근거는 아닙니다.</p>
+<ol><li>재무 이력과 현금흐름 교차검토</li></ol>
+<p>단위: 억원 · 각 행에 표시한 기간의 실제·보조집계 수치 · 서로 다른 기업의 별도/연결 재무를 합산하거나 평균 내지 않음<br>기업	2025 연간 매출 / OP	최근 확인 실적	현금·자본 관점<br>HLB	842 / −1,042	2026Q2 280 / −225	2025 CFO −926<br>올릭스	147 / −300	2026Q2 26 / −140	연구개발 지속 비용·런웨이 재확인<br>인텍플러스	898 / −37	2026H1 218 / −70	2026H1 말 현금 116<br>티엑스알로보틱스	566 / −8	2026H1 211 / −28	2025 CFO −24, 2026H1 말 별도 현금 102<br>한화M&amp;S홀딩스	독립 비교 불가	2026년 8월 인적분할 신설	분할 기준 SOTP 재작성 필요<br>셀트리온	약 41,625 / 약 11,700	2026Q3 잠정 15,000 / 5,100	2026Q3 CFO·FCF 미공시<br>DN오토모티브	36,757 / 5,279	2026Q2 12,493 / 2,054	미확정 보상·시정 비용 별도 추적<br>2025 사업보고서 재구성, 금융정보 공급자의 연결/별도 실적과 2026Q3 잠정 공시 병행. 반올림 수치이며 원문 재대조 여부는 종목별로 다릅니다.</p>
+<p>사업보고서·분기·반기보고서 확정 + 잠정 실적 대조<br>+6</p>
+<p>5~10년 실적의 구조적 변화</p>
+<ul><li>HLB: 2023~2025년 매출은 429→681→842억원으로 증가했지만 같은 기간 영업현금흐름은 약 −1,116→−1,143→−926억원입니다. 2025년 바이오·헬스케어 부문의 약 1,092억원 손실이 소재·미디어커머스 부문의 이익을 압도했습니다. 현재 가치 핵심은 매출 증가 자체보다 신약 허가와 개발자금 조달의 상호작용입니다. </li></ul>
+<p>  사업보고서·분기·반기보고서 확정 + 잠정 실적 대조</p>
+<ul><li>올릭스: 2021~2025년 모두 연간 영업적자입니다. 신약개발 단계에서 PER보다 연구비 지출, 현금 잔여기간, 기술이전 계약금·로열티의 반복성, 후속 자금조달 희석이 중요합니다. </li></ul>
+<p>  주가맵</p>
+<ul><li>인텍플러스: 2021~2022년 연간 영업이익은 각각 275억원·194억원이었지만 2023~2025년은 연속 적자입니다. 제조장비 발주 사이클과 고정비 레버리지의 영향이 크므로 정점 이익을 정상 EPS로 적용하면 위험합니다. </li></ul>
+<p>  BoxFin 진단</p>
+<ul><li>티엑스알로보틱스: 2023~2024년 영업흑자에서 2025년 영업적자로 전환했습니다. 2025년 영업현금흐름과 투자현금흐름이 모두 음수로 집계됐으며, 상장 후 증권수·기존 자본조달과 이번 CB를 분리해 봐야 합니다. </li></ul>
+<p>  FinBridge<br>  +1</p>
+<ul><li>한화M&amp;S홀딩스: 2026년 신설법인으로 과거 5년의 독립 상장기업 재무를 꾸밀 수 없습니다. 분할 전 사업부 재무는 참고용 프로포마로 따로 표시해야 합니다.</li><li>셀트리온: 2020~2025년 연매출이 약 1.85조원에서 약 4.16조원으로 확대됐습니다. 다만 사업구조 변화와 제품 믹스 변화가 있으므로 연도별 영업이익률을 같은 회사·같은 제품군의 자연성장으로만 해석할 수 없습니다. </li></ul>
+<p>  ETF쇼핑</p>
+<ul><li>DN오토모티브: 2021년 매출 9,308억원과 2022년 3조 1,564억원은 사업구조·연결범위 변화 가능성을 먼저 고려해야 합니다. 2025년 이익률 14.4%가 높은 편이라도 안전보건 사건의 경제적 비용이 이미 반영됐다는 뜻은 아닙니다. </li></ul>
+<p>  주가맵<br>최근 독립 분기 확보 상태<br>종목	확인된 독립 분기 수	마지막 분기	부족한 분석<br>HLB	7/8 수치 재구성	2026Q2	2024Q3 및 재무 원문 각주<br>올릭스	5/8	2026Q2	이전 3분기, CFO·현금잔액<br>인텍플러스	6/8	2026Q2	이전 2분기, 계약별 현금전환<br>티엑스알로보틱스	7/8	2026Q2	2024Q3, 희석·CF 재정렬<br>한화M&amp;S홀딩스	신설법인	2026년 분할 후	독립기업의 비교 가능한 분기 이력<br>셀트리온	8/8 P/L	2026Q3 잠정	최신 Q3 순익·CFO·FCF·확정 조정<br>DN오토모티브	5/8	2026Q2	이전 3분기, 공장별 위험 노출<br>이는 최근 분기 P/L 확보 상황입니다. 8개 분기 모두의 CFO·FCF·희석 EPS가 확인됐다는 뜻은 아닙니다. 정기보고서, DART 재게시, 회사 IR, 신뢰 가능한 보조서비스를 교차 탐색했지만 충분한 연결·별도 일치 자료가 없었던 부분은 빈값으로 유지했습니다. CFO에서 현금 Capex를 차감할 원시 입력이 없는 기업에는 FCF 수치를 제시하지 않습니다.</p>
+<ol><li>산업·경쟁·경제적 해자</li></ol>
+<p>기업	직접적인 경쟁 또는 비교 축	해자를 입증할 자료	가장 강한 경쟁 반증<br>HLB	간암 1차 치료 병용요법의 치료 선택지	규제허가, 임상적 차별성, 실제 순매출 권리	기존 치료제 경쟁과 추가 FDA 보완<br>올릭스	GA 치료 기술 및 RNAi 개발 플랫폼	임상 데이터, RNA 전달기술, 제휴계약 지속성	약물·전달체 기술 및 다른 작용기전의 경쟁<br>인텍플러스	검사장비 업체·글로벌 공정검사 기술	고객 인증, 반복 수주, 검수·AS, ROIC	특정 고객 의존·대체장비·업황<br>티엑스알로보틱스	물류 자동화 및 산업용 로봇	설치 기반, 반복 프로젝트, 소프트웨어·유지보수 비중	단발성 프로젝트·높은 구축원가<br>한화M&amp;S홀딩스	산업·서비스 지주회사	자본배분 성과, 지주사 할인 축소	지배구조 복잡성·관계사 가치 중복<br>셀트리온	글로벌 바이오시밀러 제조·판매	제품 승인, 유통망, 공정원가, 지속 마진	경쟁사 출시·ASP 인하·약가 정책<br>DN오토모티브	자동차부품·산업용 배터리·기계	고객 장기 인증, 생산 효율, 자본수익률	노동·품질·규제 문제로 고객 신뢰 훼손<br>이 비교는 정성적 경쟁구조입니다. 각 기업에 적용 가능한 피어의 실제 주가·EV·순차입·회계범위를 동시점에 재구성하지 못했으므로, 피어 배수 평균이나 정량적 모트 등급을 인위적으로 산출하지 않았습니다.<br>거시 전달경로: 이번 사건들은 미국 FDA의 허가 심사, 뉴질랜드 임상 윤리심의, 글로벌 반도체 설비투자, 로봇기업의 국내 자금조달 조건, 국내 대기업 지배구조, 글로벌 바이오시밀러 약가, 국내 산업안전 규제라는 서로 다른 경로로 현금흐름에 영향을 줍니다. 한국 시장 동반 하락을 모든 종목의 동일한 기업가치 악화로 해석할 수 없습니다.</p>
+<ol><li>사건 시각, 시장 반응 및 기술·수급</li></ol>
+<p>시간 순서를 바로잡으면 해석이 달라지는 사례가 있습니다.<br>대상	공개·공시 시간 관련 확인	주가 해석상 주의<br>HLB	10/9 미국 서류 제출 → 10/12 오전 7:45 국내 공시 재배포	10/12는 국내 재개장 후 첫 반응일<br>인텍플러스	10/8 계약 체결 → 10/12 오전 약 10:07 공시	발표 전·후 장중 반응을 나눠야 함<br>티엑스알로보틱스	10/12 오후 약 16:22 공시 재게시 확인	당일 15:30 KRX 종가를 CB 공시 반응으로 단정 불가<br>한화M&amp;S홀딩스	10/12 장 시작 전 공개매수 자료 등장	공개매수와 함께 10/8 지주회사 관련 공시도 확인<br>셀트리온	10/12 오전 7:46 잠정실적 공시 목록 확인	발표 전 시장 컨센서스 시각을 별도 고정<br>올릭스	10/12 반려 결정·공시	정확한 공시 분 단위 시각 미확인<br>DN오토모티브	감독조치 일부는 4~5월 시행, 10/12 정부 설명 발표	과거 조사와 당일 새 공식 발표를 구분<br>공시 재배포 기록 및 공시 원문 재게시의 접수·사건 날짜.</p>
+<p>AWAKEPLUS<br>+5</p>
+<p>확인 가능한 공급자 종가를 단순히 같은 시장 지수 등락률과 비교하면, HLB는 KOSDAQ보다 약 2.09%p 강했고 인텍플러스는 약 0.78%p 약했습니다. 한화M&amp;S홀딩스는 KOSPI보다 약 27.66%p 강했고, 셀트리온은 약 4.10%p 강했으며, DN오토모티브는 약 16.78%p 약했습니다.<br>이는 단일 거래일의 단순 시장 대비 성과일 뿐 베타·업종·거래장소를 조정한 비정상수익률이나 사건의 인과효과가 아닙니다.<br>기술분석의 현재 한계: 7개 종목 모두 동일한 거래장소·수정주가 정의로 정렬된 충분한 완료 OHLCV, 거래량, 종목별 투자자 순매수 시계열을 확보하지 못했습니다. 따라서 5·20·50·120·200일선, 40주선, RSI, MACD, ATR, 상대강도, VWAP, 매물대와 기술적 손절가격을 추정하지 않았습니다. 월봉·주봉·일봉의 추세 확정과 D+1·D+5·D+20 사건연구는 해당 기간의 실제 완료봉이 들어온 뒤 수행해야 합니다. 데이터 미확보는 약세 신호가 아닙니다.</p>
+<ol><li>밸류에이션·Reverse Valuation·시나리오</li></ol>
+<p>주가 자체가 검증됐더라도 재무와 희석 주식수의 기준이 맞지 않으면 정밀 적정가 산출은 성립하지 않습니다. 이번 요청에서는 목표가 또는 매매 추천이 아닌, 현재 가격이 어떤 실적을 전제로 할 수 있는지 검증하는 모델 구조만 사용합니다.<br>종목	적합한 평가 방법	Base가 성립하려면	Bear의 핵심<br>HLB	권리 귀속을 반영한 신약 rNPV + 기존 사업	FDA 심사 진전 및 상업화 경제성	CRL 반복·조달 희석<br>올릭스	파이프라인별 rNPV 및 현금 소진	보완 승인, 임상 일정 회복	재설계·연구비 증가<br>인텍플러스	사이클 정상화 OP·FCF	수주 매출인식 및 현금회수	검수 지연·원가 상승<br>티엑스알로보틱스	투자 후 ROIC·희석 EV 분석	조달 완료 및 설비·R&amp;D 생산성	조기상환·희석 부담<br>한화M&amp;S홀딩스	중복 제거 SOTP	주주가치 귀속 개선	지배구조 할인 확대<br>셀트리온	정상 EPS·FCF, EV/영업이익	제품 믹스와 마진 유지	바이오시밀러 가격 경쟁<br>DN오토모티브	정상 OP·FCF에서 법률·생산 위험 차감	사업 수익성 유지 및 위험 해결	추가 가동손실·충당부채<br>셀트리온은 매출이 1조 5,000억원인 분기에서 영업이익률이 1%p 변할 때 분기 영업이익이 150억원 달라지는 구조입니다. 이는 세전 영업이익 민감도이지 주당순이익·목표가 변화량은 아닙니다.<br>공통 요구수익률 역산은 배당권리와 목표기간이 확인될 때 다음처럼 계산합니다.<br>\[<br>P_{\max}(r)=\frac{V_T}{(1+r)^T}<br>+\sum_{t=1}^{T}\frac{D_t}{(1+r)^t},<br>\qquad r\in\{10\%,12\%,15\%\}<br>\]</p>
+<p>여기서 \(V_T\)는 해당 시점의 희석 후 주당가치, \(D_t\)는 그 기간 신규 투자자가 실제로 수령할 수 있는 배당입니다. 이번에는 일관된 \(V_T\), 희석주식수, 배당권리 자료가 충분하지 않으므로 세 요구수익률별 숫자 상한을 채우지 않습니다. Fundamental R/R도 같은 이유로 미산출입니다. 빈 값은 0원이나 무한대 수익기회를 뜻하지 않습니다.</p>
+<ol><li>Price Decision Map과 투자기간별 관찰 조건</li></ol>
+<p>구분	확인해야 할 조건	현재 정량판정<br>현재가/가치 차이	동일 거래소 종가, 정정 재무, 희석 후 EPS·FCF	대부분 미완성<br>Bear / Base / Bull	사업 KPI가 현금으로 전환되는 정도	정성 시나리오 유지<br>이벤트 후 가격 확인	D+1·D+5 완료봉, 시장·업종 상대성과	후속 관측 필요<br>기술 무효화	조정 OHLCV 기반 주요 구조·ATR	가격선 미설정<br>투자논리 무효화	FDA 재반려, 임상 지연, 계약 해지, 현금소진, 지배구조 악화 등	종목별 정의 가능<br>종목별 수급	외국인·기관 완료 거래일 순매수, 시장범위	검증 전<br>자본배분	CB 실제 납입·전환, 자사주 실제 취득·소각, 공개매수 최종 취득	후속공시 필요<br>신규 투자 검토자는 공식 사건 결과와 적정가 입력을 먼저 확인해야 하고, 기존 보유자는 자신의 보유논리에서 어떤 가정이 새 공시로 달라졌는지 재검증할 필요가 있습니다. 단기 시장 반응을 추적하는 경우에는 장후 공시·대체거래소 가격·다음 정규장 완료봉을 구분해야 합니다. 어느 경우에도 이번 조사만으로 매매 가격, 손절 주문, 비중 또는 거래수량을 제시하지 않습니다.<br>우선 확인할 후속 일정</p>
+<p>10월 15일 · HLB Group IR Day<br>회사 공시상 15:00 개최 예정. FDA 심사 상태와 사업 설명의 신규성 확인. IR 개최 자체가 FDA 접수·승인을 뜻하지 않습니다.</p>
+<p>AWAKEPLUS</p>
+<p>10월 20일 · 티엑스알로보틱스 CB 납입 예정<br>실제 납입 여부 및 발행조건 정정 확인.</p>
+<p>economyreports.com</p>
+<p>11월 2일 / 11월 4일 · 한화M&amp;S 공개매수 종료 / 결제 예정<br>최종 응모·안분·지분율과 후속 지배구조 공시 확인.</p>
+<p>economyreports.com</p>
+<p>일정 미확정 · 올릭스·셀트리온·DN오토모티브<br>올릭스 재신청, 셀트리온 3분기 확정 재무·현금흐름, DN오토모티브 수사·작업환경 개선 결과를 각각 확인.</p>
+<ol><li>추가 공시·반대 증거</li></ol>
+<p>오늘 사건만 보면 놓치기 쉬운 이전 30일 내 관련 자료도 확인했습니다.<br>한화머시너리앤서비스홀딩스는 10월 8일 공정거래위원회로부터 지주회사 요건 충족 통지를 받았다고 공시했습니다. 당시 제시된 주요 자회사 지분은 한화모멘텀 100%, 한화로보틱스 67.97%, 한화비전 33.95%, 한화갤러리아 36.15%, 한화호텔앤드리조트 49.80%입니다. 이는 공개매수와 별개로 SOTP 및 지배구조 분석에 중요한 실제 소유비율입니다. 단, 지분율만 보고 각 기업의 지분 100% 가치를 한화M&amp;S 주주 몫으로 계산하면 안 됩니다.</p>
+<p>AWAKEPLUS</p>
+<p>셀트리온은 9월 29일 약 1,000억원, 보통주 560,853주 규모의 자기주식 취득을 결의한 공시도 확인됩니다. 취득 예정기간은 9월 30일~12월 29일입니다. 취득결의는 실제 매수나 소각 완료가 아닙니다. 순주식수 감소와 자금 집행을 확인해야 3분기 EPS와 주당가치 모델에 반영할 수 있습니다.</p>
+<p>AWAKEPLUS</p>
+<p>HLB의 경우 과거 CRL 반복이 가장 강한 반대 논거이며, 올릭스는 현지 윤리심의 사유의 구체적 내용 부재, 인텍플러스는 계약 수정·실행 가능성, 티엑스알로보틱스는 Put·희석, 한화M&amp;S는 소수주주 권리와 안분, 셀트리온은 높은 이익률의 지속성, DN오토모티브는 향후 법률·운영상 손실의 불확실성이 각각 중심 반증입니다.</p>
+<ol><li>핵심 증거대장 · Evidence Ledger</li></ol>
+<p>주장 및 기준기간	근거와 확인 수준	판단에 사용한 수치·산식	미해결·한계<br>HLB FDA 재신청, 10/9	DART 20261012900006 재게시 원문.  보숲	제출 사실만 인정	FDA 접수·Class·허가 미확인<br>올릭스 임상신청 반려, 10/12	DART 20261012900388 재게시 원문.  보숲	윤리·법규 미충족	기관의 세부 반려 사유 및 호주 상태<br>인텍플러스 공급계약, 10/8~2028/1/10	DART 20261012900145 재게시와 언론.  보숲 +1	309.02억원 ÷ 2025 연결매출 약 897.65억원 = 34.43%	검수·회수·수익성·고객명<br>TXR CB 결의, 10/12	DART 20261012000285 재게시 및 보도.  economyreports.com	잠재 신주 191.9만 주, 기존 대비 12.42% / 전환 후 11.05%	실제 납입·전환·종가 충돌<br>한화M&amp;S 공개매수, 10/12	KIND 재상장 원문 + DART 공개매수설명서 재게시.  kind.krx.co.kr +1	1,606만 주 × 8,000원 = 1,284.8억원	안분·결제·최종 지분율<br>셀트리온 2026Q3 잠정	회사 공식 발표 + DART 잠정 공시 재게시.  최신 뉴스 및 언론 소식 +1	OP 5,100 ÷ 매출 15,000 = 34.0%	순익·CFO·FCF·사후 리비전<br>DN오토모티브 10/12 정부 조치	고용노동부 공식 설명자료 존재 확인 + 연합뉴스 상세 보도.  Ministry of Employment and Labor +1	산안법 위반 68건, 과태료 4,620만원(보도)	정부 첨부 원문 세부대조·법원 판단·경제적 손실<br>여기서 재게시된 공시 내용을 여러 언론사가 인용한 것은 여러 개의 독립적인 원천 사실이 아닙니다. 직접 열린 공시 원문과 공시의 재게시·요약을 명확히 구분했습니다. 산업안전 사건의 보도된 위반과 수사 의뢰 역시 확정된 형사판결과 구별했습니다.</p>
+<ol><li>Final Research Playbook</li></ol>
+<p>이번 조사가 우선순위를 부여하는 것은 매매가 아니라 검증이 다음 결론을 얼마나 바꿀 수 있는가입니다.<br>우선 재확인 대상	다음 판단을 바꾸는 사실<br>HLB	FDA 접수·Class 통지 및 10/15 IR의 검증 가능한 신규 내용<br>올릭스	세부 반려 이유와 실질적인 재제출 일정<br>인텍플러스	신규 수주가 기존 잔고에 더해지는 순증분인지, 실제 검수·이익·현금전환<br>티엑스알로보틱스	10/20 납입, CB Put/Call 및 희석주식수, 세션별 시세 충돌 해소<br>한화M&amp;S홀딩스	공개매수 최종 안분·지분 및 분할 후 실제 주당가치<br>셀트리온	2026Q3 확정 순익·CFO/FCF와 제품별 마진 지속성<br>DN오토모티브	추가 가동중단·법률책임·충당부채·작업환경 개선의 정량 근거<br>결론: 7건 모두 단순한 테마 전달만으로 치부할 수 없는 공시·규제·영업 관련 사건입니다. 그러나 사건의 확실성과 미래 투자수익의 확실성은 다릅니다. 특히 임상·규제 사건을 상업화 가치로, 수주를 영업이익으로, CB 결정을 현금 유입으로, 공개매수 가격을 보장된 시장가치로 변환하지 않는 것이 이번 검증의 핵심입니다.<br>분석 범위는 7개 사건과 사업·재무·가치전달경로까지 진행했으나, 원문 접근 문제, 일부 시세 충돌, 충분하지 않은 재무·OHLCV 자료 때문에 결과 상태는 PARTIAL, 게시 결정은 NEEDS_REVIEW가 적합합니다. 아래 텔레그램 메시지는 검토용 초안이며 외부 채널에 게시하지 않았습니다.</p></div></div></details><details class="fold"><summary>DEEP_RESEARCH_RETURN (deep-research-return/3.7.4)<small>JSON</small></summary><div class="fb"><pre class="raw">{
+  &quot;protocol&quot;: &quot;deep-research-return/3.7.4&quot;,
+  &quot;run_id&quot;: &quot;TR-20261012-1900-daily-close&quot;,
+  &quot;status&quot;: &quot;PARTIAL&quot;,
+  &quot;entity&quot;: {
+    &quot;name&quot;: null,
+    &quot;ticker&quot;: null,
+    &quot;exchange&quot;: null
+  },
+  &quot;publish_decision&quot;: &quot;NEEDS_REVIEW&quot;,
+  &quot;presentation_style&quot;: &quot;standard_rich&quot;,
+  &quot;telegram_text&quot;: &quot;&quot;,
+  &quot;telegram_messages&quot;: [
+    &quot;(1/8) 📊 2026.10.12 한국 증시 마감 | 검토용\nRUN_ID: TR-20261012-1900-daily-close\n\nKOSPI 6,384.24(-3.65%), KOSDAQ 849.19(-4.83%). KOSPI 외국인 순매도 약 1조9,938억원, KOSDAQ 약 235억원으로 합계 약 2조173억원. 시장 전체 수급이며 개별 종목 순매수가 아닙니다.\n\n일본 도쿄증권거래소 현물은 스포츠의 날로 휴장. 미국 주식시장은 콜럼버스 데이에도 정상 개장 예정이며 채권시장은 휴일입니다.\n\n이번 P1 검토 대상은 HLB, 올릭스, 인텍플러스, 티엑스알로보틱스, 한화머시너리앤서비스홀딩스, 셀트리온, DN오토모티브입니다. 텔레그램 주장을 별도로 검증한 결과 사건별 근거를 확보했지만, 일부 원문·시세·재무자료 충돌이 남아 있습니다.\n\n상태: PARTIAL / NEEDS_REVIEW. 외부 게시 전 원문 검토 필요. 매수·매도 권고가 아닙니다.&quot;,
+    &quot;(2/8) 🧬 HLB(028300·KOSDAQ) | FDA 재신청 검토\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\nElevar Therapeutics의 리보세라닙·캄렐리주맙 간암 1차 치료제 관련 FDA 재승인 신청 서류는 미국 현지시간 10월 9일 제출됐습니다. 회사 확인일은 10월 10일이며 국내 공시는 10월 12일입니다. 7월 9일 CRL에 대한 후속 조치입니다.\n\n중요한 구분: 서류 제출 ≠ FDA 접수 확인 ≠ 최종 허가. Class 1의 2개월 또는 Class 2의 6개월 심사기간은 아직 이 사건에 확정 적용된 일정이 아닙니다.\n\n재무 측면에서 2025년 연결 매출은 약 842억원, 영업현금흐름은 약 -926억원입니다. 기존 소재사업 실적과 항암 신약의 상업화 권리·조달 부담을 따로 평가해야 합니다.\n\n후속 확인: FDA 접수, Class 결정, CRL 보완사항, 자금잔액, 10월 15일 예정 IR의 실질적 신규 정보.\n\n근거: https://www.bosoop.com/disclosures/20261012900006/\n상태: 재게시 공시 확인, FDA 접수·허가 미확인. 검토용이며 매매 권고가 아닙니다.&quot;,
+    &quot;(3/8) 🧪 올릭스(226950·KOSDAQ) | 뉴질랜드 임상 2a상 신청 반려\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\nOLX301A·OLX10212 프로그램의 뉴질랜드 지도모양위축 대상 임상 2a상 신청에 대해 Northern B HDEC가 윤리 기준 및 관련 법규 미충족을 이유로 반려한 내용이 공시 재게시 원문에서 확인됩니다. 회사는 재심의와 재제출을 준비 중입니다.\n\n이것은 실제 규제절차상의 지연 위험이지만, 현 단계 공개 내용만으로 약물 효능이나 안전성 실패를 확정할 수 없습니다. 반려 사유의 구체적인 항목과 호주 신청 상태도 별도 검증이 필요합니다.\n\n2025년 연결 집계 매출 약 147억원, 영업손실 약 300억원이며 2026년 2분기 영업손실은 약 140억원입니다. 개발비 지속과 현금 소진, 기술이전 계약의 실제 수익화 조건이 중요합니다.\n\n후속 확인: HDEC 지적사항, 보완서 재제출, 재심의 결과, 호주 규제상태, 현금 런웨이.\n\n근거: https://www.bosoop.com/disclosures/20261012900388/\n상태: 반려 공시 재게시 확인, 세부 규제판단 미확인. 매매 권고가 아닙니다.&quot;,
+    &quot;(4/8) 🏭 인텍플러스(064290·KOSDAQ) | 반도체 검사장비 수주\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\n2026년 10월 8일 체결된 반도체 Substrate 검사장비 공급계약이 10월 12일 공시됐습니다. 계약금액은 VAT 제외 309.02억원으로 2025년 연결 매출의 34.43%입니다. 계약 종료 예정일은 2028년 1월 10일입니다.\n\n대금 조건은 선급금 20%, 중도금 60%, 잔금 20%. 이는 지급 약정이지 실제 입금 증거가 아닙니다. 고객명과 공급지역은 비공개입니다. 특정 반도체 기업의 투자와 임의로 연결하지 않습니다.\n\n2025년 연결 영업손실 약 37억원, 2026년 상반기 영업손실 약 70억원으로, 신규 수주의 매출총이익·검수·운전자본 효과가 핵심입니다. 계약 규모를 이익 증가액으로 바꿀 수 없습니다.\n\n후속 확인: 납품 및 검수, 실제 대금회수, 계약 정정, 매출채권·재고, 분기 영업현금흐름.\n\n근거: https://www.bosoop.com/disclosures/20261012900145/\n상태: 계약 조건 재게시 확인, 고객·수익성 미확인. 매매 권고가 아닙니다.&quot;,
+    &quot;(5/8) 🤖 티엑스알로보틱스(484810·KOSDAQ) | 전환사채 발행 결정\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\n사모 CB 300억원 발행 결정. 시설투자 200억원, 운영·R&amp;D 100억원. 최초 전환가액 15,633원, 전환 가능 신주 1,919,017주입니다. 최초 조건상 기존 발행주식 대비 12.42%, 전환 후 전체 주식 대비 11.05%로 분모가 다른 수치입니다.\n\n표면 및 만기 이율은 각각 0%지만 2029년 4월부터 원금 100% 조기상환 Put이 가능합니다. 별도의 Call 조건도 있습니다. 납입 예정일은 10월 20일이며 실제 납입은 아직 확인되지 않았습니다.\n\n이번 공시 재게시 시점은 10월 12일 오후 16시경으로 KRX 정규장 마감 이후입니다. 10월 12일 정규장 종가를 CB 발표의 직접 반응으로 단정할 수 없습니다. 당일 가격 공급자 간 충돌도 있어 정밀 종가 판단을 보류합니다.\n\n후속 확인: 납입, 발행조건 정정, 2029년 현금상환 능력, 자금 투자성과, 실제 전환·희석.\n\n근거: https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285\n상태: 발행 결정 확인, 완료 미확인. 매매 권고가 아닙니다.&quot;,
+    &quot;(6/8) 🏢 한화머시너리앤서비스홀딩스(0220W0·KOSPI) | 공개매수\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\n김동선의 현금 공개매수 조건은 보통주 최대 16,060,000주, 주당 8,000원입니다. 기간은 10월 12일부터 11월 2일까지, 결제 예정일은 11월 4일입니다. 최대 공개매수대금은 1,284억8,000만원입니다.\n\n목표수량을 초과하는 응모에는 안분비례가 적용됩니다. 전량 완료 시 공개매수자 및 특수관계인 합산 보통주 지분율은 약 60.32%에서 79.32%로 높아질 것으로 기재됐지만 최종 결과는 아닙니다.\n\n8,000원은 모든 투자자의 주식에 보장되는 시장가격이 아닙니다. 안분, 잔여주식, 비용, 일정 위험이 있습니다. 지주회사인 만큼 공개매수 자체보다 향후 자본배분·소수주주 권리·자회사 가치의 귀속을 봐야 합니다.\n\n후속 확인: 최종 응모·안분·결제, 실제 지분율, 분할 후 SOTP와 지배구조 개편.\n\n근거: https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002\n상태: 공개매수 공시 확인, 최종 이행 미확인. 매매 권고가 아닙니다.&quot;,
+    &quot;(7/8) 💊 셀트리온(068270·KOSPI) | 2026년 3분기 잠정실적\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\n회사의 공식 발표와 공시 재게시를 대조했습니다. 2026년 3분기 K-IFRS 연결 잠정 매출은 1조5,000억원, 영업이익은 5,100억원, 영업이익률은 34.0%입니다. 전년 동기 대비 매출 +45.77%, 영업이익 +69.21%, 직전 분기 대비 매출 +7.63%, 영업이익 +12.88%입니다.\n\n회사는 고수익 후속 바이오시밀러 매출 믹스와 원가구조 개선을 설명합니다. 다만 이는 회사 설명이며 제품별 원가·판매단가와 현금회수 데이터로 지속성을 다시 검증해야 합니다.\n\n2026년 3분기 잠정 공시에는 순이익·희석 EPS·CFO·FCF가 없습니다. 공시 이전 시점으로 고정된 컨센서스 자료도 부족하므로 정확한 어닝 서프라이즈율과 정상 EPS 리비전은 보류합니다.\n\n후속 확인: 확정 실적, 제품별 판매·마진, 재고·채권, CFO·FCF, 실제 자사주 취득·소각.\n\n근거: https://celltrion.com/ko-kr/company/media-center/press-release\n공시: https://www.bosoop.com/disclosures/20261012800004/\n상태: 잠정 실적 직접 교차확인, 현금흐름 미공시. 매매 권고가 아닙니다.&quot;,
+    &quot;(8/8) ⚖️ DN오토모티브(007340·KOSPI) | 산업안전 사건\n2026.10.12 / RUN_ID: TR-20261012-1900-daily-close\n\n고용노동부는 10월 12일 DN오토모티브의 납 노출·주사 관련 의혹에 대한 공식 설명자료를 발표했습니다. 연합뉴스는 산업안전보건법 위반 68건 입건·송치, 과태료 4,620만원, 업무방해 혐의 경찰 수사 의뢰를 보도했습니다. 앞서 4월 21일부터 5월 7일까지 관련 납 노출 공정에 대한 사용중지 조치가 있었다고 보도됐습니다.\n\n확인된 행정조치와 최종 형사책임은 구별해야 합니다. 회사에 얼마의 보상·소송·안전시설 비용이 실제 발생할지 아직 정량 확인되지 않았습니다. 동시에 2025년 연결 영업이익 약 5,279억원이 이번 위험을 제거해 주는 것도 아닙니다.\n\n후속 확인: 정부·경찰의 최종 판단, 작업환경 개선, 추가 생산 차질, 충당부채·우발채무, 고객사 납품 영향.\n\n정부: https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064\n보도: https://www.yna.co.kr/amp/view/AKR20261012089900530\n상태: 정부 발표 확인, 개별 책임과 비용은 미확정. 매매 권고가 아닙니다.&quot;
+  ],
+  &quot;html_report&quot;: {
+    &quot;status&quot;: &quot;NOT_REQUESTED&quot;,
+    &quot;filename&quot;: null
+  },
+  &quot;source_refs&quot;: [
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900006&quot;,
+    &quot;https://www.bosoop.com/disclosures/20261012900006/&quot;,
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900388&quot;,
+    &quot;https://www.bosoop.com/disclosures/20261012900388/&quot;,
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012900145&quot;,
+    &quot;https://www.bosoop.com/disclosures/20261012900145/&quot;,
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000285&quot;,
+    &quot;https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285&quot;,
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000001&quot;,
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000002&quot;,
+    &quot;https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002&quot;,
+    &quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004&quot;,
+    &quot;https://celltrion.com/ko-kr/company/media-center/press-release&quot;,
+    &quot;https://www.bosoop.com/disclosures/20261012800004/&quot;,
+    &quot;https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064&quot;,
+    &quot;https://www.yna.co.kr/amp/view/AKR20261012089900530&quot;,
+    &quot;https://kind.krx.co.kr/external/2026/08/21/000488/20260821001579/68156.htm&quot;,
+    &quot;https://corvesting.com/company/kr/028300/&quot;,
+    &quot;https://boxfin.co.kr/company?corp_code=00479787&quot;,
+    &quot;https://jugamap.keywordegg.com/stock/226950/earnings&quot;,
+    &quot;https://jugamap.keywordegg.com/stock/007340/earnings&quot;
+  ],
+  &quot;unresolved_items&quot;: [
+    &quot;MATERIAL: DART의 10월 12일 관련 원문 중 일부는 직접 열람에 실패했다. 공시 재게시와 언론의 동일 원천 인용을 1차 원문 직접 확인으로 간주하지 않았다.&quot;,
+    &quot;MATERIAL: 티엑스알로보틱스의 2026-10-12 주가 공급자별 값과 세션 표기가 충돌한다. KRX 정규장 및 대체거래소 가격의 직접 대조가 필요하다.&quot;,
+    &quot;MATERIAL: 올릭스의 2026-10-12 정규장 종가에 공급자별 106000원과 106200원 차이가 있다. 거래장소 및 관측시점 확인이 필요하다.&quot;,
+    &quot;HLB: FDA 신청서 공식 접수, Class 1/2 분류, CRL 보완사항의 충족 여부 및 확정 허가 일정 미확인.&quot;,
+    &quot;올릭스: HDEC의 구체적인 윤리·법규상 반려 사유, 재제출 시점, 호주 임상 신청 상태 미확인. 2025년 영업손실 공급자 수치의 회계범위 차이 확인 필요.&quot;,
+    &quot;인텍플러스: 계약 상대방, 납품·검수 일정, 실제 입금, 제품별 증분마진 및 2027~2028년 매출인식 배분 미확인.&quot;,
+    &quot;티엑스알로보틱스: CB 실제 납입, 인수자와 최종 조건, 전환 여부, 미래 Put 상환 재원 및 순희석 확정 전.&quot;,
+    &quot;한화머시너리앤서비스홀딩스: 공개매수 최종 응모·안분·결제·취득 지분율 미확정. 신설 지주사 독립 재무이력과 SOTP의 추가 확인 필요.&quot;,
+    &quot;셀트리온: 2026Q3 잠정 순이익, 희석 EPS, CFO, Capex, FCF 및 정식 검토 후 재무 미공시. 사전 컨센서스 기준시점과 사후 리비전 미확정.&quot;,
+    &quot;DN오토모티브: 고용노동부 첨부 상세자료의 직접 대조가 완료되지 않았으며 형사책임, 충당부채, 보상금액, 후속 생산영향이 확정되지 않았다.&quot;,
+    &quot;CROSS_CASE: 7개 기업의 완전한 최대 8개 독립 분기 P/L·BS·CF·희석·ROIC 및 일관된 거래장소 기준 OHLCV·종목별 수급이 모두 확보된 것은 아니다. 정밀 밸류에이션·기술지표·목표가·매매조건은 미산출.&quot;,
+    &quot;PUBLICATION: 현재 결과는 검토용 초안이다. 중요 시세 충돌과 미확인 공시 세부사항을 해결하거나 공개문에서 제외하고 근거 수준을 다시 대조하기 전 READY_TO_PUBLISH로 승격하지 않는다.&quot;
+  ]
+}</pre></div></details><p class="note">EI chat: https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6accb678-7550-83ec-a79a-6563cf2d78b8 · RUN_ID TR-20261012-1900-daily-close · protocol deep-research-return/3.7.4</p>
+</section>
+<section class="sec pb" id="s8">
+  <div class="sh"><span class="no">08</span><h2>내일(10/13) 체크포인트</h2><span class="sub">미 은행 실적 · 일본 재개 · CPI 전야</span></div>
+<ol class="checks"><li>오늘밤 미 주식 <b>정규장 종가</b>: S&P·나스닥·SOX·NVDA·메모리 vs 장전 선물 괴리</li><li>화 10/13 <b>JPM·WFC·GS</b> 3Q: 순이자마진·신용비용·자본시장 코멘트</li><li>일본 <b>10/13 TSE 재개</b>: 10/9 닛케이 대비 갭·반도체 동조화</li><li>한국 수급: 외인 −2.02조 이후 현물·선물·삼성·하이닉스 프로그램</li><li>개별: HLB FDA 접수 분류, 올릭스 재제출/호주, 인텍플러스 고객, TXR 납입, 한화 공개매수 응모, DN 감독 후속</li><li>매크로: WTI·Brent $90/$100대, 미 10년(채권 재개 후), 수 10/14 CPI 포지셔닝</li></ol><details class="cfold bf k-unresolved"><summary><b class="ft">EI 미해결 상위 (후속 체크)</b><span class="fcnt">미해결 8개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb"><ul class="limits"><li>MATERIAL: DART의 10월 12일 관련 원문 중 일부는 직접 열람에 실패했다. 공시 재게시와 언론의 동일 원천 인용을 1차 원문 직접 확인으로 간주하지 않았다.</li><li>MATERIAL: 티엑스알로보틱스의 2026-10-12 주가 공급자별 값과 세션 표기가 충돌한다. KRX 정규장 및 대체거래소 가격의 직접 대조가 필요하다.</li><li>MATERIAL: 올릭스의 2026-10-12 정규장 종가에 공급자별 106000원과 106200원 차이가 있다. 거래장소 및 관측시점 확인이 필요하다.</li><li>HLB: FDA 신청서 공식 접수, Class 1/2 분류, CRL 보완사항의 충족 여부 및 확정 허가 일정 미확인.</li><li>올릭스: HDEC의 구체적인 윤리·법규상 반려 사유, 재제출 시점, 호주 임상 신청 상태 미확인. 2025년 영업손실 공급자 수치의 회계범위 차이 확인 필요.</li><li>인텍플러스: 계약 상대방, 납품·검수 일정, 실제 입금, 제품별 증분마진 및 2027~2028년 매출인식 배분 미확인.</li><li>티엑스알로보틱스: CB 실제 납입, 인수자와 최종 조건, 전환 여부, 미래 Put 상환 재원 및 순희석 확정 전.</li><li>한화머시너리앤서비스홀딩스: 공개매수 최종 응모·안분·결제·취득 지분율 미확정. 신설 지주사 독립 재무이력과 SOTP의 추가 확인 필요.</li></ul></div></details><div class="concl"><div class="lab">TOMORROW</div><p>내일은 <span class="hl">미 은행 실적</span>과 <span class="hl">일본 현물 재개</span>가 겹치고, 수요일 CPI 전야입니다. 오늘 국내 −3.65%/−4.83% 급락의 연장·반등 여부는 <span class="hl">오늘밤 미 종가</span>와 <span class="hl">외인 수급</span>을 같이 봐야 합니다.</p></div>
+</section>
+<section class="sec sfold" id="s9">
+  <details class="cfold k-coverage"><summary><span class="no">09</span><b class="ft">커버리지 한계 · 미확인</b><span class="fsub">접힌 영역 · 이번 run에서 확인하지 못한 것</span><span class="fcnt">한계·미확인 18개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<ul class="limits"><li>공개 t.me/s 스크랩 894건 · 41채널 (mention_summary total_posts=894)</li><li>비공개 Telegram Web 수집 <b>2회 실패(empty)</b>: 캬오/선진짱/재간둥이/텐렙/제이슨/AWAKE-52주 private → 발명하지 않음 (coverage_notes)</li><li>TR 패킷 raw_messages=200 (별도 선별) vs 공개 894건 집계를 혼동하지 말 것</li><li>Reddit API 403 → community_reddit.md는 websearch 폴백·주제 방향만</li><li>JP TSE 현금 휴장 · TOPIX 당일 미확보</li><li>US 현금채권 휴장 · Treasury 10/12 daily 행 없음 · 미 주식 10/12 종가 아직 없음</li><li>KOSDAQ 수급 서술 vs KRX 표 충돌 → 표만 사용</li><li>선물·DXY·유가·금·BTC는 ≈18:53~19:05 KST 스냅, 게시 시점 차이 가능</li><li>상한가·급등 원인 중 테마성 해석(호남 클러스터 등)은 개별 수주와 자동 연결 금지</li><li>여러 DART 원문 페이지 미열람 → 공시 요약·2차 보도만으로는 1차 대체 불가 (TR unresolved)</li><li>The original collector packet provides 200 records from five observed Telegram channels; 894 is a separate broader mention population. The remaining 694 full records were not available for source-preserving examination.</li><li>Five distinct observed Telegram channels must not be interpreted as five independent confirmations of every claim.</li><li>Two exact non-placeholder duplicates and 18 repost/near-duplicate extras were identified. Other paraphrased reposts may remain.</li><li>Eight media placeholders have no accessible original attachment or caption content.</li><li>Several important DART pages could not be independently inspected in full; filing summaries and secondary republications are not replacements for direct primary verification.</li><li>Detailed KOSDAQ investor-flow figures conflict across the market sidecar's table and certain narrative reports. Disputed exact figures are excluded from the publication text.</li><li>OpenAI's September annualized revenue report and year-end forecast have distinct reference periods and potentially different accounting scopes; neither is an audited final result.</li><li>The alleged Exicon large Samsung contract and some Honam semiconductor theme-linked supplier awards require direct contract disclosures.</li></ul>
+</div></details>
+</section>
+<section class="sec sfold pb" id="s10">
+  <details class="cfold k-sources"><summary><span class="no">10</span><b class="ft">출처</b><span class="fsub">시장 · TR · 텔레그램 공개 894건 · 게시본 16개</span><span class="fcnt">출처 24개 · 텔레그램 원문 80건 · 게시본 16개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<div class="srcgroups"><div class="srcg"><h4>국내 시장</h4><ul><li><b>뉴스핌 마감</b> <small>10/12</small><br><a href="https://www.newspim.com/news/view/20261012001236" target="_blank" rel="noopener">https://www.newspim.com/news/view/20261012001236</a></li><li><b>매일경제 마감</b><br><a href="https://www.mk.co.kr/news/stock/12173651" target="_blank" rel="noopener">https://www.mk.co.kr/news/stock/12173651</a></li><li><b>한경TV 투자자별 매매동향 표</b><br><a href="https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20261012128600008" target="_blank" rel="noopener">https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20261012128600008</a></li><li><b>연합 마감(AMP)</b><br><a href="https://www.yna.co.kr/amp/view/AKR20261012082251008" target="_blank" rel="noopener">https://www.yna.co.kr/amp/view/AKR20261012082251008</a></li></ul></div><div class="srcg"><h4>휴장 · 미국 · 매크로</h4><ul><li><b>JPX Sports Day 공지</b><br><a href="https://www.jpx.co.jp/english/news/2040/20261009-01.html" target="_blank" rel="noopener">https://www.jpx.co.jp/english/news/2040/20261009-01.html</a></li><li><b>JPX 캘린더</b><br><a href="https://www.jpx.co.jp/english/corporate/about-jpx/calendar/" target="_blank" rel="noopener">https://www.jpx.co.jp/english/corporate/about-jpx/calendar/</a></li><li><b>SIFMA Columbus Day</b><br><a href="https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendations-in-the-u-s-the-u-k-and-japan-for-u-s-columbus-day-and-japan-health-and-sports-day-holidays-2026" target="_blank" rel="noopener">https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendations-in-the-u-s-the-u-k-and-japan-for-u-s-columbus-day-and-japan-health-and-sports-day-holidays-2026</a></li><li><b>BLS 10월 스케줄</b><br><a href="https://www.bls.gov/schedule/2026/10_sched_list.htm" target="_blank" rel="noopener">https://www.bls.gov/schedule/2026/10_sched_list.htm</a></li><li><b>Treasury daily CSV</b><br><a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2026&amp;page&amp;_format=csv" target="_blank" rel="noopener">https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&amp;field_tdr_date_value=2026&amp;page&amp;_format=csv</a></li><li><b>고용부 DN 설명</b><br><a href="https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener">https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064</a></li></ul></div><div class="srcg"><h4>Telegram Research 교차확인</h4><ul><li><b>AKR20261012082251008</b><br><a href="https://www.yna.co.kr/amp/view/AKR20261012082251008" target="_blank" rel="noopener">https://www.yna.co.kr/amp/view/AKR20261012082251008</a></li><li><b>https://markets.hankyung.com/</b><br><a href="https://markets.hankyung.com/" target="_blank" rel="noopener">https://markets.hankyung.com/</a></li><li><b>https://www.jpx.co.jp/english/corporate/about-jpx/calendar/</b><br><a href="https://www.jpx.co.jp/english/corporate/about-jpx/calendar/" target="_blank" rel="noopener">https://www.jpx.co.jp/english/corporate/about-jpx/calendar/</a></li><li><b>sifma-fixed-income-market-close-recommen</b><br><a href="https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendations-in-the-u-s-the-u-k-and-japan-for-u-s-columbus-day-and-japan-health-and-sports-day-holidays-2026" target="_blank" rel="noopener">https://www.sifma.org/news/press-releases/sifma-fixed-income-market-close-recommendations-in-the-u-s-the-u-k-and-japan-for-u-s-columbus-day-and-japan-health-and-sports-day-holidays-2026</a></li><li><b>10_sched_list.htm</b><br><a href="https://www.bls.gov/schedule/2026/10_sched_list.htm" target="_blank" rel="noopener">https://www.bls.gov/schedule/2026/10_sched_list.htm</a></li><li><b>enewsView.do?news_seq=20064</b><br><a href="https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener">https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064</a></li><li><b>AKR20261012089900530</b><br><a href="https://www.yna.co.kr/view/AKR20261012089900530" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261012089900530</a></li><li><b>AKR20261007128851008</b><br><a href="https://www.yna.co.kr/view/AKR20261007128851008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261007128851008</a></li><li><b>AKR20261012039851008</b><br><a href="https://www.yna.co.kr/view/AKR20261012039851008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261012039851008</a></li><li><b>openai-expects-70-billion-in-annualized-</b><br><a href="https://bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026" target="_blank" rel="noopener">https://bloomberg.com/news/articles/2026-10-09/openai-expects-70-billion-in-annualized-revenue-by-end-of-2026</a></li><li><b>154503</b><br><a href="https://t.me/darthacking/154503" target="_blank" rel="noopener">https://t.me/darthacking/154503</a></li><li><b>154504</b><br><a href="https://t.me/darthacking/154504" target="_blank" rel="noopener">https://t.me/darthacking/154504</a></li></ul></div><div class="srcg"><h4>커뮤니티</h4><ul><li><b>community_x.md (런 파일)</b><br><a href="file:///workspace/telegram-research/runs/daily1012/community_x.md" target="_blank" rel="noopener">file:///workspace/telegram-research/runs/daily1012/community_x.md</a></li><li><b>community_reddit.md (런 파일)</b><br><a href="file:///workspace/telegram-research/runs/daily1012/community_reddit.md" target="_blank" rel="noopener">file:///workspace/telegram-research/runs/daily1012/community_reddit.md</a></li></ul></div></div><h3>텔레그램 원문 샘플 (공개 상위 채널, 최대 80건 표시)</h3><div class="apgrid"><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#84cc16"></span> 묻따방 🐕</b><span>2건</span></div><ul class="tgp"><li><span class="tm">00:26</span>[Fwd 국회제보핑] 이재명 골프를 먹고 마시고 놀다 계엄까지 한  내란범이 골프친거랑 비교 하는 것 자체가 제정신아닌거 아닌가? 
+
+관저에 스크린골프장 몰래 만들어 놓고 출근도 제대로 안하던 내란범이랑 비교가 되나? <a href="https://t.me/mootda/95205" target="_blank" rel="noopener">원문</a></li><li><span class="tm">00:28</span>└ 이건 뭔 개소린가. 윤통이 내란범이라고 말하는건 그렇다쳐도 윤통이 대통령 임기중에 골프친거랑 지금 이재명이 골프치는게 뭐가 다른대??? 
+
+내란범이든 뭐든 임기 중에 골프도 치면 안되나?? 그딴 논리면 나는 전과 없으니 골프쳐도 되고 이재명이는 전과 4범이니깐 치면 안되지.
+
+조두순이 죄 안지은 젊은시절에 골프 친걸로도 뭐라할 기세네. 이런 논리력으로 보좌관질을 하고 있으니 니들 근저당 국개 수준이 그 모양이지. <a href="https://t.me/mootda/95206" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#e11d48"></span> 타점 읽어주는 여자(타자)</b><span>15건</span></div><ul class="tgp"><li><span class="tm">06:13</span>[media] <a href="https://t.me/tazastock/78908" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:30</span>[media] <a href="https://t.me/tazastock/78909" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:36</span>[MUST KNOW5]스페이스X↑·애플↓·모더나 &#x27;폭등&#x27;...투자자가 알아야 할 5가지 뉴스
+
+https://n.news.naver.com/article/018/0006386151 <a href="https://t.me/tazastock/78911" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:45</span>美 국채시장, 14일 CPI에 주목…9월 물가 상승폭 확대 전망
+
+https://n.news.naver.com/article/277/0005826855 <a href="https://t.me/tazastock/78912" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:51</span>젤렌스키 &quot;푸틴이 60일 휴전 동의하면 대선 실시할 것&quot;
+
+https://n.news.naver.com/mnews/article/277/0005826853?sid=101258403 <a href="https://t.me/tazastock/78913" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:56</span>후티 반군 &quot;사우디 정유시설·공항 공격…우리 군 작전지역 돼&quot;
+
+https://news.einfomax.co.kr/news/articleView.html?idxno=4438581 <a href="https://t.me/tazastock/78914" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:00</span>MS CEO &quot;AI에 &#x27;비상 브레이크&#x27; 필수…내부자 위험처럼 통제해야&quot;
+
+https://www.tfmedia.co.kr/news/article.html?no=207892 <a href="https://t.me/tazastock/78915" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:05</span>[Fwd AI 리서치 딥다이브_Seoul to Wall St.] [2026년 10월 12일 주말 시황]
+러-우·중동 에너지 외교 속 유가 줄다리기, CPI·은행·TSMC 빅위크 개막
+
+──────────
+► 핵심 요약
+금요일 뉴욕증시는 오픈AI 매출 논란이 진정되며 다우 +0.83%, S&amp;P500 +0.59%, 나스닥 +0.64%로 3대 지수 동반 상승 마감, 주말 지수선물은 재개장 전이라 금요일 종가에 머물렀고 비트코인만 $83,442로 +1.09% 반등한 소폭 위험선호
+트럼프가 러-우 에너지시설 상호 공격 중단 합의를 발표했으나 젤렌스키는 구체안 미확인, 동시에 사우디 공항 후티 피격·호르무즈 유조선 기뢰까지 겹치며 유가는 방향보다 변동성 확대 국면
+중국과 EU가 관세 인하·희토류 공급 안정·중국산 전기차 수입 최대 50% 축소를 담은 잠정 합의 도달, 15일 EU 정상회담에서 이행 논의 예정으로 무역 불확실성 일부 완화
+엔비디아·블랙스톤이 투자한 호주 AI 데이터센터 퍼머스가  <a href="https://t.me/tazastock/78916" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:19</span>앤트로픽 IPO 관련 (보도 자료 기준)
+
+14일에 관련된 내용 체크 필요 <a href="https://t.me/tazastock/78917" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:23</span>[단독] SK하이닉스 美 인디애나 공장, 30년간 지역 세수 6700억 낸다
+
+https://www.the-today.com/news/articleView.html?idxno=91531 <a href="https://t.me/tazastock/78918" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:45</span>[Fwd 키움증권 전략/시황 한지영] [10/12, Kiwoom Weekly, 키움 전략 한지영]
+
+&quot;주가 방향성 vs 이익 방향성&quot; 
+
+------
+
+&lt;Weekly Three Points&gt;
+
+a. 국내 휴장기간(8~9일) 미국 증시는 오픈 AI의 매출액 축소 논란에 따른 AI주 변동성 확대 등 상방요인과 vs 미 30년물 국채 입찰 수요 호조 등 상방 요인이 공존하면서 혼조세(2거래일 누적 등락률, 다우 +0.9%, S&amp;P500 +0.1%, 나스닥 -0.6%, 필라델피아 반도체 지수 -3.8%).
+
+b. 현재 시장은 미국 10년물 금리 상승에 민감하게 반응하고 있다는 점을 감안 시, 금리 변화에 영향을 주는 미 9월 CPI가 매크로상 메인 이벤트가 될 예정. 
+
+c.  증시 내에서는 이번 주부터 애널리스트들의 리뷰를 통해 본격적으로 업데이트되는 삼성전자(+SK하이닉스)의 27년 실적 추정치가 얼마나 상향될 수 있는 지, 이와 연동된 코스피 전반의 실적 추정치 상향 강도가 중요해진  <a href="https://t.me/tazastock/78919" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:51</span>[Fwd 한화투자증권 경제 임혜윤] &lt;오늘 개장전 꼭 알아야 할 5가지_10/12 Bloomberg&gt;
+
+① 미국, 러시아산 디젤 공급 합의
+- 트럼프와 푸틴이 러시아산 디젤 글로벌 공급에 합의했고 미 재무부가 제재 면제를 발급했으며 이달부터 1350만배럴 공급
+- 미 행정부는 중간선거를 앞두고 농민과 트럭운전사의 연료 부담 완화를 목표로 조치를 확대
+- 젤렌스키와 슈머는 강하게 반발했고 공급 확대가 가격을 의미 있게 낮추기에는 제한적일 수 있다는 지적
+
+② 미 국채 기간 프리미엄 급등
+- 미 국채 금리가 24년 만의 고점인 가운데 최근 급등의 상당 부분이 10여 년 만의 최고로 뛴 기간 프리미엄에 기인
+- 바클레이스는 거시 불확실성, 주식과 채권 상관 붕괴, 공급 증가, 재정 우려를 원인 후보로 제시했고 캐피털이코노믹스는 기술적 요인과 프랑스 재정 우려를 언급
+- 기간 프리미엄이 구조적으로 높아지면 장기금리의 높은 수준 고착과 채권 반등 제약 우려
+
+③ 프랑스 국채 리스크 프리미엄  <a href="https://t.me/tazastock/78920" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:00</span>시작 <a href="https://t.me/tazastock/78921" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:03</span>2차 전지 , 제약/바이오 쪽이 먼저 상승 <a href="https://t.me/tazastock/78922" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:05</span>이수 vi , 장기 이평선 체크는 하면서 봐야 할 듯 <a href="https://t.me/tazastock/78923" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0369a1"></span> 미국 주식 인사이더 🇺🇸 (US Stocks Insider)</b><span>29건</span></div><ul class="tgp"><li><span class="tm">06:24</span>🌎 글로벌 뉴스 브리핑 - 2026년 10월 12일
+
+━━━━━━━━━━━━━━
+
+🇺🇸 아메리카
+
+• 트럼프 대통령은 러시아와 우크라이나가 에너지 인프라에 대한 공격을 즉각 중단하는 휴전에 합의했다고 발표. 그러나 젤렌스키 대통령은 사전에 합의 내용을 전달받지 못했다고 밝혔으며, 러시아가 동의하면 우크라이나도 수용할 준비가 있다고 설명. 이후 Axios는 러시아가 어떠한 형태의 휴전에도 동의하지 않았다고 보도.
+
+• 미국 정부는 우크라이나의 러시아 정유시설 공격 중단을 요구하며 유럽 국가들과 우크라이나 정부를 압박하고 있다고 FT가 보도. 공격이 계속될 경우 우크라이나에 대한 무기 공급을 차단할 수 있다고 경고.
+
+• 미국 특사 위트코프와 쿠슈너의 모스크바 방문 계획이 보류됐다고 Axios가 보도. 러시아와 우크라이나 간 에너지 휴전 협상이 불확실한 상황.
+
+• 트럼프 대통령의 러시아산 디젤 거래를 둘러싸고 공화당 내부에서 반발이 발생. 공화당 톰 틸리스 상원의원은 해당 거래가 불법 <a href="https://t.me/insidertracking/65975" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:25</span>트럼프 발언 및 미국 정치 관련 정리 - 2026년 10월 12일
+
+📍트럼프·러시아·우크라이나 에너지 휴전
+
+· 트럼프, 러시아와 우크라이나 간 에너지 시설 공격 즉각 중단 합의 발표
+· 트럼프 “양측 모두 합의했다. 합의를 깨지 말라” 강조
+· 젤렌스키 “트럼프의 휴전 발표는 처음 듣는 소식” 발언
+· 젤렌스키, 러시아가 동의하면 우크라이나도 에너지 휴전 수용하겠다고 발표
+· 우크라이나, 미국 측 휴전 제안의 구체적인 내용 기다리는 중
+· Axios, 러시아는 어떤 형태의 휴전도 수락하지 않았다고 보도
+· 트럼프 발표와 러시아 측 입장에 상반된 보도 존재
+
+📍미국·우크라이나 군사 지원 갈등
+
+· 미국, 우크라이나의 러시아 정유시설 공격 중단 요구 - FT
+· 미국, 공격 지속 시 우크라이나 무기 지원 차단 경고 - FT
+· 미국, 유럽 주요국과 우크라이나 정부에 정유시설 공격 중단 압박 - FT
+· 러시아, 트럼프의 에너지 휴전 발표 이후 하르키우 주요 발전소 공격
+· 위트코프·쿠 <a href="https://t.me/insidertracking/65976" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:26</span>트럼프 SNS 발언 모음
+
+━━━━━━━━━━━━━━
+
+러시아와 우크라이나 간 전쟁에서 즉시 발효되는 에너지 분야 휴전이 성립됐다.
+
+양측 모두 합의했다.
+
+절대로 이 합의를 위반하지 마라!
+
+이 사안에 관심을 가져줘서 감사하다.
+
+도널드 J. 트럼프 대통령
+
+━━━━━━━━━━━━━━
+
+모두에게 행복한 콜럼버스의 날을 기원한다!
+
+특히 우리의 위대한 이탈리아계 미국인 공동체에 축하를 전한다.
+
+이들은 급진 좌파 민주당 놈들과 사회주의자들, 공산주의자들이 미국의 도시와 마을을 휩쓸며 아름다운 크리스토퍼 콜럼버스 동상들을 거의 모조리 철거하는 동안 고통을 겪어야 했다.
+
+하지만 이제 그런 약탈의 시대는 끝났다!
+
+동상들은 돌아왔으며, 이전보다 훨씬 더 웅장한 모습으로 복원됐다.
+
+오늘은 우리의 위대한 이탈리아계 미국인 공동체뿐만 아니라 이탈리아라는 국가 자체에도 매우 중요한 날이다. 어쩌면 역사상 가장 중요한 날일 수도 있다.
+
+축하한다!
+
+도널드 J. 트럼프 대통령
+
+━━━━━━━━ <a href="https://t.me/insidertracking/65977" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:29</span>미국 럿거스대학교와 IBM을 비롯한 여러 연구기관이 양자컴퓨터가 연산을 중단하지 않고 작동 중 발생하는 오류를 스스로 감지하고 수정할 수 있는 기술을 입증.
+
+이는 자동차가 고속도로를 빠르게 달리는 도중에도 펑크 난 타이어를 교체할 수 있는 것과 유사한 개념.
+
+일반 컴퓨터는 0과 1로 구성된 비트를 사용하지만, 양자컴퓨터는 여러 상태에 동시에 존재할 수 있는 큐비트를 활용. 이러한 특성으로 신약 개발과 같은 극도로 복잡한 문제를 해결할 수 있는 막대한 연산 능력을 확보할 수 있지만, 큐비트는 외부 환경에 매우 민감하다는 한계가 존재.
+
+미세한 소음이나 온도 변화, 전자기파만으로도 큐비트 상태가 교란돼 정밀한 연산 결과가 무의미해질 수 있는 문제.
+
+그동안 연구진의 핵심 목표는 이러한 오류에도 안정적으로 작동하는 &#x27;오류 내성 양자컴퓨터&#x27; 개발에 집중.
+
+국제학술지 네이처 피직스에 발표된 새로운 연구에서는 이러한 기술의 실현 가능성을 입증.
+
+연구진은 156개 큐비트를 탑재한 IBM  <a href="https://t.me/insidertracking/65980" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:30</span>고프로의 몰락으로 중국 DJI와 인스타360이 글로벌 휴대용 스마트카메라 시장의 90% 이상 장악
+
+중국의 DJI와 인스타360이 글로벌 휴대용 스마트카메라 시장에서 합산 점유율 90% 이상을 확보. 2023년까지만 해도 매출 기준 시장 선두를 유지했던 미국 고프로는 최근 소유주가 변경된 데 이어 사업 방향까지 전환하는 상황.
+
+고프로는 익스트림 스포츠와 여행 애호가들이 사용하는 액션카메라 시장을 개척한 기업으로 평가받아 왔지만, 지난달 새로운 소유주에게 매각되면서 기존 핵심 사업에서 최소한 일부 철수할 방침을 시사.
+
+반면 중국 경쟁사들은 빠르게 시장을 잠식했으며, 시장조사업체 IDC에 따르면 DJI와 인스타360의 글로벌 휴대용 스마트카메라 시장 합산 점유율은 90%를 돌파.
+
+이러한 변화는 중국 기업들이 자국 시장을 넘어 글로벌 첨단기술 제품 시장에서도 얼마나 빠르게 성장할 수 있는지를 보여주는 사례.
+
+중국 선전에 본사를 둔 DJI와 인스타360은 서로 치열하게 경쟁하는 전략 <a href="https://t.me/insidertracking/65981" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:31</span>사우스차이나모닝포스트(SCMP)에 따르면 일본 스미토모 베이클라이트가 중국 쑤저우와 싱가포르에서 첨단 반도체 패키징 소재 생산 확대 추진.
+
+이번 증설을 통해 반도체 패키징용 몰드 언더필 소재 생산능력을 2배로 확대하고, 압축 성형용 과립 소재 생산량은 3배로 늘릴 계획. <a href="https://t.me/insidertracking/65982" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:31</span>영국 해상무역운영국(UKMTO)에 따르면 10월 11일 12시(UTC 기준) 호르무즈 해협을 통과하던 유조선이 정체불명의 발사체에 피격되는 사건 발생.
+
+선박 보안책임자(CSO)는 호르무즈 해협을 빠져나가던 유조선의 좌현에 발사체가 충돌해 선박이 손상됐다고 보고.
+
+승무원 전원은 안전한 상태이며, 공격 당시 환경 피해는 보고되지 않은 상황.
+
+현재 관계 당국이 사건을 조사 중이며, UKMTO는 해당 해역을 통과하는 선박들에 주의를 기울이고 의심스러운 활동을 발견할 경우 즉시 신고할 것을 권고. <a href="https://t.me/insidertracking/65983" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:31</span>이스라엘군(IDF)과 이스라엘 국내정보기관(ISA)이 지난 24시간 동안 가자지구 여러 지역을 공습해 하마스의 군사시설을 파괴했다고 발표.
+
+주요 공격 대상에는 가자지구 다라즈 투파 지역의 감시 지휘센터가 포함됐으며, 이 시설은 하마스 대원들이 해당 지역에서 작전 중인 이스라엘군을 상대로 활동하는 데 사용됐다고 설명.
+
+이와 함께 알푸르칸 지역의 로켓 발사시설과 가자지구 여러 지역에 위치한 무기 저장시설 3곳을 파괴했다고 발표.
+
+이스라엘군에 따르면 해당 시설에는 로켓, 폭발물, 박격포, 칼라시니코프 소총을 비롯한 각종 전투 장비와 수십 점의 무기가 보관돼 있었던 것으로 파악. <a href="https://t.me/insidertracking/65984" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:32</span>⚡️⚡️⚡️⚡️⚡️⚡️
+예멘 후티 반군이 오늘 사우디아라비아 리야드의 킹칼리드 국제공항을 다시 공격해 제4터미널을 타격하고 화재를 발생시켰다고 사우디 주도 연합군 대변인 투르키 알말리키 소장이 확인.
+
+공격 직후 긴급 대응 인력이 현장에 출동했으며, 사우디 방공망은 공항 인근에서 순항미사일 1발을 요격.
+
+이번 공격은 토요일 발생한 공격으로 12명이 사망하고 309명이 부상한 데 이어 다시 발생. <a href="https://t.me/insidertracking/65985" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:33</span>영국 해상무역운영국(UKMTO)에 따르면 10월 11일 오만 소하르 항구 인근 정박지에서 유조선이 공격받는 사건 발생.
+
+UKMTO는 추가 확인 결과 해당 유조선이 무인항공기(UAV)에 피격된 것으로 확인되면서 사건을 공식적으로 공격으로 재분류.
+
+현재 현지 당국이 선원 대피를 지원하고 있으며, 선박 피해 규모와 환경 영향은 아직 확인되지 않은 상황. 선원들의 상태 역시 구체적으로 파악되지 않은 상태.
+
+UKMTO는 관계 당국의 조사가 진행되는 동안 해당 해역을 통과하는 선박들에 각별한 주의를 당부하고, 의심스러운 활동이 발견될 경우 즉시 신고할 것을 권고. <a href="https://t.me/insidertracking/65986" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:35</span>[media] <a href="https://t.me/insidertracking/65987" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:36</span>영국 외무·영연방·개발부(FCDO)가 10월 11일 사우디아라비아에 대한 여행 경보를 갱신하고, 제다와 담맘 및 사우디 내 대부분의 공항에 대해 필수적인 목적을 제외한 모든 여행을 자제할 것을 권고.
+
+다만 메디나의 프린스 모하메드 빈 압둘아지즈 국제공항은 예외로 지정돼 기존 녹색 여행경보 유지.
+
+영국 정부는 사우디아라비아를 떠나려는 자국민에게 육로를 통한 대체 출국 경로에 관한 추가 여행 지침을 확인하도록 안내.
+
+또한 10월 10일 리야드 킹칼리드 국제공항에서 발생한 심각한 사건과 관련해 공항의 안전이 확보될 때까지 영국 국민들에게 해당 공항을 계속 이용하지 말 것을 권고. <a href="https://t.me/insidertracking/65988" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:38</span>케이티 자카리아(Katie Zacharia)가 내일 콜럼버스 데이를 맞아 백악관 대변인 임기를 시작하게 된다는 소식을 기쁜 마음으로 발표한다.
+
+케이티는 화요일 오전 9시 30분 백악관 브리핑룸에서 취임 기자회견을 개최할 예정이다.
+
+케이티는 처음부터 마음으로 나와 함께해 온 사람이며, 앞으로 훌륭하게 임무를 수행할 것이다!
+
+도널드 J. 트럼프 대통령 <a href="https://t.me/insidertracking/65989" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:39</span>월스트리트저널에 따르면 아마존이 인공지능(AI) 스타트업 데카트를 약 70억 달러(약 7B 달러)에 인수하기 위한 협상을 진행 중. <a href="https://t.me/insidertracking/65991" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:39</span>애브비의 스카이리치(SKYRIZI)와 린버크(RINVOQ), 새로운 임상 데이터에서 염증성 장질환에 대한 지속적인 질병 조절 효과 확인.
+
+• 임상 3상 AFFIRM 연구에서 스카이리치는 12주 차 기준 위약 대비 임상적 관해율과 내시경적 반응률이 통계적으로 유의하게 높은 결과 도출.
+
+• 스카이리치 연장 연구에서 최대 5년간 치료 효과 유지 확인. FORTIFY 연구에서는 누공성 크론병 환자의 74.5%에서 배액성 누공이 관찰되지 않은 것으로 나타남.
+
+• 린버크의 실제 진료 데이터에서는 치료를 지속한 누공성 크론병 환자의 93.3%, 협착성 크론병 환자의 76.9%에서 임상적 관해 및 코르티코스테로이드 없이 유지되는 관해 확인. <a href="https://t.me/insidertracking/65992" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:40</span>이란 이슬람혁명수비대(IRGC) 해군에 따르면 오늘 세 번째 유조선이 기뢰에 부딪혀 화재 발생. <a href="https://t.me/insidertracking/65993" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:41</span>러시아와 우크라이나 간 전쟁에서 즉시 발효되는 에너지 분야 휴전이 성립됐다.
+
+양측 모두 합의했다.
+
+절대로 이 합의를 위반하지 마라!
+
+이 사안에 관심을 가져줘서 감사하다.
+
+도널드 J. 트럼프 대통령 <a href="https://t.me/insidertracking/65994" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:43</span>젤렌스키 우크라이나 대통령이 우크라이나에 새로운 대통령이 필요한 시점이라는 트럼프 대통령의 발언에 대해 처음으로 입장 표명.
+
+젤렌스키 대통령은 “트럼프 대통령을 존중하지만, 어떤 지도자를 선택할지는 우리 사회와 우크라이나 국민이 결정할 문제입니다. 언제 투표할지, 어떤 방식으로 선거를 치를지, 누구를 선택할지는 우크라이나 국민에게 달려 있습니다”라고 강조.
+
+이어 “푸틴 대통령이 우크라이나 대통령 교체를 간절히 원했다는 사실을 알고 있습니다. 트럼프 대통령이 선거를 통해 우크라이나의 변화를 원한다면, 저는 그의 참모진에도 이미 제안을 전달했습니다. 푸틴 대통령에게 2개월간의 전면 휴전을 보장하라고 전해주십시오. 그러면 우리는 선거를 실시하겠습니다. 물론 우리는 국민의 어떤 선택이든, 바로 우크라이나 국민의 선택이라면 받아들일 준비가 돼 있습니다”라고 발언. <a href="https://t.me/insidertracking/65995" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:43</span>러시아가 우크라이나 하르키우 외곽의 식료품점을 공격해 3명이 사망하고 9명이 부상. <a href="https://t.me/insidertracking/65996" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:43</span>월스트리트저널에 따르면 트럼프 대통령과 젤렌스키 우크라이나 대통령의 관계가 2025년 백악관 집무실에서 벌어진 충돌 이후 최악의 수준으로 악화.
+
+트럼프 대통령이 우크라이나 대통령 교체를 요구하고 러시아 정유시설에 대한 공격 중단을 촉구하면서, 유럽 정상들이 지난 18개월간 미국의 우크라이나 지원을 유지하기 위해 기울여온 외교적 노력이 위기에 처했다는 분석. <a href="https://t.me/insidertracking/65997" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:44</span>파이낸셜타임스에 따르면 예멘 후티 반군이 군사력을 대폭 강화하며 홍해에 대한 통제력을 확대.
+
+후티 반군은 지난 일주일 동안 사우디아라비아 리야드 공항을 세 차례 공격했으며, 가장 최근 공격으로 12명이 사망하고 300명 이상이 부상.
+
+또한 전략적 요충지인 바브엘만데브 해협의 모카항과 페림섬을 장악한 것으로 알려짐.
+
+파이낸셜타임스는 이란의 지원을 받는 후티 반군이 자체 드론 생산 체계를 구축하고 미사일 전력을 확충하면서 중동에서 가장 강력한 비국가 무장단체 중 하나로 성장했다고 평가. <a href="https://t.me/insidertracking/65998" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:45</span>2026년 10월 12일~16일 미국 증시 및 경제지표 주간 브리핑
+
+이번주 미국 증시는 9월 소비자물가지수(CPI), 생산자물가지수(PPI), 소매판매와 주요 금융·반도체 기업 실적 발표가 핵심 변수. 인플레이션 재가속 우려와 높은 국채금리가 성장주 밸류에이션에 부담으로 작용하는 가운데, 연준의 추가 긴축 가능성과 기업 실적을 통한 경기 펀더멘털 확인이 중요. 특히 ASML과 TSMC 실적은 AI 반도체 투자 사이클을 판단하는 주요 이벤트.
+
+10월 12일 월요일은 미국 콜럼버스 데이로 뉴욕증시 정상 개장. 주요 경제지표와 대형 기업 실적 발표는 부재. 국제통화기금(IMF) 회의가 예정되어 있으며 글로벌 성장률 전망과 통화정책 관련 발언에 관심 집중.
+
+13일 화요일에는 9월 기존주택판매 발표와 연준 월러 이사 발언 예정. 8월 기존주택판매는 전월 대비 2.0% 감소한 연율 398만 건으로 주택시장 둔화 지속. 실적은 유나이티드헬스(UNH), JP모건(JPM), 존슨앤드존슨(JNJ <a href="https://t.me/insidertracking/65999" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:46</span>금일 실적 발표 리스트
+특이사항 없음 <a href="https://t.me/insidertracking/66001" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:46</span>💬💬💬💬💬💬
+금일 한국시간 (KST) 기준 경제지표 및 주요 일정
+특이사항 없음 <a href="https://t.me/insidertracking/66002" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:51</span>사우디군이 예멘 사나 주 함단 지역에 대한 공습을 실시 <a href="https://t.me/insidertracking/66003" target="_blank" rel="noopener">원문</a></li><li><span class="tm">06:59</span>알아라비야 방송이 전날 예멘 후티 반군의 공격을 받은 사우디아라비아 리야드 킹칼리드 국제공항 터미널 내부의 피해 상황을 담은 영상을 공개. <a href="https://t.me/insidertracking/66004" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:07</span>지수 선물 <a href="https://t.me/insidertracking/66006" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:08</span>원자재 <a href="https://t.me/insidertracking/66007" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:17</span>💬💬💬💬💬💬
+🎙 10월 12일 미주인 브리핑 (재업로드)
+
+• 이번 주 CPI·PPI·소매판매 발표
+• ASML·TSMC 실적, AI 반도체 투자 흐름 주목
+• JP모건 등 미국 대형 은행 실적 시즌 시작
+• 호르무즈 유조선 피격·사우디 공항 공격
+• 트럼프 휴전 발표… 러시아·우크라이나 입장 엇갈려
+
+이번 주 미국 증시 핵심 일정과 주요 뉴스를 팟캐스트로 정리했습니다. 🎧
+
+🌐 https://youtu.be/219a3wyf4o0 <a href="https://t.me/insidertracking/66008" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#db2777"></span> 더파마 뉴스·인사이트| THE PHARMA</b><span>4건</span></div><ul class="tgp"><li><span class="tm">07:00</span>아델이 사노피와 맺은 최대 10억4000만달러 계약을 앞세워 코스닥 상장 예심을 통과했습니다.
+
+한국거래소는 8일 아델의 코스닥 상장 예비심사를 승인했습니다. 7월 21일 심사를 청구한 지 약 두 달 반 만으로, 상장 예정 물량은 2,165만8,465주이며 이 중 217만주가 공모주로 배정될 예정입니다.
+
+아델은 사노피에 알츠하이머병 후보물질 ADEL-Y01을 기술이전해 최대 10억4000만달러를 받기로 했습니다. 계약에는 반환 의무가 없는 8000만달러의 선급금과 단계별 마일스톤, 출시 후 순매출 연동 로열티가 포함됩니다.
+
+기술특례 상장을 추진하는 아델은 기술성평가에서 A와 BBB를 받았으며, 올해 4월 프리IPO로 490억원을 조달했습니다. ADEL-Y01의 임상 1a/1b상에서는 최대 100mg/kg 투여 후 안전성과 내약성이 확인됐고, 이후 임상개발은 사노피가 이어갈 예정입니다.
+
+더파마뉴스에서 보기
+https://thepharmanews.net/article/adel-sa <a href="https://t.me/BBAinsights/2327" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:20</span>오노약품공업이 선급금 8000만 달러를 내고 IgG 분해제 3종의 아시아 권리를 확보했습니다.
+
+오노약품공업은 일본·한국·대만과 ASEAN 회원국에서 바이오헤이븐의 IgG 분해 후보물질 3종 권리를 확보했습니다. 선급금 8000만 달러와 별도 마일스톤 2000만 달러를 지급하며, 지역 판매 이익의 20%를 바이오헤이븐에 배분합니다.
+
+중심 후보물질 BHV-1300은 그레이브스병 치료제로 개발 중이며 현재 3상 시험이 진행되고 있습니다. 바이오헤이븐은 앞서 환자 1명에게서 질병 유발 TSH 수용체 자극 항체가 완전히 억제됐다고 밝혔습니다.
+
+계약에는 후속 후보물질 BHV-1310과 BHV-1320도 포함됐습니다. 오노약품공업은 이번 도입으로 면역·염증 분야의 후기 개발 파이프라인을 보강합니다.
+
+더파마뉴스에서 보기
+https://thepharmanews.net/article/ono-biohaven-bhv-1300-muzcyto3?utm_source=telegram&amp;utm_medium= <a href="https://t.me/BBAinsights/2328" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:40</span>대화제약이 리포락셀액의 중국 허가를 유방암 1차부터 3차 치료까지 넓혔습니다
+
+대화제약은 10월 8일 중국 국가약품감독관리국(NMPA)에서 재발 또는 전이성 HER2 음성 유방암 치료에 대한 리포락셀액(DHP107/RMX3001)의 추가 허가를 받았습니다. 기존 위암에 이어 적응증이 확대됐으며, 중국에서는 1차부터 3차 치료까지 사용할 수 있습니다.
+
+국내 허가가 1차 치료에 한정된 것과 달리 중국 허가에는 2차와 3차 치료도 포함됐습니다. 승인 근거에는 3상 OPTIMAL과 2상 OPERA가 포함됐고, 평가에서 정맥주사 파클리탁셀 주간요법 대비 비열등성을 입증했습니다.
+
+대화제약은 현지 파트너와 출시와 공급을 추진하고, 연구자 주도 임상시험(IIT)과 추가 적응증 확보를 이어갈 계획입니다. 회사는 중국의 연간 신규 유방암 환자를 약 36만 명으로 추산하며, HER2 음성 환자군이 현지 시장에서 큰 비중을 차지한다고 설명했습니다.
+
+더파마뉴스에서 보기
+https://thepharma <a href="https://t.me/BBAinsights/2329" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:00</span>이장한 종근당 회장이 발행주식 9.55%를 세 자녀에게 넘기며 직접 지분을 모두 정리했습니다.
+
+종근당은 8일 이 회장이 지난 2일 보통주 131만8807주를 세 자녀에게 증여했다고 공시했습니다. 장남 이주원 상무는 52만8807주를 받아 총 73만3620주, 지분율 5.32%를 보유하게 됐습니다.
+
+장녀 이주경씨와 차녀 이주아씨는 각각 39만5000주를 받아 지분율이 4.04%로 상승했습니다. 이 상무는 종근당홀딩스 다음으로 많은 주식을 보유하게 됐지만, 최대주주 측 합산 지분율은 40.15%로 유지됐습니다.
+
+더파마뉴스에서 보기
+https://thepharmanews.net/article/jongkundang-share-gift-equity-muzcygf0?utm_source=telegram&amp;utm_medium=social
+
+더파마뉴스 텔레그램
+https://t.me/BBAinsights <a href="https://t.me/BBAinsights/2330" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#b45309"></span> [메리츠 Tech 김선우, 양승수, 김동관]</b><span>10건</span></div><ul class="tgp"><li><span class="tm">07:23</span>Meritz Overnight Tech 2026. 10. 12 (월)
+
+[메리츠증권 반도체/디스플레이 김선우]
+
+★ 메모리 스팟가격
+ DRAM(DDR4 8Gb: 1D +0.33%, 1W +0.80%, 1M +3.92%)
+         (DDR5 16Gb: 1D +0.86%, 1W +1.84%, 1M +8.41%)
+ NAND(MLC 64Gb: 1D 0.00%, 1W +2.05%, 1M +7.77%)
+
+★ 반도체/디스플레이 주요 뉴스 플로우
+휴머노이드 로봇 D램 수요, 2030년 20배…삼성·SK 새 수요처 부상 (매일신문)
+https://buly.kr/28wLdJl
+
+최태원 “美·中 반도체 증설 경쟁에 뒤처지면 점유율 하락…공장 확충 서둘러야” (조선비즈)
+https://buly.kr/1xFrOU
+
+최태원 ‘호남 팹 철회설’ 직접 진화…“용인과 동시 건설도 검토” (서울경제)
+https://buly.kr/FLbBCRj
+
+“외국인 계속 팔더니”…삼성전자 外人 지분율, 17년 3개월 만 <a href="https://t.me/merITz_tech/19021" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:23</span>[SK하이닉스 자사주 매매 현황]
+
+-10/8(목) SK하이닉스의 자사주 매매 체결내역입니다. 
+보통주: 400,000주 (0.69조원)
+*자사주 매입 공시 금액인 40조원 중 금일까지 매수 진행률은 87.7%(33.7조원) 입니다.
+
+-금일(10/12) SK하이닉스의 자사주 매매 신청내역입니다. 
+보통주: 400,000주
+
+(자료: KIND)
+
+*본 내용은 당사의 코멘트 없이 국내외 언론사 뉴스 및 전자공시자료 등을 인용한 것으로 별도의 승인 절차 없이 제공합니다. <a href="https://t.me/merITz_tech/19022" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:28</span>[메리츠증권 전기전자/IT부품 양승수]
+
+도우인시스 (484120) 
+더 많이 접힐수록, 더 크게 성장한다
+
+▶ 3Q26 Preview: 폴드8 흥행에 더해진 극한의 수율 
+ 
+- 도우인시스의 3Q26 연결 실적은 매출액 630억원(+116.6% YoY), 영업이익 97억원(흑전 YoY, OPM 15.4%)을 전망
+
+- 갤럭시 Z 폴드8 흥행에 따른 가동률 상승과 자동화 투자에 기반한 수율 개선 효과가 맞물리며 분기 기준 사상 최대 실적을 재차 경신할 것으로 예상
+
+- 특히 DDIC 등 일부 부품의 납기 차질로 공급 물량 일부가 4분기로 이연되었음에도 사상 최대 실적 달성이 기대되며, 견조한 최종 소비자 수요를 바탕으로 10월에도 양호한 출하 흐름이 이어지고 있는 것으로 파악
+
+- 또한 공급 물량 확대와 동시에 상반기 진행된 자동화 투자 효과로 90% 후반대의 높은 수율을 유지하고 있어, 시장 기대치를 상회하는 수익성 달성을 예상
+
+▶ 선제적 증설, 더 커질 폴더블 시장을 향해
+
+- <a href="https://t.me/merITz_tech/19023" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:38</span>[메리츠증권 전기전자/IT부품 양승수]
+
+파인엠텍(441270): 
+이제부터 말보다 숫자로 
+
+▶ 3Q26 Preview: 오랜만에 기대되는 두 자릿수 마진
+
+- 3Q26 매출액과 영업이익 추정치를 각각 1,520억원(+164.1% YoY), 180억원(+1,065.6% YoY, OPM 11.8%)으로 기존 대비 12.0%, 50.5% 상향 조정
+
+- 갤럭시 Z 폴드8 흥행에 따른 백플레이트 공급 물량 확대에 힘입어 영업이익 기준 시장 컨센서스(151억원)를 18.6% 상회할 전망
+
+- 특히 폴드 모델의 출하 비중 확대에 따른 믹스 개선과 수율 안정화 효과가 맞물리며 17개 분기 만에 두 자릿수 영업이익률을 회복할 것으로 기대
+
+- 또한 3분기부터 북미 고객사향 제품 출하가 일부 시작된 가운데, 경쟁사의 수율 이슈로 동사의 공급 점유율 역시 확대된 것으로 파악
+
+▶ 폴더블은 접히고, 성장은 열린다 
+
+- &#x27;26년과 &#x27;27년 연결 기준 영업이익 추정치를 각각 440억원(+2,297.6 <a href="https://t.me/merITz_tech/19025" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:38</span>[메리츠증권 반도체/디스플레이 김선우]
+
+▶ SK하이닉스 (000660): 3Q26 OP 80.1조원 실적 서프라이즈 예상
+
+[3Q26 영업이익: 상반기와 다르다. 억제 요인들의 추세 반전 전환]
+
+- SK하이닉스의 3Q26 영업이익은 전분기 대비 32% 증가한 80.1조원으로 시장기대치를 능가할 전망
+
+- 최근 원화강세 흐름 및 상반기 동사의 상대적 실적개선 속도 열위에 3Q26 영업이익 추정치는 70조원까지 하락 (컨센서스 74조원)
+
+- 3Q26 DRAM과 NAND 출하량/판가 증감률은 각각 +13%/+22%, +4%/+15% 수준으로, 각 영업이익은 63조원/17조원으로 예상 (OPM 각각 84%/69% 추정)
+
+-그간의 상대적 실적 열위는 이제 반전. 이는
+1) 판가 전략에 있어 중장기적 관점에서 고객 중심 유연성 극대화를 꾀했던 부분의 보상적 되돌림이 발생
+
+2) 업계에서 제일 높은 HBM 판매 비중으로 인해 판가 상승률에 발목 잡혔지만, 오히려 HBM4 본격 공급이 시작 <a href="https://t.me/merITz_tech/19026" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:39</span>[메리츠증권 반도체/디스플레이 김선우]  ▶ SK하이닉스 (000660): 3Q26 OP 80.1조원 실적 서프라이즈 예상  [3Q26 영업이익: 상반기와 다르다. 억제 요인들의 추세 반전 전환]  - SK하이닉스의 3Q26 영업이익은 전분기 대비 32% 증가한 80.1조원으로 시장기대치를 능가할 전망  - 최근 원화강세 흐름 및 상반기 동사의 상대적 실적개선 속도 열위에 3Q26 영업이익 추정치는 70조원까지 하락 (컨센서스 74조원)  - 3Q26 DRAM과… <a href="https://t.me/merITz_tech/19027" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:49</span>[메리츠증권 IT 소재장비 김동관]
+
+두산테스나(131970): 제품 포트폴리오 확장 초입
+
+- 두산테스나는 3Q26E 매출액 770억원(-8% YoY; 이하 YoY), 영업이익 33억원(-37%; OPM 4.3%)을 기록할 전망
+
+-모바일향 CIS, SoC 수요의 계절적 비수기에 더해 ADAS 칩의 전분기 선행생산 여파로 가동률 하락이 불가피
+
+- 파운드리 고객사의 capa 할당 영향으로 3분기에 계획됐던 ADAS 칩 생산량이 일부 2분기에 조기 집행. ADAS 칩 테스트 가동률은 7-8월 감소 후, 9월부터 재차 반등한 것으로 추정
+
+- 메모리 컨트롤러는 eSSD향 물량 증가와 테스트 시간 증가 효과로 +100% QoQ 이상 성장할 것으로 예상
+
+- 동사 실적은 ADAS 물량 회복, 모바일 계절성 개선, LPU 신규 양산이 더해지며 4Q26부터 개선될 전망
+
+- LPU는 ‘26년 10월 장비 셋업 완료 후 11월 양산 예상. 북미 고객사향 CIS 테스트 라인이 ‘27년 3월 장비 <a href="https://t.me/merITz_tech/19028" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:49</span>[메리츠증권 IT 소재장비 김동관]
+
+리노공업(058470): 반가운 생산 정상화
+
+- 리노공업은 3Q26E 매출액 862억원(-11% YoY; 이하 YoY), 영업이익 386억원(-20%; OPM 45%)을 기록할 전망
+
+- 전분기 높은 기저에 파업에 따른 생산·납품 지연이 더해지며 외형 감소가 불가피할 것으로 예상
+
+- 9월 23일 파업 종료 이후 현재는 생산 정상화가 이뤄진 상황. 노사 간 추가 협의는 지속되고 있으나, 현재 평시 수준의 생산량은 기록 중인 것으로 파악됨
+
+- 4Q26E 영업이익은 496억원(+23%)으로 예상. 4분기는 통상 모바일향 테스트 소켓의 계절적 비수기이나, 금년의 경우 3분기의 이연 물량 출하를 계획하고 있는 만큼 실적 반등이 가능할 것으로 전망
+
+- 칩의 고성능화에 따른 고부가 테스트 소켓 수요 확대라는 동사의 투자포인트는 2027년에도 유효할 전망
+
+- 북미 세트 고객사의 WMCM 적용 확대, 북미 팹리스 고객사의 신규 패키징 적용에 더해 CPO <a href="https://t.me/merITz_tech/19029" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:49</span>[메리츠증권 IT 소재장비 김동관]
+
+솔브레인(357780): 환율 역풍에도 드러나는 물량 증가 효과
+
+- 솔브레인은 3Q26E 매출액 3,316억원(+38% YoY; 이하 YoY), 영업이익 522억원(+52%; OPM 16%)을 기록할 전망
+
+- 환율 하락 영향에도 불구, 신규 DRAM fab(P4, M15X) 가동 확대로 인한 물량 증가와 가격 인상 효과로 외형 성장 지속 예상
+
+- 수익성은 원재료 가격 안정화 및 판가 인상에 힘입어 전분기 대비 개선될 전망이나, 성과급 일부 반영 및 환율 하락에 기존 예상치(OPM 17%)는 하회 전망
+
+- 2026년 8월, 국내 공장에서 테일러 fab으로의 초도 물량을 출하 후 4Q26E 동사의 2차 북미 fab향 PO 수령 및 소재 출하 예상
+
+- 동사가 계획 중이던 북미 현지 소재 공장도 최근 착공. 2028년 상반기부터 고객사 북미 fab으로의 범용 소재 현지 공급에 나설 예정
+
+- 환율과 성과급 등 단기적인 이익 추정치 변동 요인에도 <a href="https://t.me/merITz_tech/19030" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:49</span>[메리츠증권 IT 소재장비 김동관]
+
+원익IPS(240810): CAPEX 사이클이 실적으로 확인되는 국면
+
+- 원익IPS는 3Q26E 매출액 3,425억원(+28% YoY; 이하 YoY), 영업이익 583억원(+112%; OPM 17.0%)을 기록할 전망
+
+- 9월 예정됐던 고객사 파운드리 fab향 장비 매출 이연으로 컨센서스를 하회하나(OP -13% 하회 예상), 메모리 신규 fab향 공급이 본격화되며 YoY/QoQ 큰 폭의 성장을 시현할 전망
+
+- DRAM은 P4, M15X 등 신규 fab 및 기존 fab 전환 투자향 중심, 파운드리향 매출 인식은 3Q26 오스틴 fab, 4Q26 테일러 fab 순서로 예상
+
+- 급증했던 수주잔고가 순차적으로 실적에 반영되는 국면. 향후에는 삼성전자, SK하이닉스의 클린룸이 순차적으로 열리며 장비 반입은 2028년까지 확대될 전망
+
+- 28년까지도 실적 성장 가시성이 높은 만큼 동사 주가는 장기 이익 증가를 반영하며 완만한 우상향 흐름 예상
+
+ <a href="https://t.me/merITz_tech/19031" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0891b2"></span> 주식 급등일보🚀급등테마·대장주 탐색기 | Korean Stocks</b><span>5건</span></div><ul class="tgp"><li><span class="tm">07:29</span>✅ [속보] 이란 외무,  사우디-예멘전 대화해결 위한 중재 의사 밝혀
+
+https://n.news.naver.com/mnews/article/003/0014245645 <a href="https://t.me/FastStockNews/126304" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:40</span>✅ [사이드B] 젠슨 황 이어 리사 수도 한국行…두 AI 거물이 찾는 것은
+리사 수, 월드랩스 인수 직후 방한...피지컬 AI 협력 주목
+삼성 2나노서 2028년 AMD 게이밍 칩 양산 전망
+잇단 한국행 배경은? &quot;한국은 제조업 백화점&quot;
+
+https://n.news.naver.com/article/031/0001064890?sid=105 <a href="https://t.me/FastStockNews/126305" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:50</span>[Fwd 엄브렐라리서치 Jay의 주식투자교실] 美 반도체 3Q 클라우드 Capex 프리뷰 (Bofa)
+
+1. AI Capex 전망 대폭 상향: CY26/27E 각각 +98%/+37% YoY
+
+• Q3 글로벌 하이퍼스케일 capex는 2,910억 달러(QoQ +27%, YoY +110%)로 추정되며, 4대 하이퍼스케일러의 실적 발표가 앞으로 몇 주 내에 예정되어 있음
+
+• CY26E capex는 1.01조 달러(+98%), CY27E는 1.39조 달러(+37%)로 상향되었으며, 8월 전망(+78%/+35%)보다 크게 높아짐. xAI, CoreWeave 등 네오클라우드를 추정치에 포함한 영향도 있음
+
+• AI 반도체 변동성과 AI 둔화 우려(OpenAI ARR 700억 → 500억 달러 보도)에도 CY27E 이후까지 지속 가능하다고 판단함
+
+• 근거는 3가지임: ①상위 4개 CSP의 RPO 약 2.3조 달러 초과, ②GPU 현물 임대가격이 고점 근처 유지, ③에이전틱 AI 등 신규 활용 <a href="https://t.me/FastStockNews/126306" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:55</span>[Fwd 루팡] 일론 머스크
+
+문제는 RAM의 공급 <a href="https://t.me/FastStockNews/126307" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:02</span>✅ [모닝 리포트] &quot;펌텍코리아, 화장품 용기 품귀에 4분기 영업익 170%↑&quot;
+4분기 매출 1304억원·69% 증가 전망
+6공장 증설 효과…목표가 9만원 상향
+
+https://www.newspim.com/news/view/20261012000034 <a href="https://t.me/FastStockNews/126308" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0d9488"></span> 그로쓰리서치(Growth Research) [독립리서치]</b><span>7건</span></div><ul class="tgp"><li><span class="tm">07:37</span>✅ IPO 한파 지나가나…4분기 반등 기대감 ‘솔솔’
+
+https://n.news.naver.com/mnews/article/119/0003141496
+
+IPO가 좀 주춤했는데, 본격적으로 IPO가 많이 나옵니다.
+
+조 단위 IPO가 확실히 많습니다.
+
+📌 IPO 한파에 공모 규모 전년 대비 52% 급감
+- 올해 1~3분기 신규 상장 기업 33곳, 전년 동기 55곳 대비 40% 감소
+
+- 공모 규모 3조4,028억원 → 1조6,312억원, 전년 대비 52.1% 축소
+
+- 반도체 대형주 중심으로 투자자금이 집중되면서 IPO 시장 상대적 소외
+
+📌 3분기 신규 상장 16곳, 회복 신호 가시화
+- 상반기 신규 상장 17곳에 이어 3분기에만 16곳 상장
+
+- 스카이랩스·네오사피엔스·덕산넵코어스 등 9월 상장 기업들이 상장 첫날 공모가 상회
+
+- 중소형 IPO 중심으로 투자심리 회복 조짐
+
+📌 4분기 수요예측 17곳, 대어급 상장까지 대기
+- 10~11월 수요예측 예정 기업 17곳, 연내 상 <a href="https://t.me/growthresearch/30283" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:39</span>✅ &quot;국장은 불안해&quot;…ETF 투자금 4조원 몰린 곳은?
+
+https://n.news.naver.com/mnews/article/119/0003141497
+
+📌 증시 변동성 확대에 대기자금 4.2조원 몰려
+최근 1개월간 현금성·단기금리형 ETF 5종에 4조1,599억원 순유입
+
+KODEX 머니마켓액티브에만 2조4,605억원 유입되며 전체 ETF 순유입 1위
+
+단기채권·CD금리 기반 ETF를 활용해 유동성을 확보하면서 투자 시점을 관망하는 움직임
+
+📌 미국 대표지수 ETF에도 2조원 유입
+미국 S&amp;P500·나스닥100 추종 ETF 4종에 2조190억원 순유입
+
+KODEX 미국나스닥100 7,306억원, TIGER 미국S&amp;P500 6,639억원 유입
+
+미국 증시가 사상 최고치 부근에서 움직이면서 해외 대표지수 중심의 자금 유입 지속
+
+📌 코스피 7,000선 이탈, 위험자산 선호 약화
+코스피는 9월 23일 7,080.92에서 10월 7일 6,803.90으로 하락
+
+10월 2~7일 3거래일  <a href="https://t.me/growthresearch/30284" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:43</span>[Fwd 🧬] 🧬 글로벌 빅파마, M&amp;A 실탄 최대 6,000억 달러
+
+💊 1. 글로벌 제약·바이오 M&amp;A 자금 여력
+UBS에 따르면 글로벌 대형 제약·바이오 기업들의 총 M&amp;A 자금 여력(Firepower)은 약 5,000억~6,000억 달러로 추정
+
+보유 현금과 추가 차입 가능 규모를 합산한 수치
+
+빅파마의 풍부한 자금력이 향후 바이오텍 인수합병 및 기술도입(License-in)의 핵심 동력으로 작용할 가능성
+
+💊 2. 주요 빅파마별 M&amp;A 자금 여력
+
+총 가용 자금 기준 (단위: 억 달러)
+
+JNJ(존슨앤드존슨): 770억
+
+LLY(일라이 릴리): 740억
+
+NVO(노보 노디스크): 570억
+
+ROG(로슈): 520억
+
+AZN(아스트라제네카): 350억
+
+SNY(사노피): 290억
+
+BMY(BMS): 260억
+
+NVS(노바티스): 240억
+
+GILD(길리어드): 150억
+
+VRTX(버텍스): 150억
+
+ABBV(애브비): 150억
+
+AMGN(암젠): 140억
+
+MRK(머크):  <a href="https://t.me/growthresearch/30285" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:48</span>[Fwd 💻] 💻 DRAM 수급 전망(2025~2030): 2030년까지 구조적 공급 부족 지속 가능성
+
+DRAM 산업은 구조적인 공급 제약에 따른 장기 호황 가능성에 주목할 필요.
+
+📌 1. 수요 급증 vs 공급 확대 한계
+• DRAM 수요: 2025년 100 → 2030년 240 (+140%)
+
+• DRAM 공급: 2025년 95 → 2030년 194 (+104%)
+
+• AI·데이터센터 투자 확대에 따른 DRAM 수요 급증
+
+• 공급 증설에도 수요 증가 속도를 따라가지 못하는 구조
+
+→ 수요와 공급 간 격차 확대 전망
+
+📌 2. 장기공급계약(LTA)에 따른 공급 제약
+• 삼성전자·SK하이닉스·마이크론 생산능력의 약 60~75%가 LTA로 고정된 시나리오
+
+• 장기계약 물량 확대로 시장 내 가용 물량 감소
+
+• 신규 고객 및 현물시장에 공급 가능한 물량 제한
+
+→ 공급업체의 가격 협상력 강화 가능성
+
+📌 3. 2028년 신규 팹 증설 효과는 점진적
+• 평택 P5·용인 클러스터 등  <a href="https://t.me/growthresearch/30286" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:59</span>✅ [산업보고서] 외국인 관광객 1,500만 명이 쓴 14조 원, 어디로 갔나
+
+📋그로쓰리서치 인바운드 관광 산업보고서
+
+Part 1. 세계인이 찾는 한국, 외국인이 몰려온다
+Part 2. 방한객보다 빠른 외국인 소비, 소비액 48.5% 증가
+Part 3. 환급·백화점·카지노, 외국인 매출이 커진다
+Part 4. 관련 기업
+
+📌기업분석
+📈글로벌텍스프리(204620)
+📈신세계(004170)
+📈파라다이스(034230)
+
+🔥네이버프리미엄콘텐츠 산업보고서 보기
+https://contents.premium.naver.com/growthresearch/growth
+
+🔥 홈페이지 산업보고서 보기
+https://www.growthresearch.co.kr/
+
+📌 코로나19 이전을 넘어선 방한 관광객
+2025년 방한 외국인은 1,893.7만 명으로 2019년 대비 8.2% 증가
+
+중국인 관광객 비중은 2019년 34.4%에서 2025년 28.9%로 감소한 반면 일본·대만·미국 등으로 방문 국가 다변 <a href="https://t.me/growthresearch/30287" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:03</span>[media] <a href="https://t.me/growthresearch/30300" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:03</span>[media] <a href="https://t.me/growthresearch/30307" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#d97706"></span> AWAKE - 실시간 주식 공시 정리채널</b><span>3건</span></div><ul class="tgp"><li><span class="tm">07:40</span>2026.10.12 07:37:37
+기업명: 한화머시너리앤홀딩스(시가총액: 5,164억) A0220W0
+보고서명: 공개매수신고서
+
+공개매수자 : 김동선(비등기임원)
+
+대상회사 : 한화머시너리앤서비스홀딩스
+주식의 종류 :  한화머시너리앤서비스홀딩스 주식회사 기명식 보통주식
+목표수량 : 16,060,000주
+매수가격 : 주당 8,000원
+지급방법 : 현금 지급
+
+시작일 : 2026-10-12
+종료일 : 2026-11-02
+
+공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012000001
+종목공시 : https://www.awakeplus.co.kr/disclosure/0220W0 <a href="https://t.me/darthacking/154503" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:45</span>2026.10.12 07:45:20
+기업명: HLB(시가총액: 6조 1,271억) A028300
+보고서명: 기타경영사항(자율공시)              (HLB 간암 1차 치료제(리보세라닙,캄렐리주맙 병용요법) FDA에 재승인 서류 제출)
+
+제목 : HLB 간암 1차 치료제(리보세라닙,캄렐리주맙 병용요법) FDA에 재승인 서류 제출
+
+* 주요 내용 
+1. 당사의 미국 종속회사 Elevar Therapeutics, Inc.는 현지시간 2026년 10월 09일 미국 FDA에 간암 1차 치료제(리보세라닙,캄렐리주맙 병용요법) 신약허가 재승인 신청 서류를 제출하였습니다. 
+ 
+2. 2026년 07월 09일 FDA로부터 받은 보완요구서한(CRL,Complete Response Letter)에 대해 재승인 신청을 진행하는 사항으로 서류 접수 후 FDA는 판단기준(Class 1: 2개월, Class 2: 6개월)에 따라 심사기간을 정해 승인 허가 여부를 결정하게 됩니다. 
+ 
+(공시책임자) 상 <a href="https://t.me/darthacking/154504" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:46</span>2026.10.12 07:46:33
+기업명: 셀트리온(시가총액: 41조 6,385억) A068270
+보고서명: 연결재무제표기준영업(잠정)실적(공정공시)
+
+매출액 : 15,000억(예상치 : 14,636억+/ 2%)
+영업익 : 5,100억(예상치 : 5,141억/ -1%)
+순이익 : -(예상치 : 4,337억)
+
+**최근 실적 추이**
+2026.3Q 15,000억/ 5,100억/ -
+2026.2Q 13,937억/ 4,518억/ 3,713억
+2026.1Q 11,450억/ 3,219억/ 3,498억
+2025.4Q 13,302억/ 4,752억/ 5,279억
+2025.3Q 10,290억/ 3,014억/ 3,319억
+
+공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261012800004
+종목공시 : https://www.awakeplus.co.kr/disclosure/068270 <a href="https://t.me/darthacking/154505" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#7c3aed"></span> 여의도스토리 Ver2.0-习近平是个狗东西</b><span>5건</span></div><ul class="tgp"><li><span class="tm">07:50</span>[iM증권 김준영]
+[주식전략]
+★ AI 인프라 없이 오르는 미국, 할인받는 한국
+
+▶️ AI 인프라 없이 신고가
+- S&amp;P500 신고가 랠리. 필라델피아 반도체 -4.3% 사이 유틸리티(+4.0%), 소프트웨어(+3.9%), 필수소비재(+3.6%), 헬스케어(+2.8%) 상승.
+- 9월 고용 +2.9만명, 월러 이사 연속 인상 선 긋기. 10월 FOMC 인상 확률 60%대 후반 → 18~25%로 하락. 금리 단기 고점 확인 흐름.
+- 그럼에도 성장주 대신 방어주/에너지/금융 강세. 금리 피크아웃 전후 AI 인프라는 금리와 다르게 움직일 수 있는 구간. 진정한 매크로 장은 피크아웃 이후.
+- OpenAI 연환산 매출 500억달러(보도 700억달러 하회) FT 기사에 시장 부정적 반응. 회계 차이 감안 시 과도한 우려임에도 센티먼트 취약함 시사.
+
+▶️ AI 대형주 할인은 금리가 아닌 이익의 질 문제
+- M7 선행 P/E 24.6배로 작년 10월 고점(32.6배) 대비 8배p 하락,  <a href="https://t.me/YeouidoStory2/118266" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:50</span>[신한투자증권 김아람] 서브컬쳐 Update
+티니핑 x 치이카와, 귀여운게 최고야
+
+▶️ 낮아진 멀티플 + 주가 재료
+ = 트레이딩 가능 환경
+. 지난주 캐릭터 관련주인 SAMG엔터와 대원미디어가 각각 19.6%, 13.3% 상승. IP 사업은 흥행사업. 미국/중국 시장에서 티니핑, 국내 시장에서 치이카와 화제성 높아질수록 실적과 멀티플 모두 높아질 여지. 27년 예상 주가수익비율(PER)은 SAMG엔터 9.4배, 대원미디어 7.9배
+
+▶️ SAMG엔터: 미/중 굿즈 시장 진출
+ . [미국] 타겟(Target)과 티니핑 굿즈, 블라인드 박스 전용매대 확보 계약. 10월말~11월 현지 유통상 통해 미국 전역 2천개 타겟 매장에 초도물량 납품 예정. 타겟은 월마트, 아마존과 함께 미국 3대 리테일러. 팝마트는 타겟에서만 월 10만개 이상의 블라인드 박스 판매하는 것으로 추정됨(월매출 약 30억원)
+
+. [중국] 미니소, 산푸와 전용매대 확보 계약. 중국 미니소 매장 보유 수는 4,665 <a href="https://t.me/YeouidoStory2/118267" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:51</span>&lt;오늘 개장전 꼭 알아야 할 5가지_10/12 Bloomberg&gt; 한화 임혜윤
+
+① 미국, 러시아산 디젤 공급 합의
+- 트럼프와 푸틴이 러시아산 디젤 글로벌 공급에 합의했고 미 재무부가 제재 면제를 발급했으며 이달부터 1350만배럴 공급
+- 미 행정부는 중간선거를 앞두고 농민과 트럭운전사의 연료 부담 완화를 목표로 조치를 확대
+- 젤렌스키와 슈머는 강하게 반발했고 공급 확대가 가격을 의미 있게 낮추기에는 제한적일 수 있다는 지적
+
+② 미 국채 기간 프리미엄 급등
+- 미 국채 금리가 24년 만의 고점인 가운데 최근 급등의 상당 부분이 10여 년 만의 최고로 뛴 기간 프리미엄에 기인
+- 바클레이스는 거시 불확실성, 주식과 채권 상관 붕괴, 공급 증가, 재정 우려를 원인 후보로 제시했고 캐피털이코노믹스는 기술적 요인과 프랑스 재정 우려를 언급
+- 기간 프리미엄이 구조적으로 높아지면 장기금리의 높은 수준 고착과 채권 반등 제약 우려
+
+③ 프랑스 국채 리스크 프리미엄 사상 최대
+- 프랑스와  <a href="https://t.me/YeouidoStory2/118268" target="_blank" rel="noopener">원문</a></li><li><span class="tm">07:52</span>“로봇 D램 수요, 2030년까지 20배 증가”
+
+https://www.etnews.com/20261011000072 <a href="https://t.me/YeouidoStory2/118269" target="_blank" rel="noopener">원문</a></li><li><span class="tm">08:00</span>[키움 혁신성장리서치/스몰캡 오현진]
+
+▶️제너셈(217190) 
+
+: 후공정 투자 수혜주 
+
+◎ 기업개요: 반도체 후공정 자동화 장비 전문 업체 
+
+- 동사는 2000년 설립된 반도체 후공정 자동화 장비 전문 업체로, 국내 IDM 및 OSAT 업체, 기판 업체 등이 주요 고객사
+- 주요 제품 라인업은 Saw Singulation, EMI Shield Solution, HBM Automation
+
+◎ 후공정 투자 수혜: 고부가 제품 중심 수주 확대 
+
+- Saw Singulation 등 고부가 제품 중심으로 수요가 증가 중인 점을 주목
+- 최근 고객사의 후공정 관련 투자가 빠르게 확대됨에 따라 관련 수혜가 집중되는 것으로 파악
+- 최근 SK하이닉스 중국 법인, 하나마이크론 등으로 대규모 Saw Singulation 공급 관련 공시를 진행
+- 2분기말 기준 동사의 수주잔고는 749억원(QoQ 76%, YoY 150%)
+
+◎ 26년 실적 반등 이후 27년 본격 성장 전망
+
+- 동사의 올 <a href="https://t.me/YeouidoStory2/118270" target="_blank" rel="noopener">원문</a></li></ul></div></div><details class="fold"><summary>보고서 만드는방 게시본 원문 (16개)<small>Telegram 게시용</small></summary><div class="fb"><pre class="tgmsg">(1/16) 📊 10/12(월) 한·미·일 장마감 종합
+Telegram Research 3.7.4 | 19:06 KST 기준
+
+■ 오늘의 결론
+✅ 한국은 한글날 이후 첫 거래일에 대형 반도체·수급 충격으로 급락. 외국인 매도와 금리·AI 수익성 논쟁이 맞물렸으나 단일 원인으로 단정하기 어렵습니다.
+
+🇰🇷 한국 현금장 종가
+• KOSPI 6,384.24 (−3.65%, −241.69p)
+• KOSDAQ 849.19 (−4.83%, −43.08p)
+• 코스피 외국인 순매도 약 2.02조원(집계 시점별 소폭 차이), 개인 약 1.47조원 순매수
+• 삼성전자 −4.39%, SK하이닉스 −4.52%
+• 상승: 운송·창고 +2.29% / 하락: 기계·장비 −6.72%, 전기·전자 −4.51%
+
+🇯🇵 일본: 10/12 스포츠의 날로 도쿄 현금시장 휴장. 닛케이 10/9 종가 69,030.92(−0.02%), 오늘 새 종가는 없습니다.
+🇺🇸 미국: 10/12 주식 정규장 개장 예정(22:30 KST), 채권은 SIFMA 휴장 권고. 10/9 S&amp;P500 7,811.54(+0.59%), 나스닥종합 27,366.17(+0.64%). 10/12 미 종가는 아직 없습니다.
+
+■ 19시경 참고시세(실시간 확정 종가 아님)
+미 10년물 5.24%(10/9 기준), WTI 약 $92.94, 달러지수 약 102.37. 고금리·유가와 미국 CPI 경계가 주요 변수입니다.
+
+🔗 한국 종가 <a href="https://www.yna.co.kr/amp/view/AKR20261012082251008" target="_blank" rel="noopener">https://www.yna.co.kr/amp/view/AKR20261012082251008</a>
+🔗 휴장 <a href="https://www.jpx.co.jp/english/corporate/about-jpx/calendar/" target="_blank" rel="noopener">https://www.jpx.co.jp/english/corporate/about-jpx/calendar/</a>
+</pre><pre class="tgmsg">(2/16) 📋 주요 공시·실적 팩트체크
+등급: ✅ 외부 확인 / 🟡 일부 검증 / ⚠️ 미확인
+※ P1은 검증 긴급도이며 매수 추천이 아닙니다.
+
+🟡 HLB(028300) [P1]
+미국 자회사 Elevar가 10/9 간암 병용요법 FDA 재신청 서류를 제출했다고 공시. 7/9 보완요구(CRL) 이후 단계입니다. &#x27;제출&#x27;이지 &#x27;FDA 승인&#x27;이 아니며 접수 분류(Class 1·2)도 추후 확인 필요.
+
+🟡 올릭스(226950) [P1]
+황반변성 후보 OLX301A(물질명 OLX10212)의 뉴질랜드 2a상 IND 신청이 HDEC에서 반려. 공시 사유는 윤리기준·관련 법규 요건 미충족. 약효 실패를 뜻하는 발표는 아닙니다. 세부 지적사항·재제출 날짜 미확정.
+
+🟡 셀트리온(068270) [P1]
+3분기 잠정 매출 1조5,000억원·영업이익 5,100억원으로 공시 채널 집계. 비교에 사용된 예상치(1조4,636억원·5,141억원)는 시장 추정치이며 확정 실적이 아닙니다.
+
+🟡 한화머시너리앤서비스홀딩스(0220W0) [P1]
+김동선 공개매수 신고: 1,606만주×8,000원, 약 1,284.8억원, 10/12~11/2. 신고 조건과 실제 공개매수 결과는 구분해야 합니다.
+
+🟡 인텍플러스(064290) [P1]
+반도체 기판 검사장비 309억원 계약 공시 보도(전년도 매출 대비 약 34.43%). 고객사는 비공개. 매출 인식 일정과 거래 상대 실명은 추가 확인 필요.
+
+🟡 티엑스알로보틱스(484810) [P1]
+300억원 사모 전환사채 발행 결정, 전환가액 15,633원 공시 요약. 잠재 희석 가능성을 의미하며, 전량 전환이 확정됐다는 뜻은 아닙니다.
+
+⚠️ 기타: 서진시스템(블룸에너지 1,064억원), KCC건설(아성다이소 2,149억원), 뱅크웨어글로벌(OK저축은행 161억원) 등 계약 수치는 제공된 공시 요약 기준. 공시 원문·계약조건 재점검 대상.
+
+🔗 HLB <a href="https://t.me/darthacking/154504" target="_blank" rel="noopener">https://t.me/darthacking/154504</a>
+🔗 올릭스 <a href="https://www.bosoop.com/disclosures/20261012900388/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900388/</a>
+🔗 TXR <a href="https://t.me/darthacking/154550" target="_blank" rel="noopener">https://t.me/darthacking/154550</a>
+</pre><pre class="tgmsg">(3/16) 📊 10/12 국내 마감 디테일 (수급·업종·대형주)
+
+■ 지수 (Yahoo·뉴스핌 교차)
+• 코스피 6,384.24 (−241.69, −3.65%) · 약 두 달 만에 6,400선 하회
+• 코스닥 849.19 (−43.08, −4.83%)
+• 원/달러 서울환시 1,335.0원(−7원, 뉴스핌) / Yahoo 스냅 ~1,332
+
+■ 수급 (억원, KRX 15:35 잠정·한경TV/연합 표)
+코스피: 개인 +14,674 / 외국인 −20,250 / 기관 −1,107 / 기타법인 +6,618
+코스닥: 개인 +2,488 / 외국인 −283 / 기관 −2,228
+※ 일부 매체 코스닥 서술과 표가 어긋남 → KRX 표 우선
+
+■ 업종 (매일경제)
+상승: 운송·창고 +2.29%, 음식료 +1.08%, 보험 +0.42%
+하락: 기계·장비 −6.72%, 건설 −4.54%, 전기·전자 −4.51%
+
+■ 시총 상위
+삼성전자 255,000 (−4.39%) · SK하이닉스 1,605,000 (−4.52%) · SK스퀘어 −6.29% · 삼성전기 −3.82%
+
+🔗 <a href="https://www.newspim.com/news/view/20261012001236" target="_blank" rel="noopener">https://www.newspim.com/news/view/20261012001236</a>
+🔗 <a href="https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20261012128600008" target="_blank" rel="noopener">https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=AKR20261012128600008</a>
+🔗 <a href="https://www.mk.co.kr/news/stock/12173651" target="_blank" rel="noopener">https://www.mk.co.kr/news/stock/12173651</a>
+</pre><pre class="tgmsg">(4/16) 📌 10/12 상한가·급등·애프터·리스크 종목
+※ 모멘텀 관찰용. 매수 추천 아님.
+
+■ 상한가·급등 (텔레그램 급등일보·타자 정리)
+• 예선테크·바이오인프라·형지I&amp;C: 시총 상장폐지 가처분 인용→절차 유예 모멘텀 (상한가권)
+• 서산·금호전기·유신: 호남 반도체 클러스터/시멘트·설계 테마 상한가
+• 한화머시너리앤서비스홀딩스 +24%: 김동선 공개매수(~1,285억) 공시
+• 금호건설 +20%: 호남·건설 중소형
+• 이렘 +24%대: 유증 권리락
+
+■ 애프터 (18시 기준 텔레그램)
+• 엘앤씨바이오 +19.3%: 美조직은행 &#x27;리투오&#x27; 820억 계약 기사
+• 티엑스알로보틱스 +9.6%: 300억 사모 CB 발행 결정
+
+■ 리스크
+• DN오토모티브: 납 배출 &#x27;비타민 주사&#x27; 의혹 보도·사과·조사 지시 → 정규장 급락(~18%). 고용부 설명자료는 확인, 행정·수사 결과·재무영향은 미확정.
+
+🔗 상한가 정리 <a href="https://t.me/tazastock/78966" target="_blank" rel="noopener">https://t.me/tazastock/78966</a>
+🔗 애프터 <a href="https://t.me/tazastock/78967" target="_blank" rel="noopener">https://t.me/tazastock/78967</a>
+🔗 DN <a href="https://t.me/tazastock/78963" target="_blank" rel="noopener">https://t.me/tazastock/78963</a>
+🔗 고용부 <a href="https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener">https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064</a>
+</pre><pre class="tgmsg">(5/16) 🔬 반도체·AI·특징 테마 교차검증
+
+■ 텔레그램 언급 동향(전체 894건의 별도 집계)
+반도체·HBM 156 / AI·빅테크 130 / 금리·매크로 122 / 바이오 85 / 에너지·중동 52 / 호남·건설·시멘트 27 / 후공정·OSAT 21건.
+※ 동일 원문 재전달, 여러 테마 중복 포함. 언급량은 독립 증거나 수급 규모가 아닙니다.
+
+🟡 반도체: 삼성전자·SK하이닉스 현금장 하락 확인. 디아이·엑시콘·제너셈의 후공정 수혜는 증권사 전망으로, 모든 신규 설비 발주가 확정된 것은 아닙니다. CXMT의 차세대 DDR5 양산 선행 주장도 계획·양산 실적을 구분할 필요.
+
+🟡 OpenAI: 9월 말 연환산 매출 약 $500억 보도와 2026년 말 $700억 도달 전망은 기준 시점이 다릅니다. 집계 범위 논쟁도 있어 &#x27;실제 매출 700억→500억 감소&#x27;로 표현하면 부정확합니다. 감사 재무제표로 확인된 값은 아닙니다.
+
+🟡 호남 반도체: 최태원 회장 방문·지역 클러스터 추진 보도가 테마 자극. 금호전기 상한가(+29.93%), 금호건설 +20.29% 등 가격 움직임은 확인되나 개별 상장사의 새 공장 수주를 자동으로 의미하지 않습니다.
+
+🟡 해운·시멘트: 이날 상대 강세 테마로 관찰됐으나 유가·호르무즈·건설 수주와의 인과관계는 미확정.
+
+⚠️ 상장폐지 관련 법원 집행정지 인용·거래소 절차 중단 보도는 &#x27;상장폐지 철회&#x27;나 &#x27;매매 재개&#x27; 확정이 아닙니다. 개별 종목의 현 거래정지 상태를 분리 확인해야 합니다.
+
+🔗 반도체 리포트 재전달 <a href="https://t.me/YeouidoStory2/118287" target="_blank" rel="noopener">https://t.me/YeouidoStory2/118287</a>
+🔗 클러스터 언급 <a href="https://t.me/tazastock/78939" target="_blank" rel="noopener">https://t.me/tazastock/78939</a>
+</pre><pre class="tgmsg">(6/16) 🛰️ 텔레그램 채널 언급·테마 (2026-10-12)
+공개 채널 수집 894건 (private 채널은 텔레그램 웹 로그아웃아웃으로 미수집).
+
+■ 종목·키워드 근사 언급 (중복·재전달 포함, 과대 가능)
+SK하이닉스 63(23채널) · 삼성전자 57(20) · 연준/금리 57 · 원유/이란 51 · 현대차 28 · NVDA 27 · OpenAI 26 · 해운 23 · 호남반도체클러스터 21 · TSMC 20 · HLB 19 · 시멘트 17 · 디아이 12 · 엑시콘 10 · 금호전기 8
+
+■ 테마 버킷
+반도체·HBM 156 · AI·빅테크 130 · 금리·매크로 122 · 바이오 85 · 에너지·중동 52 · 2차전지 28 · 건설·시멘트·호남 27 · 후공정·OSAT 21 · 방산·원전 20
+
+■ 채널 커버리지(공개)
+AWAKE 공시(darthacking) 67 · 타자 60 · 묻따방 59 · 인사이더 59 · 급등일보 53 · W리서치 49 · 여의도스토리 48 · 실버만삭스 42 · 그로쓰 28 · 선수촌 16 · 독학주식 14 등
+⚠️ 캬오·선진짱·재간둥이·텐렙·제이슨·AWAKE52주 private는 로그인 필요로 오늘 미수집.
+
+🔗 예: <a href="https://t.me/tazastock/78956" target="_blank" rel="noopener">https://t.me/tazastock/78956</a> · <a href="https://t.me/YeouidoStory2/118308" target="_blank" rel="noopener">https://t.me/YeouidoStory2/118308</a> · <a href="https://t.me/darthacking" target="_blank" rel="noopener">https://t.me/darthacking</a>
+</pre><pre class="tgmsg">(7/16) ⚖️ 기업 리스크·해외 심리·이번 주 체크
+
+■ DN오토모티브 관련 [P1]
+✅ 10/12 고용노동부는 &#x27;비타민 주사&#x27;로 알려진 납 노출 관련 언론 보도에 공식 설명자료를 공개. 감독·행정조치 및 수사의뢰는 후속 보도에서 확인 대상입니다. ⚠️ 의혹 보도, 감독 결과, 형사상 유죄 확정은 엄격히 구분해야 하며 책임 범위·재무 영향은 아직 불명확합니다.
+🔗 정부 설명 <a href="https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener">https://moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064</a>
+
+■ X / Reddit 심리 (참고·통계 아님)
+• X: 기술주 집중도·고금리·CPI와 에너지 공급 충격을 경계하는 게시물이 관찰됨. 동시에 AI 메모리 공급부족을 낙관하는 주장도 공존.
+• Reddit: 당일 hot/new API 접근 실패(403). 과거 스레드·2차 요약만 확보했으므로 &#x27;오늘 커뮤니티 상위 여론&#x27;으로 보지 않습니다.
+
+■ 캘린더 (모두 한국시간)
+• 10/12 월 22:30 미국 주식시장 개장
+• 10/13 화 미국 대형은행 3분기 실적(JPM·WFC·GS)
+• 10/14 수 21:30 미국 9월 CPI
+• 10/15 목 21:30 미국 9월 PPI / HLB 계열사 IR 예정
+
+■ 검증 경계 및 다음 체크
+⚠️ 엑시콘 신규 공급계약설, 호남 연계주 직접 수주, 일부 고객사·전환사채 최종 조건은 원공시가 추가 필요.
+🕒 수급은 잠정/기사 표 간 근소 차이, 해외 선물·환율·유가 모두 시점별 변동 가능.
+수집 원문 200건(5개 채널)과 전체 테마 언급집계 894건은 서로 다른 모집단입니다. 전달·재게시를 독립 확인으로 계산하지 않았습니다.
+
+🔗 미 CPI 공식 일정 <a href="https://www.bls.gov/schedule/2026/10_sched_list.htm" target="_blank" rel="noopener">https://www.bls.gov/schedule/2026/10_sched_list.htm</a>
+ⓘ 정보·연구 목적. P1/P2는 투자 판단이 아닌 검증 우선순위.
+</pre><pre class="tgmsg">(8/16) 🌍 미국 프리뷰 · 매크로 · 커뮤니티
+
+■ 직전 미 종가 (10/9 금)
+S&amp;P500 7,811.54(+0.59%) · 나스닥 27,366(+0.64%) · 다우 51,655(+0.83%) · SOX 12,572(−0.41%)
+
+■ 선물 스냅 (~19시 KST, 확정 종가 아님)
+ES 7,867(+0.10%) · NQ ~31,082(−0.09%)
+
+■ 매크로
+UST(10/9, 오늘 채권휴장): 2Y 4.80% / 10Y 5.24% / 30Y 5.60%
+DXY ~102.37 · WTI ~92.9(+1.2%) · 금 ~4,196(−0.5%) · BTC ~83,445
+
+■ X 심리 (참고)
+화 은행실적·수 CPI(~3.6%/코어~2.5%) 경계, FOMC 동결 확률 서사, Mag7 집중도·AI 좁은 장세 vs 유가/금리 부담. 한국 −3.65%도 X에 노출.
+■ Reddit: hot API 403 → 당일 상위 여론으로 쓰지 않음. HBM 낙관 스레드와 국장 급락이 괴리.
+
+■ 이번 주 (KST)
+10/12 22:30 미 주식 개장(채권×)
+10/13 은행 실적(JPM·WFC·GS)
+10/14 21:30 9월 CPI
+10/15 PPI·(텔레그램) HLB 계열 IR 언급
+
+🔗 BLS <a href="https://www.bls.gov/schedule/2026/10_sched_list.htm" target="_blank" rel="noopener">https://www.bls.gov/schedule/2026/10_sched_list.htm</a>
+🔗 Treasury CSV (10/9) home.treasury.gov daily yields
+</pre><pre class="tgmsg">(9/16) 📊 2026.10.12 한국 증시 마감 | 검토용
+RUN_ID: TR-20261012-1900-daily-close
+
+KOSPI 6,384.24(-3.65%), KOSDAQ 849.19(-4.83%). KOSPI 외국인 순매도 약 1조9,938억원, KOSDAQ 약 235억원으로 합계 약 2조173억원. 시장 전체 수급이며 개별 종목 순매수가 아닙니다.
+
+일본 도쿄증권거래소 현물은 스포츠의 날로 휴장. 미국 주식시장은 콜럼버스 데이에도 정상 개장 예정이며 채권시장은 휴일입니다.
+
+이번 P1 검토 대상은 HLB, 올릭스, 인텍플러스, 티엑스알로보틱스, 한화머시너리앤서비스홀딩스, 셀트리온, DN오토모티브입니다. 텔레그램 주장을 별도로 검증한 결과 사건별 근거를 확보했지만, 일부 원문·시세·재무자료 충돌이 남아 있습니다.
+
+상태: PARTIAL / NEEDS_REVIEW. 외부 게시 전 원문 검토 필요. 매수·매도 권고가 아닙니다.
+</pre><pre class="tgmsg">(10/16) 🧬 HLB(028300·KOSDAQ) | FDA 재신청 검토
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+Elevar Therapeutics의 리보세라닙·캄렐리주맙 간암 1차 치료제 관련 FDA 재승인 신청 서류는 미국 현지시간 10월 9일 제출됐습니다. 회사 확인일은 10월 10일이며 국내 공시는 10월 12일입니다. 7월 9일 CRL에 대한 후속 조치입니다.
+
+중요한 구분: 서류 제출 ≠ FDA 접수 확인 ≠ 최종 허가. Class 1의 2개월 또는 Class 2의 6개월 심사기간은 아직 이 사건에 확정 적용된 일정이 아닙니다.
+
+재무 측면에서 2025년 연결 매출은 약 842억원, 영업현금흐름은 약 -926억원입니다. 기존 소재사업 실적과 항암 신약의 상업화 권리·조달 부담을 따로 평가해야 합니다.
+
+후속 확인: FDA 접수, Class 결정, CRL 보완사항, 자금잔액, 10월 15일 예정 IR의 실질적 신규 정보.
+
+근거: <a href="https://www.bosoop.com/disclosures/20261012900006/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900006/</a>
+상태: 재게시 공시 확인, FDA 접수·허가 미확인. 검토용이며 매매 권고가 아닙니다.
+</pre><pre class="tgmsg">(11/16) 🧪 올릭스(226950·KOSDAQ) | 뉴질랜드 임상 2a상 신청 반려
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+OLX301A·OLX10212 프로그램의 뉴질랜드 지도모양위축 대상 임상 2a상 신청에 대해 Northern B HDEC가 윤리 기준 및 관련 법규 미충족을 이유로 반려한 내용이 공시 재게시 원문에서 확인됩니다. 회사는 재심의와 재제출을 준비 중입니다.
+
+이것은 실제 규제절차상의 지연 위험이지만, 현 단계 공개 내용만으로 약물 효능이나 안전성 실패를 확정할 수 없습니다. 반려 사유의 구체적인 항목과 호주 신청 상태도 별도 검증이 필요합니다.
+
+2025년 연결 집계 매출 약 147억원, 영업손실 약 300억원이며 2026년 2분기 영업손실은 약 140억원입니다. 개발비 지속과 현금 소진, 기술이전 계약의 실제 수익화 조건이 중요합니다.
+
+후속 확인: HDEC 지적사항, 보완서 재제출, 재심의 결과, 호주 규제상태, 현금 런웨이.
+
+근거: <a href="https://www.bosoop.com/disclosures/20261012900388/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900388/</a>
+상태: 반려 공시 재게시 확인, 세부 규제판단 미확인. 매매 권고가 아닙니다.
+</pre><pre class="tgmsg">(12/16) 🏭 인텍플러스(064290·KOSDAQ) | 반도체 검사장비 수주
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+2026년 10월 8일 체결된 반도체 Substrate 검사장비 공급계약이 10월 12일 공시됐습니다. 계약금액은 VAT 제외 309.02억원으로 2025년 연결 매출의 34.43%입니다. 계약 종료 예정일은 2028년 1월 10일입니다.
+
+대금 조건은 선급금 20%, 중도금 60%, 잔금 20%. 이는 지급 약정이지 실제 입금 증거가 아닙니다. 고객명과 공급지역은 비공개입니다. 특정 반도체 기업의 투자와 임의로 연결하지 않습니다.
+
+2025년 연결 영업손실 약 37억원, 2026년 상반기 영업손실 약 70억원으로, 신규 수주의 매출총이익·검수·운전자본 효과가 핵심입니다. 계약 규모를 이익 증가액으로 바꿀 수 없습니다.
+
+후속 확인: 납품 및 검수, 실제 대금회수, 계약 정정, 매출채권·재고, 분기 영업현금흐름.
+
+근거: <a href="https://www.bosoop.com/disclosures/20261012900145/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012900145/</a>
+상태: 계약 조건 재게시 확인, 고객·수익성 미확인. 매매 권고가 아닙니다.
+</pre><pre class="tgmsg">(13/16) 🤖 티엑스알로보틱스(484810·KOSDAQ) | 전환사채 발행 결정
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+사모 CB 300억원 발행 결정. 시설투자 200억원, 운영·R&amp;D 100억원. 최초 전환가액 15,633원, 전환 가능 신주 1,919,017주입니다. 최초 조건상 기존 발행주식 대비 12.42%, 전환 후 전체 주식 대비 11.05%로 분모가 다른 수치입니다.
+
+표면 및 만기 이율은 각각 0%지만 2029년 4월부터 원금 100% 조기상환 Put이 가능합니다. 별도의 Call 조건도 있습니다. 납입 예정일은 10월 20일이며 실제 납입은 아직 확인되지 않았습니다.
+
+이번 공시 재게시 시점은 10월 12일 오후 16시경으로 KRX 정규장 마감 이후입니다. 10월 12일 정규장 종가를 CB 발표의 직접 반응으로 단정할 수 없습니다. 당일 가격 공급자 간 충돌도 있어 정밀 종가 판단을 보류합니다.
+
+후속 확인: 납입, 발행조건 정정, 2029년 현금상환 능력, 자금 투자성과, 실제 전환·희석.
+
+근거: <a href="https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285" target="_blank" rel="noopener">https://economyreports.com/filings/20261012-txr-robotics-co-ltd-convertible-bond-20261012000285</a>
+상태: 발행 결정 확인, 완료 미확인. 매매 권고가 아닙니다.
+</pre><pre class="tgmsg">(14/16) 🏢 한화머시너리앤서비스홀딩스(0220W0·KOSPI) | 공개매수
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+김동선의 현금 공개매수 조건은 보통주 최대 16,060,000주, 주당 8,000원입니다. 기간은 10월 12일부터 11월 2일까지, 결제 예정일은 11월 4일입니다. 최대 공개매수대금은 1,284억8,000만원입니다.
+
+목표수량을 초과하는 응모에는 안분비례가 적용됩니다. 전량 완료 시 공개매수자 및 특수관계인 합산 보통주 지분율은 약 60.32%에서 79.32%로 높아질 것으로 기재됐지만 최종 결과는 아닙니다.
+
+8,000원은 모든 투자자의 주식에 보장되는 시장가격이 아닙니다. 안분, 잔여주식, 비용, 일정 위험이 있습니다. 지주회사인 만큼 공개매수 자체보다 향후 자본배분·소수주주 권리·자회사 가치의 귀속을 봐야 합니다.
+
+후속 확인: 최종 응모·안분·결제, 실제 지분율, 분할 후 SOTP와 지배구조 개편.
+
+근거: <a href="https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002" target="_blank" rel="noopener">https://economyreports.com/filings/20261012-hanwha-machinery-andamp-service-holdings-co-ltd-filing-20261012000002</a>
+상태: 공개매수 공시 확인, 최종 이행 미확인. 매매 권고가 아닙니다.
+</pre><pre class="tgmsg">(15/16) 💊 셀트리온(068270·KOSPI) | 2026년 3분기 잠정실적
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+회사의 공식 발표와 공시 재게시를 대조했습니다. 2026년 3분기 K-IFRS 연결 잠정 매출은 1조5,000억원, 영업이익은 5,100억원, 영업이익률은 34.0%입니다. 전년 동기 대비 매출 +45.77%, 영업이익 +69.21%, 직전 분기 대비 매출 +7.63%, 영업이익 +12.88%입니다.
+
+회사는 고수익 후속 바이오시밀러 매출 믹스와 원가구조 개선을 설명합니다. 다만 이는 회사 설명이며 제품별 원가·판매단가와 현금회수 데이터로 지속성을 다시 검증해야 합니다.
+
+2026년 3분기 잠정 공시에는 순이익·희석 EPS·CFO·FCF가 없습니다. 공시 이전 시점으로 고정된 컨센서스 자료도 부족하므로 정확한 어닝 서프라이즈율과 정상 EPS 리비전은 보류합니다.
+
+후속 확인: 확정 실적, 제품별 판매·마진, 재고·채권, CFO·FCF, 실제 자사주 취득·소각.
+
+근거: <a href="https://celltrion.com/ko-kr/company/media-center/press-release" target="_blank" rel="noopener">https://celltrion.com/ko-kr/company/media-center/press-release</a>
+공시: <a href="https://www.bosoop.com/disclosures/20261012800004/" target="_blank" rel="noopener">https://www.bosoop.com/disclosures/20261012800004/</a>
+상태: 잠정 실적 직접 교차확인, 현금흐름 미공시. 매매 권고가 아닙니다.
+</pre><pre class="tgmsg">(16/16) ⚖️ DN오토모티브(007340·KOSPI) | 산업안전 사건
+2026.10.12 / RUN_ID: TR-20261012-1900-daily-close
+
+고용노동부는 10월 12일 DN오토모티브의 납 노출·주사 관련 의혹에 대한 공식 설명자료를 발표했습니다. 연합뉴스는 산업안전보건법 위반 68건 입건·송치, 과태료 4,620만원, 업무방해 혐의 경찰 수사 의뢰를 보도했습니다. 앞서 4월 21일부터 5월 7일까지 관련 납 노출 공정에 대한 사용중지 조치가 있었다고 보도됐습니다.
+
+확인된 행정조치와 최종 형사책임은 구별해야 합니다. 회사에 얼마의 보상·소송·안전시설 비용이 실제 발생할지 아직 정량 확인되지 않았습니다. 동시에 2025년 연결 영업이익 약 5,279억원이 이번 위험을 제거해 주는 것도 아닙니다.
+
+후속 확인: 정부·경찰의 최종 판단, 작업환경 개선, 추가 생산 차질, 충당부채·우발채무, 고객사 납품 영향.
+
+정부: <a href="https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064" target="_blank" rel="noopener">https://www.moel.go.kr/news/enews/explain/enewsView.do?news_seq=20064</a>
+보도: <a href="https://www.yna.co.kr/amp/view/AKR20261012089900530" target="_blank" rel="noopener">https://www.yna.co.kr/amp/view/AKR20261012089900530</a>
+상태: 정부 발표 확인, 개별 책임과 비용은 미확정. 매매 권고가 아닙니다.
+</pre></div></details>
+</div></details>
+</section>
+<div class="disc"><b>투자 권유가 아닙니다.</b> 이 보고서는 텔레그램 공개 채널 게시물과 공개 웹 자료를 정리·검증한 리서치 참고용입니다. Research Priority(P0~P3)와 Equity Intelligence 판정은 조건부 판단이며 확정 추천이 아닙니다. 수치는 표기된 기준 시각의 값이고, 미확인·부분확인 항목은 그대로 표시했습니다. 비공개 텔레그램은 이번 런에서 수집되지 않았습니다. 투자 판단과 결과의 책임은 투자자 본인에게 있습니다.</div>
+</div>
+<footer>
+ <div class="wrap">
+  <p><b>장마감 · 일본 · 미국장 프리뷰 · 거시 · 텔레그램 브리핑 · 2026-10-12</b></p>
+  <div class="prov"><span><b>RUN_ID</b>TR-20261012-1900-daily-close</span><span><b>TR</b>Telegram Research 3.7.4 · PARTIAL / READY_TO_PUBLISH</span><span><b>DEEP</b>Equity Intelligence 3.7.3.1 · PARTIAL / NEEDS_REVIEW</span><span><b>PROTOCOL</b>deep-research-return/3.7.4</span><span><b>POSTED</b>보고서 만드는방 · 초안 16파트</span></div>
+  <p>국내·일본·미국·매크로 수치는 market_snapshot.json / web_market.txt / Yahoo·Treasury에서, 텔레그램 테마·링크는 공개 수집과 TR 반환에서, 검증·판정은 Telegram Research 3.7.4와 (도착 시) Equity Intelligence 3.7.3.1에서만 인용. 시각은 모두 KST.</p><p class="fine" style="color:#94a3b8;margin-top:10px"><a href="index.html" style="color:#93c5fd">← 리포트 목록</a></p>
+ </div>
+</footer>
+<script>window.addEventListener("beforeprint",function(){document.querySelectorAll("details").forEach(function(d){d.setAttribute("open","")})});function openTo(h){var e=h&&h.length>1&&document.getElementById(decodeURIComponent(h.slice(1)));if(!e)return;var d=e.querySelector(":scope>details.cfold")||e.closest("details");while(d){d.open=true;d=d.parentElement&&d.parentElement.closest("details")}}document.addEventListener("click",function(ev){var a=ev.target.closest&&ev.target.closest('a[href^="#"]');if(a)openTo(a.getAttribute("href"))});window.addEventListener("hashchange",function(){openTo(location.hash)});openTo(location.hash);</script>
+</body>
+</html>
