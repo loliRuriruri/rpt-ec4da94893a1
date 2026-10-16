@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>코어위브(CRWV) 급락 원인 종합 리서치 · 보유/손절 판단 | 2026-10-17</title>
+<style>
+:root{
+  --ink:#0f172a; --ink2:#334155; --mute:#64748b; --line:#e2e8f0; --bg:#f4f6fb; --card:#fff;
+  --navy:#0b1f44; --accent:#0f766e; --accent2:#14b8a6; --up:#dc2626; --down:#2563eb; --warn:#b45309;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:15.5px;line-height:1.72;word-break:keep-all;overflow-wrap:anywhere}
+a{color:#0f62c9;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+b,strong{font-weight:700}
+/* header */
+.hero{background:linear-gradient(135deg,#0b1f44 0%,#12366b 60%,#0f766e 140%);color:#fff;padding:38px 0 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12.5px;letter-spacing:.04em;color:#a5f3fc;font-weight:700}
+.hero .kicker span{border:1px solid rgba(165,243,252,.45);padding:2px 10px;border-radius:999px}
+.hero h1{font-size:34px;line-height:1.3;margin:12px 0 6px;font-weight:900;letter-spacing:-.02em}
+.hero .date{font-size:20px;font-weight:700;color:#e2e8f0}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+.meta div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:10px 14px}
+.meta dt{font-size:11.5px;color:#93c5fd;font-weight:700;letter-spacing:.03em}
+.meta dd{margin:2px 0 0;font-size:14.5px;font-weight:700;color:#fff}
+.chans{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chan{display:inline-flex;align-items:center;gap:7px;background:#fff;color:var(--ink);border-radius:8px;padding:5px 11px;font-size:13px;font-weight:700}
+.chan i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chan small{color:var(--mute);font-weight:500}
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:-18px auto 0;position:relative;z-index:2}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;box-shadow:0 4px 14px rgba(15,23,42,.06)}
+.kpi .l{font-size:11.5px;color:var(--mute);font-weight:700}
+.kpi .v{font-size:21px;font-weight:900;letter-spacing:-.02em;line-height:1.3}
+.kpi .s{font-size:11.5px;color:var(--mute)}
+.up{color:var(--up)} .dn{color:var(--down)}
+/* sections */
+section.sec{padding:34px 0 8px}
+.sh{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:18px}
+.sh .no{font-size:13px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 9px}
+.sh h2{margin:0;font-size:23px;font-weight:900;letter-spacing:-.02em}
+.sh .sub{margin-left:auto;font-size:12.5px;color:var(--mute)}
+h3{font-size:18px;margin:22px 0 10px;font-weight:800}
+h4{font-size:14px;margin:0 0 6px;font-weight:800;color:var(--accent);letter-spacing:.01em}
+p{margin:0 0 10px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.note{font-size:13px;color:var(--mute)}
+.fine{font-size:12px;color:var(--mute)}
+/* takeaways */
+.verdict{background:linear-gradient(135deg,#ecfeff,#f0fdf4);border:1px solid #a7f3d0;border-left:6px solid var(--accent);border-radius:14px;padding:18px 22px;margin-bottom:16px}
+.verdict .lab{font-size:12px;font-weight:900;color:var(--accent);letter-spacing:.05em}
+.verdict q{display:block;font-size:19px;font-weight:800;line-height:1.55;margin-top:4px;quotes:"“" "”"}
+.tk{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tk ol{margin:0;padding-left:20px}
+.tk li{margin-bottom:7px}
+.fix{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px}
+.fix b.t{color:var(--warn)}
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.tier{border-radius:12px;padding:12px 14px;border:1px solid var(--line);background:#fff}
+.tier .tl{font-size:12px;font-weight:900;letter-spacing:.03em}
+.tier .td{font-size:12.5px;color:var(--mute);margin-bottom:6px}
+.tier .tn{font-size:15.5px;font-weight:800;line-height:1.5}
+.tier.t1{border-top:5px solid #0f766e} .tier.t1 .tl{color:#0f766e}
+.tier.t2{border-top:5px solid #0891b2} .tier.t2 .tl{color:#0891b2}
+.tier.t3{border-top:5px solid #94a3b8} .tier.t3 .tl{color:#64748b}
+.tier.tu{border-top:5px solid #2563eb} .tier.tu .tl{color:#2563eb}
+/* charts */
+.chart{width:100%;height:auto;display:block;font-family:inherit}
+.chart.narrow{display:none}
+.chart text{font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1',sans-serif}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.lg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-size:12px;color:var(--mute);font-weight:800}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+/* stock cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:0 0 20px;overflow:hidden;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:16px 22px;background:linear-gradient(90deg,#f8fafc,#fff);border-bottom:1px solid var(--line)}
+.rank{font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:2px 9px}
+.rank.alt{background:#0891b2}
+.ch h3{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.ch .tag{font-size:12.5px;color:var(--mute);font-weight:600}
+.mcount{margin-left:auto;text-align:right}
+.mcount b{font-size:24px;font-weight:900;color:var(--accent)}
+.mcount small{display:block;font-size:11.5px;color:var(--mute);line-height:1.3}
+.cb{padding:18px 22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.vchip{border-radius:10px;padding:7px 12px;font-size:13.5px;background:#f1f5f9;border:1px solid var(--line)}
+.vchip span{display:block;font-size:11px;font-weight:800;color:var(--mute);letter-spacing:.03em}
+.vchip b{font-weight:800}
+.vchip.main{background:#ecfdf5;border-color:#a7f3d0} .vchip.main b{color:#047857}
+.vchip.caut{background:#fff7ed;border-color:#fed7aa} .vchip.caut b{color:#c2410c}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.blk{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff}
+.blk.thesis{border-left:4px solid #0f766e}
+.blk.cat{border-left:4px solid #2563eb} .blk.cat h4{color:#2563eb}
+.blk.risk{border-left:4px solid #dc2626} .blk.risk h4{color:#dc2626}
+.blk.gpt{border-left:4px solid #7c3aed;background:#faf5ff} .blk.gpt h4{color:#7c3aed}
+.blk.full{grid-column:1/-1}
+.blk ul{margin:0;padding-left:18px}
+.blk li{margin-bottom:5px;font-size:14.5px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px}
+.flow span{background:#0b1f44;color:#fff;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
+.flow em{font-style:normal;color:#0f766e;font-weight:900}
+.flow.alt span{background:#e0f2fe;color:#075985}
+.levels{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:8px 0}
+.levels div{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;text-align:center}
+.levels span{display:block;font-size:11px;color:var(--mute);font-weight:700}
+.levels b{font-size:16px;font-weight:900}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.srclab{font-size:12px;font-weight:800;color:var(--mute);margin-right:2px}
+.schip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink2);background:#fff}
+.schip i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.srcmore{font-size:11.5px;font-weight:700;margin-left:auto}
+.pill{display:inline-block;font-size:11.5px;font-weight:800;border-radius:6px;padding:1px 8px;margin-right:4px;vertical-align:1px}
+.pill.ok{background:#dcfce7;color:#166534} .pill.pend{background:#f1f5f9;color:#475569} .pill.gpt{background:#ede9fe;color:#6d28d9} .pill.tg{background:#e0f2fe;color:#075985}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#f8fafc}
+.mini h5{margin:0 0 4px;font-size:15px;font-weight:900}
+.qs{counter-reset:q;list-style:none;padding:0;margin:6px 0}
+.qs li{counter-increment:q;padding-left:30px;position:relative;margin-bottom:6px}
+.qs li:before{content:counter(q);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:#7c3aed;color:#fff;font-size:12px;font-weight:800;text-align:center;line-height:21px}
+/* themes */
+.theme{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
+.theme .th{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.theme .th .ic{font-size:22px}
+.theme .th h3{margin:0;font-size:20px;font-weight:900}
+.facts{margin:10px 0 0;padding:0;list-style:none}
+.facts li{padding:8px 0;border-top:1px solid #f1f5f9;font-size:14px}
+.facts li b.k{display:inline-block;min-width:0;margin-right:6px;color:var(--navy)}
+/* warnings & playbook */
+.warns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.warn{background:#fff;border:1px solid var(--line);border-top:4px solid #f59e0b;border-radius:12px;padding:14px 16px}
+.warn .wn{font-size:12px;font-weight:900;color:#b45309}
+.warn .wt{font-size:16px;font-weight:800;margin:2px 0 6px}
+.play{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pl .pt{font-size:13px;font-weight:900;color:#fff;display:inline-block;border-radius:6px;padding:1px 9px;margin-bottom:8px}
+.checks{counter-reset:c;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.checks li{counter-increment:c;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 46px;position:relative;font-weight:700;font-size:14.5px}
+.checks li:before{content:counter(c);position:absolute;left:12px;top:9px;width:24px;height:24px;border-radius:7px;background:var(--navy);color:#fff;text-align:center;line-height:24px;font-size:13px}
+.concl{background:var(--navy);color:#fff;border-radius:16px;padding:22px 24px;margin-top:16px}
+.concl .lab{font-size:12px;font-weight:900;color:#5eead4;letter-spacing:.05em}
+.concl p{font-size:17.5px;font-weight:700;line-height:1.65;margin:6px 0 0}
+.concl .hl{color:#5eead4}
+/* appendix */
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}
+.ci{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;font-size:12.5px;position:relative}
+.ci i{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:10px 0 0 10px;background:var(--c)}
+.ci b{display:block;font-size:13px} .ci span{color:var(--mute);font-size:11.5px} .ci em{font-style:normal;float:right;font-weight:900;color:var(--ink)}
+.apsec{font-size:16px;margin:22px 0 10px;padding-left:10px;border-left:4px solid var(--navy)}
+.apgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;align-items:start}
+.apcat{grid-column:1/-1;break-after:avoid;font-size:12.5px;font-weight:900;color:var(--accent);margin:6px 0 -4px;letter-spacing:.03em}
+.apg{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:0}
+.apgh{display:flex;justify-content:space-between;font-size:13.5px;border-bottom:1px solid #f1f5f9;padding-bottom:4px;margin-bottom:4px}
+.apgh span{color:var(--mute);font-size:12px}
+.apg ul{list-style:none;margin:0;padding:0}
+.apg li{font-size:12px;line-height:1.55;padding:2px 0;display:flex;flex-wrap:wrap;gap:0 6px;align-items:baseline}
+.apg li small{color:var(--mute);width:100%;padding-left:13px}
+.cdot{width:7px;height:7px;border-radius:50%;background:var(--c);display:inline-block;flex:none;transform:translateY(-1px)}
+.cn{font-weight:700;color:var(--ink2)} .tm{color:var(--mute);font-variant-numeric:tabular-nums}
+.apg a{word-break:break-all}
+footer{margin-top:36px;background:#0b1f44;color:#cbd5e1;padding:26px 0 30px;font-size:13px}
+footer b{color:#fff}
+footer p{margin:0 0 6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.toc a{color:#e2e8f0;font-size:12.5px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 11px}
+/* responsive */
+@media screen and (max-width:760px){
+  .chart.wide{display:none} .chart.narrow{display:block}
+  .hm{display:none}
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .hero{padding:26px 0 30px}
+  .hero h1{font-size:25px}
+  .hero .date{font-size:16px}
+  .meta{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .tk,.two,.grid4,.duo,.warns,.play,.checks{grid-template-columns:1fr}
+  .tiers{grid-template-columns:1fr 1fr}
+  .levels{grid-template-columns:1fr 1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+  .apgrid{grid-template-columns:1fr}
+  .sh{flex-wrap:wrap} .sh .sub{margin-left:0;width:100%}
+  .verdict q{font-size:16.5px}
+  .ch{padding:14px 16px} .cb{padding:14px 16px}
+  .mcount{margin-left:0;text-align:left}
+}
+/* print */
+@page{size:A4;margin:13mm 12mm 14mm}
+@media print{
+  html,body{background:#fff}
+  body{zoom:0.70;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .hero{padding:22px 18px 30px;border-radius:12px}
+  .kpis{margin-top:-16px;padding:0 10px}
+  .toc{display:none}
+  section.sec{padding-top:6px}
+  .pb{break-before:page;page-break-before:always}
+  .card,.theme{box-shadow:none}
+  .vchip,.tier,.warn,.pl,.checks li,.mini,.kpi,.levels,.verdict,.fix,.concl,svg,tr,.facts li,.blk li,.apg,.chips,.flow,.qs{break-inside:avoid;page-break-inside:avoid}
+  .blkhead{break-after:avoid}
+  .ch{break-after:avoid}
+  h2,h3,h4,.sh{break-after:avoid;page-break-after:avoid}
+  a{color:#0f4fa8}
+  .schip{color:#334155}
+  #s2 table{font-size:12.5px} #s2 th,#s2 td{padding:5px 7px}
+  footer{background:#fff;color:#334155;border-top:2px solid #0b1f44;margin-top:20px;padding:14px 0 0}
+  footer b{color:#0b1f44}
+}
+.fs{font-size:11px;font-weight:700;border:1px solid #bfdbfe;background:#eff6ff;border-radius:5px;padding:0 6px;margin-left:4px;white-space:nowrap}
+.blkhead{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.blkhead h4{margin:0}
+.howto{font-size:13.5px;color:var(--ink2);background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:12px 16px;margin-top:14px}
+.common{background:#faf5ff;border:1px solid #e9d5ff;border-radius:16px;padding:18px 22px;margin-bottom:18px}
+.common h3{margin:0 0 8px;font-size:19px}
+
+.nw{white-space:nowrap}
+
+/* site index helpers */
+
+.reports{display:flex;flex-direction:column;gap:14px;margin:28px 0 40px}
+.rep{display:grid;grid-template-columns:110px 1fr auto;gap:16px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.rep .d{font-size:13px;font-weight:900;color:var(--navy);letter-spacing:.02em}
+.rep .d small{display:block;font-size:11.5px;color:var(--mute);font-weight:600;margin-top:2px}
+.rep h2{margin:0 0 4px;font-size:18px;font-weight:900}
+.rep p{margin:0;font-size:13.5px;color:var(--ink2)}
+.rep .acts{display:flex;flex-direction:column;gap:6px;min-width:110px}
+.rep .acts a{display:inline-block;text-align:center;border-radius:8px;padding:7px 12px;font-size:13px;font-weight:800;border:1px solid var(--line);text-decoration:none}
+.rep .acts a.html{background:var(--navy);color:#fff;border-color:var(--navy)}
+.rep .acts a.pdf{background:#ecfdf5;color:#047857;border-color:#a7f3d0}
+.badge{display:inline-block;font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px;background:#ecfeff;color:#0f766e;margin-left:6px}
+.badge.sample{background:#f1f5f9;color:#64748b}
+@media screen and (max-width:760px){
+  .rep{grid-template-columns:1fr;gap:10px}
+  .rep .acts{flex-direction:row;min-width:0}
+}
+
+
+.tagp{display:inline-block;font-size:11px;font-weight:800;border-radius:6px;padding:0 7px;margin-right:4px;vertical-align:1px}
+.tagp.off{background:#dcfce7;color:#166534}.tagp.mkt{background:#e0f2fe;color:#075985}.tagp.sec{background:#f1f5f9;color:#334155}.tagp.rum{background:#fee2e2;color:#991b1b}.tagp.op{background:#fef3c7;color:#92400e}
+.drv{display:grid;grid-template-columns:44px 1fr;gap:12px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:12px}
+.drv .n{font-size:22px;font-weight:900;color:#fff;background:var(--navy);border-radius:10px;display:flex;align-items:center;justify-content:center;height:44px}
+.drv h3{margin:2px 0 6px;font-size:17px}.drv ul{margin:6px 0 0;padding-left:18px}.drv li{margin-bottom:4px}
+.wt{font-size:12px;font-weight:800;color:var(--warn);margin-left:6px}
+.qt{border-left:4px solid #cbd5e1;background:#f8fafc;padding:8px 12px;margin:8px 0;font-size:14px;border-radius:0 8px 8px 0}
+.qt small{display:block;color:var(--mute);font-size:12px;margin-top:3px}
+.bb{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.bb .box h3{margin-top:0}.bb .bull{border-top:5px solid #16a34a}.bb .bear{border-top:5px solid #dc2626}
+.scn{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.scn .box{padding:16px 18px}.scn h3{margin:0 0 6px}.scn .px{font-size:20px;font-weight:900}
+.scn .s1{border-top:5px solid #16a34a}.scn .s2{border-top:5px solid #64748b}.scn .s3{border-top:5px solid #dc2626}
+.dec{width:100%;border-collapse:collapse}.dec td{vertical-align:top}
+.trig{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.trig .box ul{margin:0;padding-left:18px}.trig li{margin-bottom:6px}
+.hold{border-left:6px solid #16a34a}.cut{border-left:6px solid #dc2626}
+.src ol{padding-left:22px;font-size:13.5px}.src li{margin-bottom:5px}
+.src li small{color:var(--mute)}
+@media screen and (max-width:760px){.bb,.scn,.trig{grid-template-columns:1fr}.drv{grid-template-columns:1fr}.drv .n{width:44px}}
+@media print{.drv,.scn .box,.bb .box,.trig .box,.qt{break-inside:avoid}}
+
+</style></head><body>
+<header class="hero"><div class="wrap">
+ <div class="kicker"><span>DEEP DIVE</span><span>미국주식 · CRWV</span><span>RUN_ID CRWV-20261017-0230</span></div>
+ <h1>코어위브(CRWV) 급락 원인 종합 리서치<br>그리고 보유·손절 판단 프레임</h1>
+ <div class="date">2026-10-17 (KST) 발간 · 주가 기준 10/16 13:28 ET (10/17 02:28 KST) 장중</div>
+ <dl class="meta">
+  <div><dt>종목 식별</dt><dd>CoreWeave, Inc. Class A · Nasdaq: CRWV · 미국 · USD</dd></div>
+  <div><dt>수집 범위</dt><dd>공시·IR, 뉴스, X, 레딧(간접), 텔레그램, 국내 언론</dd></div>
+  <div><dt>분석 단계</dt><dd>Grok 수집·구조화 · 최종 심층판단은 Equity Intelligence 3.7.3.1</dd></div>
+ </dl>
+</div></header>
+<div class="wrap">
+<div class="kpis">
+ <div class="kpi"><div class="l">현재가 (장중)</div><div class="v dn">$61.93</div><div class="s">10/16 -11.1% · 미국장 마감 전</div></div>
+ <div class="kpi"><div class="l">이번 주 (10/9 종가 대비)</div><div class="v dn">-24.5%</div><div class="s">10/9 $82.08</div></div>
+ <div class="kpi"><div class="l">52주 고점 대비</div><div class="v dn">-56%</div><div class="s">52주 고점 $141.79</div></div>
+ <div class="kpi"><div class="l">2032년 9.625% 회사채</div><div class="v">~78¢</div><div class="s">수익률 약 15% (6월 액면 발행)</div></div>
+ <div class="kpi"><div class="l">5년 CDS</div><div class="v">1,194bp</div><div class="s">10/15 장중 최고 · 이후 약 1,040bp</div></div>
+ <div class="kpi"><div class="l">부채+리스</div><div class="v">$51.6B</div><div class="s">6/30 기준 · 이후 전환사채 $4.2B 추가</div></div>
+</div>
+
+<section class="sec">
+ <div class="sh"><span class="no">01</span><h2>한눈에 보는 결론</h2><span class="sub">투자 권유 아님</span></div>
+ <div class="verdict"><div class="lab">요약</div><q>이번 급락은 "AI 수요가 꺾였다"기보다 "빚으로 짓는 AI 인프라의 자금 조달 비용이 급등했다"는 신용 이벤트야. 채권과 CDS가 먼저 무너졌고 주식이 따라갔어.</q></div>
+ <div class="tk">
+  <div class="box"><h4>왜 빠졌나 (핵심 5줄)</h4><ol>
+   <li><b>채권 쇼크:</b> 6월 액면 발행한 2032년 만기 9.625% 회사채가 80센트 아래로 떨어져 수익률 15% 근접, 5년 CDS는 장중 1,194.5bp(기록)까지 치솟았어.</li>
+   <li><b>금리:</b> 9월 CPI 3.7%(예상 3.6%), PPI 전년 대비 6.3%로 연준 추가 인상 우려가 커지고 미국 10년물이 장중 5.32%까지 올랐어.</li>
+   <li><b>AI 수익성 의심:</b> OpenAI 연환산 매출 약 500억달러(알려진 680억달러보다 낮음), 앤트로픽 3분기 성장 둔화, 가트너의 "네오클라우드 80% 이상 2030년까지 독립 운영 중단" 경고가 한 주에 몰렸어.</li>
+   <li><b>재무 구조:</b> 2분기 이자비용 6.4억달러(매출의 25%), 상반기 잉여현금흐름 -105억달러. 성장할수록 빚이 늘어나는 구조라 금리에 가장 민감해.</li>
+   <li><b>수급:</b> 공동창업자 3명 상장 이후 누적 33억달러 매도, 알티미터 전량 매도 발언, 9월 ATM(최대 3,500만주) 개설로 희석 우려까지 겹쳤어.</li>
+  </ol></div>
+  <div class="box"><h4>보유 vs 손절, 이렇게 판단해</h4><ol>
+   <li><b>-45%는 잊어.</b> 질문은 "지금 $62에 이 종목을 새로 살 건가"야. 본전(평단 약 $112 추정)까지는 +80% 넘게 올라야 해.</li>
+   <li><b>비중이 먼저.</b> 포트폴리오에서 CRWV가 10~15%를 넘으면 방향과 무관하게 잠이 오는 수준까지 줄이는 게 우선이야.</li>
+   <li><b>보유 근거는 "신용 회복" 신호:</b> 회사채 85센트 이상 회복, CDS 800bp 아래, 3분기 실적 가이던스 충족, 새 차입이 더 싼 조건이면 버틸 이유가 생겨.</li>
+   <li><b>손절·축소 신호:</b> 회사채 70센트 아래, CDS 1,500bp 위, 가이던스 하향이나 고객 계약 지연, 저가 대규모 ATM 발행, 10/15 저점 $59.51 대량 거래 이탈.</li>
+   <li><b>물타기는 마지막.</b> 주식은 약 $410억 부채와 $160억 리스 아래 맨 끝 순위야. 위 회복 신호 확인 전 물타기는 레버리지에 레버리지를 더하는 거야.</li>
+  </ol></div>
+ </div>
+ <p class="fine" style="margin-top:10px">숫자 기준: 주가는 Yahoo Finance 일별 시세(10/16은 13:28 ET 장중, 정규장 마감은 10/17 05:00 KST). 채권·CDS 수치는 CNBC, Bloomberg(Yahoo 경유), Reuters 보도 기준이고 시점마다 달라.</p>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">02</span><h2>가격 흐름</h2><span class="sub">2026-04-01 ~ 10/16 종가</span></div>
+ <div class="box chart"><svg viewBox="0 0 940 300" width="100%" role="img" aria-label="CRWV 종가 추이">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14b8a6" stop-opacity=".28"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></linearGradient></defs>
+<line x1="46" x2="924" y1="239.7" y2="239.7" stroke="#e2e8f0"/><text x="40" y="243.7" text-anchor="end" font-size="11" fill="#64748b">$60</text><line x1="46" x2="924" y1="187.1" y2="187.1" stroke="#e2e8f0"/><text x="40" y="191.1" text-anchor="end" font-size="11" fill="#64748b">$80</text><line x1="46" x2="924" y1="134.4" y2="134.4" stroke="#e2e8f0"/><text x="40" y="138.4" text-anchor="end" font-size="11" fill="#64748b">$100</text><line x1="46" x2="924" y1="81.8" y2="81.8" stroke="#e2e8f0"/><text x="40" y="85.8" text-anchor="end" font-size="11" fill="#64748b">$120</text><line x1="46" x2="924" y1="29.2" y2="29.2" stroke="#e2e8f0"/><text x="40" y="33.2" text-anchor="end" font-size="11" fill="#64748b">$140</text><text x="46.0" y="288" font-size="11" fill="#64748b">4월</text><text x="180.6" y="288" font-size="11" fill="#64748b">5월</text><text x="308.8" y="288" font-size="11" fill="#64748b">6월</text><text x="443.3" y="288" font-size="11" fill="#64748b">7월</text><text x="584.3" y="288" font-size="11" fill="#64748b">8월</text><text x="718.9" y="288" font-size="11" fill="#64748b">9월</text><text x="853.5" y="288" font-size="11" fill="#64748b">10월</text><polygon points="46.0,266.0 46.0,191.2 52.4,181.2 58.8,184.6 65.2,173.3 71.6,163.6 78.0,155.5 84.5,129.2 90.9,107.4 97.3,89.2 103.7,85.2 110.1,82.9 116.5,90.1 122.9,88.6 129.3,94.5 135.7,75.1 142.1,88.6 148.5,107.7 154.9,102.7 161.4,119.9 167.8,97.1 174.2,103.9 180.6,84.4 187.0,67.5 193.4,61.0 199.8,34.5 206.2,58.5 212.6,97.2 219.0,95.7 225.4,114.0 231.9,104.7 238.3,97.0 244.7,115.2 251.1,124.5 257.5,134.9 263.9,131.1 270.3,114.5 276.7,120.0 283.1,118.9 289.5,123.2 295.9,116.4 302.4,109.3 308.8,69.1 315.2,83.7 321.6,105.7 328.0,113.3 334.4,133.4 340.8,128.2 347.2,138.5 353.6,146.0 360.0,145.6 366.4,133.0 372.8,116.8 379.3,89.6 385.7,94.4 392.1,87.2 398.5,104.7 404.9,119.4 411.3,132.1 417.7,137.7 424.1,143.4 430.5,146.2 436.9,135.6 443.3,172.1 449.8,182.4 456.2,170.1 462.6,177.8 469.0,160.7 475.4,161.5 481.8,163.7 488.2,178.3 494.6,187.2 501.0,194.6 507.4,205.7 513.8,204.9 520.2,205.3 526.7,188.2 533.1,180.1 539.5,184.2 545.9,208.4 552.3,211.3 558.7,220.5 565.1,237.5 571.5,203.1 577.9,208.7 584.3,171.9 590.7,155.7 597.2,161.0 603.6,173.0 610.0,159.0 616.4,165.5 622.8,159.9 629.2,114.1 635.6,117.9 642.0,120.6 648.4,118.6 654.8,152.4 661.2,158.4 667.6,161.4 674.1,166.4 680.5,170.6 686.9,165.9 693.3,166.0 699.7,169.2 706.1,175.9 712.5,174.2 718.9,182.2 725.3,184.6 731.7,175.1 738.1,162.4 744.6,134.9 751.0,147.7 757.4,163.1 763.8,163.4 770.2,179.2 776.6,184.6 783.0,178.2 789.4,187.4 795.8,183.5 802.2,172.8 808.6,169.3 815.1,168.9 821.5,160.4 827.9,167.1 834.3,173.7 840.7,171.4 847.1,168.3 853.5,164.5 859.9,161.7 866.3,167.6 872.7,156.2 879.1,164.8 885.5,182.9 892.0,181.6 898.4,186.4 904.8,192.8 911.2,224.5 917.6,214.2 924.0,234.6 924.0,266.0" fill="url(#g)"/><polyline points="46.0,191.2 52.4,181.2 58.8,184.6 65.2,173.3 71.6,163.6 78.0,155.5 84.5,129.2 90.9,107.4 97.3,89.2 103.7,85.2 110.1,82.9 116.5,90.1 122.9,88.6 129.3,94.5 135.7,75.1 142.1,88.6 148.5,107.7 154.9,102.7 161.4,119.9 167.8,97.1 174.2,103.9 180.6,84.4 187.0,67.5 193.4,61.0 199.8,34.5 206.2,58.5 212.6,97.2 219.0,95.7 225.4,114.0 231.9,104.7 238.3,97.0 244.7,115.2 251.1,124.5 257.5,134.9 263.9,131.1 270.3,114.5 276.7,120.0 283.1,118.9 289.5,123.2 295.9,116.4 302.4,109.3 308.8,69.1 315.2,83.7 321.6,105.7 328.0,113.3 334.4,133.4 340.8,128.2 347.2,138.5 353.6,146.0 360.0,145.6 366.4,133.0 372.8,116.8 379.3,89.6 385.7,94.4 392.1,87.2 398.5,104.7 404.9,119.4 411.3,132.1 417.7,137.7 424.1,143.4 430.5,146.2 436.9,135.6 443.3,172.1 449.8,182.4 456.2,170.1 462.6,177.8 469.0,160.7 475.4,161.5 481.8,163.7 488.2,178.3 494.6,187.2 501.0,194.6 507.4,205.7 513.8,204.9 520.2,205.3 526.7,188.2 533.1,180.1 539.5,184.2 545.9,208.4 552.3,211.3 558.7,220.5 565.1,237.5 571.5,203.1 577.9,208.7 584.3,171.9 590.7,155.7 597.2,161.0 603.6,173.0 610.0,159.0 616.4,165.5 622.8,159.9 629.2,114.1 635.6,117.9 642.0,120.6 648.4,118.6 654.8,152.4 661.2,158.4 667.6,161.4 674.1,166.4 680.5,170.6 686.9,165.9 693.3,166.0 699.7,169.2 706.1,175.9 712.5,174.2 718.9,182.2 725.3,184.6 731.7,175.1 738.1,162.4 744.6,134.9 751.0,147.7 757.4,163.1 763.8,163.4 770.2,179.2 776.6,184.6 783.0,178.2 789.4,187.4 795.8,183.5 802.2,172.8 808.6,169.3 815.1,168.9 821.5,160.4 827.9,167.1 834.3,173.7 840.7,171.4 847.1,168.3 853.5,164.5 859.9,161.7 866.3,167.6 872.7,156.2 879.1,164.8 885.5,182.9 892.0,181.6 898.4,186.4 904.8,192.8 911.2,224.5 917.6,214.2 924.0,234.6" fill="none" stroke="#0f766e" stroke-width="2.2"/><circle cx="199.8" cy="34.5" r="4" fill="#dc2626"/><text x="199.8" y="20.5" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0b1f44">연중 종가 고점 $137.98</text><circle cx="629.2" cy="114.1" r="4" fill="#dc2626"/><text x="629.2" y="100.1" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0b1f44">2Q 실적 +19%</text><circle cx="789.4" cy="187.4" r="4" fill="#dc2626"/><text x="789.4" y="209.4" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0b1f44">ATM·전환사채 발표</text><line x1="885.5" y1="182.9" x2="875.5" y2="146.9" stroke="#94a3b8"/><circle cx="885.5" cy="182.9" r="4" fill="#dc2626"/><text x="875.5" y="142.9" text-anchor="end" font-size="11.5" font-weight="700" fill="#0b1f44">OpenAI 매출 정정 -7.8%</text><circle cx="911.2" cy="224.5" r="4" fill="#dc2626"/><text x="899.2" y="228.5" text-anchor="end" font-size="11.5" font-weight="700" fill="#0b1f44">채권 쇼크 -15.5%</text><circle cx="924.0" cy="234.6" r="4" fill="#dc2626"/><text x="924.0" y="256.6" text-anchor="end" font-size="11.5" font-weight="700" fill="#0b1f44">$61.93</text></svg></div>
+ <h3>주요 하락일 (종가, 거래량)</h3>
+ <table>
+  <tr><th>날짜(ET)</th><th class="n">종가</th><th class="n">등락</th><th class="n">거래량</th><th>무슨 일이 있었나</th></tr>
+  <tr><td>10/8 (목)</td><td class="n">$81.58</td><td class="n dn">-7.8%</td><td class="n">42.3M</td><td>OpenAI가 투자자에게 밝힌 9월 말 연환산 매출 약 500억달러가 시장에 알려진 680억달러보다 낮다는 CNBC 보도. 엔비디아 -3%, 오라클 -6%. 국채금리 상승, 대출 계약의 "Cash Trap" 조항 보도도 겹침.</td></tr>
+  <tr><td>10/13 (화)</td><td class="n">$77.81</td><td class="n dn">-3.1%</td><td class="n">34.3M</td><td>회사채 수익률 15% 근접, CDS 855bp 부근(X 게시물 기준). 채권이 먼저 흔들리기 시작.</td></tr>
+  <tr><td>10/14 (수)</td><td class="n">$65.78</td><td class="n dn">-15.5%</td><td class="n">111.2M</td><td>9월 CPI 3.7% 예상 상회, 2032년물 80센트 하회 Bloomberg 보도, 가트너 경고, 차마스 팔리하피티야 게시물에 일론 머스크가 "yikes" 답글. 나스닥 -1.88%.</td></tr>
+  <tr><td>10/15 (목)</td><td class="n">$69.69</td><td class="n up">+5.9%</td><td class="n">130.0M</td><td>장중 $59.51(52주 저점, 2025년 5월 이후 최저)까지 밀렸다가 젠슨 황 "백스톱 필요 없다, 자본비용이 내려가고 있다" 발언에 반등. 같은 날 CDS는 기록 경신.</td></tr>
+  <tr><td>10/16 (금)</td><td class="n">$61.93*</td><td class="n dn">-11.1%*</td><td class="n">55.9M*</td><td>반등 하루 만에 재하락. 앤트로픽 성장 둔화 해석, 모닝스타 적정가 하향($115→$108), 네비우스 -9%·아이렌 -8% 동반 약세. *장중 13:28 ET 기준.</td></tr>
+ </table>
+ <p class="note">맥락: 상장 후 최고가는 2025년 6월 장중 약 $187. 2026년 종가 고점은 5/6 $137.98. 현재가는 그 대비 약 -55%. 8/12 2분기 실적 발표 다음 날 +19% 올랐던 상승분을 모두 반납했어. 시가총액은 전체 주식 약 5.5억주 기준 약 340억달러.</p>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">03</span><h2>급락 원인 분해</h2><span class="sub">영향 큰 순서 · 출처 성격 표시</span></div>
+ <p class="note"><span class="tagp off">공식</span>회사 공시·IR <span class="tagp mkt">시장데이터</span>채권·주가 등 시장 데이터 <span class="tagp sec">2차 보도</span>언론·리서치 2차 보도 <span class="tagp op">의견</span>애널리스트·투자자 의견 <span class="tagp rum">미확인</span>확인 안 된 주장</p>
+
+ <div class="drv"><div class="n">1</div><div><h3>회사채·CDS 급락: 시장이 "자금 조달 비용"을 다시 매김<span class="wt">영향 최대</span></h3>
+  <ul>
+   <li><span class="tagp mkt">시장데이터</span>2032년 만기 9.625% 회사채 수익률 14.8%, 2031년 만기 9.75%물 약 14.9% (CNBC 10/14). 10/15에는 2031년물 15.78%, 5년 CDS 장중 1,140bp 이상, 이후 약 1,038bp(전주 대비 +16%, 1년 전 대비 +164%) (CNBC 10/15).</li>
+   <li><span class="tagp mkt">시장데이터</span>ICE 기준 5년 CDS 장중 1,194.5bp 기록, 5년 내 부도확률 60% 이상을 내포 (Bloomberg/Investing.com 10/15). 단, CDS 내재 확률은 위험 프리미엄이 섞인 모델 값이지 실제 예측치가 아니야.</li>
+   <li><span class="tagp mkt">시장데이터</span>10/15 하루 반등: 2031년 10월물 +3.3센트 82.8센트, 2030년 6월물 +5.7센트 91.3센트 (텔레그램 insidertracking 인용 보도).</li>
+   <li><span class="tagp sec">2차 보도</span>S&P 신용등급 B+(투기등급). "금리가 오르면 레버리지가 큰 회사가 먼저 맞는다" (S&P Global Market Intelligence, CNBC 인용).</li>
+   <li><span class="tagp op">의견</span>Evercore ISI 트레이딩 데스크: 시장이 "영업현금흐름 뒷받침 없는 AI 부채에 '노 마스'를 외치는 중". 9fin: "코어위브는 탄광의 카나리아".</li>
+  </ul>
+  <div class="qt">"The market misunderstands and acts irrationally... We are confident in our backlog which more than supports all of our debt obligations."<small>마이클 인트레이터 CEO 사내 메모, 10/14 (CNBC 입수) <span class="tagp off">공식</span></small></div>
+ </div></div>
+
+ <div class="drv"><div class="n">2</div><div><h3>물가·금리 재상승: 고레버리지 성장주에 직격탄<span class="wt">영향 큼</span></h3>
+  <ul>
+   <li><span class="tagp off">공식</span>미국 9월 CPI 전년 대비 3.7%(예상 3.6%), 근원 2.6%(예상 2.5%). 9월 PPI 전년 대비 6.3%, 전월 대비 1.3% (노동통계국, 텔레그램 insidertracking·YeouidoStory2 정리).</li>
+   <li><span class="tagp mkt">시장데이터</span>10월 FOMC 인상 확률 21.6%에서 장중 43.7%까지 상승, 미국 10년물 장중 5.32% (10/14). 이후 10/16에는 선물시장 인상 확률이 17%로 내려옴 (CNBC, 워시 연준 의장이 신호를 주지 않음).</li>
+   <li><span class="tagp sec">2차 보도</span>코어위브는 신용시설 부채의 "대부분"이 변동금리이고 그 대부분이 헤지되지 않음 (10-Q 위험요인). 금리 100bp 변동 시 연간 이자비용 약 1.07억달러 (10-K Item 7A, 2025년 말 기준).</li>
+  </ul>
+ </div></div>
+
+ <div class="drv"><div class="n">3</div><div><h3>AI 투자 회수 속도에 대한 의심: OpenAI·앤트로픽·가트너<span class="wt">영향 큼</span></h3>
+  <ul>
+   <li><span class="tagp sec">2차 보도</span>OpenAI가 투자자에게 밝힌 9월 말 연환산 매출은 약 500억달러로, 9월 말 널리 보도된 680억달러(파트너 경유 총매출 포함)보다 낮음 (CNBC 10/8).</li>
+   <li><span class="tagp sec">2차 보도</span>앤트로픽 3분기 매출 168억달러, 2분기 116억달러 대비 +45%. 연초 140%대 성장에서 크게 둔화 (CNBC 10/15).</li>
+   <li><span class="tagp off">공식</span>가트너(10/14): 2030년까지 3.5조달러 이상의 AI 인프라 지출이 손상(감액) 위험에 노출. "비용 압박과 차별화 부족으로 네오클라우드 80% 이상이 2030년까지 독립 운영을 멈출 것".</li>
+   <li><span class="tagp sec">2차 보도</span>브로드컴 CEO의 "AI 인프라 확대에서 자본 부족이 병목" 발언이 함께 회자 (텔레그램 시황 채널 인용, 원문 미확인).</li>
+   <li><span class="tagp op">의견</span>아폴로 토르스텐 슬록: "보상이 컨센서스 예상보다 늦게 오면 어떻게 되나?" 네오클라우드는 장비 교체 주기가 짧아 AI 가치사슬의 약한 고리로 지목됨.</li>
+  </ul>
+ </div></div>
+
+ <div class="drv"><div class="n">4</div><div><h3>성장할수록 빚이 느는 재무 구조<span class="wt">구조적 원인</span></h3>
+  <ul>
+   <li><span class="tagp off">공식</span>2분기 매출 25.75억달러(+112%), 영업손실 -0.49억달러, 순이자비용 6.40억달러(매출의 약 25%), 순손실 -6.26억달러, 조정 EBITDA 15.1억달러(마진 59%) (2Q26 실적 발표).</li>
+   <li><span class="tagp off">공식</span>6/30 부채 원금 355.5억달러, 운용리스 부채 163억달러. 부채+리스 약 516억달러, 총자산 771억달러, 부채비율(총부채/총자산) 93.5%. 유동성 155.5억달러 (10-Q).</li>
+   <li><span class="tagp off">공식</span>상반기 원리금 상환 약 62억달러 vs 영업현금흐름 37억달러. 상반기 설비투자 현금 141억달러, 잉여현금흐름 약 -105억달러 (10-Q 기반 계산, sec-api 정리).</li>
+   <li><span class="tagp off">공식</span>남은 원금 상환 스케줄: 2026년 잔여 44.1억달러, 2027년 61.8억달러, 2028년 44.2억달러 (6/30 기준 10-Q).</li>
+   <li><span class="tagp off">공식</span>3분기 가이던스: 매출 34.5~36억달러, 이자비용 8.6~9.4억달러, 설비투자 115~135억달러. 연간 설비투자 350~390억달러.</li>
+   <li><span class="tagp sec">2차 보도</span>번스타인: 분기 후 발행분 포함 부채 409.5억달러, 실효금리 8.0%, 연환산 이자 약 32.6억달러. 신규 DDTL 5.5는 SOFR+5.50%로 약 5년, 고객 계약 평균은 약 3년이라는 만기 불일치 지적.</li>
+  </ul>
+ </div></div>
+
+ <div class="drv"><div class="n">5</div><div><h3>희석·추가 조달 우려<span class="wt">수급 부담</span></h3>
+  <ul>
+   <li><span class="tagp off">공식</span>9/17 ATM 프로그램 개설: 최대 3,500만주 Class A 수시 매도 가능(의무 없음). 목적은 "투자등급 신용으로 이동 지원" (IR).</li>
+   <li><span class="tagp off">공식</span>9/18 2.875% 2033년 만기 전환사채 37억달러 가격 결정(그린슈 포함 최종 42억달러), 전환가 약 $97.85, 캡드콜 상단 $199.70 (IR, 8-K).</li>
+   <li><span class="tagp sec">2차 보도</span>공동창업자 브래닌 맥비가 FT에 보험사 자금 유치 구상을 밝힌 것이 "추가 차입" 신호로 해석됨 (번스타인, 블룸버그 정리).</li>
+   <li><span class="tagp sec">2차 보도</span>26억달러 대출에 고객 SLA 위반으로 계약 해지권이 생기면 "Cash Trap", 3개월 미해결 시 "Cash Sweep"(조기상환) 조항 (Investing.com, SemiAnalysis 팟캐스트 인용, 10/8).</li>
+  </ul>
+ </div></div>
+
+ <div class="drv"><div class="n">6</div><div><h3>내부자·대형 기관 매도<span class="wt">심리 악화</span></h3>
+  <ul>
+   <li><span class="tagp sec">2차 보도</span>공동창업자 3명(인트레이터, 벤투로, 맥비) 상장 후 누적 약 33억달러 매도, 이 중 2026년 24억달러. 대부분 10b5-1 사전 계획 매도 (Bloomberg Línea, Investing.com).</li>
+   <li><span class="tagp off">공식</span>인트레이터 CEO 9/22 307,692주 매도(10b5-1, 2025/11/20 채택) (Form 4). 매그니타 8/12~13 약 407만주 매도 (Form 4).</li>
+   <li><span class="tagp op">의견</span>알티미터 브래드 거스트너 "CRWV 전량 매도, 지금 하나도 없다" 발언(10/15 전후). 6/30 13F 기준 607만주 보유. 실제 매도는 11/14 마감 3분기 13F로 확인 필요 <span class="tagp rum">미확인</span></li>
+   <li><span class="tagp rum">미확인</span>X 계정 "인트레이터 3분기 406만주, 3.47억달러 매도" 주장 (원 Form 4 합계는 미검증).</li>
+  </ul>
+ </div></div>
+
+ <div class="drv"><div class="n">7</div><div><h3>고객 집중과 "백로그=매출?" 논쟁</h3>
+  <ul>
+   <li><span class="tagp off">공식</span>2025년 매출의 약 67%가 마이크로소프트. 2026년 2분기 최대 고객 36%, 2위 26%, 3위 10%로 분산은 진행 중 (10-K, 10-Q).</li>
+   <li><span class="tagp off">공식</span>백로그 1,042억달러(전년 대비 +246%), 3분기 초 250억달러 이상 신규 계약 별도. 메타 142억달러+210억달러, OpenAI 119억달러+65억달러, 제인스트리트 60억달러, 엔비디아 미판매 용량 63억달러 구매 약정(2032년 4월까지).</li>
+   <li><span class="tagp sec">2차 보도</span>도이체방크: 백로그의 약 3분의 2가 마이크로소프트·메타·IBM·캐터필러 등 투자등급 상대방.</li>
+   <li><span class="tagp op">의견</span>반론: take-or-pay 계약이 철통 같다고 볼 수 없고 백로그를 매출과 동일시하면 위험하다는 지적, 향후 계약 분쟁 가능성 (CNBC 10/16).</li>
+  </ul>
+ </div></div>
+
+ <div class="drv"><div class="n">8</div><div><h3>섹터 동조화: 네오클라우드·AI 신용 전반</h3>
+  <ul>
+   <li><span class="tagp mkt">시장데이터</span>10/16 네비우스 -9%, 아이렌 -8%. 필라델피아 반도체지수 6거래일 -11% 이상. 오라클 5년 CDS 282bp(1주 +10%).</li>
+   <li><span class="tagp op">의견</span>DA 데이비드슨 길 루리아: "네비우스는 같은 걸 같은 고객에게 팔면서 레버리지가 거의 없다." 즉 코어위브는 사업모델 + 자본구조 이중 할인.</li>
+  </ul>
+ </div></div>
+
+ <div class="box"><h4>이번 급락과 관계가 적은 것 (확인 결과)</h4>
+  <p style="margin:0">· <b>코어 사이언티픽 인수:</b> 2025/10/30 코어 사이언티픽 주주 반대로 이미 종료. 이번 주 재료 아님. · <b>상장 보호예수:</b> IPO 락업은 2025/8/14 종료, 이번 달 대규모 락업 해제 일정은 확인되지 않음. · <b>신규 공매도 보고서:</b> 이번 주 새 보고서는 찾지 못함. 케리스데일이 1년 전 "자본비용 이하 수익" 주장을 다시 언급한 정도.</p>
+ </div>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">04</span><h2>Bull vs Bear 증거</h2><span class="sub">결론은 EI 3.7.3.1 몫</span></div>
+ <div class="bb">
+  <div class="box bull"><h3>강세 근거</h3><ul>
+   <li>백로그 1,042억달러 + 3분기 초 250억달러, 용량 대부분 장기 take-or-pay로 선판매 (JP모건)</li>
+   <li>연간 매출 가이던스 124~132억달러로 상향, 연말 ARR 185~195억달러 목표</li>
+   <li>단기 컴퓨팅 가격 상승: 제프리스 "가격 결정력이 부채 비용보다 빨리 오른다"</li>
+   <li>엔비디아 지분 투자(2026년 1월 20억달러, $87.20)와 63억달러 잔여 용량 구매 약정</li>
+   <li>DDTL 4.0(SOFR+2.25%)처럼 투자등급 고객 담보 대출은 금리가 낮아지는 추세였음</li>
+   <li>회사 고유 악재 없이 섹터·신용 심리로 빠졌다는 도이체방크 판단</li>
+  </ul></div>
+  <div class="box bear"><h3>약세 근거</h3><ul>
+   <li>영업이익보다 이자비용이 13배 큰 구조(2분기), 성장할수록 차입 증가</li>
+   <li>신규 무담보 조달 금리 15% 수준이면 신규 프로젝트의 수익률 스프레드가 음수가 될 수 있음 (DA 데이비드슨)</li>
+   <li>GPU 감가상각 주기 대비 긴 부채, 계약 평균 3년 vs 대출 5년 (번스타인)</li>
+   <li>창업자·매그니타·알티미터 매도, ATM 3,500만주 희석 여력</li>
+   <li>가트너: 네오클라우드 80% 이상 독립 운영 중단 전망, 2028년 이후 공급 완화 시 대형 계약 수주 둔화 가능 (번스타인)</li>
+   <li>CDS가 1,000bp 이상에서 머물면 자금 조달 자체가 비싸지는 자기실현적 악순환 (도이체방크 짐 리드)</li>
+  </ul></div>
+ </div>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">05</span><h2>월가 의견 (10월)</h2><span class="sub">목표가 업데이트 순</span></div>
+ <table>
+  <tr><th>날짜</th><th>기관</th><th>의견</th><th class="n">목표가</th><th>요지</th></tr>
+  <tr><td>10/16</td><td>제프리스</td><td>매수</td><td class="n">$150</td><td>매도세는 과도. 부채 비용보다 용량 가격 상승이 빠름</td></tr>
+  <tr><td>10/16</td><td>JP모건</td><td>비중확대</td><td class="n">$125</td><td>데이터센터 수요는 최근 오히려 개선. 공포는 과도</td></tr>
+  <tr><td>10/16</td><td>모닝스타</td><td>적정가 하향</td><td class="n">$115→$108</td><td>하이퍼스케일러도 대규모 차입에 나서 조달 경쟁 심화</td></tr>
+  <tr><td>10/15</td><td>미즈호</td><td>목표가 하향</td><td class="n">$115→$88</td><td>자금 조달 우려 반영</td></tr>
+  <tr><td>10/15</td><td>번스타인</td><td>시장수익률 하회</td><td class="n">$74</td><td>"새 공시가 아니라 기존 조달 위험의 재평가". 장기 사업모델 경제성 의문</td></tr>
+  <tr><td>10/15</td><td>BofA</td><td>매수</td><td class="n">$140</td><td>2027·2028 성장률 전망 상향(105%, 63%)</td></tr>
+  <tr><td>10/15</td><td>캔터 피츠제럴드</td><td>긍정</td><td class="n">미확인</td><td>"잘못된 서사가 난무. 진입·추가에 가장 매력적인 시점 중 하나"</td></tr>
+  <tr><td>10/14</td><td>도이체방크</td><td>매수</td><td class="n">$150</td><td>회사 고유 요인으로는 설명 안 되는 하락, 저가 매수 기회</td></tr>
+  <tr><td>10/7 전후</td><td>노스랜드</td><td>시장수익률 상회</td><td class="n">$200</td><td>최선호주 지정 (급락 전)</td></tr>
+ </table>
+ <p class="note">주의: 셀사이드 목표가 평균(약 $137, X 게시물 기준, 미검증)과 주가 $62의 괴리 자체가 "지금 조건 그대로 백로그를 조달할 수 있다"는 가정에 기대고 있다는 지적이 있어. 신용시장이 그 가정을 의심하는 중이야.</p>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">06</span><h2>커뮤니티·채널 동향</h2><span class="sub">X · 레딧 · 텔레그램 · 국내 언론</span></div>
+ <h3>X (10/13~10/16)</h3>
+ <div class="qt">"$CRWV's 2032 bonds now yield near 15%. Over the summer it was about 9%... When bonds price you like distress, the equity story has to wait."<small>@Felix__archive · 10/16 00:59 KST <span class="tagp op">의견</span></small></div>
+ <div class="qt">"Fun fact: after Jensen Huang said that $CRWV doesn't need Nvidia backstop, CoreWeave bonds took another dive, CDS increased further, while the stock rallied hard."<small>@DarioCpx (팔로워 12만) · 10/16 09:21 KST <span class="tagp op">의견</span></small></div>
+ <div class="qt">"what goes in the box is pledged to the lender and therefore $CRWV has little recovery value for unsecured debt holders and equity holders should they enter CH11."<small>@brad_D6 · 10/16 10:00 KST · 담보 구조상 주주 회수가치가 낮다는 약세 논리 <span class="tagp op">의견</span></small></div>
+ <div class="qt">"The $CRWV CDS situation not what you want to see of course but... Now is not then."<small>@EnergyCredit1 (팔로워 4.2만, CDS 트레이더 출신) · 10/16 10:43 KST · 2008년과 다르다는 반론 <span class="tagp op">의견</span></small></div>
+ <div class="qt">"insiders are selling heavily... 471 sale transactions across 13 insiders, compared with just 3 purchase transactions"<small>@MarketAtlas · 10/17 01:30 KST <span class="tagp rum">미확인</span></small></div>
+ <p class="note">국내 X: "코어위브 CEO 3분기 406만주(3.47억달러) 매도"(@BonjilNote), "부채리스크가 워낙 커서 별도로 투자 안 함"(@Sebagyeong), 코어위브 한국 데이터센터 협력·B300 수요 기사 공유(ZDNET, 10/9) 등. 분위기는 공포 우세, 일부 "공포 매수" 의견.</p>
+
+ <h3>레딧</h3>
+ <p>레딧은 이 박스의 접속을 차단(403)해서 원문을 직접 읽지 못했어. 간접 자료로 정리하면:</p>
+ <ul>
+  <li>텔레그램 insidertracking "10/15 미국 레딧 베스트 게시물 분석": "CoreWeave wove my anus" 류의 손실 밈, CDS 디폴트 리스크 확산, "Neocloud meltdown 시작?" 공포, "AI 데이터센터 성장보다 부채 구조를 보기 시작". 과열도 "극단적 → 디레버리징 경계".</li>
+  <li>r/stocks 글 "CoreWeave (CRWV) credit breakdown: $51.4B in debt and leases, 15% yields, and the circular Nvidia backstop" (검색 색인 제목). 엔비디아와의 순환 구조를 문제 삼는 글.</li>
+  <li>집계 사이트 adanos.com: 레딧 언급 감성 강세 16%, 약세 29% (집계 방식 미확인).</li>
+ </ul>
+
+ <h3>텔레그램</h3>
+ <div class="qt">"코어위브의 2032년 만기 회사채(표면금리 9.625%) 수익률은 14.8%로 뛰었다... 신용부도스와프(CDS) 가격에 반영된 5년 내 부도 확률은 50%를 넘었다."<small>선진짱 주식공부방 전달(연합뉴스 인용) · 10/15 <span class="tagp sec">2차 보도</span></small></div>
+ <div class="qt">"코어위브 회사채 이슈: 2032년 만기 회사채 1달러당 77.2센트... 1년 사이 부채 150억→6월말 520억달러 급증, 이자 내는 것도 버거운 것 아니냐는 우려"<small>선진짱 전달(시황맨의 주식이야기) · 10/16 · "520억"은 리스 포함 수치 <span class="tagp sec">2차 보도</span></small></div>
+ <div class="qt">"11월을 겨냥해 공포를 매수할 시점... 코어위브 회사채 폭등 등으로 AI 업황 우려가 확산되는 양상. 단, 동시다발적 이슈가 바로 모두 극단적인 비관적 흐름으로 전개되지는 않을 것"<small>가치투자클럽(corevalue) · IBK투자증권 변준호 · 10/16 09:18 KST <span class="tagp op">의견</span></small></div>
+ <div class="qt">"QTR 리서치에 따르면 엔비디아와 코어위브의 투자 및 사업 관계가 복잡하게 얽혀 있어, 코어위브의 재무 상황이 악화될 경우 엔비디아가 코어위브를 구제해야 한다는 압박에 직면할 가능성"<small>미국 주식 인사이더(insidertracking) · 10/15 05:12 KST <span class="tagp op">의견</span></small></div>
+ <p class="note">AWAKE 공시정리(darthacking)에는 코어위브 언급이 없었어. 여의도스토리는 블룸버그 "개장 전 5가지"에서 신용 스트레스와 젠슨 황 발언을 다뤘고, bornlupin 채널은 BofA·도이체방크 매수 유지, 채권 반등 소식을 전했어.</p>
+
+ <h3>국내 언론</h3>
+ <ul>
+  <li>연합뉴스(10/15) "AI 차입 우려에 코어위브 주가 15%↓…채권 수익률 15% 육박"</li>
+  <li>한국경제(10/15) "AI 버블 붕괴인가 차입 모델의 경고인가": 전문가 다수는 "산업 펀더멘털과 금융 구조적 취약성을 분리해서 봐야 한다"는 쪽.</li>
+  <li>한국경제(10/15) "코어위브·오라클·소프트뱅크 CDS 동반 급등", YTN·비즈워치 동일 취지 보도.</li>
+ </ul>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">07</span><h2>앞으로 볼 일정과 체크포인트</h2><span class="sub">KST 환산</span></div>
+ <table>
+  <tr><th>시점</th><th>이벤트</th><th>왜 중요한가</th></tr>
+  <tr><td>10/17 05:00 KST</td><td>10/16 미국 정규장 마감</td><td>장중 $61.93에서 마감가 확인. 10/15 저점 $59.51 방어 여부</td></tr>
+  <tr><td>10월 말 (미국)</td><td>10월 FOMC</td><td>인상 확률 17%(10/16)까지 내려옴. 인상 시 고레버리지주 추가 압박</td></tr>
+  <tr><td>10/28/2026</td><td>DDTL 3.0 무제한 자본보충(equity cure) 허용 기한</td><td>개별 시설 약정 관련. 영향은 제한적일 수 있으나 공시 확인 필요</td></tr>
+  <tr><td>11월 중순 (미확정, 11/9~11/16 추정)</td><td>3분기 실적</td><td>가이던스(매출 34.5~36억달러, 이자 8.6~9.4억달러) 충족, 백로그 증가, ATM 사용량, 신규 조달 금리</td></tr>
+  <tr><td>11/14 (미국)</td><td>3분기 13F 마감</td><td>알티미터 전량 매도 등 기관 매매 확인</td></tr>
+  <tr><td>2026년 잔여 / 2027년</td><td>원금 상환 44.1억달러 / 61.8억달러</td><td>차환 금리가 핵심. 6/30 유동성 155.5억달러 + 9월 전환사채 42억달러</td></tr>
+ </table>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">08</span><h2>시나리오</h2><span class="sub">조건부 · 확률 단정 안 함</span></div>
+ <div class="scn">
+  <div class="box s1"><h3>Bull: 신용 진정 + 실적 확인</h3><div class="px">$85~100 회복 시도</div>
+   <p>조건: 회사채 85~90센트 회복, CDS 700bp 이하, 3분기 실적·백로그(예: 1,300억달러 이상)로 수요 재확인, 투자등급 고객 담보로 싼 조달 성공, 연준 동결. 급락 전 박스권($85~92)과 전환가 $97.85가 저항대.</p></div>
+  <div class="box s2"><h3>Base: 변동성 속 박스권</h3><div class="px">$55~80 등락</div>
+   <p>조건: 채권은 80센트대 초반에서 횡보, 실적은 가이던스 수준, ATM 일부 사용. 뉴스마다 ±10% 흔들리며 실적 발표까지 방향성 부재. 본전 회복은 장기전.</p></div>
+  <div class="box s3"><h3>Bear: 조달 경색</h3><div class="px">$50 아래 재테스트</div>
+   <p>조건: 연준 인상, 회사채 70센트 아래, 신용등급 하향, 고객 계약 지연·해지나 Cash Trap 발동, 저가 대규모 증자. 극단적으로는 채무 재조정 시 주주 가치 대부분 훼손 가능성(꼬리위험).</p></div>
+ </div>
+ <p class="note">가격대는 과거 거래 구간과 공시된 전환가 등을 참고한 예시 범위이고 예측치가 아니야. CDS 내재 부도확률(50~60%)은 위험 프리미엄이 포함된 시장 가격이라 실제 부도확률보다 과장되는 경향이 있지만, 무시할 수준도 아니야.</p>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">09</span><h2>보유 vs 손절 판단 프레임</h2><span class="sub">-45% 보유자 기준 · 투자 권유 아님</span></div>
+ <div class="box" style="margin-bottom:14px"><h4>STEP 1. 출발점 다시 잡기</h4>
+  <p>현재가 $61.93에서 -45%면 평단은 약 $112로 추정돼. 본전까지 +81%가 필요해. 손실률은 이미 지나간 비용이라 판단 기준이 아니야. "지금 이 돈이 현금이라면 CRWV를 이 비중으로 살 건가?"에 예라고 못 하면 줄이는 게 맞고, 예라면 아래 조건으로 관리하면 돼.</p>
+ </div>
+ <div class="box" style="margin-bottom:14px"><h4>STEP 2. 비중 점검 (가장 먼저)</h4>
+  <p>CRWV는 하루 ±15%가 나오는 종목이고 주식은 약 410억달러 부채와 160억달러 리스보다 후순위야. 포트폴리오의 10~15%를 넘으면 시나리오와 상관없이 일부 줄여서, 최악의 경우(-50% 추가)에도 전체 계좌가 버틸 수준으로 맞추는 걸 권해. 신용으로 산 거라면 반대매매 위험부터 없애야 해.</p>
+ </div>
+ <div class="trig">
+  <div class="box hold"><h4>보유를 정당화하는 신호</h4><ul>
+   <li>2032년 9.625%물 85센트 이상(수익률 약 13% 이하) 회복</li>
+   <li>5년 CDS 800bp 아래로 안정</li>
+   <li>3분기 실적이 가이던스 충족, 백로그 증가, 조정 영업이익률 개선</li>
+   <li>새 차입이 SOFR+4% 이하 같은 더 싼 조건으로 성사</li>
+   <li>ATM을 저가에 크게 쓰지 않음, 내부자 매도 둔화</li>
+   <li>10/15 저점 $59.51 지지 후 $70대 회복</li>
+  </ul></div>
+  <div class="box cut"><h4>논리가 깨지는 신호 (축소·손절 검토)</h4><ul>
+   <li>회사채 70센트 아래, CDS 1,500bp 위</li>
+   <li>S&P B+에서 추가 하향, 차환 실패나 고금리 차환</li>
+   <li>가이던스 하향, 데이터센터 가동 지연, 주요 고객 계약 지연·해지</li>
+   <li>Cash Trap·Sweep 발동 공시</li>
+   <li>$60 아래 대규모 증자나 ATM 대량 사용</li>
+   <li>$59.51을 대량 거래로 종가 이탈 후 회복 실패</li>
+  </ul></div>
+ </div>
+ <div class="box" style="margin-top:14px"><h4>STEP 3. 실행 방식 예시 (택1이 아니라 조합)</h4>
+  <ul>
+   <li><b>분할 축소:</b> 반등 시 $70~75 구간(10/13~10/14 붕괴 전 가격대)에서 일부(예: 1/3) 줄이고, 나머지는 3분기 실적까지 보고 결정.</li>
+   <li><b>조건부 보유:</b> 위 "논리가 깨지는 신호" 중 2개 이상 나오면 기계적으로 축소한다는 규칙을 미리 정해 두기.</li>
+   <li><b>물타기:</b> 회복 신호(채권·CDS·실적) 2개 이상 확인 전에는 비추천. 레버리지 기업의 주식은 하락 시 손실이 비선형으로 커져.</li>
+  </ul>
+ </div>
+ <div class="duo" style="margin-top:14px">
+  <div class="box"><h4>세금 각도 (한국 거주자)</h4><p>해외주식 양도차익은 연간 손익을 합산해 250만원 공제 후 22%(지방세 포함)야. 올해 다른 해외주식에서 실현 이익이 있으면, 연내 CRWV 손실을 실현해 세금을 줄일 수 있어. 미국식 워시세일 규정은 국내 과세에 없다고 알려져 있지만 증권사나 세무사 확인을 권해.</p></div>
+  <div class="box"><h4>기회비용 각도</h4><p>같은 AI 인프라 노출이라도 레버리지가 거의 없는 네비우스나, 현금흐름으로 투자하는 하이퍼스케일러·엔비디아는 같은 시나리오에서 하방이 더 얕아. 갈아타기 여부는 이 비교로 판단하고, 그 판단은 Equity Intelligence 3.7.3.1 심층분석으로 넘기는 게 좋아.</p></div>
+ </div>
+ <p class="fine" style="margin-top:10px">이 섹션은 판단 기준을 정리한 거지 매수·매도 지시가 아니야. 최종 심층판단(밸류에이션, 시나리오 확률, 비중)은 Equity Intelligence 3.7.3.1에서 이 RUN_ID로 이어서 돌리는 걸 권해. ChatGPT 주간 사용량이 10/18 15:51 KST에 초기화돼서 이번 보고서에서는 쓰지 않았어.</p>
+</section>
+
+<section class="sec">
+ <div class="sh"><span class="no">10</span><h2>데이터 공백과 주의점</h2></div>
+ <ul>
+  <li>10/16 가격은 장중(13:28 ET) 값. 마감가·마감 거래량은 10/17 05:00 KST 이후 확정.</li>
+  <li>레딧 원문 접근 차단(403). 텔레그램 요약과 검색 색인 제목으로 간접 확인만 함.</li>
+  <li>3분기 실적일은 회사 공식 발표 전. 11/9~11/16은 추정치.</li>
+  <li>캔터 목표가, 셀사이드 평균 목표가($137), 인트레이터 3분기 매도 합계, 알티미터 매도 시점은 원문 미검증.</li>
+  <li>10/8 Investing.com 기사는 ATM·전환사채를 "전날 발표"로 썼지만 회사 IR상 실제 발표는 9/17~18이야. 이 보고서는 IR 날짜를 따름.</li>
+  <li>"부채 520억달러"류 수치는 리스 포함(516억달러). 순수 차입금은 6/30 기준 355.5억달러, 이후 전환사채 42억달러 추가.</li>
+ </ul>
+</section>
+
+<section class="sec src">
+ <div class="sh"><span class="no">AP</span><h2>출처 부록</h2><span class="sub">수집 시각 10/17 02:30 KST 전후</span></div>
+ <h3>공식 (회사·공시·기관)</h3><ol>
+  <li><a href="https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/default.aspx">CoreWeave 2Q26 실적 발표</a> <small>2026-08-11</small></li>
+  <li><a href="https://www.marketscreener.com/news/coreweave-second-quarter-2026-earnings-conference-call-q2-and-fy-2026-outlook-presentation-ce7859dbde81ff21">2Q26 가이던스 프레젠테이션 (MarketScreener)</a> <small>2026-08-11</small></li>
+  <li><a href="https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm">10-Q (2026-06-30 분기), SEC</a></li>
+  <li><a href="https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-At-the-Market-Offering-Program/default.aspx">ATM 프로그램 공시</a> <small>2026-09-17</small></li>
+  <li><a href="https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx">37억달러 전환사채 가격 결정</a> <small>2026-09-18</small></li>
+  <li><a href="https://www.stocktitan.net/sec-filings/CRWV/8-k-core-weave-inc-reports-material-event-801052126158.html">전환사채 42억달러 최종 8-K (StockTitan)</a></li>
+  <li><a href="https://www.stocktitan.net/sec-filings/CRWV/form-4-core-weave-inc-insider-trading-activity-d87d6e40822c.html">인트레이터 Form 4 (StockTitan)</a> · <a href="https://www.stocktitan.net/sec-filings/CRWV/form-4-core-weave-inc-insider-trading-activity-045c91fadcc1.html">매그니타 Form 4</a></li>
+  <li><a href="https://www.gartner.com/en/newsroom/press-releases/2026-10-14-gartner-says-over-us-dollars-three-and-a-half-trillion-of-artificial-intelligence-infrastructure-spending-could-be-exposed-to-impairment-by-the-end-of-2030">가트너 보도자료: 3.5조달러 AI 인프라 손상 위험</a> <small>2026-10-14</small></li>
+ </ol>
+ <h3>언론·리서치</h3><ol>
+  <li><a href="https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html">CNBC: CoreWeave shares tumble as bond yields near 15%</a> <small>10/14</small></li>
+  <li><a href="https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html">CNBC: CDS hit distress levels</a> <small>10/15</small></li>
+  <li><a href="https://www.cnbc.com/2026/10/15/whats-behind-the-sell-off-in-ai-neocloud-stocks-like-coreweave-and-nebius-.html">CNBC: What's behind the sell-off in neocloud stocks</a> <small>10/15</small></li>
+  <li><a href="https://www.cnbc.com/2026/10/16/coreweave-stock-selloff-analysts.html">CNBC: The drumbeat to buy battered shares grows louder</a> <small>10/16</small></li>
+  <li><a href="https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html">CNBC: AI stocks sink on OpenAI revenue report</a> <small>10/8</small></li>
+  <li><a href="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026/card/coreweave-s-very-bad-week-isn-t-over-yet-WrfWaF9bbx1Kzn3LcbfF">WSJ: CoreWeave's Very Bad Week Isn't Over Yet</a> <small>10/16</small></li>
+  <li><a href="https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576">Reuters: CoreWeave bond rout tests market's math on AI buildout</a> <small>10/16</small></li>
+  <li><a href="https://www.investing.com/news/stock-market-news/private-credit-roundup-coreweaves-debt-stress-tests-private-credits-ai-financing-boom-4954178">Reuters: Private credit roundup</a> <small>10/16</small></li>
+  <li><a href="https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-says-coreweave-needs-162723555.html">Investing.com/Yahoo: Nvidia CEO says CoreWeave needs no backstop</a> <small>10/15</small></li>
+  <li><a href="https://www.bloomberg.com/news/articles/2026-10-15/nvidia-ceo-huang-says-coreweave-improving-no-backstop-needed">Bloomberg: Nvidia CEO Downplays CoreWeave Concerns</a> <small>10/15</small></li>
+  <li><a href="https://blockspace.media/insight/coreweave-bond-yields-underperform-target/">Blockspace: Bernstein Underperform $74</a> <small>10/15</small></li>
+  <li><a href="https://www.roic.ai/news/mizuho-slashes-coreweave-price-target-to-88-citing-mounting-financing-concerns-10-15-2026">ROIC: Mizuho 목표가 $88</a> <small>10/15</small></li>
+  <li><a href="https://stocktwits.com/news-articles/markets/equity/crwv-iren-nbis-fall-premarket-analyst-sees-neocloud-operators-debt-costs-rising/cZx0wAaRBsP">Stocktwits: Morningstar 적정가 하향</a> <small>10/16</small></li>
+  <li><a href="https://stocktwits.com/news-articles/markets/equity/crwv-stock-4-day-slide-coreweave-debt-test-analysts-split-selloff/cZxWuGmRBAA">Stocktwits: Deutsche Bank $150 유지</a> <small>10/15</small></li>
+  <li><a href="https://www.investing.com/news/stock-market-news/why-is-coreweave-stock-sliding-today-93CH-4939272">Investing.com: Why is CoreWeave stock sliding today (Cash Trap 조항)</a> <small>10/8</small></li>
+  <li><a href="https://www.investing.com/news/stock-market-news/coreweave-three-cofounders-sold-33-billion-in-shares-since-ipo-4952665">Investing.com: 공동창업자 33억달러 매도</a></li>
+  <li><a href="https://sec-api.io/insights/coreweave-crwv-2026-revenue-analysis-top-customer-concentration-exposure">sec-api.io: 공시 기반 고객 집중·부채 분석</a> <small>2026-09-08</small></li>
+  <li><a href="https://www.kazuha.ai/sources/amit/posts/2110777126672589161">거스트너 "CRWV 전량 매도" 발언 전재</a></li>
+  <li><a href="https://www.yna.co.kr/view/AKR20261015011000009">연합뉴스: 코어위브 주가 15%↓ 채권 수익률 15% 육박</a> <small>10/15</small></li>
+  <li><a href="https://www.hankyung.com/article/202610153354i">한국경제: 코어위브發 회사채 쇼크</a> · <a href="https://www.hankyung.com/article/202610154946i">CDS 동반 급등</a> <small>10/15</small></li>
+ </ol>
+ <h3>X · 텔레그램 · 커뮤니티</h3><ol>
+  <li><a href="https://x.com/Felix__archive/status/2110762376517562647">@Felix__archive</a> · <a href="https://x.com/DarioCpx/status/2110888756760981609">@DarioCpx</a> · <a href="https://x.com/brad_D6/status/2110898559503462526">@brad_D6</a> · <a href="https://x.com/EnergyCredit1/status/2110909448839393577">@EnergyCredit1</a> · <a href="https://x.com/MarketAtlas/status/2111132597976015294">@MarketAtlas</a> · <a href="https://x.com/BonjilNote/status/2108334382461391357">@BonjilNote</a> · <a href="https://x.com/Rooney0917/status/2110415199152799950">@Rooney0917</a></li>
+  <li><a href="https://t.me/insidertracking/66261">insidertracking: 미국 레딧 베스트 게시물 분석 (10/15)</a> · <a href="https://t.me/insidertracking/66263">QTR 리서치 엔비디아 구제 압박</a> · <a href="https://t.me/insidertracking/66367">채권 반등</a> · <a href="https://t.me/insidertracking/66258">10/15 미국 증시 브리핑</a></li>
+  <li><a href="https://t.me/corevalue/47368">corevalue: IBK 변준호 마켓코멘트 (10/16)</a></li>
+  <li><a href="https://t.me/YeouidoStory2/118419">YeouidoStory2: 개장 전 5가지 10/15</a> · <a href="https://t.me/YeouidoStory2/118465">10/16</a></li>
+  <li><a href="https://t.me/bornlupin/20643">bornlupin: BofA $140</a> · <a href="https://t.me/bornlupin/20645">도이체방크 $150</a></li>
+  <li>선진짱 주식공부방(@sunstudy1111) 10/15·10/16 전달 게시물 (데일리 수집 원문, 공개 미리보기 없음)</li>
+  <li><a href="https://www.reddit.com/r/stocks/comments/1wtb85n/coreweave_crwv_credit_breakdown_514b_in_debt_and/">r/stocks: CRWV credit breakdown</a> (원문 접근 차단) · <a href="https://adanos.com/stocks/crwv/">adanos 레딧 감성 집계</a></li>
+  <li>시세: Yahoo Finance chart API (CRWV, NBIS, IREN, ORCL, NVDA) 10/17 02:28 KST 조회</li>
+ </ol>
+</section>
+</div>
+<footer><div class="wrap"><p><b>코어위브(CRWV) 급락 종합 리서치</b> · 2026-10-17 KST · Grok Bot 수집·구조화 · RUN_ID CRWV-20261017-0230</p><p>투자 권유가 아니며 정보 제공 목적이야. 수치는 출처 시점 기준이고 이후 바뀔 수 있어. 최종 투자 판단은 본인 책임이며, 심층 판단은 Equity Intelligence 3.7.3.1에서 이어서 수행 권장.</p></div></footer>
+</body></html>
