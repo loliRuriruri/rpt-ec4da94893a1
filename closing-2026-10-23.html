@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>장마감 · 일본 · 미국장 프리뷰 · 거시 · 텔레그램 브리핑 | 2026-10-23</title>
+<style>
+:root{
+  --ink:#0f172a; --ink2:#334155; --mute:#64748b; --line:#e2e8f0; --bg:#f4f6fb; --card:#fff;
+  --navy:#0b1f44; --accent:#0f766e; --accent2:#14b8a6; --up:#dc2626; --down:#2563eb; --warn:#b45309;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:15.5px;line-height:1.72;word-break:keep-all;overflow-wrap:anywhere}
+a{color:#0f62c9;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+b,strong{font-weight:700}
+/* header */
+.hero{background:linear-gradient(135deg,#0b1f44 0%,#12366b 60%,#0f766e 140%);color:#fff;padding:38px 0 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12.5px;letter-spacing:.04em;color:#a5f3fc;font-weight:700}
+.hero .kicker span{border:1px solid rgba(165,243,252,.45);padding:2px 10px;border-radius:999px}
+.hero h1{font-size:34px;line-height:1.3;margin:12px 0 6px;font-weight:900;letter-spacing:-.02em}
+.hero .date{font-size:20px;font-weight:700;color:#e2e8f0}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+.meta div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:10px 14px}
+.meta dt{font-size:11.5px;color:#93c5fd;font-weight:700;letter-spacing:.03em}
+.meta dd{margin:2px 0 0;font-size:14.5px;font-weight:700;color:#fff}
+.chans{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chan{display:inline-flex;align-items:center;gap:7px;background:#fff;color:var(--ink);border-radius:8px;padding:5px 11px;font-size:13px;font-weight:700}
+.chan i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chan small{color:var(--mute);font-weight:500}
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:-18px auto 0;position:relative;z-index:2}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;box-shadow:0 4px 14px rgba(15,23,42,.06)}
+.kpi .l{font-size:11.5px;color:var(--mute);font-weight:700}
+.kpi .v{font-size:21px;font-weight:900;letter-spacing:-.02em;line-height:1.3}
+.kpi .s{font-size:11.5px;color:var(--mute)}
+.up{color:var(--up)} .dn{color:var(--down)}
+/* sections */
+section.sec{padding:34px 0 8px}
+.sh{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:18px}
+.sh .no{font-size:13px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 9px}
+.sh h2{margin:0;font-size:23px;font-weight:900;letter-spacing:-.02em}
+.sh .sub{margin-left:auto;font-size:12.5px;color:var(--mute)}
+h3{font-size:18px;margin:22px 0 10px;font-weight:800}
+h4{font-size:14px;margin:0 0 6px;font-weight:800;color:var(--accent);letter-spacing:.01em}
+p{margin:0 0 10px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.note{font-size:13px;color:var(--mute)}
+.fine{font-size:12px;color:var(--mute)}
+/* takeaways */
+.verdict{background:linear-gradient(135deg,#ecfeff,#f0fdf4);border:1px solid #a7f3d0;border-left:6px solid var(--accent);border-radius:14px;padding:18px 22px;margin-bottom:16px}
+.verdict .lab{font-size:12px;font-weight:900;color:var(--accent);letter-spacing:.05em}
+.verdict q{display:block;font-size:19px;font-weight:800;line-height:1.55;margin-top:4px;quotes:"“" "”"}
+.tk{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tk ol{margin:0;padding-left:20px}
+.tk li{margin-bottom:7px}
+.fix{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px}
+.fix b.t{color:var(--warn)}
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.tier{border-radius:12px;padding:12px 14px;border:1px solid var(--line);background:#fff}
+.tier .tl{font-size:12px;font-weight:900;letter-spacing:.03em}
+.tier .td{font-size:12.5px;color:var(--mute);margin-bottom:6px}
+.tier .tn{font-size:15.5px;font-weight:800;line-height:1.5}
+.tier.t1{border-top:5px solid #0f766e} .tier.t1 .tl{color:#0f766e}
+.tier.t2{border-top:5px solid #0891b2} .tier.t2 .tl{color:#0891b2}
+.tier.t3{border-top:5px solid #94a3b8} .tier.t3 .tl{color:#64748b}
+.tier.tu{border-top:5px solid #2563eb} .tier.tu .tl{color:#2563eb}
+/* charts */
+.chart{width:100%;height:auto;display:block;font-family:inherit}
+.chart.narrow{display:none}
+.chart text{font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1',sans-serif}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.lg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-size:12px;color:var(--mute);font-weight:800}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+/* stock cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:0 0 20px;overflow:hidden;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:16px 22px;background:linear-gradient(90deg,#f8fafc,#fff);border-bottom:1px solid var(--line)}
+.rank{font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:2px 9px}
+.rank.alt{background:#0891b2}
+.ch h3{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.ch .tag{font-size:12.5px;color:var(--mute);font-weight:600}
+.mcount{margin-left:auto;text-align:right}
+.mcount b{font-size:24px;font-weight:900;color:var(--accent)}
+.mcount small{display:block;font-size:11.5px;color:var(--mute);line-height:1.3}
+.cb{padding:18px 22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.vchip{border-radius:10px;padding:7px 12px;font-size:13.5px;background:#f1f5f9;border:1px solid var(--line)}
+.vchip span{display:block;font-size:11px;font-weight:800;color:var(--mute);letter-spacing:.03em}
+.vchip b{font-weight:800}
+.vchip.main{background:#ecfdf5;border-color:#a7f3d0} .vchip.main b{color:#047857}
+.vchip.caut{background:#fff7ed;border-color:#fed7aa} .vchip.caut b{color:#c2410c}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.blk{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff}
+.blk.thesis{border-left:4px solid #0f766e}
+.blk.cat{border-left:4px solid #2563eb} .blk.cat h4{color:#2563eb}
+.blk.risk{border-left:4px solid #dc2626} .blk.risk h4{color:#dc2626}
+.blk.gpt{border-left:4px solid #7c3aed;background:#faf5ff} .blk.gpt h4{color:#7c3aed}
+.blk.full{grid-column:1/-1}
+.blk ul{margin:0;padding-left:18px}
+.blk li{margin-bottom:5px;font-size:14.5px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px}
+.flow span{background:#0b1f44;color:#fff;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
+.flow em{font-style:normal;color:#0f766e;font-weight:900}
+.flow.alt span{background:#e0f2fe;color:#075985}
+.levels{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:8px 0}
+.levels div{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;text-align:center}
+.levels span{display:block;font-size:11px;color:var(--mute);font-weight:700}
+.levels b{font-size:16px;font-weight:900}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.srclab{font-size:12px;font-weight:800;color:var(--mute);margin-right:2px}
+.schip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink2);background:#fff}
+.schip i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.srcmore{font-size:11.5px;font-weight:700;margin-left:auto}
+.pill{display:inline-block;font-size:11.5px;font-weight:800;border-radius:6px;padding:1px 8px;margin-right:4px;vertical-align:1px}
+.pill.ok{background:#dcfce7;color:#166534} .pill.pend{background:#f1f5f9;color:#475569} .pill.gpt{background:#ede9fe;color:#6d28d9} .pill.tg{background:#e0f2fe;color:#075985}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#f8fafc}
+.mini h5{margin:0 0 4px;font-size:15px;font-weight:900}
+.qs{counter-reset:q;list-style:none;padding:0;margin:6px 0}
+.qs li{counter-increment:q;padding-left:30px;position:relative;margin-bottom:6px}
+.qs li:before{content:counter(q);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:#7c3aed;color:#fff;font-size:12px;font-weight:800;text-align:center;line-height:21px}
+/* themes */
+.theme{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
+.theme .th{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.theme .th .ic{font-size:22px}
+.theme .th h3{margin:0;font-size:20px;font-weight:900}
+.facts{margin:10px 0 0;padding:0;list-style:none}
+.facts li{padding:8px 0;border-top:1px solid #f1f5f9;font-size:14px}
+.facts li b.k{display:inline-block;min-width:0;margin-right:6px;color:var(--navy)}
+/* warnings & playbook */
+.warns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.warn{background:#fff;border:1px solid var(--line);border-top:4px solid #f59e0b;border-radius:12px;padding:14px 16px}
+.warn .wn{font-size:12px;font-weight:900;color:#b45309}
+.warn .wt{font-size:16px;font-weight:800;margin:2px 0 6px}
+.play{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pl .pt{font-size:13px;font-weight:900;color:#fff;display:inline-block;border-radius:6px;padding:1px 9px;margin-bottom:8px}
+.checks{counter-reset:c;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.checks li{counter-increment:c;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 46px;position:relative;font-weight:700;font-size:14.5px}
+.checks li:before{content:counter(c);position:absolute;left:12px;top:9px;width:24px;height:24px;border-radius:7px;background:var(--navy);color:#fff;text-align:center;line-height:24px;font-size:13px}
+.concl{background:var(--navy);color:#fff;border-radius:16px;padding:22px 24px;margin-top:16px}
+.concl .lab{font-size:12px;font-weight:900;color:#5eead4;letter-spacing:.05em}
+.concl p{font-size:17.5px;font-weight:700;line-height:1.65;margin:6px 0 0}
+.concl .hl{color:#5eead4}
+/* appendix */
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}
+.ci{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;font-size:12.5px;position:relative}
+.ci i{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:10px 0 0 10px;background:var(--c)}
+.ci b{display:block;font-size:13px} .ci span{color:var(--mute);font-size:11.5px} .ci em{font-style:normal;float:right;font-weight:900;color:var(--ink)}
+.apsec{font-size:16px;margin:22px 0 10px;padding-left:10px;border-left:4px solid var(--navy)}
+.apgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;align-items:start}
+.apcat{grid-column:1/-1;break-after:avoid;font-size:12.5px;font-weight:900;color:var(--accent);margin:6px 0 -4px;letter-spacing:.03em}
+.apg{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:0}
+.apgh{display:flex;justify-content:space-between;font-size:13.5px;border-bottom:1px solid #f1f5f9;padding-bottom:4px;margin-bottom:4px}
+.apgh span{color:var(--mute);font-size:12px}
+.apg ul{list-style:none;margin:0;padding:0}
+.apg li{font-size:12px;line-height:1.55;padding:2px 0;display:flex;flex-wrap:wrap;gap:0 6px;align-items:baseline}
+.apg li small{color:var(--mute);width:100%;padding-left:13px}
+.cdot{width:7px;height:7px;border-radius:50%;background:var(--c);display:inline-block;flex:none;transform:translateY(-1px)}
+.cn{font-weight:700;color:var(--ink2)} .tm{color:var(--mute);font-variant-numeric:tabular-nums}
+.apg a{word-break:break-all}
+footer{margin-top:36px;background:#0b1f44;color:#cbd5e1;padding:26px 0 30px;font-size:13px}
+footer b{color:#fff}
+footer p{margin:0 0 6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.toc a{color:#e2e8f0;font-size:12.5px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 11px}
+/* responsive */
+@media screen and (max-width:760px){
+  .chart.wide{display:none} .chart.narrow{display:block}
+  .hm{display:none}
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .hero{padding:26px 0 30px}
+  .hero h1{font-size:25px}
+  .hero .date{font-size:16px}
+  .meta{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .tk,.two,.grid4,.duo,.warns,.play,.checks{grid-template-columns:1fr}
+  .tiers{grid-template-columns:1fr 1fr}
+  .levels{grid-template-columns:1fr 1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+  .apgrid{grid-template-columns:1fr}
+  .sh{flex-wrap:wrap} .sh .sub{margin-left:0;width:100%}
+  .verdict q{font-size:16.5px}
+  .ch{padding:14px 16px} .cb{padding:14px 16px}
+  .mcount{margin-left:0;text-align:left}
+}
+/* print */
+@page{size:A4;margin:13mm 12mm 14mm}
+@media print{
+  html,body{background:#fff}
+  body{zoom:0.72;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .hero{padding:22px 18px 30px;border-radius:12px}
+  .kpis{margin-top:-16px;padding:0 10px}
+  .toc{display:none}
+  section.sec{padding-top:6px}
+  .pb{break-before:page;page-break-before:always}
+  .card,.theme{box-shadow:none}
+  .vchip,.tier,.warn,.pl,.checks li,.mini,.kpi,.levels,.verdict,.fix,.concl,svg,tr,.facts li,.blk li,.apg,.chips,.flow,.qs{break-inside:avoid;page-break-inside:avoid}
+  .blkhead{break-after:avoid}
+  .ch{break-after:avoid}
+  h2,h3,h4,.sh{break-after:avoid;page-break-after:avoid}
+  a{color:#0f4fa8}
+  .schip{color:#334155}
+  footer{background:#fff;color:#334155;border-top:2px solid #0b1f44;margin-top:20px;padding:14px 0 0}
+  footer b{color:#0b1f44}
+}
+.fs{font-size:11px;font-weight:700;border:1px solid #bfdbfe;background:#eff6ff;border-radius:5px;padding:0 6px;margin-left:4px;white-space:nowrap}
+.blkhead{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.blkhead h4{margin:0}
+.howto{font-size:13.5px;color:var(--ink2);background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:12px 16px;margin-top:14px}
+.common{background:#faf5ff;border:1px solid #e9d5ff;border-radius:16px;padding:18px 22px;margin-bottom:18px}
+.common h3{margin:0 0 8px;font-size:19px}
+
+.nw{white-space:nowrap}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.list{margin:0;padding-left:20px}
+.list li{margin-bottom:7px}
+.caution{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px;margin-top:12px}
+.caution b.t{color:var(--warn)}
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0 18px}
+.ci{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;border-top:4px solid var(--c)}
+.ci i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
+.ci b{display:block;font-size:13.5px;margin-top:4px}
+.ci span{font-size:11.5px;color:var(--mute)}
+.ci em{display:block;font-style:normal;font-size:20px;font-weight:900;margin-top:4px;color:var(--ink)}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+.srclab{font-size:11.5px;font-weight:800;color:var(--mute);margin-right:4px}
+.schip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none}
+.schip i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.rank.alt{background:#0891b2}
+@media screen and (max-width:760px){
+  .grid2,.grid3{grid-template-columns:1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+}
+
+/* ===== closing-briefing additions (keep in sync with build_closing.py block types) ===== */
+.kpis{grid-template-columns:repeat(var(--kn,6),1fr)}
+.pill.part{background:#fef3c7;color:#92400e} .pill.unv{background:#fee2e2;color:#991b1b} .pill.ei{background:#ede9fe;color:#6d28d9} .pill.wn{background:#ffedd5;color:#9a3412} .pill.navy{background:#0b1f44;color:#fff}
+.rank.limit{background:#dc2626} .rank.after{background:#7c3aed} .rank.drop{background:#2563eb} .rank.ok{background:#0f766e} .rank.part{background:#d97706} .rank.ei{background:#6d28d9}
+.statusbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:#faf5ff;border:1px solid #e9d5ff;border-left:6px solid #7c3aed;border-radius:14px;padding:14px 18px;margin-bottom:16px}
+.statusbar .st{display:flex;flex-direction:column;background:#fff;border:1px solid #e9d5ff;border-radius:10px;padding:6px 12px}
+.statusbar .st span{font-size:11px;font-weight:800;color:#7c3aed;letter-spacing:.03em}
+.statusbar .st b{font-size:15px;font-weight:900}
+.statusbar p{flex:1 1 260px;margin:0;font-size:13.5px;color:var(--ink2)}
+.bars{display:flex;flex-direction:column;gap:7px}
+.bar{display:grid;grid-template-columns:120px 1fr 300px;gap:10px;align-items:center;font-size:13.5px}
+.bar .bl{font-weight:800;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .bt{background:#f1f5f9;border-radius:6px;height:22px;position:relative;overflow:hidden}
+.bar .bt i{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--c,#0f766e)}
+.bar .bt em{position:absolute;left:8px;top:0;line-height:22px;font-style:normal;font-weight:900;font-size:12px;color:#fff}
+.bar .bs{font-size:12px;color:var(--mute);line-height:1.35}
+.dbars{display:flex;flex-direction:column;gap:6px}
+.dbar{display:grid;grid-template-columns:120px 1fr 1fr 70px;align-items:center;gap:0;font-size:13.5px}
+.dbar .dl{font-weight:800;text-align:right;padding-right:10px;white-space:nowrap}
+.dbar .dn-side,.dbar .up-side{height:20px;position:relative}
+.dbar .dn-side{border-right:2px solid #94a3b8}
+.dbar .dn-side i{position:absolute;right:0;top:0;bottom:0;background:var(--down);border-radius:4px 0 0 4px}
+.dbar .up-side i{position:absolute;left:0;top:0;bottom:0;background:var(--up);border-radius:0 4px 4px 0}
+.dbar .dv{font-weight:900;padding-left:10px;font-variant-numeric:tabular-nums}
+details.fold{background:#fff;border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden}
+details.fold>summary{cursor:pointer;list-style:none;padding:14px 18px;font-weight:900;font-size:15px;background:linear-gradient(90deg,#f8fafc,#fff);display:flex;align-items:center;gap:8px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary:before{content:"+";display:inline-block;width:22px;height:22px;border-radius:6px;background:var(--navy);color:#fff;text-align:center;line-height:22px;font-size:15px}
+details.fold[open]>summary:before{content:"-"}
+details.fold>summary small{font-weight:600;color:var(--mute);font-size:12px;margin-left:auto}
+details.fold .fb{padding:6px 20px 18px;border-top:1px solid var(--line)}
+.cb .box{margin-top:14px}
+.md{font-size:14.5px}
+.md h1{font-size:20px;margin:16px 0 8px} .md h2{font-size:18px;margin:18px 0 8px;padding-left:10px;border-left:4px solid #7c3aed} .md h3{font-size:16px;margin:14px 0 6px} .md h4{font-size:14.5px;color:var(--ink);margin:12px 0 6px}
+.md ul,.md ol{padding-left:20px;margin:0 0 10px} .md li{margin-bottom:4px}
+.md blockquote{margin:8px 0;padding:8px 14px;border-left:4px solid #a78bfa;background:#faf5ff;border-radius:0 10px 10px 0}
+.md hr{border:0;border-top:1px dashed var(--line);margin:16px 0}
+.md table{font-size:12.5px;margin:8px 0 12px} .md .tw{overflow:auto}
+pre.raw{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.6;background:#0b1f44;color:#e2e8f0;border-radius:10px;padding:14px 16px;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Noto Sans CJK KR',monospace}
+pre.tgmsg{white-space:pre-wrap;word-break:break-word;font-size:13px;line-height:1.65;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0;font-family:inherit}
+.srcgroups{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.srcg{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.srcg h4{margin:0 0 6px}
+.srcg ul{list-style:none;margin:0;padding:0}
+.srcg li{font-size:12.5px;line-height:1.5;padding:4px 0;border-top:1px solid #f1f5f9}
+.srcg li:first-child{border-top:0}
+.srcg li small{color:var(--mute)}
+.srcg a{word-break:break-all}
+.tgp{list-style:none;margin:0;padding:0}
+.tgp li{font-size:12.5px;line-height:1.55;padding:6px 0;border-top:1px solid #f1f5f9}
+.tgp li:first-child{border-top:0}
+.tgp .tm{margin-right:6px}
+.limits{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.limits li{background:#fff;border:1px solid var(--line);border-left:4px solid #f59e0b;border-radius:10px;padding:9px 12px;font-size:13.5px}
+.prov{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+.prov span{border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:2px 10px;font-size:12px;color:#e2e8f0}
+.prov span b{color:#5eead4;font-weight:800;margin-right:4px}
+.disc{background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;padding:14px 18px;font-size:13.5px;color:#7c2d12;margin-top:26px}
+.disc b{color:#9a3412}
+@media screen and (max-width:760px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .bar{grid-template-columns:92px 1fr} .bar .bs{grid-column:2}
+  .dbar{grid-template-columns:86px 1fr 1fr 58px}
+  .srcgroups,.limits{grid-template-columns:1fr}
+  .statusbar{padding:12px 14px}
+  table.wide{min-width:620px}
+  table.wide td:first-child{white-space:nowrap}
+  .tiers{grid-template-columns:1fr !important}
+}
+@media print{
+  details.fold>summary:before{display:none}
+  .statusbar,.bar,.dbar,.srcg li,.tgp li,.limits li,.disc,pre.tgmsg{break-inside:avoid;page-break-inside:avoid}
+  pre.raw{background:#f8fafc;color:#0f172a;border:1px solid var(--line)}
+  .prov span{color:#334155;border-color:#cbd5e1}
+}
+/* ===== collapsed meta sections / blocks (coverage limits, unresolved, sources) : build_closing.py fold_* ===== */
+section.sec.sfold{padding:22px 0 0}
+details.cfold{background:#fff;border:1px solid var(--line);border-left:5px solid var(--navy);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+details.cfold.bf{margin:14px 0}
+details.cfold.k-coverage,details.cfold.k-unresolved{border-left-color:#f59e0b}
+details.cfold.k-sources{border-left-color:#0b1f44}
+details.cfold>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;padding:10px 16px;background:linear-gradient(90deg,#f8fafc,#fff);line-height:1.45}
+details.cfold>summary::-webkit-details-marker{display:none}
+details.cfold>summary:hover{background:#f1f5f9}
+details.cfold>summary .no{flex:none;font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 8px}
+details.cfold>summary .ft{flex:none;font-size:16.5px;font-weight:900;letter-spacing:-.02em;color:var(--ink)}
+details.cfold.bf>summary .ft{font-size:14.5px;font-weight:800}
+details.cfold>summary .fsub{flex:1 1 auto;min-width:0;font-size:12px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+details.cfold>summary .fcnt{flex:none;margin-left:auto;font-size:12px;font-weight:800;color:var(--navy);background:#eef2ff;border:1px solid #c7d2fe;border-radius:999px;padding:2px 12px;white-space:nowrap}
+details.cfold>summary .fcnt:after{content:"";display:inline-block;width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 1px 0 8px;vertical-align:3px}
+details.cfold[open]>summary .fcnt:after{transform:rotate(-135deg);vertical-align:-1px}
+details.cfold>summary .fx i{font-style:normal}
+details.cfold>summary .fx .c,details.cfold[open]>summary .fx .o{display:none}
+details.cfold[open]>summary .fx .c{display:inline}
+details.cfold[open]>summary{border-bottom:1px solid var(--line)}
+details.cfold>.cfb{padding:16px 18px 18px}
+details.cfold>.cfb>h3:first-child{margin-top:4px}
+@media screen and (max-width:760px){
+  details.cfold>summary{flex-wrap:wrap;padding:10px 12px;gap:6px 8px}
+  details.cfold>summary .fsub{display:none}
+  details.cfold>.cfb{padding:12px 12px 14px}
+}
+@media print{
+  details.cfold{box-shadow:none}
+  details.cfold>summary .fx,details.cfold>summary .fcnt:after{display:none}
+  details.cfold>summary{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <div class="kicker"><span>CLOSING BRIEFING</span><span>2026-10-23 (금)</span><span>19:06 KST</span><span>RUN TR-20261023-1900-daily-close</span><span>POSTED</span></div>
+  <h1>장마감 · 일본 · 미국장 프리뷰 · 거시 · 텔레그램 브리핑</h1>
+  <div class="date">장중 −4.12% → V자: 코스피 <b class="up">+0.30%</b>(5,550.30) · 코스닥 <b class="dn">-1.62%</b> · 하이닉스 +4.42%(솔리다임 IPO 철회) · 외국인 −9,928억 vs 기관 +8,723억 · 닛케이 <b class="dn">-0.34%</b> · 美 SOX -6.72% 후 NQ -0.05% · 10Y 4.953% · TG 2,142건/73채널 · TR 3.7.4 PARTIAL / NEEDS_REVIEW · EI 3.7.3.1 실행 중 (결과는 별도 회신)</div>
+  <dl class="meta"><div><dt>국내 마감</dt><dd>2026-10-23 (금) 15:30 KST 종가 · 미국 정규장 22:30 KST 개장 · 다음 국내장 10/26 (월)</dd></div><div><dt>텔레그램 수집</dt><dd>GramJS 2,142건 · 73채널 (10/22 18:50~10/23 19:02)</dd></div><div><dt>시장 데이터</dt><dd>Yahoo/언론 ≈2026-10-23 ~19:06 · 선물 ≈18:56 KST</dd></div></dl>
+  <div class="chans"><span class="chan" style="--c:#40b789"><i></i>서화백의 AI놀이🚀 <small>@easobi_ai · 264건</small></span><span class="chan" style="--c:#ad40b7"><i></i>FundEasy_Earnings … <small>@Fundeasyearnings · 181건</small></span><span class="chan" style="--c:#40b793"><i></i>AI MASTERS_소통방 <small>@ai_masters_chat · 110건</small></span><span class="chan" style="--c:#0369a1"><i></i>미국 주식 인사이더 <small>@insidertracking · 100건</small></span><span class="chan" style="--c:#d97706"><i></i>AWAKE 실시간 공시 <small>@darthacking · 84건</small></span><span class="chan" style="--c:#e11d48"><i></i>타점 읽어주는 여자 <small>@tazastock · 81건</small></span><span class="chan" style="--c:#b740a5"><i></i>묻따 미국주식 드립방✈️ <small>@ttg3443534534534 · 72건</small></span><span class="chan" style="--c:#0891b2"><i></i>하나 김경환 <small>@HANAchina · 57건</small></span><span class="chan" style="--c:#7c3aed"><i></i>epic AI <small>@ked_epic_ai · 51건</small></span><span class="chan" style="--c:#5eb740"><i></i>Walter Bloomberg <small>@WalterBloomberg · 50건</small></span></div>
+  <nav class="toc"><a href="#s1">01 국내</a><a href="#s2">02 일본</a><a href="#s3">03 미국</a><a href="#s4">04 매크로</a><a href="#s5">05 텔레그램</a><a href="#s6">06 해외심리</a><a href="#s7">07 TR·EI</a><a href="#s8">08 체크</a><a href="#s9">09 한계</a><a href="#s10">10 출처</a></nav>
+ </div>
+</header>
+<div class="wrap">
+<div class="kpis" style="--kn:4"><div class="kpi"><div class="l">코스피</div><div class="v up">5,550.30</div><div class="s">+16.53 · +0.30% · 장중 5,305.98</div></div><div class="kpi"><div class="l">코스닥</div><div class="v dn">751.69</div><div class="s">-12.41 · -1.62% · 상승 업종 0</div></div><div class="kpi"><div class="l">외국인 (코스피)</div><div class="v dn">-9,928억</div><div class="s">KRX 잠정 · 기관 +8,723 · 개인 +527</div></div><div class="kpi"><div class="l">SK하이닉스</div><div class="v up">1,277,000</div><div class="s">+4.42% · 솔리다임 IPO 검토 중단</div></div><div class="kpi"><div class="l">원/달러</div><div class="v up">1,324.6</div><div class="s">+0.4원 · 장중 1,321.5 (2년 최저)</div></div><div class="kpi"><div class="l">닛케이225</div><div class="v dn">62,693.16</div><div class="s">-214.68 · -0.34%</div></div><div class="kpi"><div class="l">NQ 선물</div><div class="v dn">29,126</div><div class="s">-0.05% · ES -0.23% · ≈18:56 KST</div></div><div class="kpi"><div class="l">美 10년물</div><div class="v dn">4.953%</div><div class="s">−19bp · 5% 하회 · 브렌트 보도 $114.5</div></div></div>
+<section class="sec" id="s1">
+  <div class="sh"><span class="no">01</span><h2>국내 마감</h2><span class="sub">10/23 (금) 15:30</span></div>
+<div class="verdict"><div class="lab">마감 한줄</div><q><b>지수는 V자, 체감은 약세.</b> 코스피 장초 5,305.98(−4.12%)에서 마감 20분 전 상승 전환해 5,550.30(<b class="up">+0.30%</b>), 종가가 장중 최고가. SK하이닉스 솔리다임 IPO 검토 중단(+4.42%)·삼성바이오(+7.5%대)가 견인, 외국인 -9,928억을 기관 +8,723억이 받아냄. 그러나 <b>하락 719 / 상승 173</b>, 코스닥 <b class="dn">-1.62%</b> 상승 업종 0개.</q></div><h3>지수·환율 (10/23 종가)</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">항목</th><th class="n">종가</th><th class="n">전일비</th><th class="">비고</th></tr></thead><tbody><tr><td class="">코스피</td><td class="n">5,550.30</td><td class="up n">+16.53 (+0.30%)</td><td class="">전일 5,533.77 · 시가 5,403.17(−2.36%) · 저점 5,305.98(−4.12%): 마감 20분 전 상승 전환</td></tr><tr><td class="">코스닥</td><td class="n">751.69</td><td class="dn n">-12.41 (-1.62%)</td><td class="">상승 404 / 하락 1,248, 상승 업종 0개 · 장중 732.87</td></tr><tr><td class="">원/달러 (주간)</td><td class="n">1,324.6</td><td class="up n">+0.4원</td><td class="">장중 1,321.5원(2년 만 최저) 후 반등, 6거래일 만에 상승 마감. 신현송 총재 국감 '원화 추가 강세 여지 충분', 올해 경상흑자 4,500억달러 상회 전망. 다음 주 FOMC 매파적 동결 가능성은 달러 강세 요인.</td></tr></tbody></table></div><p class="note">서울경제/Businesskorea/연합 + Yahoo ^KS11 · 장중 −4%대 급락 후 극적 반등(V자). 지수는 SK하이닉스·삼성바이오 등 초대형주가 견인, 종목 체감은 약세(하락 719). 20일 −3.73% → 21일 +3.29% → 22일 −3.52% → 23일 +0.30%.</p><div class="grid2" style="margin-top:14px"><div class="box"><h4>수급 (억원)</h4><table class="wide"><thead><tr><th class="">구분</th><th class="n">외국인</th><th class="n">기관</th><th class="n">개인</th></tr></thead><tbody><tr><td class="">코스피 KRX 잠정</td><td class="n">-9,928</td><td class="n">+8,723</td><td class="n">+527</td></tr><tr><td class="">코스피 KRX+NXT 추정</td><td class="n">-10,939</td><td class="n">+7,955</td><td class="n">+2,336</td></tr><tr><td class="">코스닥 KRX</td><td class="n">-441</td><td class="n">-248</td><td class="n">+631</td></tr></tbody></table></div><div class="box"><h4>수급 메모</h4><ul class="list"><li>외국인 −9,928억(KRX 잠정; NXT 포함 약 −1.09조) 순매도를 기관 +8,723억(금투 +5,590·투신 +1,723) + 개인 +527억이 받아냄. 외국인은 하이닉스 매도·두산에너빌리티 순매수 1위(서울경제).</li><li>기관 세부: 금투 +5,590 · 투신 +1,723 · 보험 +830 · 연기금 +529 · 사모 -12 · 기타법인 +691</li><li>외국인 순매도: KRX 잠정 −9,928 / 서경봇 −9,941 / NXT 합산 약 −1.09조 <span class="pill part">소스 상이</span></li></ul></div></div><div class="box"><h4>장중 흐름 · 드라이버</h4><ol class="list"><li>美 AI 투자 수익성·자금조달 우려: 나스닥 −2.6%, SOX −6.72%(6/23 이후 최대 낙폭), Meta −7%(10여년 만 첫 FCF 적자, 무의결권주 2:1 분할로 자본조달), LRCX −11.8% → 장초 코스피 −4.12%</li><li>SK하이닉스 솔리다임 프리IPO·미국 IPO 검토 중단 공시(8/5 이후 79일 만, 주주 반대) → 중복상장 우려 해소, 하이닉스 장초 −5% → +4.42%(1,277,000원, 거래대금 4.4조)</li><li>삼성바이오로직스 +7.5~7.7%(파업 연기·3Q 실적 기대), 삼성E&A +7.8%(어닝 서프라이즈·자사주 소각 연속)</li><li>김정은 10/19 이후 공개활동 부재 → 신변이상설(미확인) → 스페코 상한가, 빅텍 장중 +13.6% 후 +1.47%로 반납</li><li>오세훈 서울시장 항소심 무죄 → 진양산업·진양화학 상한가, 진양폴리 +27.4%(인맥 테마)</li><li>유가: 후티의 사우디 추가 공격·美 중동 증파, 브렌트 5개월 고점($114대, 보도 기준)</li></ol><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37910" target="_blank" rel="noopener"><i></i>epic AI · 15:51</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261023137600008" target="_blank" rel="noopener"><i></i>연합뉴스 솔리다임 IPO 중단 덕분?…코스피 5,500선 회복 마감</a><a class="schip" style="--c:#64748b" href="https://www.businesskorea.co.kr/news/articleView.html?idxno=279567" target="_blank" rel="noopener"><i></i>Businesskorea 코스피 장중 4%대 급락 딛고 반등</a></div></div><div class="box"><h4>한은 · 환율</h4><ul class="list"><li>신현송 총재 국감: '원화 추가 강세 여지 충분', 환율 예측 가능성 강조. 기준금리 3.00%(10/22 동결), 다음 금통위 11/26.</li><li>올해 경상흑자 4,500억달러 상회 전망(총재) · 다음 주 FOMC 매파적 동결 가능성은 달러 강세 요인</li><li>은행: 8월 원화대출 연체율 0.69% (10년 내 최고) → KB −3.29%, 신한 −2.43%</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.sedaily.com/article/20105439" target="_blank" rel="noopener"><i></i>서울경제 환율 장중 2년 만 저점 후 반등(김혜란의 FX)</a></div></div><h3>섹터·테마 (시황 요약)</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">테마</th><th class="">내용</th></tr></thead><tbody><tr><td class="">반도체</td><td class="">반도체: SK하이닉스 1,277,000(+4.42%), 삼성전자 215,500(+0.47%, 장중 −3%대), 심텍·주성엔지니어링 약세, 리노공업 −4.05%</td></tr><tr><td class="">바이오</td><td class="">바이오: 삼성바이오로직스 +7.5%대, 퓨쳐켐 상한가(FC705 美 2a상 톱라인), 의약품 업종 +3.48%</td></tr><tr><td class="">2차전지</td><td class="">2차전지: 에코프로 −5.83%, 에코프로비엠 −5.5% (전일 −7~10%에 이어 약세)</td></tr><tr><td class="">방산(대북)</td><td class="">방산(대북): 스페코 상한가, 빅텍 +1.47%(장중 +13.6%)</td></tr><tr><td class="">정치 테마</td><td class="">정치 테마: 진양산업·진양화학 상한가, 진양폴리 +27.4%</td></tr><tr><td class="">M&A</td><td class="">M&A: 아이패밀리에스씨 상한가(마루베니 계열 웰라이언트 주당 12,000원 공개매수, 11/11까지, 최대 28%)</td></tr><tr><td class="">AI 에이전트</td><td class="">AI 에이전트: 에이전트AI 2연상(앤트로픽 '클로드 듀엣' 공개 보도 연동, 직접 재료 미확인)</td></tr><tr><td class="">약세</td><td class="">약세: 철강(동국산업 −7.97%), 로봇(에브리봇 −5.55%), SKAI −9.89%(전일 상한가 후)</td></tr></tbody></table></div><p class="note">서울경제/매일경제/연합/미래에셋 시황 취합 · 의약품 +3.48%, 의료정밀 +2.45%, 전기전자 +1.27% / 철강금속 −3.22%, 화학 −3.04%, 기계 −2.57%</p><h3>급등락 종목</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">종목</th><th class="">코드</th><th class="n">등락</th><th class="">비고</th></tr></thead><tbody><tr><td class="">SK하이닉스</td><td class="">000660</td><td class="up n">+4.42%</td><td class="">솔리다임 IPO 철회, 거래대금 1위 4.4조</td></tr><tr><td class="">삼성바이오로직스</td><td class="">207940</td><td class="up n">+7.50%</td><td class="">파업 연기·실적 기대(소스별 7.49~7.71%)</td></tr><tr><td class="">삼성E&A</td><td class="">028050</td><td class="up n">+7.76%</td><td class=""></td></tr><tr><td class="">진양폴리</td><td class="">010640</td><td class="up n">+27.40%</td><td class=""></td></tr><tr><td class="">소프트센우</td><td class="">032685</td><td class="up n">+45.25%</td><td class=""></td></tr><tr><td class="">엠에스바이오</td><td class="">0013Y0</td><td class="dn n">-27.25%</td><td class="">전일 급등 후 급락</td></tr><tr><td class="">형지엘리트</td><td class="">093240</td><td class="dn n">-14.87%</td><td class=""></td></tr><tr><td class="">에이엔피</td><td class="">015260</td><td class="dn n">-14.50%</td><td class=""></td></tr><tr><td class="">SKAI</td><td class="">357880</td><td class="dn n">-9.89%</td><td class=""></td></tr><tr><td class="">동국산업</td><td class="">005160</td><td class="dn n">-7.97%</td><td class=""></td></tr><tr><td class="">디티에스 (신규상장)</td><td class="">0015M0</td><td class="up n">+35.14%</td><td class="">장중 +114.9% · 공모가 18,500원 (TG)</td></tr></tbody></table></div><p class="note">서울경제·매일경제·비즈니스포스트·파이낸셜뉴스·상한가365 · 소스별 등락률 소폭 상이</p><h3>상한가 9종목</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">종목</th><th class="">코드</th><th class="">비고</th></tr></thead><tbody><tr><td class="">스페코</td><td class="">013810</td><td class="">+29.98% 2,055원: 김정은 신변이상설(미확인 루머) 방산 테마</td></tr><tr><td class="">진양산업</td><td class="">003780</td><td class="">+29.79% 5,490원: 오세훈 항소심 무죄(인맥 테마)</td></tr><tr><td class="">진양화학</td><td class="">051630</td><td class="">+29.81% 2,360원: 오세훈 테마</td></tr><tr><td class="">컨텍</td><td class="">451760</td><td class="">+29.87% 8,130원: 재료 미확인</td></tr><tr><td class="">퓨쳐켐</td><td class="">220100</td><td class="">+29.91% 8,990원(일부 소스 +26.73%): FC705 美 2a상 톱라인(ORR 38.9%, DCR 83.3%) 공시</td></tr><tr><td class="">에이전트AI</td><td class="">060900</td><td class="">+29.91% 2,780원: 2연상, AI 에이전트 테마</td></tr><tr><td class="">노을</td><td class="">376930</td><td class="">+29.96%: 신사업 진출</td></tr><tr><td class="">윙스풋</td><td class="">335870</td><td class="">+29.96%: 2연상, 거래량 소량, 재료 미확인</td></tr><tr><td class="">아이패밀리에스씨</td><td class="">114840</td><td class="">+29.93% 10,940원: 웰라이언트(마루베니 계열) 12,000원 공개매수</td></tr></tbody></table></div><p class="note">상한가365 · 오늘의종목 · 하한가: 미확인(보도상 없음)</p>
+</section>
+<section class="sec" id="s2">
+  <div class="sh"><span class="no">02</span><h2>일본 · 아시아</h2><span class="sub">10/23 마감 · 대만 휴장</span></div>
+<div class="verdict"><div class="lab">일본 한줄</div><q>닛케이225 <b>62,693.16</b> (<b class="dn">-0.34%</b>) 장중 −1,400엔 이상(약 3개월 만 62,000 하회) 후 낙폭 축소, 종가는 7/30 이후 최저 · TOPIX <b>3,965.81</b> (<b class="dn">-0.79%</b>). 반도체 대형주 보합 회복, 은행주 −2.28%.</q></div><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="">지수</th><th class="n">종가</th><th class="n">등락</th><th class="">출처</th></tr></thead><tbody><tr><td class="">닛케이225</td><td class="n">62,693.16</td><td class="dn n">-214.68 (-0.34%)</td><td class="">Fisco(財経新聞)/Newsworks(日経)/株探</td></tr><tr><td class="">TOPIX</td><td class="n">3,965.81</td><td class="dn n">-31.69 (-0.79%)</td><td class="">JPX 商況プリント</td></tr><tr><td class="">항셍</td><td class="n">23,093.37</td><td class="up n">+0.69%</td><td class="">Yahoo</td></tr><tr><td class="">상하이</td><td class="n">3,690.48</td><td class="up n">+0.89%</td><td class="">Yahoo · 심천성분 +2.79%</td></tr><tr><td class="">대만 가권</td><td class="n">휴장</td><td class="n">-</td><td class="">10/23 태풍으로 휴장 (10/22 종가 46,041 −1.81%)</td></tr><tr><td class="">USD/JPY</td><td class="n">156.57</td><td class="n">-</td><td class="">Yahoo · 엔 156엔대</td></tr></tbody></table></div><div class="box"><h4>드라이버</h4><p>美 AI 과잉투자 우려로 반도체주 아침 급락 → 후장 나스닥 선물 플러스 전환·반도체 저가매수로 낙폭 축소(키옥시아 플러스 전환·지수 기여 상위). 장기금리 하락에 은행주 약세(은행업 −2.28%, 리소나 장중 −7%). 업종: 부동산 +2.05%, 소매 +1.20% / 은행 −2.28%, 해운 −2.10%, 비철 −1.76%, 전기기기 −1.37%. 일본 9월 CPI 발표, BOJ 10/29~30 회의 대기, 엔화 156엔대 강세.</p><p>종목(Yahoo): 도쿄일렉트론(8035) +0.08% · 어드반테스트(6857) -0.09% · 소프트뱅크G(9984) -0.67% · 키옥시아(285A) +1.27%</p><p>CSI300 6월 고점 대비 −20% 약세장 진입(X 뉴스 요약, 미검증) <span class="pill unv">미확인</span></p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.zaikei.co.jp/article/20261023/874716.html" target="_blank" rel="noopener"><i></i>財経新聞 日経平均大引け 214.68円安</a><a class="schip" style="--c:#64748b" href="https://www.jpx.co.jp/markets/equities/volume-and-value/tvdivq000000derc-att/2_20261023.pdf" target="_blank" rel="noopener"><i></i>JPX 商況プリント(後場) 10/23</a><a class="schip" style="--c:#64748b" href="https://kabutan.jp/news/marketnews/?b=n202610230977" target="_blank" rel="noopener"><i></i>株探 日経平均大引け 続落、終盤下げ渋る</a><a class="schip" style="--c:#64748b" href="https://www.newsworks.co.kr/en/articleView.html?idxno=900594" target="_blank" rel="noopener"><i></i>Newsworks Nikkei lowest since July 30</a><a class="schip" style="--c:#64748b" href="https://www.etoday.co.kr/news/view/2639524" target="_blank" rel="noopener"><i></i>이투데이 아시아증시 혼조 닛케이 0.34%↓</a><a class="schip" style="--c:#2563eb" href="https://t.me/globalmktinsight/7750" target="_blank" rel="noopener"><i></i>미래에셋 시황 · 17:06</a></div></div>
+</section>
+<section class="sec" id="s3">
+  <div class="sh"><span class="no">03</span><h2>오늘밤 미국장 프리뷰</h2><span class="sub">선물 ≈18:56 KST · 마감 토 05:00 KST</span></div>
+<div class="verdict"><div class="lab">프리뷰 한줄</div><q>목요일은 <b>'AI 하드웨어 언와인드'</b>: SOX <b class="dn">-6.72%</b>(6/23 이후 최대), 나스닥 <b class="dn">-2.60%</b>, 다우는 <b class="up">+0.02%</b>. 장후 WDC는 비트에도 −6.5%. 선물은 보합권(ES -0.23%, NQ -0.05%). 오늘밤 관건은 SOX 200일선, Anthropic S-1, 미시간 기대인플레.</q></div><h3>목요일(10/22) 종가</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">지수</th><th class="n">종가</th><th class="n">등락</th></tr></thead><tbody><tr><td class="">Dow</td><td class="n">52,867.98</td><td class="up n">+0.02%</td></tr><tr><td class="">S&P500</td><td class="n">7,663.43</td><td class="dn n">-1.21%</td></tr><tr><td class="">Nasdaq Comp</td><td class="n">26,008.86</td><td class="dn n">-2.60%</td></tr><tr><td class="">Nasdaq100</td><td class="n">28,958.69</td><td class="dn n">-2.90%</td></tr><tr><td class="">SOX</td><td class="n">10,731.98</td><td class="dn n">-6.72%</td></tr><tr><td class="">Russell2000</td><td class="n">2,784.03</td><td class="up n">+0.11%</td></tr></tbody></table></div><p class="note">10/22 정규장: 'AI 하드웨어 언와인드': S&P −1.21%(7월 이후 최악), 나스닥 −2.60%(6월 초 이후 최대), SOX −6.72%(고점 대비 −26%, 연초 대비 +51.5%), 다우 +0.02%. Meta −7%(첫 FCF 적자·$825B 지출약정·무의결권주 분할), LRCX −11.8%(가이던스 중간값 $8.6B vs 컨센 $8.54B 실망), KLAC −9.5%, SNDK −8.5%, AMAT −8.2%, AMD −8.1%, INTC −8.0%. 방어주·실적주 강세: SPOT +11.1%, BX +8.4%, LMT +7.0%, PG +5.6%, AAPL +1.2%. 10Y 5% 하회(4.95%), NYSE 신저가 366.</p><div class="box"><h4>장후·프리마켓</h4><p>WDC FQ1 매출 $4.38B(컨센 $4.14B)·EPS $4.64(컨센 $4.06) 비트, ASP/TB +28%에도 시간외 −6.5%($331, 임원 소량 매도 공시 동반). Anthropic S-1 공개 제출 이르면 금요일(Yahoo Finance 소식통): 11월 상장 가능, 사상 최대 IPO 거론. CoreWeave 등 네오클라우드 프리마켓 반등(WSJ).</p><p>젠슨 황: "네오클라우드 수요는 기록적, 부족한 건 운전자본" (TG)</p><p>TR 3.7.4: WDC FY27 Q1 매출 $4.38B·EPS $4.64 <span class="pill ok">TR 확인</span> · Anthropic 공개 S-1 제출·11월 IPO 전망 <span class="pill unv">TR 미확인</span></p><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.investing.com/news/economy-news/ai-selloff-in-focus-western-digital-reports--whats-moving-markets-4968254" target="_blank" rel="noopener"><i></i>Investing.com AI selloff in focus; Western Digital reports</a><a class="schip" style="--c:#64748b" href="https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings" target="_blank" rel="noopener"><i></i>Benzinga WDC after hours −6.54%</a><a class="schip" style="--c:#64748b" href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html" target="_blank" rel="noopener"><i></i>Yahoo Finance Anthropic S-1 as early as Friday</a><a class="schip" style="--c:#64748b" href="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026" target="_blank" rel="noopener"><i></i>WSJ Stock Market Today 10/23</a><a class="schip" style="--c:#9333ea" href="https://t.me/TNBfolio/71669" target="_blank" rel="noopener"><i></i>TNBfolio · 20:03</a></div></div><details class="cfold bf k-misc"><summary><b class="ft">주요 종목 (목)</b><span class="fcnt"><span class="fx"><i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb"><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">티커</th><th class="n">등락</th></tr></thead><tbody><tr><td class="">SPOT</td><td class="up n">+11.10%</td></tr><tr><td class="">BX</td><td class="up n">+8.38%</td></tr><tr><td class="">LMT</td><td class="up n">+6.96%</td></tr><tr><td class="">PG</td><td class="up n">+5.58%</td></tr><tr><td class="">DOW</td><td class="up n">+4.71%</td></tr><tr><td class="">UNP</td><td class="up n">+3.55%</td></tr><tr><td class="">CRM</td><td class="up n">+3.52%</td></tr><tr><td class="">CMCSA</td><td class="up n">+3.44%</td></tr><tr><td class="">LLY</td><td class="up n">+2.83%</td></tr><tr><td class="">PANW</td><td class="up n">+2.21%</td></tr><tr><td class="">AAPL</td><td class="up n">+1.23%</td></tr><tr><td class="">CRWD</td><td class="dn n">-0.58%</td></tr><tr><td class="">NET</td><td class="dn n">-1.18%</td></tr><tr><td class="">MSFT</td><td class="dn n">-2.23%</td></tr><tr><td class="">TSLA</td><td class="dn n">-3.08%</td></tr><tr><td class="">GOOGL</td><td class="dn n">-3.15%</td></tr><tr><td class="">AVGO</td><td class="dn n">-4.31%</td></tr><tr><td class="">NVDA</td><td class="dn n">-4.40%</td></tr><tr><td class="">TSM</td><td class="dn n">-4.52%</td></tr><tr><td class="">AMZN</td><td class="dn n">-4.57%</td></tr><tr><td class="">HOOD</td><td class="dn n">-5.25%</td></tr><tr><td class="">MU</td><td class="dn n">-6.26%</td></tr><tr><td class="">WDC</td><td class="dn n">-6.43%</td></tr><tr><td class="">ASML</td><td class="dn n">-6.93%</td></tr><tr><td class="">META</td><td class="dn n">-6.98%</td></tr><tr><td class="">INTC</td><td class="dn n">-8.04%</td></tr><tr><td class="">AMD</td><td class="dn n">-8.10%</td></tr><tr><td class="">AMAT</td><td class="dn n">-8.16%</td></tr><tr><td class="">SNDK</td><td class="dn n">-8.51%</td></tr><tr><td class="">BE</td><td class="dn n">-8.70%</td></tr><tr><td class="">SPCX</td><td class="dn n">-9.14%</td></tr><tr><td class="">KLAC</td><td class="dn n">-9.55%</td></tr><tr><td class="">CRWV</td><td class="dn n">-10.06%</td></tr><tr><td class="">LRCX</td><td class="dn n">-11.76%</td></tr></tbody></table></div><p class="note">Reuters(Investing.com) / AP / vlsi.kr / Benzinga / Yahoo</p></div></details><h3>야간 선물 (≈18:56 KST)</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">선물</th><th class="n">가격</th><th class="n">직전 정산 대비</th></tr></thead><tbody><tr><td class="">ES</td><td class="n">7,686.50</td><td class="dn n">-0.23%</td></tr><tr><td class="">NQ</td><td class="n">29,126.25</td><td class="dn n">-0.05%</td></tr><tr><td class="">YM</td><td class="n">52,747</td><td class="dn n">-0.60%</td></tr><tr><td class="">RTY</td><td class="n">2,780.9</td><td class="dn n">-0.54%</td></tr><tr><td class="">VIX</td><td class="n">19.57</td><td class="n">-</td></tr></tbody></table></div><p class="note">Yahoo ES=F NQ=F YM=F RTY=F ^VIX (직전 정산가 대비)</p><div class="box"><h4>오늘밤 일정 (KST)</h4><ol class="list"><li>23일(금) 장전(KST ~19~21시): American Express(EPS 컨센 ~$4.5, 매출 ~$20.1B), SLB, Booz Allen, Autoliv, Eni</li><li>22:30 KST 美 정규장 개장</li><li>22:45 KST 美 10월 S&P글로벌 제조업·서비스업 PMI(속보)</li><li>23:00 KST 美 10월 미시간대 소비자심리 확정치(기대인플레 포함)</li><li>Anthropic S-1 공개 제출 가능(이르면 오늘): 재무·지출 약정 첫 공개</li><li>Fed 블랙아웃: 10/27~28 FOMC(10/29 03:00 KST 결정)</li><li>중동: 美 추가 병력 파견, 이란 '공습 재개 시 인접국 민간시설 타격' 경고(WSJ)</li><li>토 05:00 KST 정규장 마감 (서머타임 11/1 종료 전)</li></ol><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.benzinga.com/trading-ideas/long-ideas/26/10/62550985/slb-american-express-and-3-stocks-to-watch-heading-into-friday-2" target="_blank" rel="noopener"><i></i>Benzinga SLB, AXP stocks to watch Friday</a><a class="schip" style="--c:#64748b" href="https://www.nikkei.com/markets/kabu/marketcalendar/?DispMonth=202610&amp;SelectDate=20261023" target="_blank" rel="noopener"><i></i>Nikkei market calendar 10/23 (US PMI 22:45, Michigan 23:00 JST-1h=KST same)</a><a class="schip" style="--c:#64748b" href="https://www.federalreserve.gov/newsevents/2026-october.htm" target="_blank" rel="noopener"><i></i>Fed calendar October 2026</a></div></div><p class="note">오늘밤 관전: (1) SOX 200일선 지지 여부·반도체 반등 지속(나스닥 선물 보합권) (2) Anthropic S-1이 AI 수익성 논쟁에 주는 신호 (3) 브렌트 $110~115 유지 여부 (4) 미시간 기대인플레: 다음 주 FOMC 매파 동결 경계.</p>
+</section>
+<section class="sec" id="s4">
+  <div class="sh"><span class="no">04</span><h2>매크로 · 정책 · 캘린더</h2><span class="sub">금리·유가·금·FOMC 주간</span></div>
+<h3>매크로 스냅샷</h3><div class="box" style="padding:0;overflow:auto"><table class=""><thead><tr><th class="">항목</th><th class="n">수치</th><th class="">비고</th></tr></thead><tbody><tr><td class="">美 10년물</td><td class="n">4.953%</td><td class="">10/22 4.953%(−19bp, 5.146%→): 안전자산 매수로 5% 하회</td></tr><tr><td class="">美 3개월</td><td class="n">4.022%</td><td class="">Yahoo</td></tr><tr><td class="">DXY</td><td class="n">101.721</td><td class="">Yahoo</td></tr><tr><td class="">USD/JPY</td><td class="n">156.57</td><td class="">Yahoo</td></tr><tr><td class="">WTI</td><td class="n">$101.2 (+1.74%)</td><td class="">$100~101</td></tr><tr><td class="">Brent (보도)</td><td class="n">$114.5 부근(+1.1%, Euronext/The National 10/23): 5개월 고점</td><td class="">5개월 고점</td></tr><tr><td class="">Brent (Yahoo BZ=F)</td><td class="n">$109.88 (-2.91%)</td><td class="">Yahoo BZ=F 109.73(−3%)는 근월물 롤오버 영향 추정, 보도 수치와 불일치 · TR: 계약·시각 차이 미해결 <span class="pill part">불일치</span></td></tr><tr><td class="">Gold</td><td class="n">$4,037.8 (-0.56%)</td><td class="">$4,000 하회 시도, 주간 급락(유가→Fed 금리 우려, CNBC). 10/22 −2.7%, 은 −5%</td></tr><tr><td class="">BTC</td><td class="n">$81,635 (+0.40%)</td><td class="">Yahoo</td></tr><tr><td class="">VIX</td><td class="n">19.57 (+2.84%)</td><td class="">Yahoo</td></tr></tbody></table></div><div class="grid2" style="margin-top:14px"><div class="box"><h4>정책·뉴스</h4><ul class="list"><li>SK하이닉스 솔리다임 IPO 검토 중단(주주 반대·시장 여건)</li><li>신현송 한은 총재 국감 '원화 추가 강세 여지'</li><li>후티 사우디 추가 공격, 리비아 송유관 차질, 美 중동 증파 / 이란 경고</li><li>프랑스 국채 혼란(Investing.com): 유럽 금리 리스크</li><li>Anthropic S-1 임박, 11월 IPO 가능</li><li>10/27~28 FOMC(9월 인상 후 3.75~4.00%): 시장은 매파적 동결 예상</li><li>BOJ 10/29~30</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/" target="_blank" rel="noopener"><i></i>The National: Oil rises as Houthis attack Saudi again</a><a class="schip" style="--c:#64748b" href="https://live.euronext.com/en/financial-news/oil-prices-rise-more-1-supply-concerns-linger" target="_blank" rel="noopener"><i></i>Euronext/Reuters oil +1%</a><a class="schip" style="--c:#64748b" href="https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html" target="_blank" rel="noopener"><i></i>CNBC gold heads for steep weekly loss</a><a class="schip" style="--c:#64748b" href="https://www.home.saxo/en-gb/content/articles/macro/market-quick-take---chipmakers-tumble-and-the-ten-year-drops-below-5---23-october-2026-23102026" target="_blank" rel="noopener"><i></i>Saxo Market Quick Take 10/23</a></div></div><div class="box"><h4>앞으로 (KST)</h4><ul class="list"><li>10/23(美) S&P PMI 22:45 KST, 미시간 확정치 23:00 KST, AXP 장전</li><li>10/26(월)~ 美 실적: 10/28(수) 장후 MSFT·GOOGL, 10/29(목) 장후 AMZN, AAPL 11/2(월) 장후</li><li>10/27~28 FOMC: 10/29(목) 03:00 KST 결정·03:30 파월 회견</li><li>10/29~30 BOJ 회의(30일 결정)</li><li>ORCL AI World 다음 주(X 게시물 기준)</li><li>11/1 美 서머타임 종료</li><li>11/3 美 중간선거</li><li>11/26 한은 금통위</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.federalreserve.gov/newsevents/2026-october.htm" target="_blank" rel="noopener"><i></i>Fed calendar October 2026</a><a class="schip" style="--c:#64748b" href="https://metacap.si/calendar/earnings/week/2026-10-26/" target="_blank" rel="noopener"><i></i>MetaCap earnings week of 10/26</a><a class="schip" style="--c:#64748b" href="https://macrowombat.com/calendar" target="_blank" rel="noopener"><i></i>macrowombat FOMC/BOJ calendar</a></div></div></div><p class="note">해석: AI 지출 논쟁이 "실적"에서 "조달·현금흐름"으로 이동. 10Y는 안전자산 매수로 5% 하회했지만 유가가 5개월 고점이라 FOMC 인하 기대를 키우기 어려운 구도. 원화 강세는 수출주 실적 래깅 부담으로 이어지는 중.</p>
+</section>
+<section class="sec" id="s5">
+  <div class="sh"><span class="no">05</span><h2>텔레그램 특징주 · 테마</h2><span class="sub">2,142건 · 73채널</span></div>
+<div class="chanidx"><div class="ci" style="--c:#40b789"><i></i><b>서화백의 AI놀이🚀</b><span>@easobi_ai</span><em>264</em></div><div class="ci" style="--c:#ad40b7"><i></i><b>FundEasy_Earnings …</b><span>@Fundeasyearnings</span><em>181</em></div><div class="ci" style="--c:#40b793"><i></i><b>AI MASTERS_소통방</b><span>@ai_masters_chat</span><em>110</em></div><div class="ci" style="--c:#0369a1"><i></i><b>미국 주식 인사이더</b><span>@insidertracking</span><em>100</em></div><div class="ci" style="--c:#d97706"><i></i><b>AWAKE 실시간 공시</b><span>@darthacking</span><em>84</em></div><div class="ci" style="--c:#e11d48"><i></i><b>타점 읽어주는 여자</b><span>@tazastock</span><em>81</em></div><div class="ci" style="--c:#b740a5"><i></i><b>묻따 미국주식 드립방✈️</b><span>@ttg3443534534534</span><em>72</em></div><div class="ci" style="--c:#0891b2"><i></i><b>하나 김경환</b><span>@HANAchina</span><em>57</em></div><div class="ci" style="--c:#7c3aed"><i></i><b>epic AI</b><span>@ked_epic_ai</span><em>51</em></div><div class="ci" style="--c:#5eb740"><i></i><b>Walter Bloomberg</b><span>@WalterBloomberg</span><em>50</em></div></div><div class="statusbar"><div class="st"><span>수집</span><b>GramJS 2,142 · 73/91채널</b></div><div class="st"><span>창</span><b>10/22 18:50 ~ 10/23 19:02 KST</b></div><div class="st"><span>TR 3.7.4</span><b>PARTIAL / NEEDS_REVIEW</b></div><div class="st"><span>EI 3.7.3.1</span><b>실행 중 (결과는 별도 회신)</b></div><p>원문 링크는 카드·부록에 유지. 1:1 DM·보고서 만드는방 제외.</p></div><div class="verdict"><div class="lab">TG 한줄</div><q>테마 상위: <b>실적 시즌(3Q)·IPO</b>(685) · <b>AI·빅테크·데이터센터</b>(614) · <b>매크로·금리·환율·유가</b>(474) · <b>수급·외국인·공매도·신용</b>(262) · <b>반도체·HBM·메모리</b>(258). 서사: <b>美 AI 하드웨어 언와인드 → 솔리다임 IPO 철회 → 기관 매수 V자</b>, 그 사이 공개매수·임상·정치/대북 테마 상한가 9종목, PHP 취약점 사이버위기 "주의" 경보.</q></div><h3>최다 언급 키워드·종목</h3><div class="box"><div class="bars"><div class="bar"><div class="bl">실적(3Q)</div><div class="bt"><i style="width:100.0%;--c:#0f766e"></i><em>420회</em></div><div class="bs">44채널</div></div><div class="bar"><div class="bl">AI데이터센터</div><div class="bt"><i style="width:36.9%;--c:#0f766e"></i><em>155회</em></div><div class="bs">41채널</div></div><div class="bar"><div class="bl">반도체</div><div class="bt"><i style="width:36.2%;--c:#0f766e"></i><em>152회</em></div><div class="bs">40채널</div></div><div class="bar"><div class="bl">후티/중동</div><div class="bt"><i style="width:30.7%;--c:#0f766e"></i><em>129회</em></div><div class="bs">32채널</div></div><div class="bar"><div class="bl">원/달러 환율</div><div class="bt"><i style="width:27.1%;--c:#0f766e"></i><em>114회</em></div><div class="bs">17채널</div></div><div class="bar"><div class="bl">SK하이닉스</div><div class="bt"><i style="width:23.8%;--c:#0f766e"></i><em>100회</em></div><div class="bs">39채널</div></div><div class="bar"><div class="bl">WTI/유가</div><div class="bt"><i style="width:23.3%;--c:#0f766e"></i><em>98회</em></div><div class="bs">29채널</div></div><div class="bar"><div class="bl">바이오</div><div class="bt"><i style="width:23.1%;--c:#0f766e"></i><em>97회</em></div><div class="bs">27채널</div></div><div class="bar"><div class="bl">Meta</div><div class="bt"><i style="width:19.3%;--c:#0f766e"></i><em>81회</em></div><div class="bs">31채널</div></div><div class="bar"><div class="bl">IPO/공모</div><div class="bt"><i style="width:19.3%;--c:#0f766e"></i><em>81회</em></div><div class="bs">34채널</div></div><div class="bar"><div class="bl">삼성전자</div><div class="bt"><i style="width:15.0%;--c:#0f766e"></i><em>63회</em></div><div class="bs">26채널</div></div><div class="bar"><div class="bl">방산</div><div class="bt"><i style="width:14.8%;--c:#0f766e"></i><em>62회</em></div><div class="bs">16채널</div></div><div class="bar"><div class="bl">솔리다임(중복상장)</div><div class="bt"><i style="width:14.5%;--c:#0f766e"></i><em>61회</em></div><div class="bs">32채널</div></div><div class="bar"><div class="bl">엔비디아</div><div class="bt"><i style="width:13.1%;--c:#0f766e"></i><em>55회</em></div><div class="bs">24채널</div></div><div class="bar"><div class="bl">삼성E&A</div><div class="bt"><i style="width:13.1%;--c:#0f766e"></i><em>55회</em></div><div class="bs">13채널</div></div><div class="bar"><div class="bl">금</div><div class="bt"><i style="width:12.6%;--c:#0f766e"></i><em>53회</em></div><div class="bs">5채널</div></div></div><p class="fine" style="margin:10px 0 0">mention_summary.hot_mentions · 키워드 근사 카운트</p></div><h3>테마 묶음</h3><div class="box"><div class="bars"><div class="bar"><div class="bl">실적 시즌(3Q)·IPO</div><div class="bt"><i style="width:100.0%;--c:#2563eb"></i><em>685회</em></div><div class="bs">56채널</div></div><div class="bar"><div class="bl">AI·빅테크·데이터센터</div><div class="bt"><i style="width:89.6%;--c:#2563eb"></i><em>614회</em></div><div class="bs">54채널</div></div><div class="bar"><div class="bl">매크로·금리·환율·유가</div><div class="bt"><i style="width:69.2%;--c:#2563eb"></i><em>474회</em></div><div class="bs">53채널</div></div><div class="bar"><div class="bl">수급·외국인·공매도·신용</div><div class="bt"><i style="width:38.2%;--c:#2563eb"></i><em>262회</em></div><div class="bs">49채널</div></div><div class="bar"><div class="bl">반도체·HBM·메모리</div><div class="bt"><i style="width:37.7%;--c:#2563eb"></i><em>258회</em></div><div class="bs">53채널</div></div><div class="bar"><div class="bl">바이오·제약</div><div class="bt"><i style="width:24.1%;--c:#2563eb"></i><em>165회</em></div><div class="bs">36채널</div></div><div class="bar"><div class="bl">중동·지정학·프랑스</div><div class="bt"><i style="width:23.5%;--c:#2563eb"></i><em>161회</em></div><div class="bs">36채널</div></div><div class="bar"><div class="bl">일본·미국 프리뷰</div><div class="bt"><i style="width:22.9%;--c:#2563eb"></i><em>157회</em></div><div class="bs">47채널</div></div></div><p class="fine" style="margin:10px 0 0">mention_summary.themes</p></div><h3>특징주 ① 대형·실적·공시</h3><div class="card"><div class="ch"><span class="rank ok">1</span><h3>SK하이닉스 (000660) · 솔리다임 프리IPO·美 IPO 검토 중단</h3><span class="tag">종가 <b class="up">+4.42%</b> 1,277,000 · 장초 −5%에서 반전</span><span class="pill ok">TR 확인 · 회사 공식</span><span class="pill tg">TG 솔리다임 61회</span><span class="pill warn">외국인 순매도</span><div class="mcount"><b>61</b><small>솔리다임(중복상장) 61 · 채널 32</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>이벤트</span><b>8/5 이후 79일 만 검토 중단 (주주 반대·시장 여건)</b></div><div class="vchip "><span>거래대금</span><b>4.4조 (1위)</b></div><div class="vchip caut"><span>다음</span><b>10/28 3Q 실적·추가 환원안</b></div></div><ul class="list"><li>공시 "자본시장 여건 등을 종합적으로 고려해 검토 중단" <span class="pill ok">TR 확인</span> · SK hynix 뉴스룸 공식 발표 · 한경 단독 선보도</li><li>TR: 검토 중단 ≠ 영구 상장 포기, 투자 필요성은 유지 → 향후 자금조달 대안 별도 확인 <span class="pill wn">조건</span></li><li>금감원장·금융위원장이 "중복상장 가이드라인 적용 대상" 언급해 온 사안 <span class="pill tg">텔레그램</span></li><li>메리츠: "강화된 주주환원으로 귀결" <span class="pill part">리포트 해석</span></li><li>외국인은 하이닉스 순매도(서울경제) · 40조 자사주 매입 종료로 수급 공백 · ADR 프리마켓 −8.07% <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#15803d" href="https://t.me/cahier_de_market/11100" target="_blank" rel="noopener"><i></i>카이에 de market · 04:53</a><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37902" target="_blank" rel="noopener"><i></i>epic AI · 08:43</a><a class="schip" style="--c:#d97706" href="https://t.me/darthacking/155267" target="_blank" rel="noopener"><i></i>AWAKE 실시간 공시 · 07:33</a><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118843" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 15:36</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261023137600008" target="_blank" rel="noopener"><i></i>연합뉴스</a></div></div></div><div class="card"><div class="ch"><span class="rank part">2</span><h3>삼성바이오로직스 (207940) · 파업 연기 + 3Q 기대</h3><span class="tag">종가 <b class="up">+7.5~7.71%</b> · 의약품 업종 +3.48%</span><span class="pill part">시황·기사 기준</span><span class="pill warn">반론 리포트</span><div class="mcount"><b>7</b><small>TG 7 · 코드 언급</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>촉매</span><b>파업 연기 → 생산 차질 우려 해소</b></div><div class="vchip "><span>리포트</span><b>한투 Buy · TP 1,950,000 유지</b></div><div class="vchip caut"><span>반론</span><b>신영 "성장한 것처럼 보이지만"</b></div></div><ul class="list"><li>식약처 의약품 판매 규제 완화·CDMO 수출 체계도 긍정 재료(미래에셋 시황) <span class="pill part">부분확인</span></li><li>노사 공식 발표 원문 미대조 <span class="pill unv">미확인</span></li><li>대형주 하루 +7%대, 방어주 순환 성격 <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#2563eb" href="https://t.me/globalmktinsight/7750" target="_blank" rel="noopener"><i></i>미래에셋 시황 · 17:06</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79737" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 10:28</a><a class="schip" style="--c:#40b789" href="https://t.me/easobi_ai/24053" target="_blank" rel="noopener"><i></i>서화백의 AI놀이🚀 · 20:00</a><a class="schip" style="--c:#64748b" href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=450199" target="_blank" rel="noopener"><i></i>비즈니스포스트</a></div></div></div><div class="card"><div class="ch"><span class="rank ok">3</span><h3>삼성E&A (028050) · 3Q 서프라이즈 2일차 · 리포트 15건 Buy</h3><span class="tag">종가 <b class="up">+7.76~7.94%</b> · 최고 TP 86,000</span><span class="pill ok">TR 확인 · 회사 발표</span><span class="pill tg">TG 55회</span><span class="pill warn">일회성 포함</span><div class="mcount"><b>55</b><small>삼성E&A 55 · 채널 13</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>3Q</span><b>매출 2조9,105억 · 영업익 5,006억 (+183.6%, OPM 17.2%)</b></div><div class="vchip "><span>가이던스</span><b>영업익 0.8→1.4조 · 수주 12→19조</b></div><div class="vchip caut"><span>자사주</span><b>7,800억 취득(~2027/1/22) · 6,900억 소각 예정(약 6.4%)</b></div></div><ul class="list"><li>TR: 영업이익 5,006억 · 자사주 취득 7,800억 / 소각 6,900억 회사 발표 확인, 두 금액 혼동 금지(소각은 예정) <span class="pill ok">TR 확인</span></li><li>신한투자: 얀부 발전 중재 정산금 환입 1,000억·발주처 인센티브·준공 정산 이익 반영 <span class="pill wn">일회성</span></li><li>수주잔고 27조2,000억 · 9월 사우디 35억달러 비료 프로젝트 <span class="pill tg">텔레그램</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37911" target="_blank" rel="noopener"><i></i>epic AI · 16:02</a><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37908" target="_blank" rel="noopener"><i></i>epic AI · 10:32</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79737" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 10:28</a><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118843" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 15:36</a></div></div></div><div class="card"><div class="ch"><span class="rank part">4</span><h3>퓨쳐켐 (220100) · FC705 美 2a상 톱라인</h3><span class="tag"><b class="up">상한가</b> 8,990원</span><span class="pill part">공시·전문지 인용</span><span class="pill warn">소규모 임상</span><div class="mcount"><b>13</b><small>TG 13</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>데이터</span><b>ORR 38.9% · DCR 83.3% · 완전관해 5명</b></div><div class="vchip "><span>적응증</span><b>전립선암 RPT</b></div></div><ul class="list"><li>상승률 +29.91% vs +26.73% 소스 상이 <span class="pill part">부분확인</span></li><li>표본 수·평가 기준 원문 미대조 <span class="pill unv">미확인</span></li><li>2a상 단계, 후속 임상·기술이전 확인 전 변동성 <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79769" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 18:13</a><a class="schip" style="--c:#7c3aed" href="https://t.me/YeouidoStory2/118843" target="_blank" rel="noopener"><i></i>여의도스토리 Ver2.0 · 15:36</a><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37910" target="_blank" rel="noopener"><i></i>epic AI · 15:51</a></div></div></div><div class="card"><div class="ch"><span class="rank ok">5</span><h3>아이패밀리에스씨 (114840) · 마루베니 계열 공개매수</h3><span class="tag"><b class="up">상한가</b> 10,940원 · 공개매수가 12,000원</span><span class="pill part">TR: 보도 확인 · 원 공시 대조 필요</span><div class="mcount"><b>5</b><small>TG 5</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>조건</span><b>웰라이언트 · 주당 12,000원 · 최대 28% · 11/11까지</b></div><div class="vchip caut"><span>괴리</span><b>종가 대비 약 9.7%</b></div></div><ul class="list"><li>"롬앤" 운영사, 日 마루베니 지분 28% 공개매수 보도 · TR: 원 공시 대조 필요 <span class="pill part">부분확인</span></li><li>응모 초과 시 안분 배정 → 차익 확정 아님 <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79737" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 10:28</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79769" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 18:13</a><a class="schip" style="--c:#64748b" href="https://sanghanga365.com/daily/2026-10-23" target="_blank" rel="noopener"><i></i>상한가365</a></div></div></div><h3>특징주 ② 테마·이벤트·공모주·약세</h3><div class="card"><div class="ch"><span class="rank after">A</span><h3>방산·대북: 스페코 상한가 · 빅텍 장중 +13.6% → +1.47%</h3><span class="tag"><b class="up">+29.98%</b> 2,055원</span><span class="pill unv">TR: 사망설 근거 미확인</span><span class="pill warn">되돌림 패턴</span><div class="mcount"><b>62</b><small>방산 62 · 채널 16</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>배경</span><b>김정은 10/19 이후 공개활동 미보도</b></div><div class="vchip "><span>정황</span><b>.kp 사이트 40여개 20일부터 접속 장애(NK뉴스)</b></div><div class="vchip "><span>담화</span><b>김여정 "10월 중 확성기"</b></div></div><ul class="list"><li>TR: 북한 지도자 사망설은 근거 미확인 루머, 사실로 발행 불가 · 언론도 "확인되지 않음" 명시 <span class="pill unv">미확인 · 전파 금지</span></li><li>빅텍은 장중 상승분 대부분 반납 <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79743" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 11:49</a><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37908" target="_blank" rel="noopener"><i></i>epic AI · 10:32</a></div></div></div><div class="card"><div class="ch"><span class="rank after">B</span><h3>정치 테마: 진양산업·진양화학 상한가 · 진양폴리 +27.4%</h3><span class="tag">오세훈 항소심 무죄</span><span class="pill ok">판결 보도</span><span class="pill warn">실적 무관</span><div class="mcount"><b>12</b><small>TG 12</small></div></div><div class="cb"><div class="chips"><div class="vchip caut"><span>연결고리</span><b>양준영 진양홀딩스 회장 고려대 동문</b></div><div class="vchip "><span>회사 입장</span><b>과거 공시 "사업 무관"</b></div></div><ul class="list"><li>6월 당선 확정 때 상한가 후 이틀 만에 급락 전례 <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37911" target="_blank" rel="noopener"><i></i>epic AI · 16:02</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79764" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 15:37</a></div></div></div><div class="card"><div class="ch"><span class="rank ok">C</span><h3>보안 테마 · PHP 취약점 → 사이버위기 경보 "주의"</h3><span class="tag">언급 45회 · 20채널</span><span class="pill ok">경보 발령 다수 일치</span><span class="pill part">종목 등락 미수집</span><div class="mcount"><b>45</b><small>보안/사이버보안 45 · 채널 20</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>경보</span><b>과기정통부·KISA 민간 "관심"→"주의" (10/22)</b></div><div class="vchip "><span>상승</span><b>모니터랩 · 샌즈랩 · 케이사인 · 이노테나</b></div><div class="vchip "><span>美</span><b>PANW +2.21% · CRWD −0.58% · NET −1.18%</b></div></div><ul class="list"><li>로그인 없이 시스템 장악 가능, AI로 발견된 10년+ 미발견 결함 <span class="pill ok">보도</span></li><li>靑 민관군 긴급회의 · 오라클·노드JS 결함 보도 <span class="pill tg">텔레그램</span></li><li>안랩: 공격 코드 분석·자사 제품 영향도 점검, "안랩 AI 플러스" <span class="pill tg">텔레그램</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79743" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 11:49</a><a class="schip" style="--c:#9333ea" href="https://t.me/TNBfolio/71673" target="_blank" rel="noopener"><i></i>TNBfolio · 22:57</a><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37911" target="_blank" rel="noopener"><i></i>epic AI · 16:02</a><a class="schip" style="--c:#b74440" href="https://t.me/hanaglobalbottomup/9142" target="_blank" rel="noopener"><i></i>[하나증권 해외주식분석] · 07:40</a></div></div></div><div class="card"><div class="ch"><span class="rank after">D</span><h3>공모주: 디티에스 첫날 +35% · 엠에스바이오 −27%</h3><span class="tag"><b class="up">+35.14%</b> · <b class="dn">-27.25%</b></span><span class="pill warn">상장 초기 수급</span><span class="pill tg">TG</span><div class="mcount"><b>81</b><small>IPO/공모 81 · 채널 34</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>디티에스</span><b>공모가 18,500원 · 장중 +114.9% · 공랭식 열교환기</b></div><div class="vchip caut"><span>엠에스바이오</span><b>첫날 +64~71% → 투자주의 → −27.25%</b></div></div><ul class="list"><li>"신규주는 비중 낮추고 칼손절할 사람만" (독학주식) <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79716" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 08:58</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79770" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 18:30</a><a class="schip" style="--c:#059669" href="https://t.me/selfstudyview/9887" target="_blank" rel="noopener"><i></i>독학주식 · 09:20</a></div></div></div><div class="card"><div class="ch"><span class="rank part">E</span><h3>기타 상한가: 컨텍 · 노을 · 에이전트AI · 윙스풋</h3><span class="tag"><b class="up">+29.87~29.96%</b></span><span class="pill part">컨텍·노을 보도</span><span class="pill unv">2종목 재료 불명</span><div class="mcount"><b>TG</b><small>TG</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>컨텍</span><b>국내 최초 우주 광통신 수신 실증 + 태국 사절단</b></div><div class="vchip "><span>노을</span><b>27.5억 제3자배정 유증(발행가 2,500원)</b></div><div class="vchip caut"><span>에이전트AI·윙스풋</span><b>2연상 · 재료 미확인</b></div></div><ul class="list"><li>스냅샷은 컨텍 "재료 미확인"·노을 "신사업 진출", TG는 광통신 실증·유증으로 서술 <span class="pill part">소스 상이</span></li><li>에이전트AI는 앤트로픽 "클로드 듀엣" 보도 연동설, 직접 재료 <span class="pill unv">미확인</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79769" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 18:13</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79764" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 15:37</a><a class="schip" style="--c:#7c3aed" href="https://t.me/ked_epic_ai/37908" target="_blank" rel="noopener"><i></i>epic AI · 10:32</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79703" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 07:03</a></div></div></div><div class="card"><div class="ch"><span class="rank ok">F</span><h3>약세: 은행 연체율 · 2차전지 · SKAI</h3><span class="tag">KB <b class="dn">-3.29%</b> · 에코프로 <b class="dn">-5.83%</b> · SKAI <b class="dn">-9.89%</b></span><span class="pill ok">시황 확인</span><div class="mcount"><b>2</b><small>2차전지 28 · 채널 14</small></div></div><div class="cb"><div class="chips"><div class="vchip caut"><span>은행</span><b>8월 원화대출 연체율 0.69% (10년 내 최고)</b></div><div class="vchip "><span>LIG디펜스앤에어로</span><b>방사청 2년 입찰 제한 여파</b></div></div><ul class="list"><li>신한지주 −2.43% · TIGER 은행 −2.78% <span class="pill ok">시황</span></li><li>SKAI 전일 상한가 후 −9.89% <span class="pill wn">주의</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#2563eb" href="https://t.me/globalmktinsight/7750" target="_blank" rel="noopener"><i></i>미래에셋 시황 · 17:06</a><a class="schip" style="--c:#e11d48" href="https://t.me/tazastock/79770" target="_blank" rel="noopener"><i></i>타점 읽어주는 여자 · 18:30</a></div></div></div><div class="card"><div class="ch"><span class="rank part">G</span><h3>TR 추가 검증 메모: 삼성전기 · 신풍제약 · PHM</h3><span class="tag">TR 3.7.4 판정 (PARTIAL · 40건 발췌)</span><span class="pill part">부분확인</span><span class="pill warn">불일치</span><div class="mcount"><b>TR</b><small>TR 판정</small></div></div><div class="cb"><div class="chips"><div class="vchip main"><span>삼성전기</span><b>Tesla 1.1조 · NVIDIA 2.6조 투자 보도</b></div><div class="vchip caut"><span>신풍제약</span><b>임상3상 계획변경 승인 ≠ 성공</b></div><div class="vchip caut"><span>PHM</span><b>$4.2B(TG) vs 약 $3.97B</b></div></div><ul class="list"><li>삼성전기: 보도 내용 전체를 확정 공시로 취급 금지, 세부 투자금 1차 확인 필요 <span class="pill part">부분확인</span></li><li>신풍제약: 임상3상 시험계획 변경 승인일 뿐 임상 성공 아님 <span class="pill part">조건</span></li><li>PHM(PulteGroup): TG 매출 $4.2B는 회사 발표 약 $3.97B와 불일치, TG 수치 사용 금지 <span class="pill wn">불일치</span></li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.mk.co.kr/en/business/12183237" target="_blank" rel="noopener"><i></i>MK 삼성전기</a><a class="schip" style="--c:#64748b" href="https://newsroom.pultegroupinc.com/273672-pultegroup-reports-third-quarter-2026-financial-results/" target="_blank" rel="noopener"><i></i>PulteGroup 3Q</a></div></div></div><div class="caution"><b class="t">과열·검증 메모</b> · 대북(스페코)·정치(진양)·공모주(디티에스·엠에스바이오)는 단기 수급 게임 <span class="pill wn">주의</span>. 공시는 채널·언론 미러, DART 원문 직접 대조 미실시 <span class="pill part">부분확인</span>. "TR" 표기 라벨은 TR 3.7.4 판정 반영(2,142건 중 40건 발췌 검토 · PARTIAL), 그 외는 박스 측 1차 분류. 조건·리스크 유지. 매수 추천 아님.</div>
+</section>
+<section class="sec" id="s6">
+  <div class="sh"><span class="no">06</span><h2>해외 커뮤니티 심리 (X · Reddit · ApeWisdom)</h2><span class="sub"><span class="pill unv">미확인</span></span></div>
+<p class="note">X 검색·ApeWisdom 프록시 기반. Reddit JSON 403 차단. 언급량일 뿐 방향 합의 아님. 전부 <span class="pill unv">미확인</span>.</p><div class="grid2" style="margin-top:14px"><div class="box"><h4>X: 해외 시선</h4><ul class="list"><li>"AI 하드웨어 언와인드지 광범위한 매도가 아님: QQQ −2.91%, SPY −1.23%, RSP +0.72%, SMH −6.06%"</li><li>SOX가 200일선 바로 위, 반등이냐 이탈이냐가 신호</li><li>X News: SOXL 전주 사상 최대 $3.8B 유입 직후 −19%, 풋 거래 급증</li><li>X News: Fundstrat 톰 리 "10Y 5% 하회 + 숏 과밀 = 바닥 근접"(의견)</li><li>Anthropic S-1 "이르면 금요일" 확산 (TR: 공개 S-1 제출·11월 IPO 미확인 <span class="pill unv">미확인</span>)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://x.com/ask_volAI/status/2113369651103383753" target="_blank" rel="noopener"><i></i>ask_volAI</a><a class="schip" style="--c:#64748b" href="https://x.com/Davidk117a/status/2113396180591980770" target="_blank" rel="noopener"><i></i>Davidk117a</a><a class="schip" style="--c:#64748b" href="https://x.com/i/trending/2113360227617886557" target="_blank" rel="noopener"><i></i>X News: SOXL</a><a class="schip" style="--c:#64748b" href="https://x.com/i/trending/2113463851563843929" target="_blank" rel="noopener"><i></i>X News: Tom Lee</a><a class="schip" style="--c:#64748b" href="https://x.com/BrajInvest/status/2113345827695697921" target="_blank" rel="noopener"><i></i>BrajInvest</a></div></div><div class="box"><h4>X: 한국 계정 톤</h4><ul class="list"><li>"외인 1조 가까이 던지고 기관 8,700억 받아냄. 솔리다임 철회가 오후에 먹힘. 코스닥은 못 따라옴"</li><li>"지수는 구조됐는데 내 계좌는 아직 물속, 상승 173 vs 하락 719"</li><li>솔리다임 상장 시 하이닉스 주주 몫 희석 논리 → 철회는 호재</li><li>서울경제: "솔리다임 상장 중단에도 외국인 하이닉스 팔았다"</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://x.com/factchartt/status/2113539815140679845" target="_blank" rel="noopener"><i></i>factchartt</a><a class="schip" style="--c:#64748b" href="https://x.com/Jaymin_Alpha/status/2113538337478947123" target="_blank" rel="noopener"><i></i>Jaymin_Alpha</a><a class="schip" style="--c:#64748b" href="https://x.com/TechSaurus/status/2113529422863331456" target="_blank" rel="noopener"><i></i>TechSaurus</a><a class="schip" style="--c:#64748b" href="https://x.com/sedaily_com/status/2113490844217201030" target="_blank" rel="noopener"><i></i>sedaily_com</a></div></div></div><h3>ApeWisdom Reddit mention proxy (all-stocks)</h3><div class="box" style="padding:0;overflow:auto"><table class="wide"><thead><tr><th class="n">Rank</th><th class="">Ticker</th><th class="">Name</th><th class="n">Mentions</th><th class="n">24h ago</th><th class="n">Rank 24h</th></tr></thead><tbody><tr><td class="n">1</td><td class="">SPY</td><td class="">SPDR S&P 500 ETF Trust</td><td class="n">317</td><td class="n">213</td><td class="n">5</td></tr><tr><td class="n">2</td><td class="">MU</td><td class="">Micron Technology</td><td class="n">283</td><td class="n">213</td><td class="n">4</td></tr><tr><td class="n">3</td><td class="">QQQ</td><td class="">Invesco QQQ ETF</td><td class="n">239</td><td class="n">110</td><td class="n">9</td></tr><tr><td class="n">4</td><td class="">META</td><td class="">Meta Platforms (Facebook)</td><td class="n">189</td><td class="n">338</td><td class="n">1</td></tr><tr><td class="n">5</td><td class="">WDC</td><td class="">Western Digital</td><td class="n">171</td><td class="n">9</td><td class="n">60</td></tr><tr><td class="n">6</td><td class="">MRNA</td><td class="">Moderna</td><td class="n">156</td><td class="n">25</td><td class="n">22</td></tr><tr><td class="n">7</td><td class="">SOXL</td><td class="">Direxion Shares ETF Trust - Direxion Dai</td><td class="n">133</td><td class="n">31</td><td class="n">26</td></tr><tr><td class="n">8</td><td class="">BE</td><td class="">Bloom Energy</td><td class="n">126</td><td class="n">19</td><td class="n">29</td></tr><tr><td class="n">9</td><td class="">NVDA</td><td class="">NVIDIA</td><td class="n">115</td><td class="n">56</td><td class="n">15</td></tr><tr><td class="n">10</td><td class="">NBIS</td><td class="">Nebius Group</td><td class="n">115</td><td class="n">105</td><td class="n">8</td></tr><tr><td class="n">11</td><td class="">TSLA</td><td class="">Tesla</td><td class="n">111</td><td class="n">234</td><td class="n">3</td></tr><tr><td class="n">12</td><td class="">SPCX</td><td class="">SpaceX</td><td class="n">104</td><td class="n">228</td><td class="n">2</td></tr><tr><td class="n">13</td><td class="">DTE</td><td class="">DTE Energy</td><td class="n">85</td><td class="n">40</td><td class="n">17</td></tr><tr><td class="n">14</td><td class="">AMD</td><td class="">AMD</td><td class="n">80</td><td class="n">24</td><td class="n">27</td></tr><tr><td class="n">15</td><td class="">SNDK</td><td class="">Sandisk</td><td class="n">80</td><td class="n">70</td><td class="n">12</td></tr></tbody></table></div><p class="note">https://apewisdom.io/api/v1.0/filter/all-stocks · Reddit 원문 스레드 미확보</p><div class="box"><h4>ApeWisdom 읽기</h4><ul class="list"><li><b>관심 이동</b>: META·TSLA·SPCX(실적 후 −45~55%) → MU·<b>WDC 9→171</b>·SOXL 31→133·BE 19→126·AMD</li><li>SPY·QQQ 언급 증가: 지수 헤지·풋 대화</li><li>MRNA 25→156 급증, 사유 <span class="pill unv">미확인</span></li><li>r/stocks는 VOO·RSP·VXUS 등 방어적</li><li>언급 히트일 뿐 롱/숏 합의 아님 <span class="pill unv">미확인</span></li></ul></div>
+</section>
+<section class="sec" id="s7">
+  <div class="sh"><span class="no">07</span><h2>Telegram Research 3.7.4 · Equity Intelligence 3.7.3.1 상태</h2><span class="sub">PARTIAL / NEEDS_REVIEW</span></div>
+<div class="statusbar"><div class="st"><span>TR 3.7.4</span><b>PARTIAL / NEEDS_REVIEW</b></div><div class="st"><span>handoff_required</span><b>true</b></div><div class="st"><span>EI 3.7.3.1</span><b>실행 중 (결과는 별도 회신)</b></div><div class="st"><span>프로토콜</span><b>deep-research-return/3.7.4</b></div><p>수집 2,142건 중 ChatGPT 전달 발췌 40건 · 독립 출처 21개 채널 · 클레임 클러스터 37 · Stage 2 20 · 마지막 표본 13:10 KST (전체 검증 아님) · 반영 소스: tr_status.json + tr_answer.txt(내장 JSON)</p></div><div class="box"><h4>TR 핵심 팩트체크</h4><ul class="list"><li>코스피 5,550.30(+0.30%, 장중 −4.12%에서 반전)·코스닥 751.69(−1.62%)·닛케이 62,693.16(−0.34%) ✅ · 외국인 −9,928억/기관 +8,723억은 패킷 잠정 🟡</li><li>SK하이닉스: 솔리다임 프리IPO·IPO 검토 중단 회사 공식 발표 ✅ · 영구 상장 포기 아님, 투자 필요성 유지 → P0 핸드오프</li><li>삼성E&A: 3Q 영업이익 5,006억 · 자사주 취득 7,800억/소각 6,900억 회사 발표 ✅ (두 금액 혼동 금지)</li><li>삼성전기 Tesla 1.1조·NVIDIA 2.6조 투자 보도 🟡 세부 1차 확인 필요 · 아이패밀리에스씨 12,000원 공개매수 보도 🟡 원 공시 대조 필요</li><li>신풍제약: 임상3상 시험계획 변경 승인 🟡 ≠ 임상 성공</li><li>북한 지도자 사망설 ⚠️ 근거 미확인, 사실로 발행 불가 · PHM 매출 TG $4.2B vs 외부 약 $3.97B ⚠️ 불일치</li><li>美 10/22: SOX 10,731.98(−6.72%) ✅ · WDC FY27 Q1 매출 $4.38B·EPS $4.64 ✅ · Meta FCF −$2.12B·2026 CapEx $135~145B ✅(순이익 흑자)</li><li>F-35 850대·10년 기본협약 🟡 최종 개별 발주계약 아님 · Anthropic 공개 S-1·11월 IPO ⚠️ 미확인</li><li>브렌트 $109.88 vs 약 $114.5 ⚠️ 계약·시각 차이 미해결 · X 직접 자료 미확보, Reddit 표본 제한</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621" target="_blank" rel="noopener"><i></i>TR 채팅</a></div></div><div class="box"><h4>Equity Intelligence 3.7.3.1</h4><ul class="list"><li>대상: SK하이닉스/솔리다임(000660) P0: 솔리다임 pre-IPO·IPO 검토 중단, 투자 필요성 유지 (+추가 핸드오프 7건: CL-006·007·008·010·014·022·023)</li><li>상태: 실행 중 (결과는 별도 회신)</li><li>질문: 자금조달·투자재원 경로, 중복상장 할인 변화, NAND 투자·경쟁구도, 반대증거·무효화 조건 (목표가 제시 금지)</li><li>프로토콜 deep-research-return/3.7.4 · RUN_ID 동일 · Thinking High · 심층 결과는 이 요약과 분리해 별도 회신</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6adb35b3-c2ac-83e8-8c8e-fb9f47904146" target="_blank" rel="noopener"><i></i>EI 채팅</a></div></div><details class="cfold bf k-unresolved"><summary><b class="ft">미해결 항목 (unresolved_items)</b><span class="fcnt">미해결 12개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb"><ul class="limits"><li>Full 2142-record collector bundle unavailable; only 40 compact records received</li><li>Source raw_text already truncated upstream in multiple records</li><li>No post-13:10 KST Telegram sample available</li><li>Brent oil pricing conflict unresolved</li><li>Samsung Electro-Mechanics investment amounts not fully primary-confirmed</li><li>PHM revenue conflict requires source-level correction</li><li>F-35 framework must not be treated as final purchase order</li><li>Anthropic S-1 and IPO timetable unverified</li><li>North Korean leadership death rumor unverified</li><li>Direct X sentiment sample unavailable</li><li>Individual Telegram source counts must not be equated with independent evidence</li><li>Publication requires manual review and completion of missing source coverage</li></ul></div></details><details class="fold"><summary>Telegram Research 3.7.4 원문<small>verbatim</small></summary><div class="fb"><div class="md"><h2>Telegram Research 3.7.4 · 장마감 검증 결과</h2>
+<p>PARTIAL · NEEDS_REVIEW</p>
+<p>RUN_ID: <code>TR-20261023-1900-daily-close</code></p>
+<p>2026년 10월 23일 장마감 자료에서 핵심 시장 수치와 주요 기업 이벤트는 상당 부분 외부 검증이 완료됐습니다. 그러나 현재 전달된 패킷은 전체 2,142건 중 40건의 발췌본이며, 실제 확인 가능한 출처는 21개 채널입니다. 마지막 수집 메시지도 13:10 KST에 끝나므로 전체 텔레그램 자료에 대한 검증 완료로 처리할 수 없습니다.</p>
+<p>주요 검증 결과는 다음과 같습니다.</p>
+<ul><li>SK하이닉스: 솔리다임 IPO 검토 중단은 회사 공식 발표로 확인됐습니다. 다만 투자 필요성 자체가 사라진 것은 아닙니다.&amp;#x20;</li></ul>
+<p>  <a href="https://www.google.com/s2/favicons?domain=https://news.skhynix.com&amp;sz=32" target="_blank" rel="noopener">image</a></p>
+<p>  SK hynix Newsroom</p>
+<p>  +1</p>
+<ul><li>삼성E&amp;A: 3분기 영업이익 5,006억원, 자사주 취득 7,800억원·소각 6,900억원을 회사 발표로 확인했습니다. 두 금액을 혼동하면 안 됩니다.&amp;#x20;</li></ul>
+<p>  <a href="https://www.google.com/s2/favicons?domain=https://ssa.samsungena.com&amp;sz=32" target="_blank" rel="noopener">image</a></p>
+<p>  ssa.samsungena.com</p>
+<ul><li>삼성전기: 테슬라·엔비디아 투자 규모는 보도됐지만, 보도 내용 전체를 확정 공시로 취급해서는 안 됩니다.&amp;#x20;</li></ul>
+<p>  <a href="https://www.google.com/s2/favicons?domain=https://www.mk.co.kr&amp;sz=32" target="_blank" rel="noopener">image</a></p>
+<p>  MK</p>
+<p>  +1</p>
+<ul><li>방산주 관련 북한 지도자 사망설: 근거가 확인되지 않은 루머로, 사실로 발행할 수 없습니다.&amp;#x20;</li></ul>
+<p>  <a href="https://www.google.com/s2/favicons?domain=https://en.sedaily.com&amp;sz=32" target="_blank" rel="noopener">image</a></p>
+<p>  Seoul Economic Daily</p>
+<ul><li>미국 반도체지수: 10월 22일 SOX 10,731.98, -6.72%는 나스닥 지수 제공 자료와 일치합니다.&amp;#x20;</li></ul>
+<p>  <a href="https://www.google.com/s2/favicons?domain=https://indexes.nasdaq.com&amp;sz=32" target="_blank" rel="noopener">image</a></p>
+<p>  indexes.nasdaq.com</p>
+<p>따라서 검증된 사실 중심의 텔레그램 초안은 작성하되, 오케스트레이터의 자동 게시 승인은 보류합니다.</p>
+<h2>생성된 결과물</h2>
+<p>오케스트레이터 반환 JSON</p>
+<p>텔레그램 발행 초안 · 3개 메시지</p>
+<p>HTML 검증 보고서 · 38개 분석 항목</p>
+<p>원문 보존 및 메시지별 스크리닝 기록</p>
+<p>전체 주장 클러스터·검증 감사 데이터</p>
+<p>Equity Intelligence 3.7.3.1 심층분석 핸드오프 8건</p>
+<p>증거원장 CSV</p>
+<p>자동 게시를 위한 승인 조건은 충족하지 못했습니다. 아래는 오케스트레이터가 사용할 최종 반환 요약입니다. 원문이 포함된 완전한 반환 객체는 위 JSON 파일에 보존했습니다.</p>
+<p>ORCHESTRATOR_RETURN</p>
+<pre class="raw">
+{
+  &quot;protocol&quot;: &quot;telegram-research-orchestrator-return/3.7.4&quot;,
+  &quot;run_id&quot;: &quot;TR-20261023-1900-daily-close&quot;,
+  &quot;status&quot;: &quot;PARTIAL&quot;,
+  &quot;batch_summary&quot;: {
+    &quot;raw_messages&quot;: 40,
+    &quot;independent_sources&quot;: 21,
+    &quot;claim_clusters&quot;: 37,
+    &quot;stage2_selected&quot;: 20
+  },
+  &quot;publish_decision&quot;: &quot;NEEDS_REVIEW&quot;,
+  &quot;publish_format&quot;: &quot;detailed&quot;,
+  &quot;presentation_style&quot;: &quot;standard_rich&quot;,
+  &quot;telegram_text&quot;: &quot;&quot;,
+  &quot;telegram_messages&quot;: [
+    &quot;(1/3) 📊 10/23(금) 한·일 장마감 | 19:06 KST 집계\n\n✅ 코스피 5,550.30(+0.30%), 장중 -4.12%에서 급반전. 코스닥 751.69(-1.62%).\n✅ SK하이닉스 +4.42%: 솔리다임 IPO 검토 중단 공식 확인.\n🟡 외국인 -9,928억원, 기관 +8,723억원(수집 패킷 잠정).\n✅ 닛케이 62,693.16(-0.34%).\n\n■ 미국 10/22\n나스닥 -2.60%, S&amp;P500 -1.21%, SOX -6.72%. AI 반도체·신용 위험 우려 집중.\n⚠️ 브렌트유 109.88달러와 약 114.5달러의 계약·시각 차이 미해결.\n\n출처: https://news.skhynix.com/en/fact-12/\nhttps://en.sedaily.com/finance/2026/10/23/kospi-rebounds-as-sk-hynix-halts-solidigm-ipo-review&quot;,
+    &quot;(2/3) 🔎 주요 기업 이벤트 검증\n\n✅ 삼성E&amp;A: 영업이익 5,006억원, 자사주 취득 7,800억원·소각 6,900억원.\n🟡 삼성전기: Tesla 1.1조원·NVIDIA 2.6조원 투자 보도. 세부 투자금 1차 확인 필요.\n🟡 아이패밀리에스씨: 주당 12,000원 공개매수 보도. 원 공시 대조 필요.\n🟡 신풍제약: 임상3상 시험계획 변경 승인. 임상 성공 아님.\n⚠️ 북한 지도자 사망설: 근거 미확인.\n⚠️ PHM: Telegram 매출 $4.2B와 외부 확인치 약 $3.97B 불일치.\n\n출처: https://ssa.samsungena.com/en/newsroom/news/view?idx=15855\nhttps://www.mk.co.kr/en/business/12183237\nhttps://newsroom.pultegroupinc.com/273672-pultegroup-reports-third-quarter-2026-financial-results/&quot;,
+    &quot;(3/3) 🌎 미국장 및 다음주 체크\n\n오늘 밤: AXP·SLB 실적 예정, 미국 PMI·미시간 소비자심리 일정 확인, AI 하드웨어 반등 여부 관찰.\n✅ WDC FY27 Q1 매출 $4.38B·EPS $4.64.\n✅ Meta FCF -$2.12B, 2026 CapEx 전망 $135~145B. 순이익은 흑자.\n🟡 F-35 850대·10년 기본협약 확인. 최종 개별 발주계약은 아님.\n⚠️ Anthropic 공개 S-1 제출 여부 및 11월 IPO 전망 미확인.\n⚠️ Reddit 의견 표본 제한, X 직접 자료 미확보.\n\n다음주: FOMC 10/27~28, BOJ 10/29~30, MSFT 10/28 실적 예정.\n\n⚠️ 전체 2,142건 중 실제 전달된 원문은 40건. 자동게시 보류.\n\n공식 일정: https://www.federalreserve.gov/newsevents/2026-october.htm?view=calendar\nhttps://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm&quot;
+  ],
+  &quot;html_report&quot;: {
+    &quot;status&quot;: &quot;AVAILABLE&quot;,
+    &quot;filename&quot;: &quot;TR-20261023-1900-audit.html&quot;
+  },
+  &quot;handoff_required&quot;: true,
+  &quot;handoff_priority&quot;: &quot;P0&quot;,
+  &quot;handoff_packet&quot;: {
+    &quot;handoff_id&quot;: &quot;TR-20261023-1900-daily-close-CL-004&quot;,
+    &quot;generated_at&quot;: &quot;2026-10-23T19:18:13+09:00&quot;,
+    &quot;entity_name&quot;: &quot;SK하이닉스 / 솔리다임&quot;,
+    &quot;ticker&quot;: &quot;000660&quot;,
+    &quot;exchange&quot;: &quot;KRX&quot;,
+    &quot;entity_match_confidence&quot;: &quot;high&quot;,
+    &quot;research_priority&quot;: &quot;P0&quot;,
+    &quot;trigger_claim&quot;: {
+      &quot;canonical_claim&quot;: &quot;솔리다임의 pre-IPO 및 IPO 검토 중단. 투자 필요성은 유지&quot;,
+      &quot;claim_nature&quot;: &quot;factual&quot;,
+      &quot;event_date&quot;: &quot;2026-10-23&quot;,
+      &quot;why_material&quot;: &quot;자금조달, 투자재원 및 주주가치 평가에 영향 가능&quot;,
+      &quot;hard_trigger_class&quot;: &quot;financing / subsidiary IPO strategy&quot;
+    },
+    &quot;evidence_state&quot;: {
+      &quot;verified&quot;: [
+        {
+          &quot;fact&quot;: &quot;솔리다임 IPO 검토 중단&quot;,
+          &quot;source&quot;: &quot;https://news.skhynix.com/en/fact-12/&quot;,
+          &quot;date&quot;: &quot;2026-10-23&quot;,
+          &quot;evidence_tier&quot;: &quot;PRIMARY&quot;
+        }
+      ],
+      &quot;partially_verified&quot;: [],
+      &quot;unverified_telegram_only&quot;: [],
+      &quot;counter_evidence_conflicts&quot;: [
+        {
+          &quot;item&quot;: &quot;IPO 검토 중단은 영구적인 상장 포기 확정이 아님&quot;,
+          &quot;source&quot;: &quot;https://news.skhynix.com/en/fact-12/&quot;,
+          &quot;implication&quot;: &quot;향후 자금조달 대안을 별도 확인&quot;
+        }
+      ]
+    },
+    &quot;source_bundle&quot;: {
+      &quot;telegram_origin_refs&quot;: [
+        &quot;https://t.me/easobi/17039&quot;,
+        &quot;https://t.me/selfstudyview/9881&quot;
+      ],
+      &quot;primary_refs&quot;: [
+        &quot;https://news.skhynix.com/en/fact-12/&quot;
+      ],
+      &quot;secondary_refs&quot;: [
+        &quot;https://en.sedaily.com/finance/2026/10/23/kospi-rebounds-as-sk-hynix-halts-solidigm-ipo-review&quot;
+      ],
+      &quot;attachments_filings&quot;: []
+    },
+    &quot;why_deep_research_is_needed&quot;: {
+      &quot;possible_earnings_estimate_effect&quot;: &quot;미국 설비투자와 자금조달 비용 재검토&quot;,
+      &quot;possible_thesis_change&quot;: &quot;중복상장 할인과 투자재원 부담의 상대적 변화&quot;,
+      &quot;valuation_implication_to_test&quot;: &quot;기업가치 평가 가정 변화 검증, 목표가 제시 금지&quot;,
+      &quot;price_volume_context_to_verify&quot;: &quot;SK하이닉스 종가 +4.42% 및 수급 재확인&quot;,
+      &quot;industry_policy_propagation_question&quot;: &quot;NAND 투자 및 메모리 산업 경쟁구도 영향&quot;
+    },
+    &quot;mandatory_questions&quot;: [
+      &quot;텔레그램 기원 주장을 독립적으로 재검증할 것&quot;,
+      &quot;재무적 전달경로와 영향 규모를 검토할 것&quot;,
+      &quot;기존 시장 예상 대비 새로운 정보인지 구분할 것&quot;,
+      &quot;공시와 IR에서 투자·자금조달 조건을 확인할 것&quot;,
+      &quot;반대증거와 대안적 해석을 확인할 것&quot;,
+      &quot;실적·투자논리·기업가치·수급 영향을 구분할 것&quot;,
+      &quot;향후 확인·무효화 조건을 제시할 것&quot;
+    ],
+    &quot;constraint&quot;: &quot;Research lead only; no target price, sizing or trading instructions&quot;,
+    &quot;target_project&quot;: &quot;Equity Intelligence 3.7.3.1&quot;,
+    &quot;return_protocol&quot;: &quot;deep-research-return/3.7.4&quot;,
+    &quot;run_id&quot;: &quot;TR-20261023-1900-daily-close&quot;,
+    &quot;additional_handoff_ids&quot;: [
+      &quot;TR-20261023-1900-daily-close-CL-006&quot;,
+      &quot;TR-20261023-1900-daily-close-CL-007&quot;,
+      &quot;TR-20261023-1900-daily-close-CL-008&quot;,
+      &quot;TR-20261023-1900-daily-close-CL-010&quot;,
+      &quot;TR-20261023-1900-daily-close-CL-014&quot;,
+      &quot;TR-20261023-1900-daily-close-CL-022&quot;,
+      &quot;TR-20261023-1900-daily-close-CL-023&quot;
+    ],
+    &quot;additional_handoff_bundle&quot;: &quot;deep_research_handoffs.json&quot;
+  },
+  &quot;source_refs&quot;: [
+    &quot;https://news.skhynix.com/en/fact-12/&quot;,
+    &quot;https://ssa.samsungena.com/en/newsroom/news/view?idx=15855&quot;,
+    &quot;https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm&quot;,
+    &quot;https://www.lockheedmartin.com/f35/news-and-features/New-Framework-Agreement-for-Multiyear-F-35-Production-and-Sustainment.html&quot;,
+    &quot;https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-first-quarter-2027-financial-results&quot;,
+    &quot;https://www.rexel.com/en/q3-2026-sales&quot;,
+    &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148974113&quot;
+  ],
+  &quot;unresolved_items&quot;: [
+    &quot;Full 2142-record collector bundle unavailable; only 40 compact records received&quot;,
+    &quot;Source raw_text already truncated upstream in multiple records&quot;,
+    &quot;No post-13:10 KST Telegram sample available&quot;,
+    &quot;Brent oil pricing conflict unresolved&quot;,
+    &quot;Samsung Electro-Mechanics investment amounts not fully primary-confirmed&quot;,
+    &quot;PHM revenue conflict requires source-level correction&quot;,
+    &quot;F-35 framework must not be treated as final purchase order&quot;,
+    &quot;Anthropic S-1 and IPO timetable unverified&quot;,
+    &quot;North Korean leadership death rumor unverified&quot;,
+    &quot;Direct X sentiment sample unavailable&quot;,
+    &quot;Individual Telegram source counts must not be equated with independent evidence&quot;,
+    &quot;Publication requires manual review and completion of missing source coverage&quot;
+  ]
+}
+</pre></div></div></details><details class="fold"><summary>ORCHESTRATOR_RETURN JSON<small>telegram-research-orchestrator-return/3.7.4</small></summary><div class="fb"><div class="md"><pre class="raw">{
+ &quot;protocol&quot;: &quot;telegram-research-orchestrator-return/3.7.4&quot;,
+ &quot;run_id&quot;: &quot;TR-20261023-1900-daily-close&quot;,
+ &quot;status&quot;: &quot;PARTIAL&quot;,
+ &quot;batch_summary&quot;: {
+  &quot;raw_messages&quot;: 40,
+  &quot;independent_sources&quot;: 21,
+  &quot;claim_clusters&quot;: 37,
+  &quot;stage2_selected&quot;: 20
+ },
+ &quot;publish_decision&quot;: &quot;NEEDS_REVIEW&quot;,
+ &quot;publish_format&quot;: &quot;detailed&quot;,
+ &quot;presentation_style&quot;: &quot;standard_rich&quot;,
+ &quot;telegram_text&quot;: &quot;&quot;,
+ &quot;telegram_messages&quot;: [
+  &quot;(1/3) 📊 10/23(금) 한·일 장마감 | 19:06 KST 집계\n\n✅ 코스피 5,550.30(+0.30%), 장중 -4.12%에서 급반전. 코스닥 751.69(-1.62%).\n✅ SK하이닉스 +4.42%: 솔리다임 IPO 검토 중단 공식 확인.\n🟡 외국인 -9,928억원, 기관 +8,723억원(수집 패킷 잠정).\n✅ 닛케이 62,693.16(-0.34%).\n\n■ 미국 10/22\n나스닥 -2.60%, S&amp;P500 -1.21%, SOX -6.72%. AI 반도체·신용 위험 우려 집중.\n⚠️ 브렌트유 109.88달러와 약 114.5달러의 계약·시각 차이 미해결.\n\n출처: https://news.skhynix.com/en/fact-12/\nhttps://en.sedaily.com/finance/2026/10/23/kospi-rebounds-as-sk-hynix-halts-solidigm-ipo-review&quot;,
+  &quot;(2/3) 🔎 주요 기업 이벤트 검증\n\n✅ 삼성E&amp;A: 영업이익 5,006억원, 자사주 취득 7,800억원·소각 6,900억원.\n🟡 삼성전기: Tesla 1.1조원·NVIDIA 2.6조원 투자 보도. 세부 투자금 1차 확인 필요.\n🟡 아이패밀리에스씨: 주당 12,000원 공개매수 보도. 원 공시 대조 필요.\n🟡 신풍제약: 임상3상 시험계획 변경 승인. 임상 성공 아님.\n⚠️ 북한 지도자 사망설: 근거 미확인.\n⚠️ PHM: Telegram 매출 $4.2B와 외부 확인치 약 $3.97B 불일치.\n\n출처: https://ssa.samsungena.com/en/newsroom/news/view?idx=15855\nhttps://www.mk.co.kr/en/business/12183237\nhttps://newsroom.pultegroupinc.com/273672-pultegroup-reports-third-quarter-2026-financial-results/&quot;,
+  &quot;(3/3) 🌎 미국장 및 다음주 체크\n\n오늘 밤: AXP·SLB 실적 예정, 미국 PMI·미시간 소비자심리 일정 확인, AI 하드웨어 반등 여부 관찰.\n✅ WDC FY27 Q1 매출 $4.38B·EPS $4.64.\n✅ Meta FCF -$2.12B, 2026 CapEx 전망 $135~145B. 순이익은 흑자.\n🟡 F-35 850대·10년 기본협약 확인. 최종 개별 발주계약은 아님.\n⚠️ Anthropic 공개 S-1 제출 여부 및 11월 IPO 전망 미확인.\n⚠️ Reddit 의견 표본 제한, X 직접 자료 미확보.\n\n다음주: FOMC 10/27~28, BOJ 10/29~30, MSFT 10/28 실적 예정.\n\n⚠️ 전체 2,142건 중 실제 전달된 원문은 40건. 자동게시 보류.\n\n공식 일정: https://www.federalreserve.gov/newsevents/2026-october.htm?view=calendar\nhttps://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm&quot;
+ ],
+ &quot;html_report&quot;: {
+  &quot;status&quot;: &quot;AVAILABLE&quot;,
+  &quot;filename&quot;: &quot;TR-20261023-1900-audit.html&quot;
+ },
+ &quot;handoff_required&quot;: true,
+ &quot;handoff_priority&quot;: &quot;P0&quot;,
+ &quot;handoff_packet&quot;: {
+  &quot;handoff_id&quot;: &quot;TR-20261023-1900-daily-close-CL-004&quot;,
+  &quot;generated_at&quot;: &quot;2026-10-23T19:18:13+09:00&quot;,
+  &quot;entity_name&quot;: &quot;SK하이닉스 / 솔리다임&quot;,
+  &quot;ticker&quot;: &quot;000660&quot;,
+  &quot;exchange&quot;: &quot;KRX&quot;,
+  &quot;entity_match_confidence&quot;: &quot;high&quot;,
+  &quot;research_priority&quot;: &quot;P0&quot;,
+  &quot;trigger_claim&quot;: {
+   &quot;canonical_claim&quot;: &quot;솔리다임의 pre-IPO 및 IPO 검토 중단. 투자 필요성은 유지&quot;,
+   &quot;claim_nature&quot;: &quot;factual&quot;,
+   &quot;event_date&quot;: &quot;2026-10-23&quot;,
+   &quot;why_material&quot;: &quot;자금조달, 투자재원 및 주주가치 평가에 영향 가능&quot;,
+   &quot;hard_trigger_class&quot;: &quot;financing / subsidiary IPO strategy&quot;
+  },
+  &quot;evidence_state&quot;: {
+   &quot;verified&quot;: [
+    {
+     &quot;fact&quot;: &quot;솔리다임 IPO 검토 중단&quot;,
+     &quot;source&quot;: &quot;https://news.skhynix.com/en/fact-12/&quot;,
+     &quot;date&quot;: &quot;2026-10-23&quot;,
+     &quot;evidence_tier&quot;: &quot;PRIMARY&quot;
+    }
+   ],
+   &quot;partially_verified&quot;: [],
+   &quot;unverified_telegram_only&quot;: [],
+   &quot;counter_evidence_conflicts&quot;: [
+    {
+     &quot;item&quot;: &quot;IPO 검토 중단은 영구적인 상장 포기 확정이 아님&quot;,
+     &quot;source&quot;: &quot;https://news.skhynix.com/en/fact-12/&quot;,
+     &quot;implication&quot;: &quot;향후 자금조달 대안을 별도 확인&quot;
+    }
+   ]
+  },
+  &quot;source_bundle&quot;: {
+   &quot;telegram_origin_refs&quot;: [
+    &quot;https://t.me/easobi/17039&quot;,
+    &quot;https://t.me/selfstudyview/9881&quot;
+   ],
+   &quot;primary_refs&quot;: [
+    &quot;https://news.skhynix.com/en/fact-12/&quot;
+   ],
+   &quot;secondary_refs&quot;: [
+    &quot;https://en.sedaily.com/finance/2026/10/23/kospi-rebounds-as-sk-hynix-halts-solidigm-ipo-review&quot;
+   ],
+   &quot;attachments_filings&quot;: []
+  },
+  &quot;why_deep_research_is_needed&quot;: {
+   &quot;possible_earnings_estimate_effect&quot;: &quot;미국 설비투자와 자금조달 비용 재검토&quot;,
+   &quot;possible_thesis_change&quot;: &quot;중복상장 할인과 투자재원 부담의 상대적 변화&quot;,
+   &quot;valuation_implication_to_test&quot;: &quot;기업가치 평가 가정 변화 검증, 목표가 제시 금지&quot;,
+   &quot;price_volume_context_to_verify&quot;: &quot;SK하이닉스 종가 +4.42% 및 수급 재확인&quot;,
+   &quot;industry_policy_propagation_question&quot;: &quot;NAND 투자 및 메모리 산업 경쟁구도 영향&quot;
+  },
+  &quot;mandatory_questions&quot;: [
+   &quot;텔레그램 기원 주장을 독립적으로 재검증할 것&quot;,
+   &quot;재무적 전달경로와 영향 규모를 검토할 것&quot;,
+   &quot;기존 시장 예상 대비 새로운 정보인지 구분할 것&quot;,
+   &quot;공시와 IR에서 투자·자금조달 조건을 확인할 것&quot;,
+   &quot;반대증거와 대안적 해석을 확인할 것&quot;,
+   &quot;실적·투자논리·기업가치·수급 영향을 구분할 것&quot;,
+   &quot;향후 확인·무효화 조건을 제시할 것&quot;
+  ],
+  &quot;constraint&quot;: &quot;Research lead only; no target price, sizing or trading instructions&quot;,
+  &quot;target_project&quot;: &quot;Equity Intelligence 3.7.3.1&quot;,
+  &quot;return_protocol&quot;: &quot;deep-research-return/3.7.4&quot;,
+  &quot;run_id&quot;: &quot;TR-20261023-1900-daily-close&quot;,
+  &quot;additional_handoff_ids&quot;: [
+   &quot;TR-20261023-1900-daily-close-CL-006&quot;,
+   &quot;TR-20261023-1900-daily-close-CL-007&quot;,
+   &quot;TR-20261023-1900-daily-close-CL-008&quot;,
+   &quot;TR-20261023-1900-daily-close-CL-010&quot;,
+   &quot;TR-20261023-1900-daily-close-CL-014&quot;,
+   &quot;TR-20261023-1900-daily-close-CL-022&quot;,
+   &quot;TR-20261023-1900-daily-close-CL-023&quot;
+  ],
+  &quot;additional_handoff_bundle&quot;: &quot;deep_research_handoffs.json&quot;
+ },
+ &quot;source_refs&quot;: [
+  &quot;https://news.skhynix.com/en/fact-12/&quot;,
+  &quot;https://ssa.samsungena.com/en/newsroom/news/view?idx=15855&quot;,
+  &quot;https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm&quot;,
+  &quot;https://www.lockheedmartin.com/f35/news-and-features/New-Framework-Agreement-for-Multiyear-F-35-Production-and-Sustainment.html&quot;,
+  &quot;https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-first-quarter-2027-financial-results&quot;,
+  &quot;https://www.rexel.com/en/q3-2026-sales&quot;,
+  &quot;https://www.korea.kr/news/policyNewsView.do?newsId=148974113&quot;
+ ],
+ &quot;unresolved_items&quot;: [
+  &quot;Full 2142-record collector bundle unavailable; only 40 compact records received&quot;,
+  &quot;Source raw_text already truncated upstream in multiple records&quot;,
+  &quot;No post-13:10 KST Telegram sample available&quot;,
+  &quot;Brent oil pricing conflict unresolved&quot;,
+  &quot;Samsung Electro-Mechanics investment amounts not fully primary-confirmed&quot;,
+  &quot;PHM revenue conflict requires source-level correction&quot;,
+  &quot;F-35 framework must not be treated as final purchase order&quot;,
+  &quot;Anthropic S-1 and IPO timetable unverified&quot;,
+  &quot;North Korean leadership death rumor unverified&quot;,
+  &quot;Direct X sentiment sample unavailable&quot;,
+  &quot;Individual Telegram source counts must not be equated with independent evidence&quot;,
+  &quot;Publication requires manual review and completion of missing source coverage&quot;
+ ]
+}</pre></div></div></details>
+</section>
+<section class="sec" id="s8">
+  <div class="sh"><span class="no">08</span><h2>주말 · 월요일 체크포인트 (KST)</h2><span class="sub">10/23 밤 · 10/24~25 주말 · 10/26 개장 · FOMC 주간</span></div>
+<ol class="checks"><li>오늘밤: 22:30 개장 SOX 200일선 · 22:45 S&P PMI · 23:00 미시간 확정치·기대인플레 · Anthropic S-1 공개 여부 · AXP·SLB 반응 · WDC 시간외 −6.5% 지속 여부</li><li>토 05:00 美 마감 → 주말 사이 국내 반도체·AI 인프라 심리 결정</li><li>주말: 후티·美 증파·이란 경고 등 중동 이벤트, 월요일 유가 갭 리스크</li><li>주말: 김정은 공개활동 재개 여부(신변이상설 <span class="pill unv">미확인</span>) → 월요일 방산 테마 되돌림 변수 · 주말 정책 이슈(중복상장·사이버위기 경보)</li><li>월 10/26 개장: 코스피 5,500 안착 여부(금 저점 5,305.98) · 외국인 매도 vs 기관 매수 지속 · SK하이닉스 1,277,000 유지</li><li>월: 삼성E&A·삼성바이오 탄력 · 상한가 9종목 다음날 · 아이패밀리에스씨 공개매수가 괴리 · 공모주 변동성 · 원/달러 1,320원대</li><li>FOMC 주간: 10/27~28 회의 → 10/29(목) 03:00 KST 결정·03:30 파월 · 10/28 장후 MSFT·GOOGL · 10/28 SK하이닉스 3Q · 10/29 장후 AMZN · BOJ 10/30 결정</li><li>다음: 11/1 美 서머타임 종료(개장 23:30 KST) · 11/2 AAPL · 11/3 美 중간선거 · 11/26 금통위</li></ol><div class="concl"><div class="lab">운영 메모</div><p>오늘은 <span class="hl">하이닉스 개별 호재 + 기관</span>이 지수를 구했지만 시장 폭은 최악 수준. 월요일은 <span class="hl">美 금요일 반도체 반등 여부와 FOMC 경계</span>가 1차 분기점.</p></div>
+</section>
+<section class="sec sfold" id="s9">
+  <details class="cfold k-coverage"><summary><span class="no">09</span><b class="ft">커버리지 한계 · 미확인</b><span class="fcnt">한계·미확인 14개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<ul class="limits"><li>GramJS 2,142건 / 73채널 (10/22 18:50~10/23 19:02). 비구독·삭제·편집 누락 가능. 키워드 카운트는 반복 게시로 과대 가능</li><li>Telegram Research 3.7.4: PARTIAL / NEEDS_REVIEW · Equity Intelligence 3.7.3.1: 실행 중 (결과는 별도 회신)</li><li>Yahoo ^TOPX/998405.T Not Found → TOPIX는 JPX 商況プリント</li><li>Reddit hot.json 403 → ApeWisdom 집계만</li><li>美 2Y 공식값 미수집(2YY=F stale)</li><li>외국인 순매도 KRX 잠정 −9,928억 vs 서경봇 −9,941억 vs NXT 합산 −1.09조 상이</li><li>퓨쳐켐 종가 상승률 소스별 상이(+29.91% vs +26.73%)</li><li>브렌트 Yahoo(109.7) vs 보도($114.5) 불일치: 계약월 차이 추정</li><li>컨텍·윙스풋 상한가 재료 미확인</li><li>김정은 신변이상설은 미확인 루머</li><li>biggo의 'Amazon 3Q 매출 미스·캡엑스 하향' 서술은 AMZN 실적일(10/29)과 맞지 않아 제외(미검증)</li><li>MRNA WSB 언급 급증 사유 미확인</li><li>노을 상한가 사유: 스냅샷 "신사업 진출" vs TG "27.5억 제3자배정 유증" <span class="pill part">소스 상이</span></li><li>해외 X는 Grok 요약·저노출 계정 포함 → 전부 <span class="pill unv">미확인</span></li></ul>
+</div></details>
+</section>
+<section class="sec sfold" id="s10">
+  <details class="cfold k-sources"><summary><span class="no">10</span><b class="ft">출처</b><span class="fcnt">출처 55개 · 텔레그램 원문 36건 · 게시본 12개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<div class="box"><h4>보고서 만드는방 게시본 (12파트 · GramJS)</h4><ul class="list"><li>(1/12) 📊 10/23(금) 장마감 브리핑: 코스피 장중 −4.12% → +0.30% V자, 하이닉스 솔리다임 IPO 철회  ·  https://t.me/c/3969423687/1187</li><li>(2/12) 🇰🇷 10/23(금) 국내 마감: 지수 V자, 체감은 약세 (수급·섹터·상한가 9)  ·  https://t.me/c/3969423687/1188</li><li>(3/12) 🇯🇵 10/23(금) 일본·아시아 마감: 닛케이 장중 −1,400엔 → −0.34%, 7/30 이후 최저  ·  https://t.me/c/3969423687/1189</li><li>(4/12) 🇺🇸 10/23(금) 오늘밤 미국장 프리뷰: AI 하드웨어 언와인드 다음날, 선물 보합권  ·  https://t.me/c/3969423687/1190</li><li>(5/12) 🌐 10/23(금) 매크로·정책: 美10Y 5% 하회·브렌트 5개월 고점·금 주간 급락  ·  https://t.me/c/3969423687/1191</li><li>(6/12) 🛰️ 10/23(금) 텔레그램 언급·테마 (GramJS 2,142건 · 73채널)  ·  https://t.me/c/3969423687/1192</li><li>(7/12) 🔎 10/23(금) 텔레그램 특징주 ① 대형·실적·공시 (촉매 검증·과열)  ·  https://t.me/c/3969423687/1193</li><li>(8/12) 🔎 10/23(금) 텔레그램 특징주 ② 테마·이벤트·공모주 (과열 경고)  ·  https://t.me/c/3969423687/1194</li><li>(9/12) 🗣️ 10/23(금) 해외 커뮤니티 심리 (X · Reddit/ApeWisdom) · 전부 미확인  ·  https://t.me/c/3969423687/1195</li><li>(10/12) 🧪 10/23(금) TR 3.7.4 · EI 3.7.3.1 상태  ·  https://t.me/c/3969423687/1196</li><li>(11/12) ⏰ 10/23(금) 주말·월요일 체크포인트 (KST) · 내일은 토요일  ·  https://t.me/c/3969423687/1197</li><li>(12/12) ⚠️ 10/23(금) 커버리지 한계·미확인·출처 (요약)  ·  https://t.me/c/3969423687/1198</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1187" target="_blank" rel="noopener"><i></i>(1/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1188" target="_blank" rel="noopener"><i></i>(2/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1189" target="_blank" rel="noopener"><i></i>(3/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1190" target="_blank" rel="noopener"><i></i>(4/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1191" target="_blank" rel="noopener"><i></i>(5/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1192" target="_blank" rel="noopener"><i></i>(6/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1193" target="_blank" rel="noopener"><i></i>(7/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1194" target="_blank" rel="noopener"><i></i>(8/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1195" target="_blank" rel="noopener"><i></i>(9/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1196" target="_blank" rel="noopener"><i></i>(10/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1197" target="_blank" rel="noopener"><i></i>(11/12)</a><a class="schip" style="--c:#64748b" href="https://t.me/c/3969423687/1198" target="_blank" rel="noopener"><i></i>(12/12)</a></div></div><div class="srcgroups"><div class="srcg"><h4>국내 시황·수급·상한가·환율</h4><ul><li><b>연합뉴스 [표] 투자자별 매매동향(23일)</b><br><a href="https://www.yna.co.kr/view/AKR20261023130300008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261023130300008</a></li><li><b>연합뉴스 솔리다임 IPO 중단 덕분?…코스피 5,500선 회복 마감</b><br><a href="https://www.yna.co.kr/view/AKR20261023137600008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261023137600008</a></li><li><b>서울경제 [마감 시황] 코스피 5,550.3 상승 마감</b><br><a href="https://www.sedaily.com/article/20105413" target="_blank" rel="noopener">https://www.sedaily.com/article/20105413</a></li><li><b>Businesskorea 코스피 장중 4%대 급락 딛고 반등</b><br><a href="https://www.businesskorea.co.kr/news/articleView.html?idxno=279567" target="_blank" rel="noopener">https://www.businesskorea.co.kr/news/articleView.html?idxno=279567</a></li><li><b>매일경제 코스닥 751.69 하락 마감</b><br><a href="https://www.mk.co.kr/news/stock/12184199" target="_blank" rel="noopener">https://www.mk.co.kr/news/stock/12184199</a></li><li><b>서울경제 환율 장중 2년 만 저점 후 반등(김혜란의 FX)</b><br><a href="https://www.sedaily.com/article/20105439" target="_blank" rel="noopener">https://www.sedaily.com/article/20105439</a></li><li><b>상한가365 10/23 상한가 9종목</b><br><a href="https://sanghanga365.com/daily/2026-10-23" target="_blank" rel="noopener">https://sanghanga365.com/daily/2026-10-23</a></li><li><b>오늘의종목 10/23 특징주</b><br><a href="https://todaystk.kr/news/%ED%8A%B9%EC%A7%95%EC%A3%BC" target="_blank" rel="noopener">https://todaystk.kr/news/%ED%8A%B9%EC%A7%95%EC%A3%BC</a></li><li><b>비즈니스포스트 삼성바이오로직스 7%대 상승</b><br><a href="https://www.businesspost.co.kr/BP?command=article_view&amp;num=450199" target="_blank" rel="noopener">https://www.businesspost.co.kr/BP?command=article_view&amp;num=450199</a></li><li><b>파이낸셜뉴스 삼성바이오 8%대 급등</b><br><a href="https://www.fnnews.com/news/202610231409279479" target="_blank" rel="noopener">https://www.fnnews.com/news/202610231409279479</a></li><li><b>버핏연구소 장마감 코스피 0.30%↑</b><br><a href="http://www.buffettlab.co.kr/news/listkey.php?idx=57298&amp;key_idx=914" target="_blank" rel="noopener">http://www.buffettlab.co.kr/news/listkey.php?idx=57298&amp;key_idx=914</a></li><li><b>Yahoo chart API</b><br><a href="https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11" target="_blank" rel="noopener">https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11</a></li></ul></div><div class="srcg"><h4>일본·아시아</h4><ul><li><b>財経新聞 日経平均大引け 214.68円安</b><br><a href="https://www.zaikei.co.jp/article/20261023/874716.html" target="_blank" rel="noopener">https://www.zaikei.co.jp/article/20261023/874716.html</a></li><li><b>JPX 商況プリント(後場) 10/23</b><br><a href="https://www.jpx.co.jp/markets/equities/volume-and-value/tvdivq000000derc-att/2_20261023.pdf" target="_blank" rel="noopener">https://www.jpx.co.jp/markets/equities/volume-and-value/tvdivq000000derc-att/2_20261023.pdf</a></li><li><b>株探 日経平均大引け 続落、終盤下げ渋る</b><br><a href="https://kabutan.jp/news/marketnews/?b=n202610230977" target="_blank" rel="noopener">https://kabutan.jp/news/marketnews/?b=n202610230977</a></li><li><b>Newsworks Nikkei lowest since July 30</b><br><a href="https://www.newsworks.co.kr/en/articleView.html?idxno=900594" target="_blank" rel="noopener">https://www.newsworks.co.kr/en/articleView.html?idxno=900594</a></li><li><b>이투데이 아시아증시 혼조 닛케이 0.34%↓</b><br><a href="https://www.etoday.co.kr/news/view/2639524" target="_blank" rel="noopener">https://www.etoday.co.kr/news/view/2639524</a></li></ul></div><div class="srcg"><h4>미국·매크로·중동·캘린더·커뮤니티</h4><ul><li><b>Reuters via Investing.com: S&P 500, Nasdaq end sharply lower</b><br><a href="https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180" target="_blank" rel="noopener">https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180</a></li><li><b>AP How major US stock indexes fared 10/22</b><br><a href="https://apnews.com/article/stocks-wall-street-nasdaq-dow-1970e79d013cbddcae89c53b4b98f384" target="_blank" rel="noopener">https://apnews.com/article/stocks-wall-street-nasdaq-dow-1970e79d013cbddcae89c53b4b98f384</a></li><li><b>vlsi.kr US Close Oct 22: SOX −6.72%</b><br><a href="https://www.vlsi.kr/en/daily-silicon-2026-10-23-en/" target="_blank" rel="noopener">https://www.vlsi.kr/en/daily-silicon-2026-10-23-en/</a></li><li><b>Investing.com AI selloff in focus; Western Digital reports</b><br><a href="https://www.investing.com/news/economy-news/ai-selloff-in-focus-western-digital-reports--whats-moving-markets-4968254" target="_blank" rel="noopener">https://www.investing.com/news/economy-news/ai-selloff-in-focus-western-digital-reports--whats-moving-markets-4968254</a></li><li><b>Benzinga WDC after hours −6.54%</b><br><a href="https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings" target="_blank" rel="noopener">https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings</a></li><li><b>Yahoo Finance Anthropic S-1 as early as Friday</b><br><a href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html" target="_blank" rel="noopener">https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html</a></li><li><b>WSJ Stock Market Today 10/23</b><br><a href="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026" target="_blank" rel="noopener">https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-23-2026</a></li><li><b>Benzinga SLB, AXP stocks to watch Friday</b><br><a href="https://www.benzinga.com/trading-ideas/long-ideas/26/10/62550985/slb-american-express-and-3-stocks-to-watch-heading-into-friday-2" target="_blank" rel="noopener">https://www.benzinga.com/trading-ideas/long-ideas/26/10/62550985/slb-american-express-and-3-stocks-to-watch-heading-into-friday-2</a></li><li><b>Nikkei market calendar 10/23 (US PMI 22:45, Michigan 23:00 JST-1h=KST same)</b><br><a href="https://www.nikkei.com/markets/kabu/marketcalendar/?DispMonth=202610&amp;SelectDate=20261023" target="_blank" rel="noopener">https://www.nikkei.com/markets/kabu/marketcalendar/?DispMonth=202610&amp;SelectDate=20261023</a></li><li><b>The National: Oil rises as Houthis attack Saudi again</b><br><a href="https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/" target="_blank" rel="noopener">https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/</a></li><li><b>Euronext/Reuters oil +1%</b><br><a href="https://live.euronext.com/en/financial-news/oil-prices-rise-more-1-supply-concerns-linger" target="_blank" rel="noopener">https://live.euronext.com/en/financial-news/oil-prices-rise-more-1-supply-concerns-linger</a></li><li><b>CNBC gold heads for steep weekly loss</b><br><a href="https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html" target="_blank" rel="noopener">https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html</a></li><li><b>Saxo Market Quick Take 10/23</b><br><a href="https://www.home.saxo/en-gb/content/articles/macro/market-quick-take---chipmakers-tumble-and-the-ten-year-drops-below-5---23-october-2026-23102026" target="_blank" rel="noopener">https://www.home.saxo/en-gb/content/articles/macro/market-quick-take---chipmakers-tumble-and-the-ten-year-drops-below-5---23-october-2026-23102026</a></li><li><b>Fed calendar October 2026</b><br><a href="https://www.federalreserve.gov/newsevents/2026-october.htm" target="_blank" rel="noopener">https://www.federalreserve.gov/newsevents/2026-october.htm</a></li><li><b>MetaCap earnings week of 10/26</b><br><a href="https://metacap.si/calendar/earnings/week/2026-10-26/" target="_blank" rel="noopener">https://metacap.si/calendar/earnings/week/2026-10-26/</a></li><li><b>macrowombat FOMC/BOJ calendar</b><br><a href="https://macrowombat.com/calendar" target="_blank" rel="noopener">https://macrowombat.com/calendar</a></li><li><b>ApeWisdom all-stocks</b><br><a href="https://apewisdom.io/api/v1.0/filter/all-stocks" target="_blank" rel="noopener">https://apewisdom.io/api/v1.0/filter/all-stocks</a></li></ul></div><div class="srcg"><h4>Telegram Research 3.7.4</h4><ul><li><b>TR 채팅</b><br><a href="https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621" target="_blank" rel="noopener">https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621</a></li></ul></div><div class="srcg"><h4>Equity Intelligence 3.7.3.1</h4><ul><li><b>EI 채팅</b><br><a href="https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6adb35b3-c2ac-83e8-8c8e-fb9f47904146" target="_blank" rel="noopener">https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6adb35b3-c2ac-83e8-8c8e-fb9f47904146</a></li></ul></div><div class="srcg"><h4>TR source_refs</h4><ul><li><b>news.skhynix.com</b><br><a href="https://news.skhynix.com/en/fact-12/" target="_blank" rel="noopener">https://news.skhynix.com/en/fact-12/</a></li><li><b>ssa.samsungena.com</b><br><a href="https://ssa.samsungena.com/en/newsroom/news/view?idx=15855" target="_blank" rel="noopener">https://ssa.samsungena.com/en/newsroom/news/view?idx=15855</a></li><li><b>sec.gov</b><br><a href="https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm" target="_blank" rel="noopener">https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm</a></li><li><b>lockheedmartin.com</b><br><a href="https://www.lockheedmartin.com/f35/news-and-features/New-Framework-Agreement-for-Multiyear-F-35-Production-and-Sustainment.html" target="_blank" rel="noopener">https://www.lockheedmartin.com/f35/news-and-features/New-Framework-Agreement-for-Multiyear-F-35-Production-and-Sustainment.html</a></li><li><b>investor.wdc.com</b><br><a href="https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-first-quarter-2027-financial-results" target="_blank" rel="noopener">https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-first-quarter-2027-financial-results</a></li><li><b>rexel.com</b><br><a href="https://www.rexel.com/en/q3-2026-sales" target="_blank" rel="noopener">https://www.rexel.com/en/q3-2026-sales</a></li><li><b>korea.kr</b><br><a href="https://www.korea.kr/news/policyNewsView.do?newsId=148974113" target="_blank" rel="noopener">https://www.korea.kr/news/policyNewsView.do?newsId=148974113</a></li></ul></div></div><h3>텔레그램 원문 샘플</h3><div class="apgrid"><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0f766e"></span> 세종기업데이터</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 19:02</span>한솔아이원스(114810)는 시그널1 기준에 포착된 기업이었는데, 오늘 잠정실적을 발표했네요.   매출액은 예상대로 잘 나왔는데, 영업이익은 아주 살짝 못 미친 느낌이네요.   전년동기 대비 증감률 차트는 매출액 기준입니다.   시그널1 기준: 6개월 수출 흐름과 매출 연동성, 시장 평가를 함께 확인해 수출 개선이 아직 과도하게 선반영되지 않은 기업을 찾습니다.  https://sejongdata.com/company/114810/exports <a href="https://t.me/sejongdata2013/12388" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#40b789"></span> 서화백의 AI놀이🚀</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 19:00</span>📝 DC 미주갤 심층 분석 Report (19시 00분) 기준  🌡️ 센티먼트 공포 (-70) 💡 요약 기술주 및 나스닥 전반의 지속적인 하락세에 대한 우려가 크며, 일부 개별 종목은 오퍼링과 주가 급락으로 인한 강한 부정적 투심을 보이고 있습니다.  🗣️ Top 키워드: XXII(7), SOX(5), 나스닥(3), 기술주(2), 오퍼링(2)  🔥 주목받는 종목 📉 XXII (-55) 6달러 도달 기대감 (소수 의견), 1달러 손절 및 0.2달러 하락 우려, 가파른 주가 하락에 대한 강한 불만 및 <a href="https://t.me/easobi_ai/24301" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 19:01</span>📝 DC 국장갤 심층 분석 Report (19시 01분) 기준  🌡️ 센티먼트 공포 (-65) 💡 요약 전반적으로 시장 하락에 대한 불안감과 추가 하락에 대한 공포가 지배적이며, 미지정학적 리스크 및 주요 기술주(AI, 반도체)의 하방 압력 우려가 커지고 있습니다. 일부 종목의 일시적 반등은 &#x27;가짜상승&#x27;으로 인식되고 있습니다.  🗣️ Top 키워드: SK하이닉스(17), 코스피(14), 나스닥(12), 솔리다임(9), 삼성전자(6)  🔥 주목받는 종목 📉 SK하이닉스 (-10) 고점 대비 큰 하락 <a href="https://t.me/easobi_ai/24302" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#b740a3"></span> 기술적 분석으로 보는 주식시장 (by 소라게아빠)</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:57</span>텔레 자체적으로 별을 결제해야지만 볼 수 있는 이미지 삽입 기능이 생겼네요 <a href="https://t.me/hermitcrab41_1/13775" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0369a1"></span> 미국 주식 인사이더 🇺🇸 (US Stocks Insider)</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:42</span>💡💡💡💡💡💡 인테르팍스 통신에 따르면 러시아 크렘린궁이 러시아·우크라이나·미국 간 3자 평화회담이 11월 초 아랍에미리트 아부다비에서 개최될 예정이라고 발표. <a href="https://t.me/insidertracking/67102" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 18:56</span>로켓랩이 일렉트론 로켓의 98번째 임무를 성공적으로 완료하며 2026년 19번째 발사 성공 기록 달성.  • 호크아이 360 위성 3기를 고도 520km 저궤도에 성공적으로 배치. 해당 위성들은 무선주파수(RF) 정보 수집 및 모니터링 임무 수행 예정.  • 이번 발사는 로켓랩이 호크아이 360을 위해 수행한 세 번째 일렉트론 전용 발사 임무.  • 이번 임무 성공으로 일렉트론 로켓의 역사적인 100번째 발사 달성에 한 걸음 더 접근. <a href="https://t.me/insidertracking/67103" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#40b777"></span> 주식소리통 NEO by Bilanx Research</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:35</span>👉 15체어스 10회 &quot;Coming Soon&quot; https://www.bi-lanx.com/site/bi-lanx/classes/77937?type=introduction  👉 3회 패키지(8~10회)  https://www.bi-lanx.com/site/bi-lanx/classes/75155?type=introduction 지금, 당신에게 15체어스가 필요한 이유 모멘텀 체크는 기본! ✅ 밸류에이션 분석을 통한 타입별 분류 🏢 뉴메리컬 데이터 강의 자료 제공 📝 Copyright by 바일랑스 리 <a href="https://t.me/davidstocknew/53704" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#16a34a"></span> 선진짱 주식공부방</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:22</span>https://www.m-i.kr/news/articleView.html?idxno=2008572 #노란봉투법 <a href="https://t.me/sunstudy1111/138582" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 18:33</span>https://youtu.be/KZCV2zlgnbA?si=GmcFrlGh8x9vohSs <a href="https://t.me/sunstudy1111/138583" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#ad40b7"></span> FundEasy_Earnings Calls</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:27</span>📊 HEXA.B 실적발표 (2026년 3분기) 세션: 장전 실적 발표  🎯 실적 퀄리티: 8/10 🟢 주가 반응: +1.22% (장중 잠정)  📮 기업 개요 Hexagon AB는 센서·계측 장비, 지리정보·인프라 솔루션, 제조 소프트웨어, 자율주행·정밀 위치확인 및 휴머노이드 로봇을 제공하는 산업기술 기업이다.  📊 핵심 실적 vs 컨센서스 - EPS: €0.082 (예상 €0.07, YoY +19%) - 매출: €1.05B (예상 €1.01B) - EBITAC(로보틱스 제외): €265M - E <a href="https://t.me/Fundeasyearnings/11520" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 18:31</span>📊 ELUX.B 실적발표 (2026년 3분기) 세션: 장전 실적 발표  🎯 실적 퀄리티: 7/10 🟡 주가 반응: +6.12% (장중 잠정)  📮 기업 개요 AB Electrolux는 Electrolux·AEG·Frigidaire 등 브랜드를 통해 냉장·냉동, 세탁, 주방가전 등을 제조·판매하는 글로벌 가전기업이다.  📊 핵심 실적 vs 컨센서스 - EPS (Non-GAAP): 미공시 - EPS (GAAP): 미공시 - 매출: N/A (예상 SEK 32.93B, YoY N/A%) - 영업이익(EB <a href="https://t.me/Fundeasyearnings/11521" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#40b797"></span> 🌸Crypto Judy🐰🌸</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:31</span>[퇴근길시황] 코스피 5300선 급락 딛고 반등⋯비트코인 8만1000달러대 사수  23일 코스피는 장중 4% 넘게 급락했다가 기관의 저가 매수세로 0.30% 상승 마감했고, SK하이닉스는 4.42% 올랐다.  한국은행은 개정 외국환거래법 시행을 앞두고 국경 간 디지털자산 이전 이용자의 거래 내역과 국내 보유 잔액을 정기 보고받는 체계를 마련하고 있다.  비트코인은 8만1676.34달러로 0.34% 하락했으며, 미국 비트코인·이더리움 현물 ETF에서는 7억4599만달러가 순유출됐다. <a href="https://t.me/lovejudylee/103840" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#40b7a3"></span> 일본인은 무엇을 좋아할까 : 가슴벅찬 텔레그램 채널</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:31</span>일본사는 한국인이 알려주는 오사카(댓글 계속)  자녀 교육에 무관심한 경우가 많다는게 조금 의외네요. 저임금 직업만 많다는건 우리나라랑 비슷한거 같기도..  &lt;내용&gt; 장점 1. 매일이 일본 여행하는 것 같다. 일본 특유의 분위기 때문에 일상생활 자체가 여행하는 기분이다.  2. 하늘이 진짜 쨍하고 미세먼지 따위는 거의 없다. 한국과 비교하면 공기도 맑고 하늘도 깨끗하다.  3. 오지랖이 없고 사생활 침해도 거의 없다. 남의 일에 간섭하지 않는 문화라 정말 자유로움을 느끼기 좋 다.  단점 1. 경 <a href="https://t.me/japanhitomi/4086" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0891b2"></span> 하나 중국/신흥국 전략 김경환</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:29</span>&gt;&gt;미국 국채의 이번 반등세는 얼마나 지속될 수 있을까?  •JPMorgan은 이번 미국 국채 반등이 유럽 부채 위기의 확산과 나스닥의 급락으로 촉발됐으며, 미국의 펀더멘털 개선에 따른 것은 아니라고 판단함. 탈달러화에 대한 우려가 계속 제기되고 있지만, 외국인의 장기물 미국 국채 수요는 실제로 사상 최고치를 기록함. 10년물 국채금리는 4.94~5.02%의 주요 저항 구간에 도달했음. 다만 기술주가 미국 국채금리의 주요 변수로 자리 잡은 만큼, 위험자산 시장에서 뚜렷한 안정세가 나타나거나 바닥을 <a href="https://t.me/HANAchina/70910" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 18:31</span>&gt;&gt;골드만삭스, Western Digital 목표주가 하향: HDD 증설 우려가 밸류에이션 압박, HAMR 전환이 순조로운 Seagate를 더 선호  •Western Digital의 분기 실적과 다음 분기 가이던스는 모두 월가 예상을 크게 웃돌았으며, 클라우드와 클라이언트 부문도 강세를 보였음. 그러나 경쟁사의 잠재적 증설 압력과 동종업체의 밸류에이션 배수 하락을 반영해, 골드만삭스는 이익 전망치를 상향 조정하면서도 목표주가를 540달러로 낮추고 ‘중립’ 의견을 유지함. 상대적으로 HAMR 전환이 <a href="https://t.me/HANAchina/70911" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#e11d48"></span> 타점 읽어주는 여자(타자)</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:13</span>💓 23일 금요일 상한가 및 급등주    스페코 (013810) (+29.98%)   김정은 北 국무위원장 행방 논란 지속 등에 일부 방위산업/전쟁 및 테러 테마 상승 속 상한가  노을 (376930) (+29.96%)   27.50억원 규모 제3자배정 유상증자 결정에 상한가  아이패밀리에스씨 (114840) (+29.93%)   日 마루베니, 동사 지분 공개매수 추진에 상한가  파이온엑스 (900100) (+29.93%)   파산신청 사유 해소로 거래재개 첫날 상한가  퓨쳐켐 (220100) ( <a href="https://t.me/tazastock/79769" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 18:30</span>📌 23일 금요일 애프터마켓 특이종목 (18시 기준)    보로노이 (310210) ( +3.70% ) 애프터마켓 일부 제약/바이오 관련주 상승  엠에스바이오 (0013Y0) ( +2.99% ) 애프터마켓 일부 제약/바이오 관련주 상승. 신규 상장 첫날 급등, 투자주의종목 지정 속 이튿날 급락, 애프터마켓 상승  진양홀딩스 (100250) ( +2.72% ) 오세훈 서울시장, ‘여론조사비 대납’ 관련 2심 무죄 판결에 애프터마켓 일부 정치/인맥(오세훈) 테마 상승  에이비엘바이오 (298380)  <a href="https://t.me/tazastock/79770" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#c026d3"></span> 가투방(DCTG) 저장소</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:19</span>https://m.blog.naver.com/tosoha1/224451419960 #농구천재 <a href="https://t.me/gatubang/54848" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#b79940"></span> 디시콘 텔레그램 스티커 변환 채널</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:14</span>케이온ai고양이콘 @DCConSticker UpscaleModelType.anime https://t.me/addstickers/dccon_anime_1792746718076_by_tg_sticker_factory_bot <a href="https://t.me/DCConSticker/2445" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#d97706"></span> AWAKE - 실시간 주식 공시 정리채널</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:53</span>2026.10.23 17:53:41 기업명: 온타이드(시가총액: 458억) A005320 보고서명: 주식등의대량보유상황보고서(일반)  대표보고 :  약진통상/대한민국 보유목적 : 경영권 영향  보고전 : 51.68% 보고후 : 56.46% 보고사유 : 보통주 매수  * 주식회사 약진통상 2026-10-19/장내매수(+)/보통주/ 182,549주/- 2026-10-20/장내매수(+)/보통주/ 181,107주/- 2026-10-21/장내매수(+)/보통주/ 183,855주/- 2026-10-22/장내매 <a href="https://t.me/darthacking/155342" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 18:12</span>2026.10.23 18:12:14 기업명: 고려아연(시가총액: 17조 8,673억) A010130 보고서명: 소송등의판결ㆍ결정  사건명칭 : 주주대표소송(손해배상) ( 2025가합10683 ) 원고이름 : 원고: 주식회사 한국기업투자홀딩스 원고공동소송참가인: 주식회사 엠제이파트너스 피고: 최** 외 1인  관할법원 : 서울중앙지방법원   * 판결내용  [주문]  1. 원고 공동소송참가인의 공동소송참가신청을 각하한다.  2. 원고의 주위적 및 예비적 청구를 모두 기각한다.  3. 소송비용 중 본소 <a href="https://t.me/darthacking/155343" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#f59e0b"></span> AWAKE - 52주 신고가 모니터링</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:10</span>✅ 역사적 신고가 종목  엘리스(시가총액 : 1.0조) 현재가격 : 94,200원(+0.6%) 거래대금 : 2,525억 - - AI 데이터센터 모델인 모듈형 데이터센터(AI PMDC) 개발 완료에 따른 기술력 강화 기대감. - 상장 이틀 만에 3300억원 투자 결정에 따른 성장 가능성 전망. <a href="https://t.me/awake_realtimeCheck/64177" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#b79d40"></span> Yeouido Lab_여의도 톺아보기</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:08</span>안녕하세요. 지투지바이오입니다.  금일 지투지바이오 오송 본사에서 진행된 ‘2026 청송학술제’ 현장 사진을 공유드립니다.  약 45명이 참석한 이번 행사에서 지투지바이오는 미립구 생산시설을 공개하고, 미립구의 제조 및 생산 과정을 소개했습니다.  참석자들과 장기지속형 제제 기술에 대해 다양한 의견을 나누고, 바이오 연구 생태계 활성화와 발전 방향을 함께 모색하는 뜻깊은 자리였습니다.  감사합니다. <a href="https://t.me/Yeouido_Lab/38357" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#7c3aed"></span> 여의도스토리 Ver2.0-习近平是个狗东西</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:07</span>https://n.news.naver.com/mnews/article/214/0001531056 <a href="https://t.me/YeouidoStory2/118850" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#40b758"></span> 양파농장</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:03</span>JP모건) 블룸 에너지 3분기 리뷰: 둔화라니? 또 한 번의 견조한 실적 상회와 가이던스 상향  블룸 에너지(BE)는 3분기에 매출 12억 3,600만 달러, PF EBITDA 2억 9,900만 달러를 기록해 시장 컨센서스(10억 8,200만 달러/2억 4,100만 달러)와 JP모건 기존 추정치를 크게 상회했습니다. PF 매출총이익률은 34.5%로 컨센서스를 20bp, PF 영업이익률은 23.1%로 230bp 웃돌았으며, 제품 매출은 전년 대비 179% 증가한 10억 7,400만 달러, 제품 PF <a href="https://t.me/Onionfarmer/18207" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#40b793"></span> AI MASTERS_소통방</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:03</span>[ 에이전트의 정보 수집이 더 편해진다 ]  과거에는 인간이 보기 쉽고 사용하기 편리하게 데이터를 만들어졌다면, 앞으로는 AI가 읽기 쉽고 활용할 수 있게 변환이 되겠죠👀👀  세상의 변화 속에서 Firecrawl이 Universal Scrape를 공개하며 AI 에이전트가 인터넷에서 정보 수집을 하는 업무가 한결 수월해졌다는 소식입니다🔥  웹 페이지를 포함해 PDF, 이미지, 프로필 정보, 재무 데이터 그리고 팟캐스트 데이터를 하나의 API로 가져올 수 있다고 해요🚀🚀  약 200개 이상의 데이터  <a href="https://t.me/ai_masters_chat/40504" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#6366f1"></span> AI MASTERS</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 18:03</span>[ 에이전트의 정보 수집이 더 편해진다 ]  과거에는 인간이 보기 쉽고 사용하기 편리하게 데이터를 만들어졌다면, 앞으로는 AI가 읽기 쉽고 활용할 수 있게 변환이 되겠죠👀👀  세상의 변화 속에서 Firecrawl이 Universal Scrape를 공개하며 AI 에이전트가 인터넷에서 정보 수집을 하는 업무가 한결 수월해졌다는 소식입니다🔥  웹 페이지를 포함해 PDF, 이미지, 프로필 정보, 재무 데이터 그리고 팟캐스트 데이터를 하나의 API로 가져올 수 있다고 해요🚀🚀  약 200개 이상의 데이터  <a href="https://t.me/ai_masters_community/7752" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0d9488"></span> 그로쓰리서치(Growth Research) [독립리서치]</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:58</span>✅[단독] AI 키운다더니…정부 전력계획 반토막  https://www.mk.co.kr/news/business/12184442  정부가 2040년 AI 데이터센터 전력 수요 전망을 기존 7.9GW에서 최대 절반 가까이 줄이는 방안을 검토하고 있습니다.  산업계에서는 전력 확보가 늦어질 경우 글로벌 빅테크 유치와 국내 AI 산업 경쟁력이 약화될 수 있다고 우려합니다.  📌 AI 데이터센터 전력 수요 대폭 축소 검토 정부는 2040년 데이터센터 전력 수요 7.9GW 중 3~4GW 축소 논의  기존  <a href="https://t.me/growthresearch/30674" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#84cc16"></span> 묻따방 🐕</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:54</span>나중에 반도체 영업적자 시대가 도래하면 꼭 연봉 삭감되길 바란다.   https://n.news.naver.com/mnews/article/050/0000112306 <a href="https://t.me/mootda/95773" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#7c3aed"></span> epic AI - 투자 어시스턴트</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:42</span>[✨ 리서치 요약] HS효성첨단소재 목표주가 하향 리포트 요약  목표주가 하향 | HS효성첨단소재 | &quot;3Q26 Preview: 조금씩 개선 중 &quot; 목표주가 283,000원 &gt;&gt; 215,000원 | 투자의견 매수-유지 | 상상인증권  ✅ 목표주가 하향 주요 요약 - 기준금리 상승에 따른 COE 상승으로 목표주가 하향 - 탄소섬유 실적호전 지연으로 2027년 영업이익 추정치 기존대비 20.7% 하향 - 3분기 영업이익 523억원 전망으로 컨센서스 539억원 소폭 하회, 예상보다 실적호전이 제한적인  <a href="https://t.me/ked_epic_ai/37915" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 17:49</span>[✨ 리서치 요약] 휴메딕스 목표주가 하향 리포트 요약  목표주가 하향 | 휴메딕스 | &quot;매출 성장은 지속될 전망 &quot; 목표주가 50,000원 &gt;&gt; 36,000원 | 투자의견 매수-유지 | 상상인증권  ✅ 목표주가 하향 주요 요약 - 2025년 7월 77,000원대 역사적 최고치 이후 미용의료기기 업종 전반의 주가 하락과 동사 실적 성장세 둔화로 주가가 장기간 하락세를 보임 - 필러부문에서 국내 시너지 효과가 아직 크지 않고 글로벌 경쟁 심화로 수출 증가에 한계가 있어 성장 정체가 지속됨 - 202 <a href="https://t.me/ked_epic_ai/37916" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#b45309"></span> 국민연금 & 공시 알리미</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:44</span>📦 [수주] 금양그린파워 [기재정정]단일판매ㆍ공급계약체결 💵 ↩️ 정정(공사변경계약) · 계약금액: 312.3억 → 322.9억 · 계약내역 - 매출액대비(%): 13.08 → 13.52 · 계약금액 증감 +3.4%  https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023900942 <a href="https://t.me/fastjusik/2441" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#0e7490"></span> 에테르의 일본&미국 리서치</b><span>2건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:40</span>금감원, &#x27;해외주식 현금성 마케팅&#x27; 원천 금지 추진 -권고로 막던 업계 &#x27;해외주식 판촉&#x27;…제도로 못 박기로 -거래횟수·거래대금 비례 보상 이벤트도 일절 금지 https://news.einfomax.co.kr/news/articleView.html?idxno=4440870 <a href="https://t.me/aetherjapanresearch/26001" target="_blank" rel="noopener">원문</a></li><li><span class="tm">2026-10-23 17:43</span>지난해 말부터 증권업계에는 이른바 &#x27;해외주식 마케팅 금지령&#x27;이 떨어진 상태다.  금감원이 고환율로 인한 투자자 피해가 우려된다면서 업계 간담회를 통해 증권사들에 해외주식 마케팅을 자제하라고 당부해 왔기 때문이다.  단일 종목 레버리지 출시는 투자자 보호임? <a href="https://t.me/aetherjapanresearch/26003" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#475569"></span> 회색인간의 매크로 + 투자</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:43</span>물가가 우려되면 주식과 채권의 관계가 정방향, 성장이 우려되면 역방향임  대단한 건 아님 <a href="https://t.me/mistergray_11/24891" target="_blank" rel="noopener">원문</a></li></ul></div><div class="apg"><div class="apgh"><b><span class="cdot" style="--c:#4064b7"></span> 뉴스/재료 발굴하기</b><span>1건</span></div><ul class="tgp"><li><span class="tm">2026-10-23 17:28</span>안녕하세요, 한미 IR그룹입니다.  한미약품의 차세대 삼중작용 비만 신약 후보물질 HM15275(LA-GLP/GIP/GCG)의 WHO 국제일반명(rINN)*이 ‘잔트루타이드(zantrutide)’로 공식 등재됐습니다.  WHO INN프로그램은 전세계 의약품 성분의 표준 명칭을 부여하는 제도입니다.  이번 HM15275(잔트루타이드, zantrutide)의 국제일반명 등재는 글로벌 수준의 개발자산으로서 인지도를 강화하고, 신약 후보로서 위상을 높여나가는 과정에서 의미가 큽니다.   한미약품은 연구  <a href="https://t.me/crabintheshell/15008" target="_blank" rel="noopener">원문</a></li></ul></div></div><details class="fold"><summary>커뮤니티 원문 메모<small>X·Reddit 마크다운</small></summary><div class="fb"><div class="md"><h1>X / Twitter overseas + KR sentiment (UNVERIFIED)</h1>
+<p>asof: 2026-10-23 ~19:05 KST | RUN_ID=TR-20261023-1900-daily-close<br>Sources: Grok Bot built-in <code>x</code> search_news (Grok summaries · unverified) + search_posts_all (relevancy). Not engagement-filtered; low-impression accounts included.</p>
+<h2>X News themes (Grok summaries)</h2>
+<ol><li>&quot;Tech Stocks Plunge on AI Spending Doubts Despite Earnings Wins&quot; · NDX −2.9%, biggest drop since early June; Meta Q3 rev $64.6B but negative FCF on $34.9B capex; flight to Treasuries cut the 10Y sharply. https://x.com/i/trending/2113469566844297660</li><li>&quot;Tom Lee Calls Bottom Near&quot; · Fundstrat: 10Y back below 5% + crowded shorts = &#x27;coiled spring&#x27;; urges buying AI/semis/Mag7. https://x.com/i/trending/2113463851563843929</li><li>&quot;SOXL Plunges 19% After Record $3.8B Inflows&quot; · retail chased 3x semis last week; heavy put flow. https://x.com/i/trending/2113360227617886557</li><li>&quot;Nvidia −4.4% to $212.21&quot; · −12% in 12 sessions; $210 key level, $200/$189 if broken. https://x.com/i/trending/2113384937051279625</li><li>&quot;China&#x27;s CSI 300 enters bear market (−20% from June peak)&quot; · &#x27;Black Thursday&#x27; across KOSPI/Nikkei/HSI. https://x.com/i/trending/2113147019032166574</li></ol>
+<h2>US chatter</h2>
+<ul><li>ask_volAI: &quot;AI hardware unwind more than a broad selloff: QQQ −2.91%, SPY −1.23%, RSP +0.72%, IWM +0.05%; SMH −6.06%, LRCX −11.78%.&quot; https://x.com/ask_volAI/status/2113369651103383753</li><li>tradinqapp: &quot;2.6-pt gap Nasdaq vs Dow in one session = AI/semis selloff, not an economy scare.&quot; https://x.com/tradinqapp/status/2113367265487864091</li><li>Davidk117a (reply to @bespokeinvest): SOX holding just above its 200-day MA · bounce vs clean break is the tell. https://x.com/Davidk117a/status/2113396180591980770</li><li>BizWrld: &quot;Asia often extends US chip routs; the next US session hasn&#x27;t always followed.&quot; https://x.com/BizWrld/status/2113435430884655325</li><li>Anthropic S-1 &#x27;as soon as Friday&#x27; widely reposted (Yahoo Finance sourcing; up to $100B raise / $1.5–2T valuation claims unverified). https://x.com/BrajInvest/status/2113345827695697921 , https://x.com/iCleanAI/status/2113367267698422075</li><li>TequestaChief wishlist: Anthropic S-1 shows profitability/commitments, ORCL AI World next week, Fed no hike Wed (opinion). https://x.com/TequestaChief/status/2113398000248656308</li></ul>
+<h2>KR posts</h2>
+<ul><li>factchartt: &quot;코스피 장중 −4.12%(5,305) → +0.30%. 외인 1조 가까이 던지고 기관 8,700억 받아냄. 하닉 장초 −5% → +4.42%, 솔리다임 상장 철회가 오후에 먹힘. 코스닥은 못 따라옴.&quot; https://x.com/factchartt/status/2113539815140679845</li><li>Jaymin_Alpha: &quot;지수는 구조됐는데 내 계좌는 아직 물속 · 상승 173 vs 하락 719, 초대형주가 만든 선택적 반전.&quot; https://x.com/Jaymin_Alpha/status/2113538337478947123</li><li>TechSaurus: 솔리다임 상장 강행 시 하이닉스 주주 몫 희석 논리(중간지주 AI컴퍼니 경유) → 철회는 호재. https://x.com/TechSaurus/status/2113529422863331456</li><li>sedaily_com: &quot;솔리다임 상장 중단에도 외국인 하이닉스 팔았다…두산에너빌리티 순매수 1위&quot; https://x.com/sedaily_com/status/2113490844217201030</li><li>space1030m (개인 차트): 하이닉스 1,171,000 신저점 후 반등, 1,240,000 저항, 28일까지 약세 예상(개인 의견). https://x.com/space1030m/status/2113475361971593628</li></ul>
+<h1>Reddit community sentiment (UNVERIFIED)</h1>
+<p>asof: 2026-10-23 ~19:05 KST | RUN_ID=TR-20261023-1900-daily-close</p>
+<h2>Access note</h2>
+<ul><li>reddit.com JSON blocked from box (403, same as prior days). Proxy: ApeWisdom mention ranks (24h window). Sources: https://apewisdom.io/api/v1.0/filter/all-stocks , https://apewisdom.io/api/v1.0/filter/wallstreetbets , https://apewisdom.io/api/v1.0/filter/stocks</li></ul>
+<h2>ApeWisdom top (all-stocks, universe 963)</h2>
+<ol><li><b>SPY</b> (SPDR S&amp;P 500 ETF Trust) · mentions 317 (24h ago 213), upvotes 3898, rank_24h_ago 5</li><li><b>MU</b> (Micron Technology) · mentions 283 (24h ago 213), upvotes 564, rank_24h_ago 4</li><li><b>QQQ</b> (Invesco QQQ ETF) · mentions 239 (24h ago 110), upvotes 451, rank_24h_ago 9</li><li><b>META</b> (Meta Platforms (Facebook)) · mentions 189 (24h ago 338), upvotes 635, rank_24h_ago 1</li><li><b>WDC</b> (Western Digital) · mentions 171 (24h ago 9), upvotes 367, rank_24h_ago 60</li><li><b>MRNA</b> (Moderna) · mentions 156 (24h ago 25), upvotes 15354, rank_24h_ago 22</li><li><b>SOXL</b> (Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share) · mentions 133 (24h ago 31), upvotes 247, rank_24h_ago 26</li><li><b>BE</b> (Bloom Energy) · mentions 126 (24h ago 19), upvotes 227, rank_24h_ago 29</li><li><b>NVDA</b> (NVIDIA) · mentions 115 (24h ago 56), upvotes 2135, rank_24h_ago 15</li><li><b>NBIS</b> (Nebius Group) · mentions 115 (24h ago 105), upvotes 503, rank_24h_ago 8</li><li><b>TSLA</b> (Tesla) · mentions 111 (24h ago 234), upvotes 362, rank_24h_ago 3</li><li><b>SPCX</b> (SpaceX) · mentions 104 (24h ago 228), upvotes 193, rank_24h_ago 2</li><li><b>DTE</b> (DTE Energy) · mentions 85 (24h ago 40), upvotes 394, rank_24h_ago 17</li><li><b>AMD</b> (AMD) · mentions 80 (24h ago 24), upvotes 1234, rank_24h_ago 27</li><li><b>SNDK</b> (Sandisk) · mentions 80 (24h ago 70), upvotes 154, rank_24h_ago 12</li><li><b>CRWV</b> (CoreWeave) · mentions 77 (24h ago 62), upvotes 514, rank_24h_ago 14</li><li><b>AAPL</b> (Apple) · mentions 70 (24h ago 21), upvotes 803, rank_24h_ago 31</li><li><b>GOOGL</b> (Alphabet (Google)) · mentions 66 (24h ago 83), upvotes 155, rank_24h_ago 11</li><li><b>GOOG</b> (Alphabet (Google)) · mentions 64 (24h ago 111), upvotes 184, rank_24h_ago 6</li><li><b>AMZN</b> (Amazon) · mentions 50 (24h ago 28), upvotes 76, rank_24h_ago 21</li></ol>
+<h2>ApeWisdom top (wallstreetbets, universe 769)</h2>
+<ol><li><b>SPY</b> (SPDR S&amp;P 500 ETF Trust) · mentions 303 (24h ago 201), upvotes 3817, rank_24h_ago 5</li><li><b>MU</b> (Micron Technology) · mentions 274 (24h ago 205), upvotes 543, rank_24h_ago 4</li><li><b>QQQ</b> (Invesco QQQ ETF) · mentions 231 (24h ago 98), upvotes 435, rank_24h_ago 10</li><li><b>META</b> (Meta Platforms (Facebook)) · mentions 180 (24h ago 315), upvotes 565, rank_24h_ago 1</li><li><b>WDC</b> (Western Digital) · mentions 169 (24h ago 9), upvotes 355, rank_24h_ago 49</li><li><b>MRNA</b> (Moderna) · mentions 146 (24h ago 25), upvotes 12641, rank_24h_ago 19</li><li><b>SOXL</b> (Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share) · mentions 129 (24h ago 29), upvotes 237, rank_24h_ago 25</li><li><b>BE</b> (Bloom Energy) · mentions 122 (24h ago 18), upvotes 208, rank_24h_ago 30</li><li><b>NBIS</b> (Nebius Group) · mentions 112 (24h ago 99), upvotes 501, rank_24h_ago 8</li><li><b>NVDA</b> (NVIDIA) · mentions 107 (24h ago 43), upvotes 2110, rank_24h_ago 15</li><li><b>SPCX</b> (SpaceX) · mentions 101 (24h ago 207), upvotes 191, rank_24h_ago 3</li><li><b>TSLA</b> (Tesla) · mentions 100 (24h ago 216), upvotes 286, rank_24h_ago 2</li><li><b>DTE</b> (DTE Energy) · mentions 85 (24h ago 36), upvotes 394, rank_24h_ago 17</li><li><b>SNDK</b> (Sandisk) · mentions 79 (24h ago 70), upvotes 151, rank_24h_ago 12</li><li><b>CRWV</b> (CoreWeave) · mentions 77 (24h ago 62), upvotes 514, rank_24h_ago 14</li></ol>
+<h2>ApeWisdom top (r/stocks, universe 321)</h2>
+<ol><li><b>VOO</b> (Vanguard S&amp;P 500 ETF) · mentions 12 (24h ago 2), upvotes 41, rank_24h_ago 12</li><li><b>NKE</b> (Nike) · mentions 8 (24h ago 2), upvotes 11, rank_24h_ago 9</li><li><b>RSP</b> (Invesco Capital Management LLC - Invesco S&amp;P 500 Equal Weight ETF) · mentions 8 (24h ago None), upvotes 9, rank_24h_ago 183</li><li><b>TSLA</b> (Tesla) · mentions 5 (24h ago 11), upvotes 40, rank_24h_ago 3</li><li><b>VXUS</b> (Vanguard Group, Inc. - Vanguard Total International Stock ETF) · mentions 5 (24h ago 1), upvotes 8, rank_24h_ago 162</li><li><b>META</b> (Meta Platforms (Facebook)) · mentions 5 (24h ago 20), upvotes 16, rank_24h_ago 1</li><li><b>NVDA</b> (NVIDIA) · mentions 4 (24h ago 4), upvotes 14, rank_24h_ago 5</li><li><b>MAGA</b> (ETF Series Solutions Trust - Point Bridge GOP Stock Tracker ETF) · mentions 4 (24h ago None), upvotes 16, rank_24h_ago 161</li><li><b>SPY</b> (SPDR S&amp;P 500 ETF Trust) · mentions 4 (24h ago 1), upvotes 38, rank_24h_ago 185</li><li><b>FCF</b> (First Commonwealth Financial Corp) · mentions 4 (24h ago 2), upvotes 68, rank_24h_ago 14</li></ol>
+<h2>Read (interpretation, unverified)</h2>
+<ul><li>WSB attention rotated from META/TSLA/SPCX (post-earnings, mentions falling ~45–55% d/d) to <b>MU, WDC (9→169 after earnings beat but −6.5% AH), SOXL (31→133 after −19% day), BE (19→126), AMD</b> · i.e. the chip/AI-hardware selloff is the dominant thread; SPY/QQQ mentions up (index hedging/puts chatter).</li><li><b>MRNA</b> spike (25→156) · catalyst not verified in this run.</li><li>r/stocks is quiet and defensive (VOO, RSP equal-weight, VXUS, NKE) · consistent with rotation out of mega-cap AI into broad/equal-weight.</li><li>Ranks are mention counts, not sentiment polarity; bot/meme noise possible.</li></ul></div></div></details><details class="fold"><summary>보고서 만드는방 게시본 (12개)<small>Telegram 게시용</small></summary><div class="fb"><pre class="tgmsg">(1/12) 📊 10/23(금) 장마감 브리핑: 코스피 장중 −4.12% → +0.30% V자, 하이닉스 솔리다임 IPO 철회
+2026-10-23 ~19:06 KST 기준 · 보고서 만드는방 · RUN TR-20261023-1900-daily-close
+
+■ 한 줄 결론
+🔄 美 &#x27;AI 하드웨어 언와인드&#x27;(SOX −6.72%, 나스닥 −2.60%)로 코스피가 장초 5,305.98(−4.12%)까지 밀렸지만, SK하이닉스 솔리다임 IPO 검토 중단 공시 + 기관 +8,723억 매수로 마감 20분 전 상승 전환. 코스피 5,550.30(+0.30%). 다만 하락 719/상승 173, 코스닥 −1.62%로 &#x27;지수만 구조된 날&#x27;.
+
+🇰🇷 코스피 5,550.30 (+0.30%) · 코스닥 751.69 (−1.62%) · 원/달러 1,324.6원 (+0.4, 장중 1,321.5 2년 최저)
+🇯🇵 닛케이 62,693.16 (−0.34%) · TOPIX 3,965.81 (−0.79%) · 항셍 +0.69% · 상하이 +0.89% · 대만 태풍 휴장
+🇺🇸 목 종가: 다우 52,867.98(+0.02%) · S&amp;P 7,663.43(−1.21%) · 나스닥 26,008.86(−2.60%) · SOX −6.72%
+📉 선물(~18:56 KST): ES −0.23% · NQ −0.05% · YM −0.60% · VIX 19.57
+🌐 美10Y 4.953%(−19bp, 5% 하회) · WTI $101.2 · 브렌트 보도 $114.5 부근 vs Yahoo 109.88 ⚠️TR 미해결 · 금 $4,038 · BTC ≈81.6k
+
+■ 오늘의 드라이버 5가지
+1) 美 AI 수익성·조달 우려: Meta −7%(첫 FCF 적자·$825B 약정), LRCX −11.8%, SOX 6/23 이후 최대 낙폭
+2) SK하이닉스 솔리다임 프리IPO·美 IPO 검토 중단 → 중복상장 우려 해소, 장초 −5% → +4.42%
+3) 수급: 외국인 −9,928억(KRX 잠정) vs 기관 +8,723억(금투 +5,590·투신 +1,723)
+4) 방어·이벤트 순환: 삼성바이오 +7.5%대(파업 연기), 삼성E&amp;A +7.8%, 상한가 9종목(공개매수·임상·정치/대북 테마)
+5) 유가·중동: 후티 사우디 추가 공격·美 증파, 브렌트 5개월 고점(보도)
+
+🛰️ 텔레그램 GramJS 2,142건 / 73채널 (10/22 18:50~10/23 19:02 KST)
+🔬 Telegram Research 3.7.4: PARTIAL / NEEDS_REVIEW
+🧠 Equity Intelligence 3.7.3.1: 실행 중 (결과는 별도 회신)
+⏰ 오늘밤: 22:30 개장 · 22:45 S&amp;P PMI · 23:00 미시간 확정치 · Anthropic S-1 여부(⚠️TR 미확인) → 결과는 토 새벽 05:00 KST
+🗓️ 다음 주 FOMC(10/29 03:00 KST 결정) · BOJ 10/30 · MSFT·GOOGL 10/28 장후
+
+🔗 <a href="https://www.yna.co.kr/view/AKR20261023137600008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261023137600008</a>
+🔗 <a href="https://www.sedaily.com/article/20105413" target="_blank" rel="noopener">https://www.sedaily.com/article/20105413</a>
+🔗 <a href="https://www.yna.co.kr/view/AKR20261023130300008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261023130300008</a>
+</pre><pre class="tgmsg">(2/12) 🇰🇷 10/23(금) 국내 마감: 지수 V자, 체감은 약세 (수급·섹터·상한가 9)
+■ 지수
+• 코스피 5,550.30 (+16.53, +0.30%) · 전일 5,533.77 · 시가 5,403.17(−2.36%) · 장중 저점 5,305.98(−4.12%)
+• 9:10 저점 → 10시 5,460 반등 → 11시 5,395 재차 하락(이중 바닥) → 오후 기관 매수 확대, 종가가 장중 최고가
+• 상승 173(상한가 2) / 하락 719 · 20일 −3.73% → 21일 +3.29% → 22일 −3.52% → 23일 +0.30%
+• 코스닥 751.69 (−12.41, −1.62%) · 상승 404 / 하락 1,248, 상승 업종 0개 · 장중 732.87
+• 원/달러 1,324.6원(+0.4), 장중 1,321.5원 2년 최저 후 6거래일 만에 상승 마감
+
+■ 수급 (억원)
+코스피 KRX 15:35 잠정: 외국인 −9,928 · 기관 +8,723(금투 +5,590, 투신 +1,723, 보험 +830, 연기금 +529, 사모 −12) · 개인 +527
+코스피 KRX+NXT 추정(버핏연구소): 외 −10,939 · 기관 +7,955 · 개인 +2,336
+코스닥 KRX: 외 −441 · 기관 −248 · 개인 +631
+→ 외국인은 하이닉스 매도·두산에너빌리티 순매수 1위(서울경제). 외국인 순매도 수치는 소스별 −9,928 / −9,941 / 약 −1.09조로 상이
+
+■ 대형주
+SK하이닉스 1,277,000(+4.42%, 거래대금 1위 4.4조) · 삼성전자 215,500(+0.47%, 장중 −3%대) · 삼성바이오 +7.5~7.7% · SK스퀘어 +3.20% · 삼성E&amp;A +7.8~7.9%
+약세: KB금융 −3.29% · 신한지주 −2.43%(8월 원화대출 연체율 0.69%, 10년 내 최고) · 현대차 −1.99% · LG엔솔 −1.79%
+코스닥: 에코프로 −5.83% · 에코프로비엠 −5.5% · 리노공업 −4.05% · 주성엔지니어링 −3.64% · 레인보우로보틱스 −3.42% · HLB +0.73%
+
+■ 업종
+코스피: 의약품 +3.48%, 의료정밀 +2.45%, 전기전자 +1.27% / 철강금속 −3.22%, 화학 −3.04%, 기계 −2.57%
+
+■ 상한가 9종목
+• 스페코(013810) +29.98% 2,055원: 김정은 신변이상설(미확인 루머) 방산 테마
+• 진양산업(003780) +29.79% 5,490원: 오세훈 항소심 무죄(인맥 테마)
+• 진양화학(051630) +29.81% 2,360원: 오세훈 테마
+• 컨텍(451760) +29.87% 8,130원: 재료 미확인
+• 퓨쳐켐(220100) +29.91% 8,990원(일부 소스 +26.73%): FC705 美 2a상 톱라인(ORR 38.9%, DCR 83.3%) 공시
+• 에이전트AI(060900) +29.91% 2,780원: 2연상, AI 에이전트 테마
+• 노을(376930) +29.96%: 신사업 진출
+• 윙스풋(335870) +29.96%: 2연상, 거래량 소량, 재료 미확인
+• 아이패밀리에스씨(114840) +29.93% 10,940원: 웰라이언트(마루베니 계열) 12,000원 공개매수
+
+■ 기타 급등락 (소스별 소폭 상이)
+SK하이닉스 +4.42% · 삼성바이오로직스 +7.50% · 삼성E&amp;A +7.76% · 진양폴리 +27.40% · 소프트센우 +45.25% · 엠에스바이오 −27.25% · 형지엘리트 −14.87% · 에이엔피 −14.50% · SKAI −9.89% · 동국산업 −7.97% · 디티에스(신규상장) +35.14%(장중 +114.9%)
+
+🔗 <a href="https://www.sedaily.com/article/20105413" target="_blank" rel="noopener">https://www.sedaily.com/article/20105413</a>
+🔗 <a href="https://www.mk.co.kr/news/stock/12184199" target="_blank" rel="noopener">https://www.mk.co.kr/news/stock/12184199</a>
+🔗 <a href="https://sanghanga365.com/daily/2026-10-23" target="_blank" rel="noopener">https://sanghanga365.com/daily/2026-10-23</a>
+🔗 <a href="http://www.buffettlab.co.kr/news/listkey.php?idx=57298&amp;key_idx=914" target="_blank" rel="noopener">http://www.buffettlab.co.kr/news/listkey.php?idx=57298&amp;key_idx=914</a>
+</pre><pre class="tgmsg">(3/12) 🇯🇵 10/23(금) 일본·아시아 마감: 닛케이 장중 −1,400엔 → −0.34%, 7/30 이후 최저
+■ 지수
+• 닛케이225 62,693.16 (−214.68, −0.34%) · 전일 62,907.84
+  장중 −1,400엔 이상(6만2천 하회, 약 3개월 만) 후 낙폭 축소; 종가 7/30 이후 최저
+• TOPIX 3,965.81 (−31.69, −0.79%) → 오늘은 TOPIX 낙폭이 더 큼(은행주 약세 영향)
+• USD/JPY ≈156.57 (엔 156엔대 강세)
+
+■ 종목 (Yahoo)
+도쿄일렉트론(8035) +0.08% · 어드반테스트(6857) −0.09% · 소프트뱅크G(9984) −0.67% · 키옥시아(285A) +1.27%
+→ 어제 −6~7% 급락했던 반도체 대형주가 보합권으로 회복, 키옥시아는 플러스 전환해 지수 기여 상위
+
+■ 드라이버
+美 AI 과잉투자 우려로 반도체주 아침 급락 → 후장 나스닥 선물 플러스 전환·반도체 저가매수로 낙폭 축소(키옥시아 플러스 전환·지수 기여 상위). 장기금리 하락에 은행주 약세(은행업 −2.28%, 리소나 장중 −7%). 업종: 부동산 +2.05%, 소매 +1.20% / 은행 −2.28%, 해운 −2.10%, 비철 −1.76%, 전기기기 −1.37%. 일본 9월 CPI 발표, BOJ 10/29~30 회의 대기, 엔화 156엔대 강세.
+
+■ 기타 아시아
+• 항셍 23,093.37 (+0.69%) · 상하이 3,690.48 (+0.89%) · 심천성분 +2.79%, 창업판 장중 4%대 급반등(미래에셋 시황)
+• 대만: 10/23 태풍으로 휴장 (10/22 종가 46,041 −1.81%)
+• CSI300 6월 고점 대비 −20% 약세장 진입(X 뉴스 요약, 미검증)
+
+■ 한국과의 비교
+어제는 아시아 동반 급락, 오늘은 &#x27;오전 급락 → 오후 회복&#x27;이 공통. 회복 폭은 한국(하이닉스 개별 호재)·중국(지수형 ETF 유입) &gt; 일본(은행주 부담). 반도체 저가매수가 공통 동력.
+
+🔗 <a href="https://www.zaikei.co.jp/article/20261023/874716.html" target="_blank" rel="noopener">https://www.zaikei.co.jp/article/20261023/874716.html</a>
+🔗 <a href="https://kabutan.jp/news/marketnews/?b=n202610230977" target="_blank" rel="noopener">https://kabutan.jp/news/marketnews/?b=n202610230977</a>
+🔗 <a href="https://www.newsworks.co.kr/en/articleView.html?idxno=900594" target="_blank" rel="noopener">https://www.newsworks.co.kr/en/articleView.html?idxno=900594</a>
+🔗 <a href="https://www.etoday.co.kr/news/view/2639524" target="_blank" rel="noopener">https://www.etoday.co.kr/news/view/2639524</a>
+🔗 <a href="https://t.me/globalmktinsight/7750" target="_blank" rel="noopener">https://t.me/globalmktinsight/7750</a>
+</pre><pre class="tgmsg">(4/12) 🇺🇸 10/23(금) 오늘밤 미국장 프리뷰: AI 하드웨어 언와인드 다음날, 선물 보합권
+■ 목(10/22) 종가
+• 다우 52,867.98 (+0.02%) · S&amp;P500 7,663.43 (−1.21%, 7월 이후 최악) · 나스닥 26,008.86 (−2.60%)
+• NDX −2.90% · SOX 10,731.98 (−6.72%, 고점 대비 −26%) · R2K +0.11% · NYSE 신저가 366
+• 하락: LRCX −11.76% · CRWV −10.06% · KLAC −9.55% · SPCX −9.14% · BE −8.70% · SNDK −8.51% · AMAT −8.16% · AMD −8.10% · INTC −8.04% · META −6.98% · ASML −6.93% · WDC −6.43%
+• 상승: SPOT +11.10% · BX +8.38% · LMT +6.96% · PG +5.58% · DOW +4.71% · UNP +3.55% · CRM +3.52% · CMCSA +3.44%
+• 보안: PANW +2.21% · CRWD −0.58% · NET −1.18%
+• 해석: 경기 공포가 아니라 &#x27;AI·반도체 포지션 청산&#x27;. 나스닥−다우 2.6%p 격차, 동일가중 RSP는 플러스
+
+■ 장후·프리마켓
+• WDC ✅TR: FQ1 매출 $4.38B(컨센 $4.14B)·EPS $4.64(컨센 $4.06) 비트, ASP/TB +28%에도 시간외 −6.5%($331), 임원 소량 매도 공시 동반
+• Anthropic S-1 공개 제출 이르면 금요일(Yahoo Finance 소식통), 11월 상장 가능 보도. ⚠️ TR: 공개 S-1 제출·11월 IPO 일정 미확인, 조달 규모·밸류 수치도 미확인
+• CoreWeave 등 네오클라우드 프리마켓 반등(WSJ) · 젠슨 황 &quot;네오클라우드 수요는 기록적, 부족한 건 운전자본&quot;
+
+■ 야간 선물 (~18:56 KST, 직전 정산 대비)
+• ES 7,686.50 (−0.23%) · NQ 29,126.25 (−0.05%)
+• YM 52,747 (−0.60%) · RTY 2,780.9 (−0.54%) · VIX 19.57
+
+■ 오늘밤~토 새벽 일정 (KST)
+• 23일(금) 장전(KST ~19~21시): American Express(EPS 컨센 ~$4.5, 매출 ~$20.1B), SLB, Booz Allen, Autoliv, Eni
+• 22:30 KST 美 정규장 개장
+• 22:45 KST 美 10월 S&amp;P글로벌 제조업·서비스업 PMI(속보)
+• 23:00 KST 美 10월 미시간대 소비자심리 확정치(기대인플레 포함)
+• Anthropic S-1 공개 제출 가능(이르면 오늘): 재무·지출 약정 첫 공개
+• Fed 블랙아웃: 10/27~28 FOMC(10/29 03:00 KST 결정)
+• 중동: 美 추가 병력 파견, 이란 &#x27;공습 재개 시 인접국 민간시설 타격&#x27; 경고(WSJ)
+• 토 05:00 KST 정규장 마감 (서머타임 11/1 종료 전)
+
+■ 관전 포인트
+1) SOX 200일선 지지 vs 이탈, 반도체 반등 지속 여부
+2) Anthropic S-1이 AI 수익성·지출 약정 논쟁에 주는 신호
+3) 브렌트 $110~115 유지 여부(⚠️ $109.88 vs ~$114.5 계약·시각 차이 TR 미해결), 10Y 5% 하회 유지
+4) 미시간 기대인플레 → 다음 주 FOMC &#x27;매파적 동결&#x27; 경계
+
+🔗 <a href="https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180" target="_blank" rel="noopener">https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180</a>
+🔗 <a href="https://www.vlsi.kr/en/daily-silicon-2026-10-23-en/" target="_blank" rel="noopener">https://www.vlsi.kr/en/daily-silicon-2026-10-23-en/</a>
+🔗 <a href="https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings" target="_blank" rel="noopener">https://www.benzinga.com/markets/equities/26/10/62551721/western-digital-shares-fall-insider-sale-earnings</a>
+🔗 <a href="https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html" target="_blank" rel="noopener">https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html</a>
+🔗 <a href="https://t.me/TNBfolio/71669" target="_blank" rel="noopener">https://t.me/TNBfolio/71669</a>
+</pre><pre class="tgmsg">(5/12) 🌐 10/23(금) 매크로·정책: 美10Y 5% 하회·브렌트 5개월 고점·금 주간 급락
+■ 금리·달러·원자재 (Yahoo, ~19:00 KST)
+• 美 10년물 4.953% (10/22 4.953%(−19bp, 5.146%→), 안전자산 매수로 5% 하회) · 3개월 4.022%
+• DXY 101.721 · USD/JPY ≈156.57 · 원/달러 1,324.6
+• WTI $101.2 (+1.74%) · 브렌트 $114.5 부근(+1.1%, Euronext/The National 10/23), 5개월 고점 · Yahoo $109.88(−2.91%)는 근월물 롤오버 영향 추정 · ⚠️ TR: 두 수치의 계약·시각 차이 미해결
+• 금 $4,037.8 (−0.56%): $4,000 하회 시도, 주간 급락(유가→Fed 금리 우려, CNBC). 10/22 −2.7%, 은 −5%
+• BTC ≈$81,635 (+0.40%) · VIX 19.57 (+2.84%)
+
+■ 한국
+• 신현송 총재 국감: &#x27;원화 추가 강세 여지 충분&#x27;, 환율 예측 가능성 강조. 기준금리 3.00%(10/22 동결), 다음 금통위 11/26.
+• 원화: 올해 경상흑자 4,500억달러 상회 전망(총재), 다음 주 FOMC 매파적 동결 가능성은 달러 강세 요인(서울경제)
+• 은행: 8월 원화대출 연체율 0.69%(10년 내 최고) → 은행주 약세
+
+■ 정책·이벤트
+• SK하이닉스 솔리다임 IPO 검토 중단(주주 반대·시장 여건)
+• 신현송 한은 총재 국감 &#x27;원화 추가 강세 여지&#x27;
+• 후티 사우디 추가 공격, 리비아 송유관 차질, 美 중동 증파 / 이란 경고
+• 프랑스 국채 혼란(Investing.com): 유럽 금리 리스크
+• Anthropic S-1 임박, 11월 IPO 가능
+• 10/27~28 FOMC(9월 인상 후 3.75~4.00%): 시장은 매파적 동결 예상
+• BOJ 10/29~30
+
+■ 앞으로 (KST)
+• 10/23(美) S&amp;P PMI 22:45 KST, 미시간 확정치 23:00 KST, AXP 장전
+• 10/26(월)~ 美 실적: 10/28(수) 장후 MSFT·GOOGL, 10/29(목) 장후 AMZN, AAPL 11/2(월) 장후
+• 10/27~28 FOMC: 10/29(목) 03:00 KST 결정·03:30 파월 회견
+• 10/29~30 BOJ 회의(30일 결정)
+• ORCL AI World 다음 주(X 게시물 기준)
+• 11/1 美 서머타임 종료
+• 11/3 美 중간선거
+• 11/26 한은 금통위
+
+■ 해석
+AI 지출 논쟁이 &#x27;실적&#x27;에서 &#x27;조달·현금흐름&#x27;으로 이동. 채권은 안전자산 매수로 10Y가 5% 아래로 내려왔지만, 유가가 5개월 고점이라 FOMC에서 인하 기대를 키우기 어려운 구도. 원화 강세(1,320원대)는 수출주 실적 래깅 부담(유니드 등 리포트)으로 이어지는 중.
+
+🔗 <a href="https://www.sedaily.com/article/20105439" target="_blank" rel="noopener">https://www.sedaily.com/article/20105439</a>
+🔗 <a href="https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/" target="_blank" rel="noopener">https://www.thenationalnews.com/business/energy/2026/10/23/oil-prices-rise-as-houthis-launch-another-wave-of-attacks-on-saudi-arabia/</a>
+🔗 <a href="https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html" target="_blank" rel="noopener">https://www.cnbc.com/2026/10/23/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns.html</a>
+🔗 <a href="https://www.federalreserve.gov/newsevents/2026-october.htm" target="_blank" rel="noopener">https://www.federalreserve.gov/newsevents/2026-october.htm</a>
+</pre><pre class="tgmsg">(6/12) 🛰️ 10/23(금) 텔레그램 언급·테마 (GramJS 2,142건 · 73채널)
+수집 창: 10/22 18:50 ~ 10/23 19:02 KST · 구독 채널·슈퍼그룹 73/91개 · 1:1 DM 제외 · 보고서 만드는방 제외
+
+■ 테마 묶음
+• 실적 시즌(3Q)·IPO: 685회 / 56채널
+• AI·빅테크·데이터센터: 614회 / 54채널
+• 매크로·금리·환율·유가: 474회 / 53채널
+• 수급·외국인·공매도·신용: 262회 / 49채널
+• 반도체·HBM·메모리: 258회 / 53채널
+• 바이오·제약: 165회 / 36채널
+• 중동·지정학·프랑스: 161회 / 36채널
+• 일본·미국 프리뷰: 157회 / 47채널
+
+■ 최다 언급 (언급수/채널수)
+실적(3Q) 420/44ch · AI데이터센터 155/41ch · 반도체 152/40ch · 후티/중동 129/32ch · 원/달러 환율 114/17ch · SK하이닉스 100/39ch · WTI/유가 98/29ch · 바이오 97/27ch · Meta 81/31ch · IPO/공모 81/34ch · 삼성전자 63/26ch · 방산 62/16ch · 솔리다임(중복상장) 61/32ch · 엔비디아 55/24ch · 삼성E&amp;A 55/13ch · 금 53/5ch · 미 국채금리 53/25ch · 수출(10월 1~20일) 52/18ch · Tesla 49/20ch · 외국인 48/14ch · 보안/사이버보안 45/20ch · Alphabet/Google 40/25ch
+
+■ 채널 활동 TOP
+easobi_ai 264 · Fundeasyearnings 181 · ai_masters_chat 110 · insidertracking 100 · darthacking 84 · tazastock 81 · ttg3443534534534 72 · HANAchina 57
+
+■ 오늘 텔레그램 서사
+1) 밤: 美 &#x27;AI 하드웨어 언와인드&#x27;(SOX −6.72%), Meta $825B 지출 약정·FCF 적자 해석, 젠슨 황 &quot;네오클라우드 수요 기록적, 자본 부족&quot;, 새벽 한경 단독 &#x27;솔리다임 상장 철회&#x27;
+2) 장전: 하이닉스 ADR −8.07%·야간선물 −1.76% 예고, 솔리다임 IPO 검토 중단 공시, PHP 취약점 사이버위기 &#x27;주의&#x27; 경보, 앤트로픽 &#x27;클로드 듀엣&#x27; 공개, 디티에스 상장
+3) 장중: 9:10 코스피 −4.12% → 기관 매수, 김정은 행방 논란 방산, 오세훈 2심 무죄 진양 3형제, 아이패밀리에스씨 공개매수, 삼성E&amp;A 리포트 15건
+4) 장후: &#x27;V자 마감, 그러나 하락 719&#x27; 정리, 은행 연체율, 퓨쳐켐 상한가, 애프터마켓(보로노이 +3.7%, LIG디펜스앤에어로 −1.58%)
+
+※ 키워드 근사 카운트. 속보·요약 채널 반복 게시로 과대 계상 가능(실적 420회는 자동 공시 채널 영향).
+</pre><pre class="tgmsg">(7/12) 🔎 10/23(금) 텔레그램 특징주 ① 대형·실적·공시 (촉매 검증·과열)
+■ SK하이닉스 (000660) +4.42% 1,277,000 · 솔리다임 언급 61회/32채널
+촉매: 솔리다임 프리IPO·美 IPO 검토 중단 공시(8/5 이후 79일 만). 금감원장·금융위원장이 &#x27;중복상장 가이드라인 적용 대상&#x27;이라고 언급해 온 사안. 메리츠 &#x27;강화된 주주환원으로 귀결&#x27;
+검증: ✅ TR 확인: 회사 공식 발표(SK hynix 뉴스룸) + 언론(한경 단독·연합) 교차. ⚠️ TR: 검토 중단 ≠ 영구 상장 포기, 투자 필요성은 유지 → 자금조달 대안 별도 확인. 🟡 주주환원 확대는 리포트 해석
+과열: 외국인은 오히려 순매도(서울경제). 40조 자사주 매입 종료로 수급 공백, 10/28 3Q 실적·추가 환원안이 다음 확인점
+TG: <a href="https://t.me/cahier_de_market/11100" target="_blank" rel="noopener">https://t.me/cahier_de_market/11100</a> · <a href="https://t.me/ked_epic_ai/37902" target="_blank" rel="noopener">https://t.me/ked_epic_ai/37902</a> · <a href="https://t.me/darthacking/155267" target="_blank" rel="noopener">https://t.me/darthacking/155267</a>
+
+■ 삼성바이오로직스 (207940) +7.5~7.71%
+촉매: 파업 연기로 생산 차질 우려 해소, 식약처 규제 완화·CDMO 수출 체계, 한투 Buy·TP 1,950,000원 유지
+검증: 🟡 파업 연기는 증권사 시황·기사 기준(노사 공식 발표 미대조). 반론: 신영증권 리포트 &#x27;성장한 것처럼 보이지만&#x27;(부정 뉘앙스)
+과열: 방어주 순환 성격, 하루 +7%대는 대형주로 이례적
+TG: <a href="https://t.me/globalmktinsight/7750" target="_blank" rel="noopener">https://t.me/globalmktinsight/7750</a> · <a href="https://t.me/tazastock/79737" target="_blank" rel="noopener">https://t.me/tazastock/79737</a> · <a href="https://t.me/easobi_ai/24053" target="_blank" rel="noopener">https://t.me/easobi_ai/24053</a>
+
+■ 삼성E&amp;A (028050) +7.76~7.94% · 2일 연속 · 55회/13채널
+촉매: 3Q 매출 2조9,105억·영업익 5,006억(+183.6%, OPM 17.2%), 연간 영업익 가이던스 0.8→1.4조. 자사주 7,800억 취득(10/23~2027/1/22) 중 6,900억(발행주식 약 6.4%) 소각 예정. 당일 리포트 15건 전부 Buy, 최고 TP 86,000원
+검증: ✅ TR 확인(회사 발표): 영업이익 5,006억 · 자사주 취득 7,800억 / 소각 6,900억(두 금액 혼동 금지, 소각은 예정). ⚠️ 신한투자: 얀부 중재 정산금 환입 1,000억·인센티브·준공 정산 이익 포함 → 일회성 감안 필요
+TG: <a href="https://t.me/ked_epic_ai/37911" target="_blank" rel="noopener">https://t.me/ked_epic_ai/37911</a> · <a href="https://t.me/ked_epic_ai/37908" target="_blank" rel="noopener">https://t.me/ked_epic_ai/37908</a> · <a href="https://t.me/YeouidoStory2/118843" target="_blank" rel="noopener">https://t.me/YeouidoStory2/118843</a>
+
+■ 퓨쳐켐 (220100) 상한가 8,990원
+촉매: 전립선암 RPT &#x27;FC705&#x27; 美 2a상 톱라인(ORR 38.9%, DCR 83.3%, 완전관해 5명)
+검증: 🟡 공시·전문지 보도 인용(원문 표본 수·평가 기준 미대조). 상승률 +29.91% vs +26.73% 소스 상이
+과열: ⚠️ 2a상 소규모 데이터, 후속 임상·기술이전 확인 전 변동성 큼
+TG: <a href="https://t.me/tazastock/79769" target="_blank" rel="noopener">https://t.me/tazastock/79769</a> · <a href="https://t.me/YeouidoStory2/118843" target="_blank" rel="noopener">https://t.me/YeouidoStory2/118843</a>
+
+■ 아이패밀리에스씨 (114840) 상한가 10,940원
+촉매: 마루베니 계열 웰라이언트가 주당 12,000원 공개매수(최대 28%, 11/11까지)
+검증: 🟡 TR: 주당 12,000원 공개매수 보도 확인, 원 공시(공개매수신고서) 대조 필요
+과열: 공개매수가와 종가 괴리 약 9.7%. 응모 상한 28% 초과 시 안분 배정 → 차익 확정 아님
+TG: <a href="https://t.me/tazastock/79737" target="_blank" rel="noopener">https://t.me/tazastock/79737</a> · <a href="https://t.me/tazastock/79769" target="_blank" rel="noopener">https://t.me/tazastock/79769</a>
+
+■ TR 추가 검증 메모
+• 삼성전기: Tesla 1.1조·NVIDIA 2.6조 투자 보도 🟡 세부 투자금 1차 확인 필요(확정 공시 취급 금지)
+• 신풍제약: 임상3상 시험계획 &#x27;변경 승인&#x27; 🟡 ≠ 임상 성공
+• PHM(美): TG 매출 $4.2B vs 회사 발표 약 $3.97B ⚠️ 불일치, TG 수치 사용 금지
+
+※ &#x27;TR&#x27; 표기 라벨은 TR 3.7.4 판정 반영, 그 외는 박스 측 1차 분류. TR은 2,142건 중 40건 발췌만 검토(PARTIAL). ⚠️ 매수 추천 아님.
+</pre><pre class="tgmsg">(8/12) 🔎 10/23(금) 텔레그램 특징주 ② 테마·이벤트·공모주 (과열 경고)
+■ 방산·대북: 스페코 (013810) 상한가 2,055원 · 빅텍 장중 +13.6% → +1.47%
+촉매: 김정은 10/19 이후 공개활동 미보도, 북한 .kp 사이트 40여개 20일부터 접속 장애(NK뉴스), 김여정 &#x27;확성기&#x27; 담화
+검증: ⚠️ TR: 북한 지도자 사망설은 근거 미확인 루머, 사실로 발행 불가(언론도 &#x27;확인되지 않음&#x27; 명시). 전파 금지
+과열: ⚠️ 빅텍은 장중 상승분 대부분 반납. 대북 이벤트 테마의 전형적 되돌림
+TG: <a href="https://t.me/tazastock/79743" target="_blank" rel="noopener">https://t.me/tazastock/79743</a> · <a href="https://t.me/ked_epic_ai/37908" target="_blank" rel="noopener">https://t.me/ked_epic_ai/37908</a>
+
+■ 정치 테마: 진양산업·진양화학 상한가 · 진양폴리 +27.4%
+촉매: 오세훈 서울시장 &#x27;여론조사비 대납&#x27; 항소심 무죄
+검증: ✅ 판결 보도. ❓ 회사 측은 과거 공시에서 &#x27;오 시장과 사업 무관&#x27;
+과열: ⚠️ 6월 당선 확정 때 상한가 후 이틀 만에 급락 전례
+TG: <a href="https://t.me/ked_epic_ai/37911" target="_blank" rel="noopener">https://t.me/ked_epic_ai/37911</a> · <a href="https://t.me/tazastock/79764" target="_blank" rel="noopener">https://t.me/tazastock/79764</a>
+
+■ 보안 테마 · 언급 45회/20채널
+촉매: PHP 로그인 없는 원격 장악 취약점(AI로 발견, 10년 넘게 미발견) → 과기정통부·KISA 민간 사이버위기 경보 &#x27;관심&#x27;→&#x27;주의&#x27; 상향(10/22), 민관군 긴급회의, 오라클·노드JS 결함 보도. 모니터랩·샌즈랩·케이사인·이노테나 상승, 안랩 공격 코드 분석·영향도 점검
+검증: ✅ 경보 발령은 다수 기사·채널 일치. 🟡 개별 보안주 등락률 미수집
+관점: AI가 취약점 발견 비용을 낮춘다는 사례. 美 PANW +2.21%(반발 매수)
+TG: <a href="https://t.me/tazastock/79743" target="_blank" rel="noopener">https://t.me/tazastock/79743</a> · <a href="https://t.me/TNBfolio/71673" target="_blank" rel="noopener">https://t.me/TNBfolio/71673</a> · <a href="https://t.me/ked_epic_ai/37911" target="_blank" rel="noopener">https://t.me/ked_epic_ai/37911</a>
+
+■ 공모주: 디티에스 상장 첫날 +35.14%(장중 +114.9%) · 엠에스바이오 −27.25%
+디티에스: 공모가 18,500원, 공랭식 열교환기(AI 전력 수요 테마). 엠에스바이오: 상장 첫날 +64~71% 후 투자주의 지정, 이튿날 급락
+과열: ⚠️ &quot;신규주는 비중 낮추고 칼손절할 사람만&quot;(독학주식)
+TG: <a href="https://t.me/tazastock/79716" target="_blank" rel="noopener">https://t.me/tazastock/79716</a> · <a href="https://t.me/tazastock/79770" target="_blank" rel="noopener">https://t.me/tazastock/79770</a> · <a href="https://t.me/selfstudyview/9887" target="_blank" rel="noopener">https://t.me/selfstudyview/9887</a>
+
+■ 기타 상한가: 컨텍 · 노을 · 에이전트AI · 윙스풋
+컨텍: 국내 최초 우주 광통신 수신 실증 성공 보도 + 태국 우주사업 사절단(🟡 보도 기준). 노을: 27.5억 제3자배정 유증(발행가 2,500원). 에이전트AI·윙스풋: 2연상, 재료 ❓ 미확인
+TG: <a href="https://t.me/tazastock/79769" target="_blank" rel="noopener">https://t.me/tazastock/79769</a> · <a href="https://t.me/tazastock/79764" target="_blank" rel="noopener">https://t.me/tazastock/79764</a>
+
+■ 약세: 은행(KB −3.29%·신한 −2.43%, 연체율) · 2차전지(에코프로 −5.83%) · SKAI −9.89%(전일 상한가 반납) · LIG디펜스앤에어로(방사청 2년 입찰 제한 여파)
+TG: <a href="https://t.me/globalmktinsight/7750" target="_blank" rel="noopener">https://t.me/globalmktinsight/7750</a> · <a href="https://t.me/tazastock/79770" target="_blank" rel="noopener">https://t.me/tazastock/79770</a>
+
+※ 대북 라벨만 TR 판정 반영, 나머지는 박스 측 1차 분류. ⚠️ 매수 추천 아님.
+</pre><pre class="tgmsg">(9/12) 🗣️ 10/23(금) 해외 커뮤니티 심리 (X · Reddit/ApeWisdom) · 전부 미확인
+※ Reddit JSON 403 차단 → ApeWisdom 언급 집계로 대체. 언급량일 뿐 방향 합의 아님.
+
+■ Reddit (ApeWisdom 전체, 언급수(24h 전))
+1 SPY 317(213) · 2 MU 283(213) · 3 QQQ 239(110) · 4 META 189(338) · 5 WDC 171(9) · 6 MRNA 156(25) · 7 SOXL 133(31) · 8 BE 126(19) · 9 NVDA 115(56) · 10 NBIS 115(105) · 11 TSLA 111(234) · 12 SPCX 104(228)
+• WSB 관심이 META·TSLA·SPCX(실적 후 언급 45~55% 감소)에서 MU·WDC(9→171)·SOXL(31→133)·BE(19→126)·AMD로 이동: 반도체 급락이 메인 스레드
+• SPY·QQQ 언급 증가: 지수 헤지·풋 대화
+• MRNA 25→156 급증, 사유 미확인
+• r/stocks는 VOO·RSP(동일가중)·VXUS 등 방어적
+<a href="https://apewisdom.io/api/v1.0/filter/all-stocks" target="_blank" rel="noopener">https://apewisdom.io/api/v1.0/filter/all-stocks</a>
+
+■ X: 해외 시선
+• &quot;AI 하드웨어 언와인드지 광범위한 매도가 아님: QQQ −2.91%, SPY −1.23%, RSP +0.72%, SMH −6.06%&quot;
+  <a href="https://x.com/ask_volAI/status/2113369651103383753" target="_blank" rel="noopener">https://x.com/ask_volAI/status/2113369651103383753</a>
+• SOX가 200일선 바로 위에서 버티는 중, 반등이냐 이탈이냐가 신호
+  <a href="https://x.com/Davidk117a/status/2113396180591980770" target="_blank" rel="noopener">https://x.com/Davidk117a/status/2113396180591980770</a>
+• X News: SOXL 전주 사상 최대 $3.8B 유입 직후 −19%, 풋 거래 급증
+  <a href="https://x.com/i/trending/2113360227617886557" target="_blank" rel="noopener">https://x.com/i/trending/2113360227617886557</a>
+• X News: Fundstrat 톰 리 &quot;10Y 5% 하회 + 숏 과밀 = 바닥 근접&quot;(의견)
+  <a href="https://x.com/i/trending/2113463851563843929" target="_blank" rel="noopener">https://x.com/i/trending/2113463851563843929</a>
+• Anthropic S-1 &#x27;이르면 금요일&#x27; 확산(조달·밸류 수치는 미확인)
+  <a href="https://x.com/BrajInvest/status/2113345827695697921" target="_blank" rel="noopener">https://x.com/BrajInvest/status/2113345827695697921</a>
+
+■ X: 한국 계정 톤
+• &quot;외인 1조 가까이 던지고 기관 8,700억 받아냄. 솔리다임 철회가 오후에 먹힘. 코스닥은 못 따라옴&quot; <a href="https://x.com/factchartt/status/2113539815140679845" target="_blank" rel="noopener">https://x.com/factchartt/status/2113539815140679845</a>
+• &quot;지수는 구조됐는데 내 계좌는 아직 물속, 상승 173 vs 하락 719&quot; <a href="https://x.com/Jaymin_Alpha/status/2113538337478947123" target="_blank" rel="noopener">https://x.com/Jaymin_Alpha/status/2113538337478947123</a>
+• 솔리다임 상장 시 하이닉스 주주 몫 희석 논리 → 철회는 호재 <a href="https://x.com/TechSaurus/status/2113529422863331456" target="_blank" rel="noopener">https://x.com/TechSaurus/status/2113529422863331456</a>
+
+■ 종합 톤
+미국: &#x27;AI 하드웨어 포지션 청산&#x27; 인식 + 바닥론과 추가 하락론 공존. 한국: 지수 반등에도 종목 체감은 약세, 초대형주 선택적 반전.
+</pre><pre class="tgmsg">(10/12) 🧪 10/23(금) TR 3.7.4 · EI 3.7.3.1 상태
+■ Telegram Research 3.7.4
+• 상태: PARTIAL / NEEDS_REVIEW
+• 채팅: <a href="https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621" target="_blank" rel="noopener">https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621</a>
+• 검토 범위: 수집 2,142건 중 ChatGPT 전달 발췌 40건 · 독립 출처 21개 채널 · 클레임 클러스터 37 · Stage 2 20 · 마지막 표본 13:10 KST (전체 검증 아님)
+• 핵심 팩트체크(TR):
+  - 코스피 5,550.30(+0.30%, 장중 −4.12%에서 반전)·코스닥 751.69(−1.62%)·닛케이 62,693.16(−0.34%) ✅ · 외국인 −9,928억/기관 +8,723억은 패킷 잠정 🟡
+  - SK하이닉스: 솔리다임 프리IPO·IPO 검토 중단 회사 공식 발표 ✅ · 영구 상장 포기 아님, 투자 필요성 유지 → P0 핸드오프
+  - 삼성E&amp;A: 3Q 영업이익 5,006억 · 자사주 취득 7,800억/소각 6,900억 회사 발표 ✅ (두 금액 혼동 금지)
+  - 삼성전기 Tesla 1.1조·NVIDIA 2.6조 투자 보도 🟡 세부 1차 확인 필요 · 아이패밀리에스씨 12,000원 공개매수 보도 🟡 원 공시 대조 필요
+  - 신풍제약: 임상3상 시험계획 변경 승인 🟡 ≠ 임상 성공
+  - 북한 지도자 사망설 ⚠️ 근거 미확인, 사실로 발행 불가 · PHM 매출 TG $4.2B vs 외부 약 $3.97B ⚠️ 불일치
+  - 美 10/22: SOX 10,731.98(−6.72%) ✅ · WDC FY27 Q1 매출 $4.38B·EPS $4.64 ✅ · Meta FCF −$2.12B·2026 CapEx $135~145B ✅(순이익 흑자)
+  - F-35 850대·10년 기본협약 🟡 최종 개별 발주계약 아님 · Anthropic 공개 S-1·11월 IPO ⚠️ 미확인
+  - 브렌트 $109.88 vs 약 $114.5 ⚠️ 계약·시각 차이 미해결 · X 직접 자료 미확보, Reddit 표본 제한
+• 미해결(TR):
+  - Full 2142-record collector bundle unavailable; only 40 compact records received
+  - Source raw_text already truncated upstream in multiple records
+  - No post-13:10 KST Telegram sample available
+  - Brent oil pricing conflict unresolved
+• handoff_required=true → EI 3.7.3.1 심층 대상 지정
+
+■ Equity Intelligence 3.7.3.1
+• 대상: SK하이닉스/솔리다임(000660) P0: 솔리다임 pre-IPO·IPO 검토 중단, 투자 필요성 유지 (+추가 핸드오프 7건: CL-006·007·008·010·014·022·023)
+• 상태: 실행 중 (결과는 별도 회신) · <a href="https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6adb35b3-c2ac-83e8-8c8e-fb9f47904146" target="_blank" rel="noopener">https://chatgpt.com/g/g-p-6ac58266ca948191b3be2ef1b9ca97f5-equity-intelligence-3-7-3-1/c/6adb35b3-c2ac-83e8-8c8e-fb9f47904146</a>
+• 질문: 자금조달·투자재원 경로, 중복상장 할인 변화, NAND 투자·경쟁구도, 반대증거·무효화 조건 (목표가 제시 금지)
+• 프로토콜 deep-research-return/3.7.4 · RUN_ID 동일 · Thinking High · 심층 결과는 이 요약과 분리해 별도 회신
+
+■ 게시 원칙
+• 7·8번 라벨: TR 판정 반영분 외에는 박스 측 1차 분류
+• 반영 소스: tr_status.json + tr_answer.txt(내장 JSON)
+• 수급 금액은 소스별 상이. 매매 권유 아님.
+</pre><pre class="tgmsg">(11/12) ⏰ 10/23(금) 주말·월요일 체크포인트 (KST) · 내일은 토요일
+■ 오늘 밤 (금)
+1) 22:30 美 개장 · SOX 200일선 지지 여부, LRCX·KLAC·AMD 등 낙폭과대 반등 강도
+2) 22:45 S&amp;P글로벌 PMI 속보 · 23:00 미시간 소비자심리 확정치·기대인플레
+3) Anthropic S-1 공개 여부와 재무·지출 약정 내용 (AI 수익성 논쟁의 새 데이터)
+4) 장전 AXP·SLB 실적 반응, WDC 시간외 −6.5%가 정규장에서 이어지는지
+
+■ 토(10/24)~일(10/25) 주말
+5) 05:00 美 마감 결과 → 주말 사이 국내 반도체·AI 인프라 심리 결정
+6) 중동: 후티 추가 공격·美 증파·이란 경고, 주말 유가 갭 리스크(월요일 아시아 개장)
+7) 북한: 김정은 공개활동 재개 여부(신변이상설은 미확인 루머) → 월요일 방산 테마 되돌림 변수
+8) 주말 언론 단독·정책 이슈(중복상장 가이드라인, 밸류업, 사이버위기 경보 조정)
+
+■ 월(10/26) 국내 개장
+9) 코스피 5,500선 안착 여부(금 저점 5,305.98·종가 5,550.30), 외국인 매도 지속 vs 기관 매수 지속
+10) SK하이닉스 종가 1,277,000 유지 여부(외국인 매도 지속 시), 10/28 3Q 실적·추가 환원안 기대
+11) 삼성E&amp;A 3일차·삼성바이오 탄력 지속 여부, 상한가 9종목 다음날 흐름(정치·대북 테마 되돌림)
+12) 아이패밀리에스씨 공개매수가(12,000원) 대비 괴리, 디티에스·엠에스바이오 공모주 변동성
+13) 원/달러 1,320원대 하단 테스트, 은행주 연체율 이슈
+
+■ FOMC 주간 (10/26~10/30)
+14) 10/27~28 FOMC → 10/29(목) 03:00 KST 결정·03:30 파월 회견 (시장은 매파적 동결 예상)
+15) 10/28(수) 장후 MSFT·GOOGL → 10/29 오전 KST 반응 · 10/29(목) 장후 AMZN · AAPL 11/2
+16) BOJ 10/29~30 (30일 결정), 엔 156엔대
+17) 다음: 11/1 美 서머타임 종료(개장 23:30 KST로) · 11/3 美 중간선거 · 11/26 금통위
+
+운영 메모: 오늘은 &#x27;하이닉스 개별 호재 + 기관&#x27;이 지수를 구했지만 시장 폭은 최악 수준. 월요일은 美 금요일 반도체 반등 여부와 FOMC 경계가 1차 분기점.
+</pre><pre class="tgmsg">(12/12) ⚠️ 10/23(금) 커버리지 한계·미확인·출처 (요약)
+■ 한계
+• GramJS 2,142건/73채널 (10/22 18:50~10/23 19:02). 비구독·삭제 메시지 누락 가능. 키워드 카운트 과대 가능
+• TR 3.7.4: PARTIAL / NEEDS_REVIEW · EI 3.7.3.1: 실행 중 (결과는 별도 회신)
+• Reddit 차단 → ApeWisdom 프록시 · X는 저노출 계정·Grok 요약 포함 → 전부 미확인
+• TOPIX는 JPX 商況プリント(Yahoo 없음) · 美 2Y 미수집 · 대만 휴장
+
+■ 미확인·부분확인
+• 외국인 순매도 −9,928억(KRX 잠정) vs −9,941억 vs 약 −1.09조(NXT 합산 추정)
+• 브렌트 Yahoo $109.9 vs 보도 $114.5(계약월 차이 추정, TR도 미해결 판정)
+• 퓨쳐켐 +29.91% vs +26.73% · 컨텍·윙스풋·에이전트AI 재료 미확인
+• 김정은 신변이상설은 미확인 루머(TR 동일 판정, 전파 금지) · Anthropic S-1·PHM 매출 TR 미확인/불일치 · MRNA 언급 급증 사유 미확인
+• Amazon &#x27;3Q 매출 미스&#x27; 서술(실적일 10/29 이전)은 오류로 판단해 제외
+
+■ 주요 출처
+<a href="https://www.yna.co.kr/view/AKR20261023130300008" target="_blank" rel="noopener">https://www.yna.co.kr/view/AKR20261023130300008</a>
+<a href="https://www.sedaily.com/article/20105413" target="_blank" rel="noopener">https://www.sedaily.com/article/20105413</a>
+<a href="https://www.mk.co.kr/news/stock/12184199" target="_blank" rel="noopener">https://www.mk.co.kr/news/stock/12184199</a>
+<a href="https://sanghanga365.com/daily/2026-10-23" target="_blank" rel="noopener">https://sanghanga365.com/daily/2026-10-23</a>
+<a href="https://www.zaikei.co.jp/article/20261023/874716.html" target="_blank" rel="noopener">https://www.zaikei.co.jp/article/20261023/874716.html</a>
+<a href="https://www.investing.com/news/economy-news/ai-selloff-in-focus-western-digital-reports--whats-moving-markets-4968254" target="_blank" rel="noopener">https://www.investing.com/news/economy-news/ai-selloff-in-focus-western-digital-reports--whats-moving-markets-4968254</a>
+<a href="https://apewisdom.io/api/v1.0/filter/all-stocks" target="_blank" rel="noopener">https://apewisdom.io/api/v1.0/filter/all-stocks</a>
+TR: <a href="https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621" target="_blank" rel="noopener">https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6adb320e-71ac-83ee-ac93-8f58c26a0621</a>
+
+본 브리핑은 정보 정리이며 투자 권유가 아닙니다.
+</pre></div></details>
+</div></details>
+</section>
+<div class="disc">본 브리핑은 정보 정리이며 투자 권유가 아닙니다. 수치는 수집 시점 스냅샷이며 실시간과 다를 수 있습니다. <span class="pill unv">미확인</span>·<span class="pill part">부분확인</span> 라벨을 유지하세요.</div>
+</div>
+<footer>
+ <div class="wrap">
+  <p><b>2026-10-23 장마감 브리핑</b></p>
+  <div class="prov"><span><b>RUN_ID</b>TR-20261023-1900-daily-close</span><span><b>PROTOCOL</b>deep-research-return/3.7.4</span><span><b>TR</b>PARTIAL / NEEDS_REVIEW</span><span><b>EI</b>실행 중 (결과는 별도 회신)</span><span><b>ASOF</b>2026-10-23 ~19:06</span><span><b>POSTED</b>보고서 만드는방 · 12파트 · 1187~1198</span></div>
+  <p>Telegram 2142 posts / 73 channels via GramJS</p><p>Market: Yahoo + 연합/서울경제/매일경제/Businesskorea/버핏연구소/상한가365/財経新聞/株探/JPX/Reuters/AP/Investing.com/Benzinga/Yahoo Finance/WSJ</p><p class="fine" style="color:#94a3b8;margin-top:10px"><a href="index.html" style="color:#93c5fd">← 리포트 목록</a></p>
+ </div>
+</footer>
+<script>window.addEventListener("beforeprint",function(){document.querySelectorAll("details").forEach(function(d){d.setAttribute("open","")})});function openTo(h){var e=h&&h.length>1&&document.getElementById(decodeURIComponent(h.slice(1)));if(!e)return;var d=e.querySelector(":scope>details.cfold")||e.closest("details");while(d){d.open=true;d=d.parentElement&&d.parentElement.closest("details")}}document.addEventListener("click",function(ev){var a=ev.target.closest&&ev.target.closest('a[href^="#"]');if(a)openTo(a.getAttribute("href"))});window.addEventListener("hashchange",function(){openTo(location.hash)});openTo(location.hash);</script>
+</body>
+</html>
