@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>토요일 주말 브리핑 · 美 나스닥 -5.28% · 엔비디아 SEC 조사 보도 −14% · SOX -10.73% · 월요일 체크 | 2026-11-21</title>
+<style>
+:root{
+  --ink:#0f172a; --ink2:#334155; --mute:#64748b; --line:#e2e8f0; --bg:#f4f6fb; --card:#fff;
+  --navy:#0b1f44; --accent:#0f766e; --accent2:#14b8a6; --up:#dc2626; --down:#2563eb; --warn:#b45309;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1','Apple SD Gothic Neo','Malgun Gothic',sans-serif;font-size:15.5px;line-height:1.72;word-break:keep-all;overflow-wrap:anywhere}
+a{color:#0f62c9;text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+b,strong{font-weight:700}
+/* header */
+.hero{background:linear-gradient(135deg,#0b1f44 0%,#12366b 60%,#0f766e 140%);color:#fff;padding:38px 0 30px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-80px;top:-80px;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero .kicker{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-size:12.5px;letter-spacing:.04em;color:#a5f3fc;font-weight:700}
+.hero .kicker span{border:1px solid rgba(165,243,252,.45);padding:2px 10px;border-radius:999px}
+.hero h1{font-size:34px;line-height:1.3;margin:12px 0 6px;font-weight:900;letter-spacing:-.02em}
+.hero .date{font-size:20px;font-weight:700;color:#e2e8f0}
+.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px}
+.meta div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:10px 14px}
+.meta dt{font-size:11.5px;color:#93c5fd;font-weight:700;letter-spacing:.03em}
+.meta dd{margin:2px 0 0;font-size:14.5px;font-weight:700;color:#fff}
+.chans{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chan{display:inline-flex;align-items:center;gap:7px;background:#fff;color:var(--ink);border-radius:8px;padding:5px 11px;font-size:13px;font-weight:700}
+.chan i{width:9px;height:9px;border-radius:50%;background:var(--c)}
+.chan small{color:var(--mute);font-weight:500}
+/* kpi */
+.kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:-18px auto 0;position:relative;z-index:2}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 10px;box-shadow:0 4px 14px rgba(15,23,42,.06)}
+.kpi .l{font-size:11.5px;color:var(--mute);font-weight:700}
+.kpi .v{font-size:21px;font-weight:900;letter-spacing:-.02em;line-height:1.3}
+.kpi .s{font-size:11.5px;color:var(--mute)}
+.up{color:var(--up)} .dn{color:var(--down)}
+/* sections */
+section.sec{padding:34px 0 8px}
+.sh{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:8px;margin-bottom:18px}
+.sh .no{font-size:13px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 9px}
+.sh h2{margin:0;font-size:23px;font-weight:900;letter-spacing:-.02em}
+.sh .sub{margin-left:auto;font-size:12.5px;color:var(--mute)}
+h3{font-size:18px;margin:22px 0 10px;font-weight:800}
+h4{font-size:14px;margin:0 0 6px;font-weight:800;color:var(--accent);letter-spacing:.01em}
+p{margin:0 0 10px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+.note{font-size:13px;color:var(--mute)}
+.fine{font-size:12px;color:var(--mute)}
+/* takeaways */
+.verdict{background:linear-gradient(135deg,#ecfeff,#f0fdf4);border:1px solid #a7f3d0;border-left:6px solid var(--accent);border-radius:14px;padding:18px 22px;margin-bottom:16px}
+.verdict .lab{font-size:12px;font-weight:900;color:var(--accent);letter-spacing:.05em}
+.verdict q{display:block;font-size:19px;font-weight:800;line-height:1.55;margin-top:4px;quotes:"“" "”"}
+.tk{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.tk ol{margin:0;padding-left:20px}
+.tk li{margin-bottom:7px}
+.fix{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px}
+.fix b.t{color:var(--warn)}
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.tier{border-radius:12px;padding:12px 14px;border:1px solid var(--line);background:#fff}
+.tier .tl{font-size:12px;font-weight:900;letter-spacing:.03em}
+.tier .td{font-size:12.5px;color:var(--mute);margin-bottom:6px}
+.tier .tn{font-size:15.5px;font-weight:800;line-height:1.5}
+.tier.t1{border-top:5px solid #0f766e} .tier.t1 .tl{color:#0f766e}
+.tier.t2{border-top:5px solid #0891b2} .tier.t2 .tl{color:#0891b2}
+.tier.t3{border-top:5px solid #94a3b8} .tier.t3 .tl{color:#64748b}
+.tier.tu{border-top:5px solid #2563eb} .tier.tu .tl{color:#2563eb}
+/* charts */
+.chart{width:100%;height:auto;display:block;font-family:inherit}
+.chart.narrow{display:none}
+.chart text{font-family:'Noto Sans CJK KR','Noto Sans KR','Gothic A1',sans-serif}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12.5px;color:var(--ink2)}
+.lg i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:16px}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#f8fafc;font-size:12px;color:var(--mute);font-weight:800}
+td.n,th.n{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+/* stock cards */
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;margin:0 0 20px;overflow:hidden;box-shadow:0 2px 8px rgba(15,23,42,.05)}
+.ch{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:16px 22px;background:linear-gradient(90deg,#f8fafc,#fff);border-bottom:1px solid var(--line)}
+.rank{font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:2px 9px}
+.rank.alt{background:#0891b2}
+.ch h3{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.ch .tag{font-size:12.5px;color:var(--mute);font-weight:600}
+.mcount{margin-left:auto;text-align:right}
+.mcount b{font-size:24px;font-weight:900;color:var(--accent)}
+.mcount small{display:block;font-size:11.5px;color:var(--mute);line-height:1.3}
+.cb{padding:18px 22px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.vchip{border-radius:10px;padding:7px 12px;font-size:13.5px;background:#f1f5f9;border:1px solid var(--line)}
+.vchip span{display:block;font-size:11px;font-weight:800;color:var(--mute);letter-spacing:.03em}
+.vchip b{font-weight:800}
+.vchip.main{background:#ecfdf5;border-color:#a7f3d0} .vchip.main b{color:#047857}
+.vchip.caut{background:#fff7ed;border-color:#fed7aa} .vchip.caut b{color:#c2410c}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.blk{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff}
+.blk.thesis{border-left:4px solid #0f766e}
+.blk.cat{border-left:4px solid #2563eb} .blk.cat h4{color:#2563eb}
+.blk.risk{border-left:4px solid #dc2626} .blk.risk h4{color:#dc2626}
+.blk.gpt{border-left:4px solid #7c3aed;background:#faf5ff} .blk.gpt h4{color:#7c3aed}
+.blk.full{grid-column:1/-1}
+.blk ul{margin:0;padding-left:18px}
+.blk li{margin-bottom:5px;font-size:14.5px}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:8px 0 10px}
+.flow span{background:#0b1f44;color:#fff;border-radius:8px;padding:4px 10px;font-size:13px;font-weight:700}
+.flow em{font-style:normal;color:#0f766e;font-weight:900}
+.flow.alt span{background:#e0f2fe;color:#075985}
+.levels{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:8px 0}
+.levels div{background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:8px 10px;text-align:center}
+.levels span{display:block;font-size:11px;color:var(--mute);font-weight:700}
+.levels b{font-size:16px;font-weight:900}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:14px;padding-top:12px;border-top:1px dashed var(--line)}
+.srclab{font-size:12px;font-weight:800;color:var(--mute);margin-right:2px}
+.schip{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--ink2);background:#fff}
+.schip i{width:7px;height:7px;border-radius:50%;background:var(--c)}
+.srcmore{font-size:11.5px;font-weight:700;margin-left:auto}
+.pill{display:inline-block;font-size:11.5px;font-weight:800;border-radius:6px;padding:1px 8px;margin-right:4px;vertical-align:1px}
+.pill.ok{background:#dcfce7;color:#166534} .pill.pend{background:#f1f5f9;color:#475569} .pill.gpt{background:#ede9fe;color:#6d28d9} .pill.tg{background:#e0f2fe;color:#075985}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.mini{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#f8fafc}
+.mini h5{margin:0 0 4px;font-size:15px;font-weight:900}
+.qs{counter-reset:q;list-style:none;padding:0;margin:6px 0}
+.qs li{counter-increment:q;padding-left:30px;position:relative;margin-bottom:6px}
+.qs li:before{content:counter(q);position:absolute;left:0;top:1px;width:21px;height:21px;border-radius:50%;background:#7c3aed;color:#fff;font-size:12px;font-weight:800;text-align:center;line-height:21px}
+/* themes */
+.theme{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
+.theme .th{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.theme .th .ic{font-size:22px}
+.theme .th h3{margin:0;font-size:20px;font-weight:900}
+.facts{margin:10px 0 0;padding:0;list-style:none}
+.facts li{padding:8px 0;border-top:1px solid #f1f5f9;font-size:14px}
+.facts li b.k{display:inline-block;min-width:0;margin-right:6px;color:var(--navy)}
+/* warnings & playbook */
+.warns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.warn{background:#fff;border:1px solid var(--line);border-top:4px solid #f59e0b;border-radius:12px;padding:14px 16px}
+.warn .wn{font-size:12px;font-weight:900;color:#b45309}
+.warn .wt{font-size:16px;font-weight:800;margin:2px 0 6px}
+.play{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.pl{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.pl .pt{font-size:13px;font-weight:900;color:#fff;display:inline-block;border-radius:6px;padding:1px 9px;margin-bottom:8px}
+.checks{counter-reset:c;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.checks li{counter-increment:c;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 12px 10px 46px;position:relative;font-weight:700;font-size:14.5px}
+.checks li:before{content:counter(c);position:absolute;left:12px;top:9px;width:24px;height:24px;border-radius:7px;background:var(--navy);color:#fff;text-align:center;line-height:24px;font-size:13px}
+.concl{background:var(--navy);color:#fff;border-radius:16px;padding:22px 24px;margin-top:16px}
+.concl .lab{font-size:12px;font-weight:900;color:#5eead4;letter-spacing:.05em}
+.concl p{font-size:17.5px;font-weight:700;line-height:1.65;margin:6px 0 0}
+.concl .hl{color:#5eead4}
+/* appendix */
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:10px}
+.ci{border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fff;font-size:12.5px;position:relative}
+.ci i{position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:10px 0 0 10px;background:var(--c)}
+.ci b{display:block;font-size:13px} .ci span{color:var(--mute);font-size:11.5px} .ci em{font-style:normal;float:right;font-weight:900;color:var(--ink)}
+.apsec{font-size:16px;margin:22px 0 10px;padding-left:10px;border-left:4px solid var(--navy)}
+.apgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;align-items:start}
+.apcat{grid-column:1/-1;break-after:avoid;font-size:12.5px;font-weight:900;color:var(--accent);margin:6px 0 -4px;letter-spacing:.03em}
+.apg{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:0}
+.apgh{display:flex;justify-content:space-between;font-size:13.5px;border-bottom:1px solid #f1f5f9;padding-bottom:4px;margin-bottom:4px}
+.apgh span{color:var(--mute);font-size:12px}
+.apg ul{list-style:none;margin:0;padding:0}
+.apg li{font-size:12px;line-height:1.55;padding:2px 0;display:flex;flex-wrap:wrap;gap:0 6px;align-items:baseline}
+.apg li small{color:var(--mute);width:100%;padding-left:13px}
+.cdot{width:7px;height:7px;border-radius:50%;background:var(--c);display:inline-block;flex:none;transform:translateY(-1px)}
+.cn{font-weight:700;color:var(--ink2)} .tm{color:var(--mute);font-variant-numeric:tabular-nums}
+.apg a{word-break:break-all}
+footer{margin-top:36px;background:#0b1f44;color:#cbd5e1;padding:26px 0 30px;font-size:13px}
+footer b{color:#fff}
+footer p{margin:0 0 6px}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.toc a{color:#e2e8f0;font-size:12.5px;border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:3px 11px}
+/* responsive */
+@media screen and (max-width:760px){
+  .chart.wide{display:none} .chart.narrow{display:block}
+  .hm{display:none}
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .hero{padding:26px 0 30px}
+  .hero h1{font-size:25px}
+  .hero .date{font-size:16px}
+  .meta{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .tk,.two,.grid4,.duo,.warns,.play,.checks{grid-template-columns:1fr}
+  .tiers{grid-template-columns:1fr 1fr}
+  .levels{grid-template-columns:1fr 1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+  .apgrid{grid-template-columns:1fr}
+  .sh{flex-wrap:wrap} .sh .sub{margin-left:0;width:100%}
+  .verdict q{font-size:16.5px}
+  .ch{padding:14px 16px} .cb{padding:14px 16px}
+  .mcount{margin-left:0;text-align:left}
+}
+/* print */
+@page{size:A4;margin:13mm 12mm 14mm}
+@media print{
+  html,body{background:#fff}
+  body{zoom:0.72;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .wrap{max-width:none;padding:0}
+  .hero{padding:22px 18px 30px;border-radius:12px}
+  .kpis{margin-top:-16px;padding:0 10px}
+  .toc{display:none}
+  section.sec{padding-top:6px}
+  .pb{break-before:page;page-break-before:always}
+  .card,.theme{box-shadow:none}
+  .vchip,.tier,.warn,.pl,.checks li,.mini,.kpi,.levels,.verdict,.fix,.concl,svg,tr,.facts li,.blk li,.apg,.chips,.flow,.qs{break-inside:avoid;page-break-inside:avoid}
+  .blkhead{break-after:avoid}
+  .ch{break-after:avoid}
+  h2,h3,h4,.sh{break-after:avoid;page-break-after:avoid}
+  a{color:#0f4fa8}
+  .schip{color:#334155}
+  footer{background:#fff;color:#334155;border-top:2px solid #0b1f44;margin-top:20px;padding:14px 0 0}
+  footer b{color:#0b1f44}
+}
+.fs{font-size:11px;font-weight:700;border:1px solid #bfdbfe;background:#eff6ff;border-radius:5px;padding:0 6px;margin-left:4px;white-space:nowrap}
+.blkhead{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+.blkhead h4{margin:0}
+.howto{font-size:13.5px;color:var(--ink2);background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:12px 16px;margin-top:14px}
+.common{background:#faf5ff;border:1px solid #e9d5ff;border-radius:16px;padding:18px 22px;margin-bottom:18px}
+.common h3{margin:0 0 8px;font-size:19px}
+
+.nw{white-space:nowrap}
+
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.list{margin:0;padding-left:20px}
+.list li{margin-bottom:7px}
+.caution{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 18px;font-size:14px;margin-top:12px}
+.caution b.t{color:var(--warn)}
+.chanidx{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:14px 0 18px}
+.ci{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;border-top:4px solid var(--c)}
+.ci i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
+.ci b{display:block;font-size:13.5px;margin-top:4px}
+.ci span{font-size:11.5px;color:var(--mute)}
+.ci em{display:block;font-style:normal;font-size:20px;font-weight:900;margin-top:4px;color:var(--ink)}
+.srcline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:10px}
+.srclab{font-size:11.5px;font-weight:800;color:var(--mute);margin-right:4px}
+.schip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 10px;font-size:12px;font-weight:700;color:var(--ink2);text-decoration:none}
+.schip i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.rank.alt{background:#0891b2}
+@media screen and (max-width:760px){
+  .grid2,.grid3{grid-template-columns:1fr}
+  .chanidx{grid-template-columns:1fr 1fr}
+}
+
+/* ===== closing-briefing additions (keep in sync with build_closing.py block types) ===== */
+.kpis{grid-template-columns:repeat(var(--kn,6),1fr)}
+.pill.part{background:#fef3c7;color:#92400e} .pill.unv{background:#fee2e2;color:#991b1b} .pill.ei{background:#ede9fe;color:#6d28d9} .pill.wn{background:#ffedd5;color:#9a3412} .pill.navy{background:#0b1f44;color:#fff}
+.rank.limit{background:#dc2626} .rank.after{background:#7c3aed} .rank.drop{background:#2563eb} .rank.ok{background:#0f766e} .rank.part{background:#d97706} .rank.ei{background:#6d28d9}
+.statusbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:#faf5ff;border:1px solid #e9d5ff;border-left:6px solid #7c3aed;border-radius:14px;padding:14px 18px;margin-bottom:16px}
+.statusbar .st{display:flex;flex-direction:column;background:#fff;border:1px solid #e9d5ff;border-radius:10px;padding:6px 12px}
+.statusbar .st span{font-size:11px;font-weight:800;color:#7c3aed;letter-spacing:.03em}
+.statusbar .st b{font-size:15px;font-weight:900}
+.statusbar p{flex:1 1 260px;margin:0;font-size:13.5px;color:var(--ink2)}
+.bars{display:flex;flex-direction:column;gap:7px}
+.bar{display:grid;grid-template-columns:120px 1fr 300px;gap:10px;align-items:center;font-size:13.5px}
+.bar .bl{font-weight:800;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .bt{background:#f1f5f9;border-radius:6px;height:22px;position:relative;overflow:hidden}
+.bar .bt i{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--c,#0f766e)}
+.bar .bt em{position:absolute;left:8px;top:0;line-height:22px;font-style:normal;font-weight:900;font-size:12px;color:#fff}
+.bar .bs{font-size:12px;color:var(--mute);line-height:1.35}
+.dbars{display:flex;flex-direction:column;gap:6px}
+.dbar{display:grid;grid-template-columns:120px 1fr 1fr 70px;align-items:center;gap:0;font-size:13.5px}
+.dbar .dl{font-weight:800;text-align:right;padding-right:10px;white-space:nowrap}
+.dbar .dn-side,.dbar .up-side{height:20px;position:relative}
+.dbar .dn-side{border-right:2px solid #94a3b8}
+.dbar .dn-side i{position:absolute;right:0;top:0;bottom:0;background:var(--down);border-radius:4px 0 0 4px}
+.dbar .up-side i{position:absolute;left:0;top:0;bottom:0;background:var(--up);border-radius:0 4px 4px 0}
+.dbar .dv{font-weight:900;padding-left:10px;font-variant-numeric:tabular-nums}
+details.fold{background:#fff;border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden}
+details.fold>summary{cursor:pointer;list-style:none;padding:14px 18px;font-weight:900;font-size:15px;background:linear-gradient(90deg,#f8fafc,#fff);display:flex;align-items:center;gap:8px}
+details.fold>summary::-webkit-details-marker{display:none}
+details.fold>summary:before{content:"+";display:inline-block;width:22px;height:22px;border-radius:6px;background:var(--navy);color:#fff;text-align:center;line-height:22px;font-size:15px}
+details.fold[open]>summary:before{content:"-"}
+details.fold>summary small{font-weight:600;color:var(--mute);font-size:12px;margin-left:auto}
+details.fold .fb{padding:6px 20px 18px;border-top:1px solid var(--line)}
+.cb .box{margin-top:14px}
+.md{font-size:14.5px}
+.md h1{font-size:20px;margin:16px 0 8px} .md h2{font-size:18px;margin:18px 0 8px;padding-left:10px;border-left:4px solid #7c3aed} .md h3{font-size:16px;margin:14px 0 6px} .md h4{font-size:14.5px;color:var(--ink);margin:12px 0 6px}
+.md ul,.md ol{padding-left:20px;margin:0 0 10px} .md li{margin-bottom:4px}
+.md blockquote{margin:8px 0;padding:8px 14px;border-left:4px solid #a78bfa;background:#faf5ff;border-radius:0 10px 10px 0}
+.md hr{border:0;border-top:1px dashed var(--line);margin:16px 0}
+.md table{font-size:12.5px;margin:8px 0 12px} .md .tw{overflow:auto}
+pre.raw{white-space:pre-wrap;word-break:break-word;font-size:12.5px;line-height:1.6;background:#0b1f44;color:#e2e8f0;border-radius:10px;padding:14px 16px;margin:8px 0;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Noto Sans CJK KR',monospace}
+pre.tgmsg{white-space:pre-wrap;word-break:break-word;font-size:13px;line-height:1.65;background:#f8fafc;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0;font-family:inherit}
+.srcgroups{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.srcg{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.srcg h4{margin:0 0 6px}
+.srcg ul{list-style:none;margin:0;padding:0}
+.srcg li{font-size:12.5px;line-height:1.5;padding:4px 0;border-top:1px solid #f1f5f9}
+.srcg li:first-child{border-top:0}
+.srcg li small{color:var(--mute)}
+.srcg a{word-break:break-all}
+.tgp{list-style:none;margin:0;padding:0}
+.tgp li{font-size:12.5px;line-height:1.55;padding:6px 0;border-top:1px solid #f1f5f9}
+.tgp li:first-child{border-top:0}
+.tgp .tm{margin-right:6px}
+.limits{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.limits li{background:#fff;border:1px solid var(--line);border-left:4px solid #f59e0b;border-radius:10px;padding:9px 12px;font-size:13.5px}
+.prov{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 6px}
+.prov span{border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:2px 10px;font-size:12px;color:#e2e8f0}
+.prov span b{color:#5eead4;font-weight:800;margin-right:4px}
+.disc{background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;padding:14px 18px;font-size:13.5px;color:#7c2d12;margin-top:26px}
+.disc b{color:#9a3412}
+@media screen and (max-width:760px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .bar{grid-template-columns:92px 1fr} .bar .bs{grid-column:2}
+  .dbar{grid-template-columns:86px 1fr 1fr 58px}
+  .srcgroups,.limits{grid-template-columns:1fr}
+  .statusbar{padding:12px 14px}
+  table.wide{min-width:620px}
+  table.wide td:first-child{white-space:nowrap}
+  .tiers{grid-template-columns:1fr !important}
+}
+@media print{
+  details.fold>summary:before{display:none}
+  .statusbar,.bar,.dbar,.srcg li,.tgp li,.limits li,.disc,pre.tgmsg{break-inside:avoid;page-break-inside:avoid}
+  pre.raw{background:#f8fafc;color:#0f172a;border:1px solid var(--line)}
+  .prov span{color:#334155;border-color:#cbd5e1}
+}
+/* ===== collapsed meta sections / blocks (coverage limits, unresolved, sources) : build_closing.py fold_* ===== */
+section.sec.sfold{padding:22px 0 0}
+details.cfold{background:#fff;border:1px solid var(--line);border-left:5px solid var(--navy);border-radius:12px;overflow:hidden;box-shadow:0 1px 3px rgba(15,23,42,.04)}
+details.cfold.bf{margin:14px 0}
+details.cfold.k-coverage,details.cfold.k-unresolved{border-left-color:#f59e0b}
+details.cfold.k-sources{border-left-color:#0b1f44}
+details.cfold>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:10px;padding:10px 16px;background:linear-gradient(90deg,#f8fafc,#fff);line-height:1.45}
+details.cfold>summary::-webkit-details-marker{display:none}
+details.cfold>summary:hover{background:#f1f5f9}
+details.cfold>summary .no{flex:none;font-size:12px;font-weight:900;color:#fff;background:var(--navy);border-radius:6px;padding:1px 8px}
+details.cfold>summary .ft{flex:none;font-size:16.5px;font-weight:900;letter-spacing:-.02em;color:var(--ink)}
+details.cfold.bf>summary .ft{font-size:14.5px;font-weight:800}
+details.cfold>summary .fsub{flex:1 1 auto;min-width:0;font-size:12px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+details.cfold>summary .fcnt{flex:none;margin-left:auto;font-size:12px;font-weight:800;color:var(--navy);background:#eef2ff;border:1px solid #c7d2fe;border-radius:999px;padding:2px 12px;white-space:nowrap}
+details.cfold>summary .fcnt:after{content:"";display:inline-block;width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin:0 1px 0 8px;vertical-align:3px}
+details.cfold[open]>summary .fcnt:after{transform:rotate(-135deg);vertical-align:-1px}
+details.cfold>summary .fx i{font-style:normal}
+details.cfold>summary .fx .c,details.cfold[open]>summary .fx .o{display:none}
+details.cfold[open]>summary .fx .c{display:inline}
+details.cfold[open]>summary{border-bottom:1px solid var(--line)}
+details.cfold>.cfb{padding:16px 18px 18px}
+details.cfold>.cfb>h3:first-child{margin-top:4px}
+@media screen and (max-width:760px){
+  details.cfold>summary{flex-wrap:wrap;padding:10px 12px;gap:6px 8px}
+  details.cfold>summary .fsub{display:none}
+  details.cfold>.cfb{padding:12px 12px 14px}
+}
+@media print{
+  details.cfold{box-shadow:none}
+  details.cfold>summary .fx,details.cfold>summary .fcnt:after{display:none}
+  details.cfold>summary{break-after:avoid}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <div class="kicker"><span>WEEKEND CLOSING BRIEFING</span><span>2026-11-21 (토)</span><span>19:01 KST</span><span>RUN TR-20261121-1858-daily-close</span><span>READY</span></div>
+  <h1>토요일 주말 브리핑 · 11/20(금) 한국·일본 리캡 · 美 금요일 리캡 · 주말 뉴스 · 텔레그램 · 해외심리 · 다음 주 캘린더 · 월요일 체크</h1>
+  <div class="date">휴장(토) · 11/20 코스피 4,869.96 <b class="dn">-5.21%</b> · 코스닥 645.68 <b class="dn">-5.71%</b> · 외국인 -11,411억 · 닛케이 56,437 <b class="dn">-5.06%</b> · 2644 <b class="dn">-8.29%</b> · 美 나스닥 22,617.73 <b class="dn">-5.28%</b> · S&P <b class="dn">-3.70%</b> · SOX <b class="dn">-10.73%</b> · NVDA <b class="dn">-14.01%</b>(SEC 조사 보도, 미확정) · TG 942건/61채널 · TR 3.7.4 PARTIAL / NEEDS_REVIEW (32/942 검토, 참고용) · EI 3.7.3.1 진행 중 (결과는 별도 게시) · NVDA P0 handoff 전달됨</div>
+  <dl class="meta"><div><dt>시장 상태</dt><dd>토요일: 한국·일본·미국 휴장 · 일본 11/23(월) 휴장 3연휴 · 현물은 11/20(금) 종가, 선물·BTC·환율은 11/21 Yahoo 스냅샷</dd></div><div><dt>텔레그램 수집</dt><dd>GramJS 942건 · 61채널 (11-20T19:00~11-21T19:00)</dd></div><div><dt>시장 데이터</dt><dd>Reuters·CNBC·Nikkei Asia·연합·머니투데이·EBN·이투데이·財経新聞·Newsquawk·Yahoo chart ≈2026-11-21 ~19:01</dd></div></dl>
+  <div class="chans"></div>
+  <nav class="toc"><a href="#s1">01 요약</a><a href="#s2">02 韓日 리캡</a><a href="#s3">03 美</a><a href="#s4">04 매크로</a><a href="#s5">05 TG①</a><a href="#s6">06 TG②</a><a href="#s7">07 해외심리</a><a href="#s8">08 캘린더</a><a href="#s9">09 TR</a><a href="#s10">10 EI</a><a href="#s11">11 월요일</a><a href="#s12">12 출처</a></nav>
+ </div>
+</header>
+<div class="wrap">
+<div class="kpis" style="--kn:0"></div>
+<section class="sec" id="s1">
+  <div class="sh"><span class="no">01</span><h2>📊 11/21(토) 주말 브리핑: 美 금요일 나스닥 −5.28%·SOX −10.73% · 엔비디아 −14.01%(SEC 조사 보도) · 월요일 갭다운 경계</h2></div>
+<div class="box"><h4>시장 상태</h4><ul class="list"><li>토요일: 한국·일본·미국 모두 휴장 · 일본은 11/23(월) 근로감사의 날까지 3연휴 · 한국은 월요일 정상 개장(09:00)</li><li>아래 숫자는 11/20(금) 종가 기준(美는 11/20 금 종가 = 한국 11/21 토 06시 전후 확정)</li></ul></div><div class="box"><h4>숫자</h4><ul class="list"><li>코스피 4,869.96 (−5.21%) · 코스닥 645.68 (−5.71%) · 주간 코스피 −7.95%·코스닥 −7.72%</li><li>닛케이 56,436.65 (−5.06%) · TOPIX −3.88% · 대만 −6.23%</li><li>美 S&P 6,910.39 (−3.70%) · 나스닥 22,617.73 (−5.28%) · 다우 48,147.33 (−1.93%) · VIX 35.89</li><li>EWY −8.42% · CME 닛케이 선물 54,555 · 美 10년 4.912% · BTC 약 $57,933 · 금 −4.62%</li></ul></div><div class="box"><h4>오늘의 5줄</h4><ul class="list"><li>1) 美 금요일 나스닥 −5.28%(연초 대비 마이너스 전환) · S&P·다우 조정(−10%) 진입 · 주간 나스닥 약 −10%</li><li>2) 엔비디아 −14.01% 125.53달러: Reuters 단독 'SEC가 회계 처리 조사' 보도(익명 관계자, SEC 공식 확인 없음 · 위법·제재 미확정)</li><li>3) SOX −10.73%: AMD −13.25% · 마이크론 −13.89% · 브로드컴 −12.19% · ARM −14.09% → 월요일 한국 반도체 갭다운 위험</li><li>4) 트럼프 '해외 AI 데이터센터 짓는 美 기업 중과세' 위협(세부안 없음) · Anthropic 2일차 −8.5%(88.91달러, 공모가 83달러 근접)</li><li>5) 보유 일본주 11/20: 캡콤 −4.98% · 닌텐도 −5.09% · 사이버에이전트 −4.37% · 나브테스코 −8.03% · 2644 −8.29% (거래 재개 11/24 화)</li></ul></div><div class="box"><h4>텔레그램 942건/61채널 (11/20 19:00~11/21 19:00)</h4><ul class="list"><li>엔비디아/SEC 128회/30채널 · 美 폭락 109회/37채널 · Anthropic 74회/24채널 · 연준/PCE 58회/26채널 · 버리/공매도 53회/22채널</li><li>🔬 TR 3.7.4 PARTIAL/NEEDS_REVIEW · 검토 32/942건(3.4%) · 판정은 참고용 1차 라벨</li><li>🧠 EI 3.7.3.1 진행 중 (결과는 별도 게시) (별도 파트)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261121009252072" target="_blank" rel="noopener"><i></i>www.yna.co.kr/view/AKR20261121009252072</a><a class="schip" style="--c:#64748b" href="https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html" target="_blank" rel="noopener"><i></i>www.cnbc.com/2026/11/19/stock-market-today-live-</a></div></div>
+</section>
+<section class="sec" id="s2">
+  <div class="sh"><span class="no">02</span><h2>🇰🇷🇯🇵 11/21(토) 11/20(금) 한국·일본 세션 리캡 · 보유 일본주</h2></div>
+<div class="box"><h4>한국 (11/20 금, 검은 금요일)</h4><ul class="list"><li>코스피 4,869.96 (−267.93pt, −5.21%) · 10개월 만의 최저 · 상승 88 / 하락 809</li><li>코스닥 645.68 (−5.71%) · 양 시장 매도 사이드카(코스피 11:54, 코스닥 13:28)</li><li>코스피 수급(연합 15:35 잠정): 외국인 −11,411억(6일째, 6일 누적 −5조923억) · 기관 −9,513억 · 개인 +15,950억</li><li>집계 차이: 한국경제 최종 외국인 −1조2,682억 · 포털 종가표 −10,970억(TR 지적, 평균하지 않음)</li><li>코스닥: 외국인 −1,732억 · 기관 −1,079억 · 개인 +2,913억</li><li>원/달러 주간 1,336.2원(+6.2원) · 역외(Yahoo) 1,346.1원</li><li>특징: 삼성전자 −7.01%(183,100원) · 삼성전기 −12.54% · 리노공업 −15.07% · 이오테크닉스 −14.03% · 알테오젠 +0.98%</li><li>상한가 한진칼우(경영권 분쟁·경찰 강제수사), 삐아·타임XAI · 하한가 크라우드웍스(불성실공시 지정 예고)</li><li>주간(11/16~20): 코스피 −420.57pt(−7.95%) · 외국인 −4조5,583억 · 개인 +2조6,575억</li></ul></div><div class="box"><h4>일본 (11/20 금)</h4><ul class="list"><li>닛케이 56,436.65 (−3,007.56엔, −5.06%, 하락폭 역대 5위) · TOPIX 3,674.22 (−3.88%)</li><li>SBG −14.48% · 키옥시아 −11.66% · 어드반테스트 −10.32% · 도쿄일렉트론 −7.06% · 신에츠 −11.18%</li><li>CME 닛케이 선물 54,555(−5.78%, 대판 대비 약 −3.3%) · 엔/달러 158.512</li></ul></div><div class="box"><h4>보유 일본주 (11/20 종가 · 평단 대비 · 평가손익)</h4><ul class="list"><li>캡콤 4,424엔 (−4.98%) · 평단 대비 +10.05% · +161,536엔</li><li>닌텐도 8,832엔 (−5.09%) · −3.70% · −101,799엔</li><li>사이버에이전트 1,314.5엔 (−4.37%) · −9.31% · −40,500엔</li><li>나브테스코 3,105엔 (−8.03%) · −42.29% · −227,500엔</li><li>2644 2,667엔 (−8.29%)</li><li>4종목 합계 평가손익 약 −208,263엔(2644 제외) · 개별 재료 미확인 · 다음 거래 11/24(화)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.ebn.co.kr/news/articleView.html?idxno=1732513" target="_blank" rel="noopener"><i></i>www.ebn.co.kr/news/articleView.html?idxno=173251</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261120127400008" target="_blank" rel="noopener"><i></i>www.yna.co.kr/view/AKR20261120127400008</a><a class="schip" style="--c:#64748b" href="https://www.etoday.co.kr/news/view/2651071" target="_blank" rel="noopener"><i></i>www.etoday.co.kr/news/view/2651071</a><a class="schip" style="--c:#64748b" href="https://www.zaikei.co.jp/article/20261120/878619.html" target="_blank" rel="noopener"><i></i>www.zaikei.co.jp/article/20261120/878619.html</a></div></div>
+</section>
+<section class="sec" id="s3">
+  <div class="sh"><span class="no">03</span><h2>🇺🇸 11/21(토) 美 금요일(11/20) 리캡: 나스닥 −5.28% · 엔비디아 SEC 조사 보도 · 반도체 투매</h2></div>
+<div class="box"><h4>지수 (11/20 금 종가)</h4><ul class="list"><li>나스닥 22,617.73 (−1,261.47pt, −5.28%) · 나스닥100 −5.61%(장중 고점 대비 −20% 약세장권)</li><li>S&P 6,910.39 (−3.70%, 7거래일 연속 하락) · 다우 48,147.33 (−1.93%) · 러셀 −2.76%</li><li>SOX 8,408.59 (−10.73%) · VIX 35.89(+26.2%, 2025년 4월 이후 최고)</li><li>주간: 다우 약 −8% · S&P −8.6% · 나스닥 약 −10%(2020년 3월 이후 최대, CNBC)</li></ul></div><div class="box"><h4>엔비디아 −14.01% (125.53달러, 52주 신저가)</h4><ul class="list"><li>[보도·미확정] Reuters 단독: SEC 집행국이 회계 처리 관련 조사(익명 관계자 2명). SEC 공식 확인 없음, 구체 쟁점·제재·재무제표 수정 여부 미확인 · 보도 전 −6% → 보도 후 낙폭 확대</li><li>[확인] 젠슨 황 사임·콜레트 크레스 임시 CEO(11/12 회사 발표) · 캘리포니아 AG 소환장(11/19, CA DOJ 발표)</li><li>[미확인] 머스크 엔비디아 지분 50% 인수 의향 → TR 미확인, 확정 뉴스로 사용 금지</li><li>'SEC 조사 = 회계 부정 확정'이 아님. EI 3.7.3.1 심층 검증 진행 중</li></ul></div><div class="box"><h4>반도체·AI 동반 투매</h4><ul class="list"><li>AMD −13.25% · 마이크론 −13.89% · 브로드컴 −12.19% · ARM −14.09% · TSM −9.48% · AMAT −10.71% · LRCX −10.02% · 코어위브 −12.02%</li><li>샌디스크 −16.05%(연합) vs Yahoo −2.71% 불일치 → 미확인</li><li>빅테크: 메타 −5.93% · 테슬라 −7.64% · 아마존 −4.10% · MSFT −2.77% · 애플 −1.90%</li><li>보안: CRWD −5.76% · PANW −5.09% · NET −9.46% · 크라우드스트라이크-지스케일러 인수 협상 보도(장후, 아래 TG 파트)</li><li>Anthropic(ANT) 2일차 −8.50% 88.91달러(장중 83.05달러) · 방어주 월마트 +1.52%·J&J +1.28%</li></ul></div><div class="box"><h4>금리·연준</h4><ul class="list"><li>美 10년 4.912%(약 −12bp, 채권 강세) · 쿡 이사 '정책금리 불충분' · 12월 25bp 인상 거의 확실 반영(FedWatch via Nikkei Asia) · Kalshi 90%</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/" target="_blank" rel="noopener"><i></i>www.reuters.com/5f374b32b07b/world/us-secs-nvidi</a><a class="schip" style="--c:#64748b" href="https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/" target="_blank" rel="noopener"><i></i>nvidianews.nvidia.com/news/nvidia-announces-ceo-</a><a class="schip" style="--c:#64748b" href="https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia" target="_blank" rel="noopener"><i></i>oag.ca.gov/news/press-releases/attorney-general-</a><a class="schip" style="--c:#64748b" href="https://asia.nikkei.com/business/markets/equities/us-stocks-end-sharply-lower-on-ai-selloff-s-p-500-dow-in-correction" target="_blank" rel="noopener"><i></i>asia.nikkei.com/business/markets/equities/us-sto</a></div></div>
+</section>
+<section class="sec" id="s4">
+  <div class="sh"><span class="no">04</span><h2>🌐 11/21(토) 매크로 · 주말 뉴스: 12월 인상 반영 · 금 −4.62% · BTC 5.7만달러대</h2></div>
+<div class="box"><h4>매크로 (11/20 종가 · BTC는 11/21 19시 KST)</h4><ul class="list"><li>美 10년 4.912% · 3개월 4.122% · DXY 103.84 · 엔/달러 158.512 · 원/달러 역외 1,346.1원</li><li>WTI 83.41달러(+0.93%) · 브렌트 89.95달러 · 금 3,515.4달러(−4.62%)</li><li>BTC 57,933달러(−1.47%) · 24h 청산 약 24억달러(X 요약, 미확인)</li><li>연준 3.75~4.00% · 12/8~9 FOMC 25bp 인상 거의 확실 반영 · 월러 50bp 주장 · JP모건 12월·1월·3월 인상 전망</li><li>한국: 11/26 한은 금통위 3.00%→3.25% 인상 전망 우세 · 국고채 금리 미확인</li></ul></div><div class="box"><h4>주말 뉴스 (11/21 토 기준)</h4><ul class="list"><li>엔비디아: SEC 조사 보도 후속(SEC·법무부·상무부·CA AG) 주말 보도 체크 필요 · 공식 확인 없음</li><li>트럼프: 해외 AI 데이터센터 건설 美 기업 중과세 위협(백악관 발언 확인, 세율·범위·시행일 미정, TR 부분확인(참고용))</li><li>트럼프: 미·중 광범위한 합의·반도체 협상 진행 중, '중국엔 구형 칩만' 발언(TG 정리 공유, 원문 미확인)</li><li>베선트: 중국 H200 주문 저조 발언(CNBC 인터뷰, TR 확인(참고용)) · 실제 주문 규모 미확인</li><li>소프트뱅크: 손정의 SK하이닉스 1조달러 인수 자금 타진 보도(The Information) · 회사 측 '현재 적극 검토 안 함'(TR 부분확인(참고용))</li><li>마이클 버리: 엔비디아·반도체 ETF 풋 절반 차익실현, 나스닥100 풋 유지(X 요약, 미확인)</li><li>SpaceX: Apollo·골드만 440억달러 GPU 자산 금융조달 가격 결정(TR 확인(참고용), 지분투자 아닌 채권형)</li><li>美 농무부(USDA) 사이버 사고·FBI NCIC 공격 보도(침해 범위 미확인)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.investing.com/news/world-news/trump-says-us-to-penalize-firms-building-data-centers-abroad-5042390" target="_blank" rel="noopener"><i></i>www.investing.com/news/world-news/trump-says-us-</a><a class="schip" style="--c:#64748b" href="https://www.theinformation.com/articles/softbanks-masayoshi-son-explored-1-trillion-moonshot-buyout-sk-hynix" target="_blank" rel="noopener"><i></i>www.theinformation.com/articles/softbanks-masayo</a><a class="schip" style="--c:#64748b" href="https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671" target="_blank" rel="noopener"><i></i>www.apollo.com/insights-news/pressreleases/2026/</a><a class="schip" style="--c:#64748b" href="https://www.fnnews.com/news/202611211105346704" target="_blank" rel="noopener"><i></i>www.fnnews.com/news/202611211105346704</a></div></div>
+</section>
+<section class="sec" id="s5">
+  <div class="sh"><span class="no">05</span><h2>🛰️ 11/21(토) 텔레그램 ① 언급 순위 · 엔비디아 SEC · 트럼프 AI 과세 · 버리</h2></div>
+<div class="box"><h4>언급 순위 (키워드 근사, 942건/61채널, 일반어 제외)</h4><ul class="list"><li>엔비디아 −14%/SEC 회계조사/젠슨 황 사임 128 · 트럼프/관세/AI 데이터센터 정책 110 · 美 11/20 폭락 109 · Anthropic ANT 상장 2일차 −8.5% 74 · 연준 12월 인상/PCE 58 · 마이클 버리/공매도 53 · AMD/브로드컴/마이크론/샌디스크 두 자릿수 급락 50 · 비트코인 5.7만달러대/코인 청산 47 · 유가/중동 46 · 반도체 소부장/HBM/메모리 42 · 미·중/수출통제/한중 FTA·한한령 31 · 보안주/해킹 30 · 코스피 4,869 29 · 일본 증시/닛케이/소프트뱅크/엔화 29</li></ul></div><div class="box"><h4>① 엔비디아 SEC 조사 보도 (128회/30채널)</h4><ul class="list"><li>속보 공유 다수: '−14%, 52주 신저가, 시총 4위로 하락' · 촉매: Reuters 보도 확인, SEC 조사 내용은 미확인 (TR 부분확인(참고용))</li><li>과열 체크: '회계 부정 확정'식 문구는 근거 없음 → 미확인 라벨 유지</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/FastStockNewsUSA/24626" target="_blank" rel="noopener"><i></i>t.me/FastStockNewsUSA/24626</a><a class="schip" style="--c:#64748b" href="https://t.me/FastStockNews/128265" target="_blank" rel="noopener"><i></i>t.me/FastStockNews/128265</a><a class="schip" style="--c:#64748b" href="https://t.me/FastStockNews/128263" target="_blank" rel="noopener"><i></i>t.me/FastStockNews/128263</a></div></div><div class="box"><h4>② 트럼프 해외 AI 데이터센터 과세 (110회/35채널)</h4><ul class="list"><li>촉매: 발언 확인, 세부안 없음(TR 부분확인(참고용)) · 광의 키워드라 카운트 과대 가능</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/FastStockNews/128265" target="_blank" rel="noopener"><i></i>t.me/FastStockNews/128265</a><a class="schip" style="--c:#64748b" href="https://t.me/insidertracking/69849" target="_blank" rel="noopener"><i></i>t.me/insidertracking/69849</a></div></div><div class="box"><h4>③ 공포 지표·바닥 논쟁 (53회/22채널) · 공포 30건/14채널</h4><ul class="list"><li>공포탐욕지수 10(Extreme Fear) · 골드만 자체 공포지수 10점 중 9, CTA 추가 매도 경고 공유</li><li>하나증권 이재만: S&P·나스닥 고점 대비 −12%·−18%, 외국인 7개월 누적 순매도 시총 대비 4.3%(금융위기 고점 4.4% 근접)</li><li>DC 국장갤 요약 센티먼트 '공포(−80)', 월요일 폭락 우려(봇 요약, 의견)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/insidertracking/69854" target="_blank" rel="noopener"><i></i>t.me/insidertracking/69854</a><a class="schip" style="--c:#64748b" href="https://t.me/globaletfi/22789" target="_blank" rel="noopener"><i></i>t.me/globaletfi/22789</a><a class="schip" style="--c:#64748b" href="https://t.me/globaletfi/22791" target="_blank" rel="noopener"><i></i>t.me/globaletfi/22791</a><a class="schip" style="--c:#64748b" href="https://t.me/easobi_ai/29122" target="_blank" rel="noopener"><i></i>t.me/easobi_ai/29122</a></div></div><div class="box"><h4>④ Anthropic 2일차 (74회/24채널)</h4><ul class="list"><li>−8.5%, 장중 공모가 근접 · '재료 소진' 해석 다수(의견)</li><li>※ 라벨은 박스 1차 분류 + TR 판정 인용(참고용). 매매 권유 아님.</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/bornlupin/21218" target="_blank" rel="noopener"><i></i>t.me/bornlupin/21218</a><a class="schip" style="--c:#64748b" href="https://t.me/FastStockNews/128267" target="_blank" rel="noopener"><i></i>t.me/FastStockNews/128267</a></div></div>
+</section>
+<section class="sec" id="s6">
+  <div class="sh"><span class="no">06</span><h2>🔎 11/21(토) 텔레그램 ② 테마 · 특징 (촉매 확인 · 과열 체크)</h2></div>
+<div class="box"><h4>보안 M&A: 크라우드스트라이크-지스케일러 협상 (30회/18채널)</h4><ul class="list"><li>Reuters(관계자 2명) 협상 보도 · 가격·조건·성사 미확정(TR 부분확인(참고용)) · 지스케일러 시간외 약 +19~20%, CRWD 시간외 추가 하락(TG 공유, 시세 미확인)</li><li>과열 체크: 루머성 M&A 프리미엄, 무산 시 되돌림 위험 · 보안 논지(대형 플랫폼 통합)와 연결, SMB·앱보호 직접 촉매는 아님</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/insidertracking/69882" target="_blank" rel="noopener"><i></i>t.me/insidertracking/69882</a><a class="schip" style="--c:#64748b" href="https://t.me/HANAchina/72495" target="_blank" rel="noopener"><i></i>t.me/HANAchina/72495</a><a class="schip" style="--c:#64748b" href="https://t.me/songjongsik/99095" target="_blank" rel="noopener"><i></i>t.me/songjongsik/99095</a></div></div><div class="box"><h4>메모리·HBM (42회/25채널)</h4><ul class="list"><li>마이크론 CEO '2027년 공급량 75% 판매'(TR 확인(참고용)) · TRASS-BF 메모리 수출 역대 최대(TR 미확인(참고용), 공식 수치 대조 필요)</li><li>구글 TPU 8i 2027년 출하 약 100만개 축소(궈밍치 주장, TR 부분확인(참고용), 두 채널 발췌 동일 → 1건으로 계산)</li><li>과열/역과열: 이번 주 소부장 투매(리노공업 −15%) 후 반등 기대 글 vs 美 SOX −10.7% 반영 전</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/insidertracking/69838" target="_blank" rel="noopener"><i></i>t.me/insidertracking/69838</a><a class="schip" style="--c:#64748b" href="https://t.me/ked_epic_ai/39650" target="_blank" rel="noopener"><i></i>t.me/ked_epic_ai/39650</a><a class="schip" style="--c:#64748b" href="https://t.me/HANAchina/72492" target="_blank" rel="noopener"><i></i>t.me/HANAchina/72492</a></div></div><div class="box"><h4>코인·금 (47회/18채널 · 금·은 28회/13채널)</h4><ul class="list"><li>BTC 5.6만달러 하향 돌파 글 공유(장중, 별도 확인 필요) · 해당 글의 '2014년 트럼프 당선' 서술은 사실 오류(TR 지적)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/Yeouido_Lab/39031" target="_blank" rel="noopener"><i></i>t.me/Yeouido_Lab/39031</a><a class="schip" style="--c:#64748b" href="https://t.me/FastStockNewsUSA/24613" target="_blank" rel="noopener"><i></i>t.me/FastStockNewsUSA/24613</a></div></div><div class="box"><h4>바이오: 머크 TroFuse-015 3상 OS 충족, PFS 미충족(TR 확인(참고용)) (17회/8채널)</h4><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/insidertracking/69842" target="_blank" rel="noopener"><i></i>t.me/insidertracking/69842</a></div></div><div class="box"><h4>기타 촉매</h4><ul class="list"><li>美 토큰화 주식 거래시설(OKXICE) 11/23 개장 예정 공유(원문 미확인)</li><li>다음 주 실적: HPE(11/23 장후)·델·HP·워크데이·오토데스크(11/24 장후) · 프리뷰 공유</li><li>※ 관심 제외 종목(SPCX, FTNT, 소프트캠프, 비나텍, SK하이닉스)은 다루지 않음(시장 사실만). 매매 권유 아님.</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://t.me/tazastock/81734" target="_blank" rel="noopener"><i></i>t.me/tazastock/81734</a><a class="schip" style="--c:#64748b" href="https://t.me/insidertracking/69862" target="_blank" rel="noopener"><i></i>t.me/insidertracking/69862</a><a class="schip" style="--c:#64748b" href="https://t.me/Fundeasyearnings/14033" target="_blank" rel="noopener"><i></i>t.me/Fundeasyearnings/14033</a></div></div>
+</section>
+<section class="sec sfold" id="s7">
+  <details class="cfold k-coverage"><summary><span class="no">07</span><b class="ft">🗣️ 11/21(토) 해외 커뮤니티 심리 (X · Reddit) · 전부 미확인</b><span class="fcnt">출처 5개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<div class="box"><h4>X (뉴스 스토리 요약, 미확인)</h4><ul class="list"><li>마이클 버리: 엔비디아·반도체 ETF 풋 절반 차익실현, 나스닥100 풋(2027년 4월물) 유지</li><li>S&P IT 선행 PER 16.4배(2020년 이후 최저) · 10월 초 이후 S&P 시총 6조달러 증발</li><li>마이크론 600달러 하회, TrendForce NAND 가격 경고 · IREN −18%</li><li>금·은·비트코인 동반 수개월 저점 · BTC 5.7만달러 하회, ETH 1,550달러 하회</li><li>분위기: 공포 극단(capitulation 논쟁), 일부 저가매수·숏커버 언급</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://x.com/i/trending/2123837837581688981" target="_blank" rel="noopener"><i></i>x.com/i/trending/2123837837581688981</a><a class="schip" style="--c:#64748b" href="https://x.com/i/trending/2123079809026687116" target="_blank" rel="noopener"><i></i>x.com/i/trending/2123079809026687116</a><a class="schip" style="--c:#64748b" href="https://x.com/i/trending/2123412780032139660" target="_blank" rel="noopener"><i></i>x.com/i/trending/2123412780032139660</a></div></div><div class="box"><h4>Reddit · ApeWisdom 24h 언급 (괄호: 24h 전)</h4><ul class="list"><li>NVDA 1634(911) · SPY 1046(726) · QQQ 425(397) · VOO 251(129) · MU 243(135) · AMD 241(573) · SNDK 199(61) · GOOG 159(146) · SO 150(14) · NBIS 121(100)</li><li>r/wallstreetbets: NVDA 1400 · SPY 941 · QQQ 332 · MU 208 · AMD 184 · SNDK 177</li><li>Reddit RSS(r/stocks, r/wallstreetbets)는 빈 피드/차단으로 수집 실패, ApeWisdom 수치만</li><li>요약: NVDA 언급 급증(911→1,634) · AMD 감소(573→241) · SNDK·MU·SOXL 증가 · SO(서던컴퍼니) 급증(14→150, 사유 미확인) = 반도체 손실·저가매수 논쟁 + 방어주 관심. 전부 미확인 센티먼트.</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://apewisdom.io/api/v1.0/filter/all-stocks" target="_blank" rel="noopener"><i></i>apewisdom.io/api/v1.0/filter/all-stocks</a><a class="schip" style="--c:#64748b" href="https://apewisdom.io/api/v1.0/filter/wallstreetbets" target="_blank" rel="noopener"><i></i>apewisdom.io/api/v1.0/filter/wallstreetbets</a></div></div>
+</div></details>
+</section>
+<section class="sec" id="s8">
+  <div class="sh"><span class="no">08</span><h2>🗓️ 11/21(토) 다음 주(11/23~27) 美·매크로 캘린더 (KST)</h2></div>
+<div class="box"><h4>🗓️ 11/21(토) 다음 주(11/23~27) 美·매크로 캘린더 (KST)</h4><ul class="list"><li>11/23(월) 일본 휴장(근로감사의 날) · 韓 11월 1~20일 수출 · 23:00 윌리엄스 뉴욕연은 총재 · 23:45 美 S&P 글로벌 11월 PMI 속보(제조 54.9→54.5 예상, 서비스 56.1) · 장 마감 후 HPE 실적(→ 11/24 새벽 KST)</li><li>11/24(화) 日 11월 PMI · 獨 IFO · 22:15 美 ADP 주간 · 11/25 00:00 CB 소비자신뢰(예상 92.1) · 21:00 아날로그디바이스 실적 · 장 마감 후 델·HP·워크데이·오토데스크(→ 11/25 새벽 KST)</li><li>11/25(수) 22:30 美 10월 PCE(헤드라인 YoY 3.8%, 근원 3.2%·MoM 0.3% 예상) + 3Q GDP 2차(3.5% 예상) + 내구재 + 실업수당 · 11/26 00:00 신규주택판매 · 11/26 04:00 베이지북</li><li>11/26(목) 10:00 한은 금통위(3.00%→3.25% 인상 전망 우세, 올해 마지막) · 美 추수감사절 휴장 · ECB 의사록</li><li>11/27(금) 08:30 도쿄 11월 CPI · 中 10월 공업이익 · 美 블랙프라이데이, 정규장 13:00 ET 조기폐장(= 11/28 토 03:00 KST)</li><li>韓 공모주: 케이엠에프 청약 11/24~25, 에이엔에이치스트럭쳐 11/27~30(티커노트) · 금융위 디지털자산법(스테이블코인) 정부안 공개 예정(파이낸셜뉴스)</li><li>12/8~9 FOMC(25bp 인상 거의 확실 반영)</li><li>美 토큰화 주식 거래시설 개장(11/23 현지, TG 공유·미확인)</li></ul></div><div class="box"><h4>시간 메모</h4><ul class="list"><li>美 지표 22:30/23:45 KST = 동부 08:30/09:45 ET (서머타임 해제 후 +14h)</li><li>추수감사절 11/26(목) 美 휴장 · 11/27(금) 13:00 ET 조기폐장 = 11/28(토) 03:00 KST</li><li>정확 시각은 원 캘린더로 재확인 필요(일부 일정은 언론 정리 기준)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026" target="_blank" rel="noopener"><i></i>www.newsquawk.com/headlines/newsquawk-weekly-eco</a><a class="schip" style="--c:#64748b" href="https://contents.premium.naver.com/finlit/wfpm/contents/261120143339822jj" target="_blank" rel="noopener"><i></i>contents.premium.naver.com/finlit/wfpm/contents/</a><a class="schip" style="--c:#64748b" href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener"><i></i>www.bea.gov/news/schedule</a><a class="schip" style="--c:#64748b" href="https://t.me/bornlupin/21217" target="_blank" rel="noopener"><i></i>t.me/bornlupin/21217</a></div></div>
+</section>
+<section class="sec" id="s9">
+  <div class="sh"><span class="no">09</span><h2>🧪 11/21(토) Telegram Research 3.7.4 검증 결과 (PARTIAL · 참고용)</h2></div>
+<div class="box"><h4>🧪 11/21(토) Telegram Research 3.7.4 검증 결과 (PARTIAL · 참고용)</h4><ul class="list"><li>⚠️ PARTIAL / NEEDS_REVIEW · 수집 964건(적격 942건) 중 32건만 발췌 검토(3.4%) · 910건 미검토 · 판정은 참고용 1차 라벨(확정 아님)</li></ul></div><div class="box"><h4>Telegram Research 3.7.4</h4><ul class="list"><li>상태: PARTIAL / NEEDS_REVIEW · 클레임 클러스터 27 · 확인 10 / 부분확인 10 / 미확인 4 / 반박 1 / 검증불가 2</li><li>채팅: https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6b016c7f-8dec-83ee-9280-8664af517f55</li><li>핵심 판정(TR 원문 표현 유지, 참고용):</li><li>- [부분확인] 미국 AI 반도체 급락 및 엔비디아 SEC 회계조사 보도: NVDA -14.01% 확인. Reuters가 SEC 회계 관련 조사 정황을 보도했으나 회계 부정이나 제재는 확정되지 않음. (https://t.me/FastStockNews/128263)</li><li>- [부분확인] 트럼프, 해외 AI 데이터센터 건설 기업에 고율 세금 위협: 백악관 발언 확인. 세율, 적용 범위, 시행일, 법제화 여부 미확정. (https://t.me/bornlupin/21218)</li><li>- [부분확인] CrowdStrike의 Zscaler 인수 협상: Reuters가 관계자 2명을 인용해 협상 보도. 계약 체결이나 거래 조건은 확정되지 않음. (https://t.me/insidertracking/69882)</li><li>- [부분확인] SoftBank의 SK하이닉스 1조 달러 인수 구상: The Information은 과거 자금조달 타진을 보도. 소프트뱅크 측은 현재 적극적으로 검토하지 않는다고 설명. 현재 추진 중이라는 해석은 근거 부족. (https://t.me/insidertracking/69893)</li><li>- [미확인] 머스크의 엔비디아 지분 50% 인수 의향: 신뢰할 만한 공식 발표 또는 독립 보도 확인 불가. 확정 뉴스로 사용 금지. (https://t.me/sunstudy1111/139519)</li><li>- [부분확인] Google TPU 8i 2027년 출하계획 약 100만 개 축소: 궈밍치의 업계 조사 주장 확인. Google과 Broadcom의 공식 확인 없음. 두 게시물의 발췌 문구는 정확히 중복. (https://t.me/HANAchina/72492)</li><li>- [확인] SpaceX GPU 관련 440억 달러 금융조달: Apollo와 Goldman Sachs 공식 발표 확인. 직접 지분투자가 아닌 GPU 자산 관련 채권 금융조달. (https://t.me/FastStockNewsUSA/24615)</li><li>- [확인] Merck TroFuse-015 임상 3상 전체생존기간 개선: 회사 공식 발표에서 OS 1차 평가변수 충족 확인. PFS 보조 평가변수는 충족하지 못함. (https://t.me/insidertracking/69842)</li><li>- [확인] Micron 2027년 메모리 공급량 75% 판매: CEO Sanjay Mehrotra의 컨퍼런스 발언 전사 확인. (https://t.me/insidertracking/69838)</li><li>- [확인] 베선트, 중국의 H200 주문 저조 발언: CNBC 인터뷰 원문에서 발언 확인. 실제 주문 규모 자체는 독립적으로 확인되지 않음. (https://t.me/WalterBloomberg/38770)</li><li>- [미확인] TRASS-BF 메모리 수출 역대 최대: 수출 집계의 공식 원자료 및 품목별 세부치 대조 필요. (https://t.me/ked_epic_ai/39650)</li><li>- [부분확인] Claude의 리만가설 증명: 연구자의 증명 주장이 실제로 발표된 것은 확인. 수학적 증명의 타당성은 독립 검증 전. (https://t.me/FastStockNews/128267)</li><li>미해결(TR):</li><li>- 적격 942건 중 910건의 개별 원문 미전달</li><li>- 전달된 32건은 짧은 발췌로 원문 전체 및 첨부자료 확인 제한</li><li>- r24 머스크 NVIDIA 50% 지분 인수 의향 미확인</li><li>- r28/r29 소프트뱅크 과거 인수 타진과 현재 추진 여부 구분 필수</li><li>- r25 TRASS-BF 메모리 수출 수치 공식 대조 필요</li><li>- r32 리만가설 증명 독립 검증 전</li><li>TR 1차/보도 출처: https://apnews.com/article/c10b797a17c2acf37924d834efebe135 · https://www.anthropic.com/news/ipo-close · https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/ · https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460</li><li>handoff_required=true → EI 3.7.3.1 대상 NVDA P0 + 추가 후보 4건(CrowdStrike/Zscaler·Broadcom/Google·SoftBank·Merck) (다음 파트, 별도)</li><li>게시 판단(TR): NEEDS_REVIEW · 매매 권유 아님.</li></ul></div>
+</section>
+<section class="sec" id="s10">
+  <div class="sh"><span class="no">10</span><h2>🧠 11/21(토) Equity Intelligence 3.7.3.1 심층 결과 (TR 요약과 별도)</h2></div>
+<div class="box"><h4>🧠 11/21(토) Equity Intelligence 3.7.3.1 심층 결과 (TR 요약과 별도)</h4><ul class="list"><li>⏳ EI 3.7.3.1 진행 중 (결과는 별도 게시) · NVDA 심층검증 결과는 완료 후 별도 메시지로 올립니다(조건·리스크 생략 없이).</li></ul></div><div class="box"><h4>대상 (TR handoff_required=true, 리서치 단서 전용)</h4><ul class="list"><li>NVIDIA(NVDA) P0 [primary] · SEC의 NVIDIA 회계 관행 조사 관련 Reuters 보도, CEO 교체 이후 규제 불확실성, 11월 20일 주가 급락</li><li>CrowdStrike / Zscaler P1</li><li>Broadcom / Google P1</li><li>SoftBank / SK hynix P1</li><li>Merck P1</li><li>프로토콜 deep-research-return/3.7.4 · 동일 RUN_ID TR-20261121-1858-daily-close · 목표가·비중·매매 지시 없음</li></ul></div><div class="box"><h4>EI에 맡긴 질문</h4><ul class="list"><li>Telegram 기원 주장과 Reuters 보도를 독립적으로 재검증할 것</li><li>SEC의 실제 조사 범위와 공식 문서 유무는 무엇인가</li><li>실적과 현금흐름에 대한 직접적 영향 경로 및 규모는 무엇인가</li><li>기존 시장 예상 대비 새로운 정보인가</li><li>반박 자료 또는 다른 해석은 무엇인가</li><li>기업 고유 악재와 업종 전체 매도에 따른 가격 변화를 어떻게 구분할 것인가</li><li>향후 확인 및 기각 조건은 무엇인가</li></ul></div><div class="box"><h4>현재까지 확인된 사실 (EI 판정 아님)</h4><ul class="list"><li>NVDA 11/20 −14.01% 125.53달러 · CEO 교체(11/12 회사 발표) = 확인</li><li>SEC 회계 조사 = Reuters 익명 관계자 보도(부분확인), SEC 공식 확인·위법·제재 미확정</li><li>EI 판정·시나리오·반증 조건은 아직 없음(발명하지 않음)</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460" target="_blank" rel="noopener"><i></i>www.investing.com/news/economy-news/exclusiveus-</a></div></div>
+</section>
+<section class="sec sfold" id="s11">
+  <details class="cfold k-sources"><summary><span class="no">11</span><b class="ft">⏰ 11/21(토) 월요일(11/23) 체크포인트 · 한계 · 미확인 · 출처</b><span class="fcnt">출처 6개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<div class="box"><h4>월요일 11/23 체크포인트</h4><ul class="list"><li>1) 코스피 4,800선 지지 vs 美 금요일 SOX −10.7%·EWY −8.42% 반영 갭다운 폭</li><li>2) 외국인 7거래일째 순매도 여부(6일 누적 −5조923억)</li><li>3) 삼성전자 183,100원(−7.01%) 반등 여부, 반도체 소부장 투매 지속 여부</li><li>4) 원/달러 1,340원대(역외 Yahoo KRW=X 1,346) 상단</li><li>5) 엔비디아 SEC 조사 후속 보도·임시 CEO 대응</li><li>6) 11/25 PCE·11/26 금통위 앞 관망, 美 추수감사절로 외국인 수급 공백</li><li>7) 일본 휴장(11/23)으로 보유 일본주는 11/24(화) 재개</li><li>8) 보유 일본주: 나브테스코 평단 대비 −42.29% · 사이버에이전트 −9.31% · 닌텐도 −3.70% · 캡콤 +10.05% · 2644 금 −8.29% (CME 닛케이 선물 54,555 기준 화요일 갭 위험)</li></ul></div><div class="box"><h4>커버리지 한계</h4><ul class="list"><li>GramJS 942건/61채널(11/20 19:00~11/21 19:00), 키워드 카운트 과대 가능 · 비공개 t.me/c 링크는 구독자만</li><li>TR 3.7.4 PARTIAL/NEEDS_REVIEW · 검토 32/942건(3.4%) · 판정은 참고용 1차 라벨 · EI 3.7.3.1 진행 중 (결과는 별도 게시)</li><li>주말이라 실시간 시세 없음: 현물은 11/20(금) 종가, 선물·BTC·환율은 Yahoo 스냅샷 · 수급은 연합 잠정 vs 한경 최종 차이</li></ul></div><div class="box"><h4>미확인</h4><ul class="list"><li>엔비디아 SEC 조사 범위(보도 단계) · 머스크 지분설 · 샌디스크 등락률 · 코스피200 야간선물 · 국고채·美 2Y/30Y · 지스케일러 시간외 시세 · 토큰화 주식 개장 · 보유 일본주 개별 재료 · X/Reddit 전부</li></ul></div><div class="box"><h4>출처</h4><ul class="list"><li>TR: https://chatgpt.com/g/g-p-6ac141f9d0748191af26c733e7639990-telegram-research-3-7-4/c/6b016c7f-8dec-83ee-9280-8664af517f55</li><li>본 브리핑은 정보 정리이며 투자 권유가 아닙니다.</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/" target="_blank" rel="noopener"><i></i>www.reuters.com/5f374b32b07b/world/us-secs-nvidi</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261121009252072" target="_blank" rel="noopener"><i></i>www.yna.co.kr/view/AKR20261121009252072</a><a class="schip" style="--c:#64748b" href="https://www.mt.co.kr/world/2026/11/21/2026112106320926639" target="_blank" rel="noopener"><i></i>www.mt.co.kr/world/2026/11/21/202611210632092663</a><a class="schip" style="--c:#64748b" href="https://www.ebn.co.kr/news/articleView.html?idxno=1732513" target="_blank" rel="noopener"><i></i>www.ebn.co.kr/news/articleView.html?idxno=173251</a><a class="schip" style="--c:#64748b" href="https://www.etoday.co.kr/news/view/2651071" target="_blank" rel="noopener"><i></i>www.etoday.co.kr/news/view/2651071</a><a class="schip" style="--c:#64748b" href="https://www.ytn.co.kr/_ln/0102_202611211504504105" target="_blank" rel="noopener"><i></i>www.ytn.co.kr/_ln/0102_202611211504504105</a></div></div>
+</div></details>
+</section>
+<section class="sec sfold" id="s12">
+  <details class="cfold k-sources"><summary><span class="no">12</span><b class="ft">원문 · 출처</b><span class="fcnt">출처 34개<span class="fx"> · <i class="o">펼치기</i><i class="c">접기</i></span></span></summary><div class="cfb">
+<details class="fold"><summary>Telegram Research 3.7.4 원문<small>tr_answer.txt</small></summary><div class="fb"><div class="md"><p>ORCHESTRATOR_RETURN</p>
+<pre class="raw">{
+  &quot;protocol&quot;: &quot;telegram-research-orchestrator-return/3.7.4&quot;,
+  &quot;run_id&quot;: &quot;TR-20261121-1858-daily-close&quot;,
+  &quot;status&quot;: &quot;PARTIAL&quot;,
+  &quot;batch_summary&quot;: {
+    &quot;raw_messages&quot;: 964,
+    &quot;eligible_messages&quot;: 942,
+    &quot;reviewed_messages&quot;: 32,
+    &quot;parsed_messages&quot;: 32,
+    &quot;unique_excerpt_texts&quot;: 31,
+    &quot;exact_duplicate_excerpts&quot;: 1,
+    &quot;independent_sources&quot;: 13,
+    &quot;independent_source_definition&quot;: &quot;서로 다른 텔레그램 채널 13개. 원보도의 독립성을 뜻하지 않음.&quot;,
+    &quot;claim_clusters&quot;: 27,
+    &quot;stage2_selected&quot;: 15,
+    &quot;verified_clusters&quot;: 10,
+    &quot;partially_verified_clusters&quot;: 10,
+    &quot;unverified_clusters&quot;: 4,
+    &quot;contradicted_clusters&quot;: 1,
+    &quot;not_verifiable_clusters&quot;: 2,
+    &quot;not_reviewed_from_eligible&quot;: 910,
+    &quot;coverage_note&quot;: &quot;942건 중 실제 전달된 32개 발췌만 검토. 전체 수집물 검토를 주장하지 않음.&quot;
+  },
+  &quot;research_priority&quot;: &quot;P0&quot;,
+  &quot;top_claims&quot;: [
+    {
+      &quot;claim&quot;: &quot;미국 AI 반도체 급락 및 엔비디아 SEC 회계조사 보도&quot;,
+      &quot;verdict&quot;: &quot;PARTIALLY_VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P0&quot;,
+      &quot;source_ids&quot;: [&quot;r20&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/FastStockNews/128263&quot;
+      ],
+      &quot;finding&quot;: &quot;NVDA -14.01% 확인. Reuters가 SEC 회계 관련 조사 정황을 보도했으나 회계 부정이나 제재는 확정되지 않음.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;트럼프, 해외 AI 데이터센터 건설 기업에 고율 세금 위협&quot;,
+      &quot;verdict&quot;: &quot;PARTIALLY_VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P0&quot;,
+      &quot;source_ids&quot;: [&quot;r21&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/bornlupin/21218&quot;
+      ],
+      &quot;finding&quot;: &quot;백악관 발언 확인. 세율, 적용 범위, 시행일, 법제화 여부 미확정.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;CrowdStrike의 Zscaler 인수 협상&quot;,
+      &quot;verdict&quot;: &quot;PARTIALLY_VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r19&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/insidertracking/69882&quot;
+      ],
+      &quot;finding&quot;: &quot;Reuters가 관계자 2명을 인용해 협상 보도. 계약 체결이나 거래 조건은 확정되지 않음.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;SoftBank의 SK하이닉스 1조 달러 인수 구상&quot;,
+      &quot;verdict&quot;: &quot;PARTIALLY_VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r28&quot;, &quot;r29&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/insidertracking/69893&quot;,
+        &quot;https://t.me/bornlupin/21220&quot;
+      ],
+      &quot;finding&quot;: &quot;The Information은 과거 자금조달 타진을 보도. 소프트뱅크 측은 현재 적극적으로 검토하지 않는다고 설명. 현재 추진 중이라는 해석은 근거 부족.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;머스크의 엔비디아 지분 50% 인수 의향&quot;,
+      &quot;verdict&quot;: &quot;UNVERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r24&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/sunstudy1111/139519&quot;
+      ],
+      &quot;finding&quot;: &quot;신뢰할 만한 공식 발표 또는 독립 보도 확인 불가. 확정 뉴스로 사용 금지.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;Google TPU 8i 2027년 출하계획 약 100만 개 축소&quot;,
+      &quot;verdict&quot;: &quot;PARTIALLY_VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r12&quot;, &quot;r23&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/HANAchina/72492&quot;,
+        &quot;https://t.me/sunstudy1111/139518&quot;
+      ],
+      &quot;finding&quot;: &quot;궈밍치의 업계 조사 주장 확인. Google과 Broadcom의 공식 확인 없음. 두 게시물의 발췌 문구는 정확히 중복.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;SpaceX GPU 관련 440억 달러 금융조달&quot;,
+      &quot;verdict&quot;: &quot;VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r11&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/FastStockNewsUSA/24615&quot;
+      ],
+      &quot;finding&quot;: &quot;Apollo와 Goldman Sachs 공식 발표 확인. 직접 지분투자가 아닌 GPU 자산 관련 채권 금융조달.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;Merck TroFuse-015 임상 3상 전체생존기간 개선&quot;,
+      &quot;verdict&quot;: &quot;VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r04&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/insidertracking/69842&quot;
+      ],
+      &quot;finding&quot;: &quot;회사 공식 발표에서 OS 1차 평가변수 충족 확인. PFS 보조 평가변수는 충족하지 못함.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;Micron 2027년 메모리 공급량 75% 판매&quot;,
+      &quot;verdict&quot;: &quot;VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r02&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/insidertracking/69838&quot;
+      ],
+      &quot;finding&quot;: &quot;CEO Sanjay Mehrotra의 컨퍼런스 발언 전사 확인.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;베선트, 중국의 H200 주문 저조 발언&quot;,
+      &quot;verdict&quot;: &quot;VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r09&quot;, &quot;r18&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/WalterBloomberg/38770&quot;,
+        &quot;https://t.me/cahier_de_market/11524&quot;
+      ],
+      &quot;finding&quot;: &quot;CNBC 인터뷰 원문에서 발언 확인. 실제 주문 규모 자체는 독립적으로 확인되지 않음.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;TRASS-BF 메모리 수출 역대 최대&quot;,
+      &quot;verdict&quot;: &quot;UNVERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P1&quot;,
+      &quot;source_ids&quot;: [&quot;r25&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/ked_epic_ai/39650&quot;
+      ],
+      &quot;finding&quot;: &quot;수출 집계의 공식 원자료 및 품목별 세부치 대조 필요.&quot;
+    },
+    {
+      &quot;claim&quot;: &quot;Claude의 리만가설 증명&quot;,
+      &quot;verdict&quot;: &quot;PARTIALLY_VERIFIED&quot;,
+      &quot;research_priority&quot;: &quot;P2&quot;,
+      &quot;source_ids&quot;: [&quot;r32&quot;],
+      &quot;telegram_urls&quot;: [
+        &quot;https://t.me/FastStockNews/128267&quot;
+      ],
+      &quot;finding&quot;: &quot;연구자의 증명 주장이 실제로 발표된 것은 확인. 수학적 증명의 타당성은 독립 검증 전.&quot;
+    }
+  ],
+  &quot;publish_decision&quot;: &quot;NEEDS_REVIEW&quot;,
+  &quot;publish_format&quot;: &quot;detailed&quot;,
+  &quot;presentation_style&quot;: &quot;standard_rich&quot;,
+  &quot;telegram_text&quot;: &quot;&quot;,
+  &quot;telegram_messages&quot;: [
+    &quot;(1/3) 📉 11/21 토요일 주말 증시 | AI 반도체 투매\n\n✅ 11/20(금) 미국\n나스닥 22,617.73(-5.28%), S&amp;P500 6,910.39(-3.70%), 다우 48,147.33(-1.93%). SOX 8,408.59(-10.73%), VIX 35.89.\n나스닥은 2026년 상승분을 반납했고 주간 약 10% 하락. S&amp;P500과 다우는 고점 대비 10% 이상 하락하며 조정 진입.\n\n✅ 주요 종목\nNVDA $125.53(-14.01%), AMD -13.25%, MU -13.89%, AVGO -12.19%.\nAnthropic(ANT)은 상장 이틀째 $88.91(-8.50%)로 공모가 $83에 근접. 월마트 +1.52%.\n\n✅ 한국 11/20\n코스피 4,869.96(-5.21%, 주간 -7.95%), 코스닥 645.68(-5.71%).\n외국인 약 1.1조원 순매도. 세부 금액은 제공처와 집계시점에 따라 차이.\n삼성전자 183,100원(-7.01%), 삼성전기 -12.54%.\n\n✅ 일본 11/20\n닛케이 56,436.65(-5.06%), TOPIX -3.88%.\n11/23(월) 휴장, 11/24(화) 거래 재개.\n\n■ 월요일 위험 신호\nEWY 미국 종가 -8.42%, 미국 10년물 약 4.91%로 하락.\nCME 닛케이 선물 54,555는 패킷 제공치이며 별도 재확인 전.\n한국 월요일 갭하락 폭을 확정적으로 예측할 수는 없음.\n\n■ 매크로\n패킷 스냅샷 기준 DXY 103.84, WTI $83.41, 금 $3,515.4(-4.62%), BTC 약 $57.9k. 일부 시세는 별도 교차검증 전.\n12월 미국 금리 인상 가능성은 시장 전망이지 확정된 결정이 아님.\n\n출처: AP 미국 마감, Reuters, 한국경제, Yahoo Finance.&quot;,
+    &quot;(2/3) 🔎 주말 핵심 뉴스 | 검증 결과\n\n🟡 [P0] 엔비디아 SEC 조사\nReuters는 SEC 집행부서가 엔비디아 회계 관행을 살펴보고 있다고 보도.\nSEC의 공식 세부 확인이나 회계 부정 확정은 없음.\n젠슨 황 사임과 콜레트 크레스 임시 CEO 선임은 NVIDIA 공식 발표로 확인.\n\n🟡 [P0] 트럼프 해외 AI 데이터센터 정책\n미국 기업의 해외 데이터센터 건설에 고율 세금을 부과하겠다는 발언 확인.\n실제 세율, 적용 대상, 시행 여부 미정.\n\n🟡 [P1] 사이버보안\nReuters는 CrowdStrike와 Zscaler의 인수 협상을 보도. 거래 확정 아님.\nCRWD -5.76%, PANW -5.09%(11/20).\n일리노이 알고퀸 댐 사이버 공격 시도 조사 확인. FBI NCIC 침해는 언론 보도 단계.\n앱 위변조 방지 및 SMB 보안의 직접 수주 재료는 이번 패킷에서 확인되지 않음.\n\n✅ [P1] 기업 이벤트\nApollo·Goldman Sachs: SpaceX GPU 관련 약 440억 달러 채권 금융조달 공식 발표.\nMerck: TroFuse-015 3상 OS 충족, PFS 미충족.\nMicron: CEO가 2027년 공급량 75% 판매를 언급.\n\n🟡 [P1] 반도체 정책·공급망\n궈밍치의 Google TPU 8i 2027년 물량 약 100만 개 축소 주장. 당사자 확인 전.\n베선트의 중국 H200 주문 저조 발언은 CNBC 인터뷰에서 확인.\n\n⚠️ 손정의의 SK하이닉스 1조 달러 인수 구상은 과거 타진 보도. 소프트뱅크는 현재 적극 검토하지 않는다고 답변.\n머스크의 엔비디아 지분 50% 인수 의향은 독립 근거 미확인.\n\n⚠️ TRASS-BF 수출 세부치 공식 원자료 확인 전.\nClaude 리만가설 증명은 연구자 주장만 확인되었으며 증명 자체는 검증되지 않음.&quot;,
+    &quot;(3/3) 🗓️ 일본 보유종목·다음 주 일정 | KST\n\n■ 11/20 일본 종가 / 제공 매입단가 대비\n• 캡콤 9697: ¥4,424(-4.98%), +10.0%\n• 사이버에이전트 4751: ¥1,314.5(-4.37%), -9.3%\n• 닌텐도 7974: ¥8,832(-5.09%), -3.7%\n• 나브테스코 6268: ¥3,105(-8.03%), -42.3%\n• GX 일본반도체 ETF 2644: ¥2,667(-8.29%)\n\n개별 종목에 대한 신규 기업 고유 악재는 이번 발췌 패킷에서 확인되지 않음.\n\n■ 주요 일정\n11/23(월): 한국 개장. 외국인 수급, 환율, 신용·반대매매 점검. 일본 휴장. 미국 23:45 잠정 PMI, HPE 실적 예정.\n11/24(화): 일본 거래 재개. ADI·Dell·HP 등 기술기업 실적 일정 점검.\n11/25(수) 22:30: 미국 10월 PCE 및 3분기 GDP 2차 추정. BEA 공식 일정 확인.\n11/26(목) 10:00: 한국은행 금통위. 금리 인상 여부는 전망 단계. 미국 추수감사절 휴장.\n11/28(토) 03:00: 미국 11/27 정규장 조기 마감.\n\n■ 텔레그램 화제도\n전체 수집 집계 기준 엔비디아 128건/30채널, 트럼프 정책 110/35, 미국 급락 109/37, ANT 74/24.\n이 수치는 원문 32건 검토와 별개이며 독립적인 검증 근거가 아님.\n\n⚠️ 해외 심리 참고\nApeWisdom NVDA 1,634건, SPY 1,046건은 제공치로 별도 검증 전. X의 극단적 공포 및 항복 논쟁도 미검증 심리 자료.\n\n※ P0/P1은 조사 긴급도이며 매매등급이 아님.\n※ 적격 942건 중 발췌 32건만 검토.\n※ 외부 게시 금지. 검토용 초안.&quot;
+  ],
+  &quot;publication_draft&quot;: {
+    &quot;part_count&quot;: 3,
+    &quot;max_chars_per_part&quot;: 3400,
+    &quot;destination&quot;: &quot;보고서 만드는방&quot;,
+    &quot;send_now&quot;: false,
+    &quot;reason&quot;: &quot;사용자 게시 금지 지시 및 중요 미검증 주장 존재&quot;
+  },
+  &quot;html_report&quot;: {
+    &quot;status&quot;: &quot;NOT_REQUESTED&quot;,
+    &quot;filename&quot;: null
+  },
+  &quot;handoff_required&quot;: true,
+  &quot;handoff_priority&quot;: &quot;P0&quot;,
+  &quot;handoff_packet&quot;: {
+    &quot;handoff_id&quot;: &quot;TR-20261121-1858-daily-close-nvda&quot;,
+    &quot;generated_at&quot;: null,
+    &quot;target_project&quot;: &quot;Equity Intelligence 3.7.3.1&quot;,
+    &quot;return_protocol&quot;: &quot;deep-research-return/3.7.4&quot;,
+    &quot;run_id&quot;: &quot;TR-20261121-1858-daily-close&quot;,
+    &quot;entity_name&quot;: &quot;NVIDIA&quot;,
+    &quot;ticker&quot;: &quot;NVDA&quot;,
+    &quot;exchange&quot;: &quot;NASDAQ&quot;,
+    &quot;entity_match_confidence&quot;: &quot;high&quot;,
+    &quot;research_priority&quot;: &quot;P0&quot;,
+    &quot;trigger_claim&quot;: {
+      &quot;canonical_claim&quot;: &quot;SEC의 NVIDIA 회계 관행 조사 관련 Reuters 보도, CEO 교체 이후 규제 불확실성, 11월 20일 주가 급락&quot;,
+      &quot;claim_nature&quot;: &quot;factual&quot;,
+      &quot;event_date&quot;: &quot;2026-11-20&quot;,
+      &quot;why_material&quot;: &quot;회계 공시 신뢰, 규제 위험, 실적 추정 및 밸류에이션 기대에 영향을 줄 수 있는 사건&quot;,
+      &quot;hard_trigger_class&quot;: &quot;accounting issue / major management change / material regulation&quot;
+    },
+    &quot;evidence_state&quot;: {
+      &quot;verified&quot;: [
+        {
+          &quot;fact&quot;: &quot;젠슨 황 사임 및 콜레트 크레스 임시 CEO 선임&quot;,
+          &quot;date&quot;: &quot;2026-11-12&quot;,
+          &quot;evidence_tier&quot;: &quot;PRIMARY&quot;,
+          &quot;source&quot;: &quot;https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/&quot;
+        },
+        {
+          &quot;fact&quot;: &quot;11월 20일 NVDA 종가 $125.53, -14.01%&quot;,
+          &quot;date&quot;: &quot;2026-11-20&quot;,
+          &quot;evidence_tier&quot;: &quot;SECONDARY&quot;,
+          &quot;source&quot;: &quot;https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627&quot;
+        }
+      ],
+      &quot;partially_verified&quot;: [
+        {
+          &quot;claim&quot;: &quot;SEC 집행부서의 NVIDIA 회계 조사&quot;,
+          &quot;verified_part&quot;: &quot;Reuters가 익명 관계자 2명을 인용해 관련 조사를 보도&quot;,
+          &quot;unresolved_part&quot;: &quot;SEC 공식 확인, 구체적 회계 쟁점, 제재 여부 및 재무제표 수정 여부&quot;,
+          &quot;source&quot;: &quot;https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460&quot;
+        }
+      ],
+      &quot;unverified&quot;: [
+        {
+          &quot;claim&quot;: &quot;엔비디아 회계 부정이 확정되었다&quot;,
+          &quot;source_messages&quot;: [
+            &quot;https://t.me/FastStockNews/128263&quot;
+          ],
+          &quot;reason_not_established&quot;: &quot;조사 보도는 위법성 판단이 아님&quot;
+        },
+        {
+          &quot;claim&quot;: &quot;머스크의 엔비디아 지분 50% 인수 의향&quot;,
+          &quot;source_messages&quot;: [
+            &quot;https://t.me/sunstudy1111/139519&quot;
+          ],
+          &quot;reason_not_established&quot;: &quot;공식 또는 독립적인 근거 미확인&quot;
+        }
+      ],
+      &quot;counter_evidence&quot;: [
+        {
+          &quot;item&quot;: &quot;SEC는 Reuters에 조사 세부 내용을 확인하지 않았으며 조사 자체가 회계 부정을 확정하지 않음&quot;,
+          &quot;source&quot;: &quot;https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460&quot;,
+          &quot;implication&quot;: &quot;미확정 회계 위반이나 제재를 확정된 손실로 반영하지 말 것&quot;
+        }
+      ]
+    },
+    &quot;source_bundle&quot;: {
+      &quot;telegram_origin_refs&quot;: [
+        &quot;https://t.me/FastStockNews/128263&quot;,
+        &quot;https://t.me/cahier_de_market/11524&quot;,
+        &quot;https://t.me/sunstudy1111/139519&quot;
+      ],
+      &quot;primary_refs&quot;: [
+        &quot;https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/&quot;
+      ],
+      &quot;secondary_refs&quot;: [
+        &quot;https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460&quot;
+      ],
+      &quot;attachments_or_filings&quot;: [
+        &quot;NVIDIA 2026-11-11 Form 8-K CEO 이임 공시. 인계 프로젝트에서 독립 재조회 필요.&quot;
+      ]
+    },
+    &quot;why_deep_research_is_needed&quot;: {
+      &quot;possible_earnings_estimate_effect&quot;: &quot;매출 인식, 지역별 매출, 주요 고객 계약 및 AI 인프라 금융거래에 대한 공시 점검&quot;,
+      &quot;possible_thesis_change&quot;: &quot;지배구조, 경영진 교체, 규제 및 공시 신뢰도&quot;,
+      &quot;valuation_implication_to_test&quot;: &quot;위험 프리미엄과 실적 기대 변화의 구분&quot;,
+      &quot;price_volume_context_to_verify&quot;: &quot;NVDA -14.01% 급락과 반도체 업종 전반의 동반 투매를 분리&quot;,
+      &quot;industry_policy_propagation&quot;: &quot;H200 수출정책, GPU 자산 금융조달, AI 데이터센터 투자에 대한 파급&quot;
+    },
+    &quot;mandatory_questions&quot;: [
+      &quot;Telegram 기원 주장과 Reuters 보도를 독립적으로 재검증할 것&quot;,
+      &quot;SEC의 실제 조사 범위와 공식 문서 유무는 무엇인가&quot;,
+      &quot;실적과 현금흐름에 대한 직접적 영향 경로 및 규모는 무엇인가&quot;,
+      &quot;기존 시장 예상 대비 새로운 정보인가&quot;,
+      &quot;반박 자료 또는 다른 해석은 무엇인가&quot;,
+      &quot;기업 고유 악재와 업종 전체 매도에 따른 가격 변화를 어떻게 구분할 것인가&quot;,
+      &quot;향후 확인 및 기각 조건은 무엇인가&quot;
+    ],
+    &quot;handoff_constraint&quot;: &quot;리서치 단서 전용. 독립 재검증 필수. 목표주가 및 매매지시 없음.&quot;
+  },
+  &quot;additional_handoff_candidates&quot;: [
+    {
+      &quot;entity&quot;: &quot;CrowdStrike / Zscaler&quot;,
+      &quot;priority&quot;: &quot;P1&quot;,
+      &quot;trigger&quot;: &quot;대형 사이버보안 기업 인수 협상 보도. 거래 조건 및 확정 여부 미확인.&quot;
+    },
+    {
+      &quot;entity&quot;: &quot;Broadcom / Google&quot;,
+      &quot;priority&quot;: &quot;P1&quot;,
+      &quot;trigger&quot;: &quot;TPU 8i 출하계획 축소 주장. 실제 발주 변경 및 공급업체 실적 영향 확인 필요.&quot;
+    },
+    {
+      &quot;entity&quot;: &quot;SoftBank / SK hynix&quot;,
+      &quot;priority&quot;: &quot;P1&quot;,
+      &quot;trigger&quot;: &quot;과거 초대형 인수 타진과 현재 검토 중단 사실 구분 필요.&quot;
+    },
+    {
+      &quot;entity&quot;: &quot;Merck&quot;,
+      &quot;priority&quot;: &quot;P1&quot;,
+      &quot;trigger&quot;: &quot;TroFuse-015 OS 성공, PFS 미충족. 추가 임상 데이터와 허가 가능성 검토.&quot;
+    }
+  ],
+  &quot;source_refs&quot;: [
+    &quot;https://apnews.com/article/c10b797a17c2acf37924d834efebe135&quot;,
+    &quot;https://www.anthropic.com/news/ipo-close&quot;,
+    &quot;https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition/&quot;,
+    &quot;https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460&quot;,
+    &quot;https://www.investing.com/news/stock-market-news/crowdstrike-in-talks-to-acquire-zscaler-sources-say-5042720&quot;,
+    &quot;https://www.apollo.com/insights-news/pressreleases/2026/11/apollo-and-goldman-sachs-announce-pricing-of-44-billion-spacex-gpu-financing-3407671&quot;,
+    &quot;https://www.merck.com/news/merck-announces-trofuse-015-trial-evaluating-sacituzumab-tirumotecan-sac-tmt-met-primary-endpoint-of-overall-survival-os-in-third-line-or-later-locally-advanced-unresectable-or-metastatic-gastroes/&quot;,
+    &quot;https://www.investing.com/news/world-news/trump-says-us-to-penalize-firms-building-data-centers-abroad-5042390&quot;,
+    &quot;https://www.theinformation.com/articles/softbanks-masayoshi-son-explored-1-trillion-moonshot-buyout-sk-hynix&quot;,
+    &quot;https://www.bea.gov/news/schedule&quot;
+  ],
+  &quot;audit_artifacts&quot;: {
+    &quot;raw_source_preserving_json&quot;: &quot;sandbox:/mnt/data/TR-20261121-1858-daily-close_audit.json&quot;,
+    &quot;evidence_ledger_csv&quot;: &quot;sandbox:/mnt/data/TR-20261121-1858-daily-close_evidence_ledger.csv&quot;,
+    &quot;full_orchestrator_json&quot;: &quot;sandbox:/mnt/data/TR-20261121-1858-daily-close_orchestrator_return.json&quot;
+  },
+  &quot;unresolved_items&quot;: [
+    &quot;적격 942건 중 910건의 개별 원문 미전달&quot;,
+    &quot;전달된 32건은 짧은 발췌로 원문 전체 및 첨부자료 확인 제한&quot;,
+    &quot;r24 머스크 NVIDIA 50% 지분 인수 의향 미확인&quot;,
+    &quot;r28/r29 소프트뱅크 과거 인수 타진과 현재 추진 여부 구분 필수&quot;,
+    &quot;r25 TRASS-BF 메모리 수출 수치 공식 대조 필요&quot;,
+    &quot;r32 리만가설 증명 독립 검증 전&quot;,
+    &quot;r31 2014년 트럼프 대선 당선 서술은 사실 오류. BTC 56000달러 장중 이탈은 별도 확인 필요&quot;,
+    &quot;11/20 외국인 순매도 수치 전달치 -11411억원과 포털 종가표 -10970억원 사이 집계 차이. 평균 금지&quot;,
+    &quot;X 및 ApeWisdom 감성 통계 원자료 미확인&quot;,
+    &quot;r12/r23 정확히 중복된 발췌 1쌍. 독립 증거로 이중 계산 금지&quot;
+  ]
+}</pre></div></div></details><details class="fold"><summary>X 원문 메모<small>community_x.md</small></summary><div class="fb"><div class="md"><h1>X public news stories (UNVERIFIED, X summaries) · asof 2026-11-21 ~19:05 KST | RUN_ID=TR-20261121-1858-daily-close</h1>
+<ul><li>Michael Burry, 엔비디아 풋·반도체 ETF 풋 절반 차익실현, 나스닥100 풋(2027년 4월물)은 유지 · https://x.com/i/trending/2123837837581688981</li><li>기술주 밸류에이션 2020년 팬데믹 저점 이후 최저(S&amp;P IT 선행 PER 16.4배), 10월 초 이후 S&amp;P 시총 6조달러 증발 · https://x.com/i/trending/2123079809026687116</li><li>마이크론 600달러 하회(−10%대), TrendForce NAND 가격 경고 언급 · https://x.com/i/trending/2123856923032273045</li><li>IREN −18%(11.82달러), AI 데이터센터 매도 · https://x.com/i/trending/2123335557161832840</li><li>금·은·비트코인 동반 수개월 저점, 금·은 시총 1조달러 증발 · https://x.com/i/trending/2123627631660679285</li><li>비트코인 5.7만달러 하회, 24h 청산 24억달러, ETH 1,550달러 하회 · https://x.com/i/trending/2123412780032139660</li><li>Twenty One Capital(XXI) BTC 172개 추가 매입(평균 58,054달러) · https://x.com/i/trending/2123939152219578819</li><li>키요사키 &#x27;떨어지는 칼날 잡지 말라&#x27; · https://x.com/i/trending/2123841093938581571</li></ul>
+<p>Mood (unverified): 공포 극단(capitulation 논쟁), 반도체·AI·코인 동반 투매, 일부 저가매수·숏커버 언급.</p></div></div></details><details class="fold"><summary>Reddit/ApeWisdom 원문 메모<small>community_reddit.md</small></summary><div class="fb"><div class="md"><h1>Reddit community sentiment (UNVERIFIED) · asof 2026-11-21 ~19:05 KST (SATURDAY) | RUN_ID=TR-20261121-1858-daily-close</h1>
+<h2>Access</h2>
+<ul><li>Reddit hot.rss: r/stocks and r/wallstreetbets RSS returned empty/blocked feeds on 11/21, ApeWisdom only. ApeWisdom mention ranks (24h) as quantitative proxy: https://apewisdom.io/api/v1.0/filter/all-stocks , /wallstreetbets , /stocks</li></ul>
+<h2>ApeWisdom all-stocks top 15</h2>
+<ol><li><b>NVDA</b> (NVIDIA) · mentions 1634 (24h ago 911), upvotes 10547, rank_24h_ago 1</li><li><b>SPY</b> (SPDR S&amp;P 500 ETF Trust) · mentions 1046 (24h ago 726), upvotes 4331, rank_24h_ago 2</li><li><b>QQQ</b> (Invesco QQQ ETF) · mentions 425 (24h ago 397), upvotes 2208, rank_24h_ago 4</li><li><b>VOO</b> (Vanguard S&amp;P 500 ETF) · mentions 251 (24h ago 129), upvotes 1457, rank_24h_ago 8</li><li><b>MU</b> (Micron Technology) · mentions 243 (24h ago 135), upvotes 1634, rank_24h_ago 6</li><li><b>AMD</b> (AMD) · mentions 241 (24h ago 573), upvotes 1374, rank_24h_ago 3</li><li><b>SNDK</b> (Sandisk) · mentions 199 (24h ago 61), upvotes 1340, rank_24h_ago 20</li><li><b>GOOG</b> (Alphabet (Google)) · mentions 159 (24h ago 146), upvotes 266, rank_24h_ago 5</li><li><b>SO</b> (Southern Company) · mentions 150 (24h ago 14), upvotes 124, rank_24h_ago 61</li><li><b>NBIS</b> (Nebius Group) · mentions 121 (24h ago 100), upvotes 377, rank_24h_ago 9</li><li><b>SOXL</b> (Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share) · mentions 118 (24h ago 61), upvotes 221, rank_24h_ago 15</li><li><b>PUMP</b> (ProPetro) · mentions 117 (24h ago 8), upvotes -67, rank_24h_ago 101</li><li><b>GOOGL</b> (Alphabet (Google)) · mentions 90 (24h ago 99), upvotes 185, rank_24h_ago 10</li><li><b>AAPL</b> (Apple) · mentions 88 (24h ago 45), upvotes 153, rank_24h_ago 23</li><li><b>SPCX</b> (SpaceX) · mentions 82 (24h ago 127), upvotes 931, rank_24h_ago 7</li></ol>
+<h2>ApeWisdom r/wallstreetbets top 15</h2>
+<ol><li><b>NVDA</b> (NVIDIA) · mentions 1400 (24h ago 840), upvotes 6365, rank_24h_ago 1</li><li><b>SPY</b> (SPDR S&amp;P 500 ETF Trust) · mentions 941 (24h ago 675), upvotes 3463, rank_24h_ago 2</li><li><b>QQQ</b> (Invesco QQQ ETF) · mentions 332 (24h ago 384), upvotes 771, rank_24h_ago 4</li><li><b>MU</b> (Micron Technology) · mentions 208 (24h ago 124), upvotes 546, rank_24h_ago 6</li><li><b>AMD</b> (AMD) · mentions 184 (24h ago 519), upvotes 457, rank_24h_ago 3</li><li><b>SNDK</b> (Sandisk) · mentions 177 (24h ago 58), upvotes 362, rank_24h_ago 17</li><li><b>SO</b> (Southern Company) · mentions 143 (24h ago 11), upvotes 119, rank_24h_ago 67</li><li><b>GOOG</b> (Alphabet (Google)) · mentions 129 (24h ago 129), upvotes 204, rank_24h_ago 5</li><li><b>PUMP</b> (ProPetro) · mentions 117 (24h ago 8), upvotes -67, rank_24h_ago 86</li><li><b>SOXL</b> (Direxion Shares ETF Trust - Direxion Daily Semiconductor Bull 3X Share) · mentions 110 (24h ago 60), upvotes 207, rank_24h_ago 12</li><li><b>NBIS</b> (Nebius Group) · mentions 104 (24h ago 91), upvotes 275, rank_24h_ago 8</li><li><b>VOO</b> (Vanguard S&amp;P 500 ETF) · mentions 98 (24h ago 41), upvotes 241, rank_24h_ago 21</li><li><b>GOOGL</b> (Alphabet (Google)) · mentions 81 (24h ago 84), upvotes 150, rank_24h_ago 9</li><li><b>AAPL</b> (Apple) · mentions 75 (24h ago 40), upvotes 131, rank_24h_ago 24</li><li><b>DTE</b> (DTE Energy) · mentions 65 (24h ago 64), upvotes 312, rank_24h_ago 11</li></ol>
+<h2>ApeWisdom r/stocks top 15</h2>
+<ol><li><b>NVDA</b> (NVIDIA) · mentions 178 (24h ago 45), upvotes 3861, rank_24h_ago 2</li><li><b>VOO</b> (Vanguard S&amp;P 500 ETF) · mentions 74 (24h ago 10), upvotes 811, rank_24h_ago 9</li><li><b>SPY</b> (SPDR S&amp;P 500 ETF Trust) · mentions 72 (24h ago 31), upvotes 560, rank_24h_ago 3</li><li><b>QQQ</b> (Invesco QQQ ETF) · mentions 56 (24h ago 5), upvotes 1106, rank_24h_ago 20</li><li><b>AMD</b> (AMD) · mentions 41 (24h ago 45), upvotes 750, rank_24h_ago 1</li><li><b>MU</b> (Micron Technology) · mentions 26 (24h ago 4), upvotes 895, rank_24h_ago 17</li><li><b>VTI</b> (Vanguard Total Stock Market ETF) · mentions 23 (24h ago 3), upvotes 165, rank_24h_ago 25</li><li><b>GOOG</b> (Alphabet (Google)) · mentions 21 (24h ago 14), upvotes 43, rank_24h_ago 5</li><li><b>NYT</b> (New York Times) · mentions 17 (24h ago None), upvotes 512, rank_24h_ago 129</li><li><b>VT</b> (Vanguard Group, Inc. - Vanguard Total World Stock ETF) · mentions 17 (24h ago 3), upvotes 73, rank_24h_ago 24</li><li><b>GME</b> (GameStop) · mentions 16 (24h ago 3), upvotes 31, rank_24h_ago 26</li><li><b>VGT</b> (Vanguard Group, Inc. - Vanguard Information Technology ETF) · mentions 15 (24h ago 1), upvotes 71, rank_24h_ago 229</li><li><b>SNDK</b> (Sandisk) · mentions 14 (24h ago 1), upvotes 906, rank_24h_ago 330</li><li><b>NBIS</b> (Nebius Group) · mentions 13 (24h ago 4), upvotes 77, rank_24h_ago 15</li><li><b>MSFT</b> (Microsoft) · mentions 12 (24h ago 14), upvotes 64, rank_24h_ago 7</li></ol>
+<p>Mood (unverified): see summary in briefing; titles and counts only, no body fact-check.</p></div></div></details><div class="box"><h4>시장 데이터 출처</h4><ul class="list"><li>CNBC 11/20 live</li><li>Reuters SEC Nvidia accounting probe</li><li>Investing.com(Reuters) Nasdaq plunges 5%</li><li>Yahoo Finance live 11/20</li><li>Nikkei Asia(Reuters) US stocks correction</li><li>연합뉴스 나스닥 5.3% 폭락(종합)</li><li>머니투데이 뉴욕마감</li><li>마켓타임스 뉴욕증시 마감 11/20</li><li>CA DOJ Nvidia subpoena</li><li>FellowPress Trump AI data center tax</li><li>onetrader Fed/Kalshi 11/21</li><li>이투데이 주간증시전망</li><li>YTN 다음 주 증시</li><li>파이낸셜뉴스 내주 경제 핫이슈</li><li>네이버 프리미엄 11/23~27 일정(KST)</li><li>Newsquawk weekly calendar</li><li>Danske calendar 23-27 Nov</li><li>Globe and Mail week ahead</li><li>티커노트 다음 주 증시 일정</li><li>Yahoo chart API</li><li>연합뉴스 투자자별 매매동향 11/20</li><li>EBN 코스피 5.21% 폭락 마감</li><li>한국경제 코스피 4869 마감</li><li>파이낸셜뉴스(영문) Black Friday KOSPI</li><li>블록미디어 퇴근길시황</li><li>연합뉴스 환율 1,336.2원</li><li>이투데이 환율마감</li><li>이투데이 급등락주 11/20</li><li>財経新聞 日経平均大引け</li><li>日経 東証前引け</li><li>ダイヤモンドZAi 11/20</li><li>日経 マーケットカレンダー</li><li>CNBC 11/19 live</li><li>AP 11/19</li></ul><div class="srcline"><span class="srclab">출처</span><a class="schip" style="--c:#64748b" href="https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html" target="_blank" rel="noopener"><i></i>CNBC 11/20 live</a><a class="schip" style="--c:#64748b" href="https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/" target="_blank" rel="noopener"><i></i>Reuters SEC Nvidia accounting probe</a><a class="schip" style="--c:#64748b" href="https://www.investing.com/news/stock-market-news/nasdaq-plunges-5-a-day-after-anthropic-debut-but-investors-still-believe-in-ai-5042641" target="_blank" rel="noopener"><i></i>Investing.com(Reuters) Nasdaq plunges 5%</a><a class="schip" style="--c:#64748b" href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html" target="_blank" rel="noopener"><i></i>Yahoo Finance live 11/20</a><a class="schip" style="--c:#64748b" href="https://asia.nikkei.com/business/markets/equities/us-stocks-end-sharply-lower-on-ai-selloff-s-p-500-dow-in-correction" target="_blank" rel="noopener"><i></i>Nikkei Asia(Reuters) US stocks correction</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261121009252072" target="_blank" rel="noopener"><i></i>연합뉴스 나스닥 5.3% 폭락(종합)</a><a class="schip" style="--c:#64748b" href="https://www.mt.co.kr/world/2026/11/21/2026112106320926639" target="_blank" rel="noopener"><i></i>머니투데이 뉴욕마감</a><a class="schip" style="--c:#64748b" href="https://markettimes.co.kr/2026/11/21/%eb%89%b4%ec%9a%95%ec%a6%9d%ec%8b%9c-%eb%a7%88%ea%b0%90-11%ec%9b%94-20%ec%9d%bc-%ec%97%94%eb%b9%84%eb%94%94%ec%95%84-%ed%9a%8c%ea%b3%84-%ec%a1%b0%ec%82%ac-%eb%b3%b4%eb%8f%84%ec%97%90-%eb%82%98/" target="_blank" rel="noopener"><i></i>마켓타임스 뉴욕증시 마감 11/20</a><a class="schip" style="--c:#64748b" href="https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia" target="_blank" rel="noopener"><i></i>CA DOJ Nvidia subpoena</a><a class="schip" style="--c:#64748b" href="https://www.fellowpress.com/us-news-today-saturday-november-21-2026-latest-headlines-and-breaking-news/" target="_blank" rel="noopener"><i></i>FellowPress Trump AI data center tax</a><a class="schip" style="--c:#64748b" href="https://onetrader.in/us-stock-market-top-news-today-november-21-2026/" target="_blank" rel="noopener"><i></i>onetrader Fed/Kalshi 11/21</a><a class="schip" style="--c:#64748b" href="https://www.etoday.co.kr/news/view/2651071" target="_blank" rel="noopener"><i></i>이투데이 주간증시전망</a><a class="schip" style="--c:#64748b" href="https://www.ytn.co.kr/_ln/0102_202611211504504105" target="_blank" rel="noopener"><i></i>YTN 다음 주 증시</a><a class="schip" style="--c:#64748b" href="https://www.fnnews.com/news/202611211105346704" target="_blank" rel="noopener"><i></i>파이낸셜뉴스 내주 경제 핫이슈</a><a class="schip" style="--c:#64748b" href="https://contents.premium.naver.com/finlit/wfpm/contents/261120143339822jj" target="_blank" rel="noopener"><i></i>네이버 프리미엄 11/23~27 일정(KST)</a><a class="schip" style="--c:#64748b" href="https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---23rd-27th-november-2026" target="_blank" rel="noopener"><i></i>Newsquawk weekly calendar</a><a class="schip" style="--c:#64748b" href="https://research.danskebank.com/link/MM201126/$file/MM_201126.pdf" target="_blank" rel="noopener"><i></i>Danske calendar 23-27 Nov</a><a class="schip" style="--c:#64748b" href="https://www.theglobeandmail.com/investing/markets/inside-the-market/article-calendar-what-investors-need-to-know-for-the-week-ahead-167/" target="_blank" rel="noopener"><i></i>Globe and Mail week ahead</a><a class="schip" style="--c:#64748b" href="https://stock.woocheol.com/schedule" target="_blank" rel="noopener"><i></i>티커노트 다음 주 증시 일정</a><a class="schip" style="--c:#64748b" href="https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?interval=1d&amp;range=10d" target="_blank" rel="noopener"><i></i>Yahoo chart API</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261120127400008" target="_blank" rel="noopener"><i></i>연합뉴스 투자자별 매매동향 11/20</a><a class="schip" style="--c:#64748b" href="https://www.ebn.co.kr/news/articleView.html?idxno=1732513" target="_blank" rel="noopener"><i></i>EBN 코스피 5.21% 폭락 마감</a><a class="schip" style="--c:#64748b" href="https://www.hankyung.com/article/202611200429i" target="_blank" rel="noopener"><i></i>한국경제 코스피 4869 마감</a><a class="schip" style="--c:#64748b" href="https://en.fnnews.com/news/202611201604376446" target="_blank" rel="noopener"><i></i>파이낸셜뉴스(영문) Black Friday KOSPI</a><a class="schip" style="--c:#64748b" href="https://www.blockmedia.co.kr/archives/1168630" target="_blank" rel="noopener"><i></i>블록미디어 퇴근길시황</a><a class="schip" style="--c:#64748b" href="https://www.yna.co.kr/view/AKR20261120132200002" target="_blank" rel="noopener"><i></i>연합뉴스 환율 1,336.2원</a><a class="schip" style="--c:#64748b" href="https://www.etoday.co.kr/news/view/2651048" target="_blank" rel="noopener"><i></i>이투데이 환율마감</a><a class="schip" style="--c:#64748b" href="https://www.etoday.co.kr/news/view/2651060" target="_blank" rel="noopener"><i></i>이투데이 급등락주 11/20</a><a class="schip" style="--c:#64748b" href="https://www.zaikei.co.jp/article/20261120/878619.html" target="_blank" rel="noopener"><i></i>財経新聞 日経平均大引け</a><a class="schip" style="--c:#64748b" href="https://www.nikkei.com/article/DGXZQOFL201RR0Q6A121C2000000/" target="_blank" rel="noopener"><i></i>日経 東証前引け</a><a class="schip" style="--c:#64748b" href="https://money.diamond.jp/articles/-/1122" target="_blank" rel="noopener"><i></i>ダイヤモンドZAi 11/20</a><a class="schip" style="--c:#64748b" href="https://www.nikkei.com/markets/kabu/marketcalendar/?DispMonth=202611&amp;SelectDate=20261120" target="_blank" rel="noopener"><i></i>日経 マーケットカレンダー</a><a class="schip" style="--c:#64748b" href="https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html" target="_blank" rel="noopener"><i></i>CNBC 11/19 live</a><a class="schip" style="--c:#64748b" href="https://apnews.com/article/stocks-markets-ai-us-anthropic-206c84045137824feabe052a29ff6140" target="_blank" rel="noopener"><i></i>AP 11/19</a></div></div>
+</div></details>
+</section>
+<div class="disc">본 브리핑은 정보 정리이며 투자 권유가 아닙니다. 수치는 수집 시점 스냅샷이며 실시간과 다를 수 있습니다. 엔비디아 SEC 조사는 보도 단계(미확정)이며, TR 판정은 32/942건 발췌 기반 참고용입니다. 미확인 라벨을 유지하세요.</div>
+</div>
+<footer>
+ <div class="wrap">
+  <p><b>2026-11-21 토요일 주말 브리핑</b></p>
+  <div class="prov"><span><b>RUN_ID</b>TR-20261121-1858-daily-close</span><span><b>PROTOCOL</b>deep-research-return/3.7.4</span><span><b>TR</b>PARTIAL / NEEDS_REVIEW</span><span><b>EI</b>EI 3.7.3.1 진행 중 (결과는 별도 게시) · NVDA P0 handoff 전달됨</span><span><b>ASOF</b>2026-11-21 ~19:01</span></div>
+  <p>Telegram 942 posts / 61 channels via GramJS</p><p>Market: 11/20(금) KR/JP/US 종가 + 주말 뉴스 + Yahoo chart</p><p class="fine" style="color:#94a3b8;margin-top:10px"><a href="index.html" style="color:#93c5fd">← 리포트 목록</a></p>
+ </div>
+</footer>
+<script>window.addEventListener("beforeprint",function(){document.querySelectorAll("details").forEach(function(d){d.setAttribute("open","")})});function openTo(h){var e=h&&h.length>1&&document.getElementById(decodeURIComponent(h.slice(1)));if(!e)return;var d=e.querySelector(":scope>details.cfold")||e.closest("details");while(d){d.open=true;d=d.parentElement&&d.parentElement.closest("details")}}document.addEventListener("click",function(ev){var a=ev.target.closest&&ev.target.closest('a[href^="#"]');if(a)openTo(a.getAttribute("href"))});window.addEventListener("hashchange",function(){openTo(location.hash)});openTo(location.hash);</script>
+</body>
+</html>
